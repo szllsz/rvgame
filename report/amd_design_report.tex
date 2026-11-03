@@ -225,7 +225,7 @@ CoreMark 使用 GCC 13.3、RV32I\_Zmmul、O3 与 LTO，单核 2K 数据配置，
 
 CoreMark & 371.852 分；3.541 分/MHz & 105 MHz，4000 次；两配置 CRC 通过 \\
 
-CoreMark/LUT & 0.01586 分/LUT（整机） & 371.852064 分 / 23447 LUT \\
+CoreMark/LUT & 0.05822 分/LUT（CPU核心） & 371.852064 分 / 6387 LUT \\
 
 TILE & 3627 新帧 / 3627 扫描 & 512 对象，60.4500 秒 \\
 
@@ -313,7 +313,7 @@ CPU 核心 & 6387 & 2081 & 0 & 4 \\
 
 }
 
-CPU 核心包含 5998 个逻辑 LUT 与 389 个 LUTRAM，共 6387 LUT；缓存、工作 RAM 和图形模块按各自层级统计。完整 PL 为 23447 LUT，占器件 LUT 的约 44.07\%。以 371.852064 分计算，整机资源效率为 0.01586 CoreMark/LUT，核心口径为 0.05822 CoreMark/LUT。105 MHz 实现后 WNS +0.033 ns、WHS +0.057 ns、WPWS +0.312 ns，满足实现时序要求。\par
+CPU 核心包含 5998 个逻辑 LUT 与 389 个 LUTRAM，共 6387 LUT；外部缓存、工作 RAM、图形和显示模块按各自层级统计。CPU 资源效率为 371.852064 ÷ 6387 = 0.05822 CoreMark/LUT。完整 PL 为 23447 LUT，占器件 LUT 的约 44.07\%。105 MHz 实现后 WNS +0.033 ns、WHS +0.057 ns、WPWS +0.312 ns，满足实现时序要求。\par
 
 \Needspace{12\baselineskip}\section{大模型协作记录与设计复盘}
 

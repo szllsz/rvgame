@@ -1266,13 +1266,13 @@
   },
   "report/amd_design_report.pdf": {
     "source": "submission/final/source.rar:rvgame/report/amd_design_report.pdf",
-    "source_sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33",
-    "published_sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33"
+    "source_sha256": "7f17cd81fd799a3a1993a5f807e878978a50ef0d1560b547932a50107d1e5730",
+    "published_sha256": "7f17cd81fd799a3a1993a5f807e878978a50ef0d1560b547932a50107d1e5730"
   },
   "report/amd_design_report.tex": {
     "source": "submission/final/source.rar:rvgame/report/amd_design_report.tex",
-    "source_sha256": "88b4cc5875a2da6f825864a1272f3db7331f55bb74dadbff917e0497fd9d54e7",
-    "published_sha256": "ba423c9b1aed125a9e204f0dd1b25520925e7f1e24f2f06a170e4c67d26f3928"
+    "source_sha256": "b28397b3a5ca6a5920517511474e4eac85d7c67935686d67e3e4da5271bc104a",
+    "published_sha256": "d5119043d1bf765db71c0be538da368c834f89e38ce2d89201f408d3954db411"
   },
   "report/amd_requirements_matrix.md": {
     "source": "submission/amd_native800_20261102/report/amd_requirements_matrix.md",
@@ -1306,13 +1306,13 @@
   },
   "report/competition_report.docx": {
     "source": "submission/final/source.rar:rvgame/report/competition_report.docx",
-    "source_sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c",
-    "published_sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c"
+    "source_sha256": "da982dda705c528abc740402b05f07d2a23c7bbcb718d5d523cf294715eb1090",
+    "published_sha256": "da982dda705c528abc740402b05f07d2a23c7bbcb718d5d523cf294715eb1090"
   },
   "report/competition_report.pdf": {
     "source": "submission/final/source.rar:rvgame/report/competition_report.pdf",
-    "source_sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427",
-    "published_sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427"
+    "source_sha256": "7b9542893c574ce2111ac845a4db8a042135cfd8febd57d4be1e3ea437e60aa3",
+    "published_sha256": "7b9542893c574ce2111ac845a4db8a042135cfd8febd57d4be1e3ea437e60aa3"
   },
   "report/contribution_and_sources.md": {
     "source": "submission/amd_native800_20261102/report/contribution_and_sources.md",
@@ -1321,8 +1321,8 @@
   },
   "report/design_report.md": {
     "source": "submission/final/source.rar:rvgame/report/design_report.md",
-    "source_sha256": "f8f028568ab10f3c0d53159ed7edec53b98438cf748f3061517bc05081883778",
-    "published_sha256": "ef18627cda68d64e44d2bd3f907a7fbf0cbf4147e4929bdd2c507be623e48a67"
+    "source_sha256": "6f6be38a8e28f1c9009c112c29dc545b750253b46d017211c96cd475d4c4a095",
+    "published_sha256": "11b464c4c65b603cee768c54bf013eca859e8b25d0e7e9b1dcab159a94875f3c"
   },
   "report/figures/architecture.pdf": {
     "source": "report/figures/architecture.pdf",
@@ -6496,8 +6496,8 @@
   },
   "report/technical_report.md": {
     "source": "submission/final/source.rar:rvgame/report/technical_report.md",
-    "source_sha256": "364220ff413ea5fc8361296f5bc968101645ce0de3f834e19168ef088c2660d3",
-    "published_sha256": "fd25fdbd2d93b515a7e257b20da47129ba5bf2c4871c425bae087a649584ccb1"
+    "source_sha256": "c2639497b1f06d412f57efa48c25c77a602eab39b93f9bc745668f3b3b0b6aab",
+    "published_sha256": "e99ab0727e675430a725d21fe67d0b8be2045aac19bf8dd3579b8d75bf8bfa88"
   },
   "report/photos/01_system_overview.jpg": {
     "source": "submission/amd_native800_20261102/report/photos/01_system_overview.jpg",
@@ -6616,7 +6616,7 @@
   },
   "report/evidence/contest_final_review.json": {
     "source": "submission/final/source.rar:rvgame/report/evidence/contest_final_review.json",
-    "source_sha256": "242709868d8f6eec1064ec9050d7efc677a5dc08571f73681ca30264713e4d20",
-    "published_sha256": "242709868d8f6eec1064ec9050d7efc677a5dc08571f73681ca30264713e4d20"
+    "source_sha256": "2e138bfd3b22ffbfbe3cfd44df975e420b20c170b5efc7ff49c29a5c126dba5a",
+    "published_sha256": "2e138bfd3b22ffbfbe3cfd44df975e420b20c170b5efc7ff49c29a5c126dba5a"
   }
 }

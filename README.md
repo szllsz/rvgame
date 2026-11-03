@@ -54,7 +54,7 @@ python verification/recheck_final_visual.py --output /path/to/new-check.json
 | --- | --- | --- |
 | CoreMark | 约 371.852 分 | 105 MHz，CRC 核验 |
 | CoreMark/MHz | 3.541 | 105 MHz 工作频率 |
-| CoreMark/LUT | 0.01586 分/LUT | 完整 PL 23447 LUT；核心口径另列于报告 |
+| CoreMark/LUT | 0.05822 分/LUT | CPU 核心 6387 LUT；图形、显示和外设不计入分母 |
 | 图块／位图／Alpha | 512／96／32 对象，严格 60 FPS | 连续窗口，逐扫描新帧判定 |
 | 星际三挡 | 60.00／51.98／31.84 FPS | 各连续不少于 60 秒 |
 | 鸡蛋三波 | 60.00／41.83／29.75 FPS | 64／85／100 对象；每波重复 10 秒场景，计量段约 8 秒 |

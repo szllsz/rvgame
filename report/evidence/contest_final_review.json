@@ -37,7 +37,7 @@
     },
     {
       "section": "1.4 主要性能指标",
-      "nonspace_characters": 194,
+      "nonspace_characters": 197,
       "limit": 200,
       "pass_": true
     },
@@ -68,10 +68,11 @@
   ],
   "cpu_efficiency": {
     "coremark": 371.852064,
-    "full_soc_lut": 23447,
     "core_lut": 6387,
-    "coremark_per_soc_lut": 0.015859259777370238,
-    "coremark_per_core_lut": 0.058220144668858616
+    "logic_lut": 5998,
+    "lutram": 389,
+    "coremark_per_lut": 0.058220144668858616,
+    "denominator_scope": "CPU core only; external cache, work RAM, graphics, display and peripherals excluded"
   },
   "template_original_unchanged": true,
   "official_fixed_sections_and_amd_artwork_retained": true,
@@ -79,28 +80,28 @@
   "authorization_and_board_photo": "User completed; not processed",
   "files": {
     "technical_report.md": {
-      "sha256": "364220ff413ea5fc8361296f5bc968101645ce0de3f834e19168ef088c2660d3",
-      "bytes": 24127
+      "sha256": "c2639497b1f06d412f57efa48c25c77a602eab39b93f9bc745668f3b3b0b6aab",
+      "bytes": 24162
     },
     "design_report.md": {
-      "sha256": "f8f028568ab10f3c0d53159ed7edec53b98438cf748f3061517bc05081883778",
-      "bytes": 15109
+      "sha256": "6f6be38a8e28f1c9009c112c29dc545b750253b46d017211c96cd475d4c4a095",
+      "bytes": 15078
     },
     "competition_report.docx": {
-      "sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c",
-      "bytes": 17208656
+      "sha256": "da982dda705c528abc740402b05f07d2a23c7bbcb718d5d523cf294715eb1090",
+      "bytes": 17208673
     },
     "competition_report.pdf": {
-      "sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427",
-      "bytes": 1668621
+      "sha256": "7b9542893c574ce2111ac845a4db8a042135cfd8febd57d4be1e3ea437e60aa3",
+      "bytes": 1669200
     },
     "amd_design_report.pdf": {
-      "sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33",
-      "bytes": 6939893
+      "sha256": "7f17cd81fd799a3a1993a5f807e878978a50ef0d1560b547932a50107d1e5730",
+      "bytes": 6940245
     },
     "amd_design_report.tex": {
-      "sha256": "88b4cc5875a2da6f825864a1272f3db7331f55bb74dadbff917e0497fd9d54e7",
-      "bytes": 20283
+      "sha256": "b28397b3a5ca6a5920517511474e4eac85d7c67935686d67e3e4da5271bc104a",
+      "bytes": 20252
     },
     "figures/provenance.json": {
       "sha256": "2750d691ec995fdbb38fa3b95be6054ee8039a8a440e77e924cee7bbea3f2a2c",
@@ -155,44 +156,44 @@
       "bytes": 121736
     },
     "poster/amd_poster_zh.pptx": {
-      "sha256": "a07c1842a8cf2b740ae5cea9f4c1e61d7ac93ab01808c881c270a57e7154cdc4",
-      "bytes": 3699829
+      "sha256": "71f9cb153198c6c44ffa8b72235c577166dbf32d4550175faeb45d1e492c1e98",
+      "bytes": 3699870
     },
     "poster/amd_poster_zh.pdf": {
-      "sha256": "0fe1e481e8d35cd830578e74a290cd682102884df12b28dcf27af912fa7f121a",
-      "bytes": 345880
+      "sha256": "80f517f0cb8574d573dca3bb4d55baae86c0bdea134994627697131ffd6f6d7d",
+      "bytes": 345571
     },
     "poster/amd_poster_zh.png": {
-      "sha256": "7a3e8034ce637912a787888f487081778ad8dfb81450aa92a1eb36cd46f678be",
-      "bytes": 379270
+      "sha256": "f0f757ba86dc0df5000bdf415a87522602019573c0fed57054376023321dbf24",
+      "bytes": 379314
     },
     "poster/amd_poster_zh_a4.pdf": {
-      "sha256": "2e0491dff170a1666e2cb015fe7eda60aca6fb893b71946a9ab8267e2de0c280",
-      "bytes": 331182
+      "sha256": "793bfd9b7e17c83af1369c80d651425c9ee90445f08327cba52c7dd736177fd0",
+      "bytes": 330813
     },
     "poster/amd_poster_en.pptx": {
-      "sha256": "af7e633f9de7ac48594dc40324aee8c03e51dd5c6990029dbd4f744bfe8504d9",
-      "bytes": 3699081
+      "sha256": "491516890c02567e40078c8f4a7f6d0a7e823653da005805758be4921b6c91cf",
+      "bytes": 3699083
     },
     "poster/amd_poster_en.pdf": {
-      "sha256": "dcb898fe831827be28b71bfe2dcad190104db9580ee2b2d7aeb509e842955f4e",
-      "bytes": 239503
+      "sha256": "d3f710b818abb749000ebf5cbbbfcbff4053b96e9fddb9eefa5ab8dc7c47872e",
+      "bytes": 239418
     },
     "poster/amd_poster_en.png": {
-      "sha256": "3daee64782188f1fdec49b3f486ba37424e2cd59bd5b397c826e54ad2baf5152",
-      "bytes": 354348
+      "sha256": "40063b7c91ddf67d9905240017cd0b7f02a3d7a8f9ecad3cfdbd12b9a6df9618",
+      "bytes": 354314
     },
     "poster/amd_poster_en_a4.pdf": {
-      "sha256": "4ff1c93505a2ffbdc6098a556e93e635f9d1ee8e8f2b14c58f88f5e9647e2230",
-      "bytes": 227180
+      "sha256": "8eb01ed7c5efe9a60a544c59afece29003a284c90bd905dbd9f34938f5f0f58f",
+      "bytes": 227093
     },
     "poster/amd_poster_bilingual.pptx": {
-      "sha256": "1c890f91a251e03d036b11ccac6147e8a669fb0aacba4ca9e5da3debc7f341e7",
-      "bytes": 3711779
+      "sha256": "ceddc37201ad697beafffdcfcc81648314264c015fbcbaf7af18e7280b9ed691",
+      "bytes": 3711812
     },
     "poster/amd_poster_bilingual.pdf": {
-      "sha256": "5224a292c9929136c59a67be9258e9e5b8655aa63d1bcac25d5904f0b9201917",
-      "bytes": 403959
+      "sha256": "ed5b5de2b836914c0a53887a9ad39ee114a5e2137dd47506dd57c48390e81766",
+      "bytes": 403617
     },
     "evidence/video_final_20261103.json": {
       "sha256": "dcbe60339e938318b801b7890061223acd982f547d1a037e67b16499f5c60c5b",
