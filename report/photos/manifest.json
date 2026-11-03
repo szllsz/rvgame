@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01_system_overview.jpg",
+    "source_name": "微信图片_20261103164954_290_13.jpg",
+    "sha256": "6ff4867015d808a37f091a746441bc1f071cb57658b616f4de2537087e09bc18",
+    "document_crop": {
+      "l": 0.015,
+      "t": 0.29,
+      "r": 0.02,
+      "b": 0.015,
+      "width_inches": 5.5
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "02_usb_power.jpg",
+    "source_name": "微信图片_20261103164955_291_13.jpg",
+    "sha256": "79d72a6952e7208a757d5f3139c90cc188ac37ccda80976982f2a5f85daf5c0b",
+    "document_crop": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "b": 0.31,
+      "width_inches": 4.4
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "03_power_context.jpg",
+    "source_name": "微信图片_20261103164946_286_13.jpg",
+    "sha256": "12bfbd0c2116c7ce58e22a897bf333b129a670966736cc9d18d072a7b5b152b8",
+    "document_crop": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "b": 0,
+      "width_inches": 3.4
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "04_audio_chain.jpg",
+    "source_name": "微信图片_20261103164948_287_13.jpg",
+    "sha256": "caa13276695300f5e1bd1ab130f762b1d80022848a1ba77e313611319cc57170",
+    "document_crop": {
+      "l": 0,
+      "t": 0.05,
+      "r": 0.02,
+      "b": 0.12,
+      "width_inches": 3.2
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "05_adapter_top.jpg",
+    "source_name": "微信图片_20261103164950_288_13.jpg",
+    "sha256": "591e18cf19c4a5bfad62ab8ca47af7206caee2256c65165ff898d893a3835098",
+    "document_crop": {
+      "l": 0.23,
+      "t": 0.15,
+      "r": 0.04,
+      "b": 0.07,
+      "width_inches": 4.5
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "06_touch_operation.jpg",
+    "source_name": "微信图片_20261103165000_293_13.jpg",
+    "sha256": "0310422aacc6cb71ebbf1aa207342f467e2d38f274077f1dbb483b92bf78fe74",
+    "document_crop": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "b": 0,
+      "width_inches": 5.5
+    },
+    "pixels_modified": false
+  },
+  {
+    "file": "07_gamepad_operation.jpg",
+    "source_name": "微信图片_20261103165001_294_13.jpg",
+    "sha256": "62c57027150aa5caed6c5babee74656130aa0b921eae979d818a25bcd9753b7a",
+    "document_crop": {
+      "l": 0,
+      "t": 0.24,
+      "r": 0.02,
+      "b": 0.04,
+      "width_inches": 5.5
+    },
+    "pixels_modified": false
+  }
+]

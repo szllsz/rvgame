@@ -11,7 +11,7 @@
 	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
 		<g transform="">
 			<text x="12" y="369" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,738) scale(1,-1)">两带提交：控制模块功能仿真</text>
-			<text x="12" y="348" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,696) scale(1,-1)">冻结RTL的真实仿真采样；复制忙等待由测试平台给定，不是板端DMA耗时</text>
+			<text x="12" y="348" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,696) scale(1,-1)">RTL 功能仿真采样：分带搬运、完整帧提交与显示帧边界协调。</text>
 			<path d="M 156,72 L 156,333 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.35;"/>
 			<text x="151.0" y="55" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,110) scale(1,-1)">0</text>
 			<path d="M 244.163265,72 L 244.163265,333 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.35;"/>

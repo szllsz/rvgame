@@ -1,6 +1,6 @@
 # 从本目录复现
 
-**当前公开版：`native800_final_visual_a` 应用与 20261103-b USB 恢复服务。** 主菜单触屏双击、鼠标单击进入；音乐仍跳过开头5秒，默认音量5。八目标已从公开依赖闭包逐字节重建，见 verification/public_software_rebuild.json；USB资格单列 verification/usb_wake_delivery.json。当前状态以根README及docs/current_status.md为准，下文原始测量记录按当时版本解释。
+**版本范围（2026-11-03）：本轮同步报告、海报与实拍，原软件/硬件/运行包冻结输入保持。** 公开快照对应native800_final_visual_a；板端后续采用native800_cloud_lazy_a和USB helper e，其身份、安装与启动优化收据已放入report/evidence。下面的重建命令和旧整套独立入口资格对应冻结包，不能当作最新云海菜单与PS运行层已经同步重建的证明。默认音量5、星际战斗音轨跳过前5秒的约定保持。
 
 本次验证使用同一台 Windows 开发机和原 AX7020。源码在隔离新目录重建；未声称已在全新电脑、第二块板或新 SD 卡验证。路径中空格的软件/仿真重放也已实际通过。以下命令均从本目录根执行；所有输出目录须新建且不存在，脚本不会清理旧结果。
 
@@ -20,13 +20,11 @@ python sim/replay.py --destination "D:/rvgame_sim_new" --vivado-bin "D:/Xilinx/2
 
 ```powershell
 python runtime/run.py
-python verify_publication.py
-python verification/recheck_final_visual.py --output "D:/rvgame_final_visual_new.json"
+python verification/recheck_metrics.py --output "D:/rvgame_metrics_new.json"
+python verification/recheck_ui.py --output "D:/rvgame_ui_audit_new"
 ```
 
-上述公开入口已离线复核通过，不连接板卡；当前两游戏复核所需的差异输入和原始帧随包保存。正常板端入口为 `sudo -E python3 runtime/run.py --start`，环境、单owner和停止操作见runtime/readme.md与rollback.md。之前独立入口板测绑定原应用版本，新增可选USB helper单独安装验证；完整公开清单没有冒称重新做过独立入口板测。入口不会自动安装系统服务，不代表新SD验证，原板owner仍运行时不要另启。
-
-下面关于 recheck_metrics.py 和 recheck_ui.py 的段落说明历史验证过程；这些旧脚本可能需要未重复发布的旧二进制，不作为当前公开包的重跑入口。请使用上面的三条命令。
+前两项使用Python标准库，UI PCM参考重算另需NumPy；可在自己的虚拟环境安装 `python -m pip install numpy`。以上命令不连接板卡。正常板端入口为 `sudo -E python3 runtime/run.py --start`，具体环境、单owner和停止操作见runtime/readme.md与rollback.md。当前input_robustness完整目录已在原板新路径验证正常菜单、扫描前进、零下溢、SIGINT退休和三释放，随后恢复正式版；收据按当前runtime清单SHA绑定，历史menu_pointer收据另存，不重标。状态见verification/standalone_status.json。入口不会安装systemd服务，不代表新SD验证；原板正式owner仍在运行时不要另启。
 
 `verification/evidence_index.json`保存原始文件的来源、大小与SHA256；原始日志中的历史绝对路径只作来源信息。`recheck_metrics.py`从原始CPU文本、图形capacity计数和当前镜头版鸡蛋阶段meter重算，同时核对程序/硬件绑定，具体数量见输出收据。旧final_status_y的Alpha二进制与当前不同，当前Alpha使用showcase_final_g的对应证据。两份旧接收报告引用的共享脚本已在历史过程中被覆盖，原哈希和缺口如实保留；不声称保存了该脚本的旧字节。
 
@@ -34,6 +32,6 @@ python verification/recheck_final_visual.py --output "D:/rvgame_final_visual_new
 
 ## 文档复现
 
-通用报告在用户提供的官方Word模板副本中填充，保留页眉、页脚、页尺寸及栏目；页数与本轮目视范围见verification/document_qa.json。AMD专项正文为design_report.md，amd_design_report.tex为可编辑XeLaTeX源，矢量图在figures/。在report目录运行两次 `xelatex -interaction=nonstopmode -halt-on-error amd_design_report.tex` 可更新PDF；本次使用TeX Live2025、Windows宋体/黑体及Times New Roman。结构/退休图是机制示意；两带时序图是冻结RTL的真实功能仿真采样，测试时钟和复制忙等待由测试平台指定，不代表板端DMA耗时。原始CSV、测试平台和工具日志位于verification/timing_illustration。
+通用报告保留官方Word模板的页眉、页脚和页尺寸，正文沿用去年报告的五部分结构；当前22页、18张图，文档目视范围与哈希见report/evidence/document_refresh_20261103.json。AMD专项正文为design_report.md，amd_design_report.tex为可编辑XeLaTeX源，矢量图在figures/、实拍及文档裁剪包装在photos/。在report目录运行两次 `xelatex -interaction=nonstopmode -halt-on-error amd_design_report.tex` 可更新PDF；本次使用TeX Live2025、Windows宋体/黑体及Times New Roman。结构/退休图是机制示意；两带时序图为冻结RTL的功能仿真采样，不代表板端DMA耗时。
 
-中英文海报沿用桌面AMD PPT官方模板，保留AMD标识；各1页16:9，PPTX可编辑，原比例PDF另附A4横向等比彩印PDF，不拉伸图文。模板示例学校、人员和实物图片没有作为本作品内容保留。目视核查记录按最终文件SHA保存，这不是独立末审或用户审定。
+中英文海报沿用AMD官方PPT模板，保留AMD标识；主交付为amd_poster_bilingual.pptx，中文、英文各一页16:9，文字图表可编辑。按企业要求填写西安邮电大学、李圣哲和校徽；官网技术PDF与视频保持匿名。原比例PDF及单页A4等比预览另附。目视核查记录按最终文件SHA保存，这不是独立末审或用户审定。

@@ -1,0 +1,202 @@
+{
+  "pass_": true,
+  "report_pages": {
+    "technical_report": 22,
+    "design_report": 12
+  },
+  "visual_review": {
+    "report_pages": 34,
+    "poster_slides": 2,
+    "all_reviewed": true,
+    "clipping": false
+  },
+  "word_limits": [
+    {
+      "section": "摘要",
+      "nonspace_characters": 622,
+      "limit": 800,
+      "pass_": true
+    },
+    {
+      "section": "1.1 功能与特性",
+      "nonspace_characters": 271,
+      "limit": 400,
+      "pass_": true
+    },
+    {
+      "section": "1.2 应用领域",
+      "nonspace_characters": 249,
+      "limit": 400,
+      "pass_": true
+    },
+    {
+      "section": "1.3 主要技术特点",
+      "nonspace_characters": 327,
+      "limit": 400,
+      "pass_": true
+    },
+    {
+      "section": "1.4 主要性能指标",
+      "nonspace_characters": 194,
+      "limit": 200,
+      "pass_": true
+    },
+    {
+      "section": "1.5 主要创新点",
+      "nonspace_characters": 86,
+      "limit": 200,
+      "pass_": true
+    },
+    {
+      "section": "1.6 设计流程",
+      "nonspace_characters": 122,
+      "limit": 200,
+      "pass_": true
+    },
+    {
+      "section": "4.1 可扩展之处",
+      "nonspace_characters": 173,
+      "limit": 300,
+      "pass_": true
+    },
+    {
+      "section": "4.2 心得体会",
+      "nonspace_characters": 343,
+      "limit": 1000,
+      "pass_": true
+    }
+  ],
+  "cpu_efficiency": {
+    "coremark": 371.852064,
+    "full_soc_lut": 23447,
+    "core_lut": 6387,
+    "coremark_per_soc_lut": 0.015859259777370238,
+    "coremark_per_core_lut": 0.058220144668858616
+  },
+  "template_original_unchanged": true,
+  "official_fixed_sections_and_amd_artwork_retained": true,
+  "board_touched": false,
+  "authorization_and_board_photo": "User completed; not processed",
+  "files": {
+    "technical_report.md": {
+      "sha256": "364220ff413ea5fc8361296f5bc968101645ce0de3f834e19168ef088c2660d3",
+      "bytes": 24127
+    },
+    "design_report.md": {
+      "sha256": "f8f028568ab10f3c0d53159ed7edec53b98438cf748f3061517bc05081883778",
+      "bytes": 15109
+    },
+    "competition_report.docx": {
+      "sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c",
+      "bytes": 17208656
+    },
+    "competition_report.pdf": {
+      "sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427",
+      "bytes": 1668621
+    },
+    "amd_design_report.pdf": {
+      "sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33",
+      "bytes": 6939893
+    },
+    "amd_design_report.tex": {
+      "sha256": "88b4cc5875a2da6f825864a1272f3db7331f55bb74dadbff917e0497fd9d54e7",
+      "bytes": 20283
+    },
+    "figures/provenance.json": {
+      "sha256": "2750d691ec995fdbb38fa3b95be6054ee8039a8a440e77e924cee7bbea3f2a2c",
+      "bytes": 3772
+    },
+    "figures/input_flow.pdf": {
+      "sha256": "aefc14a97c73ba25841fcc2b409a0c3ec20c51f3568b8eba9f11d43a2fffffd2",
+      "bytes": 56908
+    },
+    "figures/input_flow.svg": {
+      "sha256": "0b7f2df48b275b36de00a24270f5c7238bb895a7dbb299ff163dbe4dee5f8ad4",
+      "bytes": 4367
+    },
+    "figures/input_flow.png": {
+      "sha256": "4b62685475f0ea6e4b7fee954369935dbcb3c79e21ae5cda5ec04fcda245ac4c",
+      "bytes": 94606
+    },
+    "figures/owner_retirement.pdf": {
+      "sha256": "f9d3f242d26d00cce8894abf44551d2350e24fac7a3b251e1bfcb2761dc6a850",
+      "bytes": 46386
+    },
+    "figures/owner_retirement.svg": {
+      "sha256": "27cd86429cc35d842dc878155e681e9512db43a6e033c9399d5fe525dd5323d7",
+      "bytes": 4357
+    },
+    "figures/owner_retirement.png": {
+      "sha256": "1e4a016894eba64a35a6f773e2267e9aa47e6dad382efcd32d3cfa149f7de873",
+      "bytes": 72646
+    },
+    "figures/cpu_pipeline.pdf": {
+      "sha256": "367655ecb5d73695df5212114fe25be810024e4f0302a85e4b7cb968179e58ca",
+      "bytes": 50363
+    },
+    "figures/cpu_pipeline.svg": {
+      "sha256": "d0122ccf7be7d1138e217aada75e80c9613c0a26f2012b7e1f7923f52221e272",
+      "bytes": 5184
+    },
+    "figures/cpu_pipeline.png": {
+      "sha256": "11eaa8da7654b099c29e2d9c3ed8dc19434da65602338d07338c901821b7c5ea",
+      "bytes": 84610
+    },
+    "figures/two_band_sequence.pdf": {
+      "sha256": "1793651837111285f944f3c47510bfe994acd5cdcfe78c5d3f4e12512e1a385b",
+      "bytes": 47532
+    },
+    "figures/two_band_sequence.svg": {
+      "sha256": "3c155f9306f83c6c9636796c26c496c5bff0c00e7233299053ab9394af6d7ddf",
+      "bytes": 70684
+    },
+    "figures/two_band_sequence.png": {
+      "sha256": "1bbb7ce23cf9c099fd51d890e8cba95041a2e98c029bcbbc16157edfaee7132f",
+      "bytes": 121736
+    },
+    "poster/amd_poster_zh.pptx": {
+      "sha256": "a07c1842a8cf2b740ae5cea9f4c1e61d7ac93ab01808c881c270a57e7154cdc4",
+      "bytes": 3699829
+    },
+    "poster/amd_poster_zh.pdf": {
+      "sha256": "0fe1e481e8d35cd830578e74a290cd682102884df12b28dcf27af912fa7f121a",
+      "bytes": 345880
+    },
+    "poster/amd_poster_zh.png": {
+      "sha256": "7a3e8034ce637912a787888f487081778ad8dfb81450aa92a1eb36cd46f678be",
+      "bytes": 379270
+    },
+    "poster/amd_poster_zh_a4.pdf": {
+      "sha256": "2e0491dff170a1666e2cb015fe7eda60aca6fb893b71946a9ab8267e2de0c280",
+      "bytes": 331182
+    },
+    "poster/amd_poster_en.pptx": {
+      "sha256": "af7e633f9de7ac48594dc40324aee8c03e51dd5c6990029dbd4f744bfe8504d9",
+      "bytes": 3699081
+    },
+    "poster/amd_poster_en.pdf": {
+      "sha256": "dcb898fe831827be28b71bfe2dcad190104db9580ee2b2d7aeb509e842955f4e",
+      "bytes": 239503
+    },
+    "poster/amd_poster_en.png": {
+      "sha256": "3daee64782188f1fdec49b3f486ba37424e2cd59bd5b397c826e54ad2baf5152",
+      "bytes": 354348
+    },
+    "poster/amd_poster_en_a4.pdf": {
+      "sha256": "4ff1c93505a2ffbdc6098a556e93e635f9d1ee8e8f2b14c58f88f5e9647e2230",
+      "bytes": 227180
+    },
+    "poster/amd_poster_bilingual.pptx": {
+      "sha256": "1c890f91a251e03d036b11ccac6147e8a669fb0aacba4ca9e5da3debc7f341e7",
+      "bytes": 3711779
+    },
+    "poster/amd_poster_bilingual.pdf": {
+      "sha256": "5224a292c9929136c59a67be9258e9e5b8655aa63d1bcac25d5904f0b9201917",
+      "bytes": 403959
+    },
+    "evidence/video_final_20261103.json": {
+      "sha256": "dcbe60339e938318b801b7890061223acd982f547d1a037e67b16499f5c60c5b",
+      "bytes": 1085
+    }
+  }
+}

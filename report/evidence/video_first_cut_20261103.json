@@ -1,0 +1,22 @@
+{
+  "objective": "Produce the first edited preview for user review",
+  "achieved": true,
+  "file": "D:\\Project\\rvgame\\video_previews\\first_cut_20261103_a\\rvgame_first_cut_a.mp4",
+  "sha256": "5b77616890c6bdc18eb2bb8b49555521c9975f070fbaee8c928870d97c45ff48",
+  "duration_seconds": 170,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "bytes": 196252692,
+  "narration": "13 locally generated Mambo-model segments",
+  "audio_policy": "Source audio muted for items 1-4; preserved and ducked under narration for items 5-8",
+  "speed_policy": "Only CPU waiting 2x and labelled; games and graphics remain real time",
+  "sources_unchanged": true,
+  "validation": "verification.json",
+  "preview_url": "http://127.0.0.1:8879/",
+  "scope": "First review edit; not published or submitted; user subjective review follows."
+}

@@ -27,11 +27,11 @@
 			<path d="M 408,94 L 430,94 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
 			<polygon points="430 94, 425 96.5, 425 91.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
 			<rect x="430" y="76" width="158" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
-			<text x="437" y="91.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,182) scale(1,-1)">原owner原子快照写入</text>
+			<text x="437" y="91.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,182) scale(1,-1)">统一输入快照提交</text>
 			<text x="16" y="93" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,186) scale(1,-1)">触屏/鼠标：只读线程、有界队列</text>
-			<text x="16" y="54" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,108) scale(1,-1)">触屏双击 / 鼠标左键进入；右键或触屏底部SELECT提示区返回。</text>
+			<text x="16" y="54" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,108) scale(1,-1)">触屏双击 / 鼠标左键进入；右键或触屏底部 SELECT 提示区返回。</text>
 			<text x="16" y="30" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,60) scale(1,-1)">屏幕1024×600→内容800×600：左边距112；黑边忽略，跨页/失联清除动作。</text>
-			<text x="16" y="9" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,18) scale(1,-1)">自动回放与实体热插拔分别记录；物理冷启动和长期休眠仍待验收。</text>
+			<text x="16" y="9" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,18) scale(1,-1)">统一事件格式衔接菜单与应用，三种输入完成一致的进入和返回操作。</text>
 		</g>
 	</g>
 </svg>

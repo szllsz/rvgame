@@ -1,0 +1,40 @@
+{
+  "pass_": true,
+  "adopted": true,
+  "release_sha256": "5600a4ee8d1b0a606f452424d119aa7285ee555b6c1f5f0e8a48c263cfd3782f",
+  "registry_sha256": "d30e627b734c939574f04bbf3e5beacf0dc6bb5084cbdcbf897c8bfd209d75f2",
+  "installation_receipt_sha256": "b638af4df939cc735c9c24385ec3d68a91284fec350ce22ef1c920ff970cd20b",
+  "qualified_menu_seconds": [
+    33.383556902,
+    36.102683591
+  ],
+  "checks": 90,
+  "safe_switches": 54,
+  "CRC_packets": 145,
+  "PCM_snapshots": 428,
+  "normal_input_startup_verified": true,
+  "unchanged_payloads": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "game.bin": "dff38a561c953e441c6e5ede7024b098985cabd4dddd137aac036a82c1c7fc46",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "menu.bin": "b8f89c70fcd01088a66eb8085ec93cfa3fcdb82c1d51719c34820867149aa3e0",
+    "power_punch_32000_mono_s16le.pcm": "b40d10df9c25bb26746de73ecf2e86d430db016a6b709c8678e5e832d1b06f6f",
+    "scarlet_title01_32000_mono_s16le.pcm": "c7862a25285473ae591ed1bce6c8c27daefcf85ba67925fd97167d28b387ec4a",
+    "scarlet_ui_cancel_32000_s16le.pcm": "d6c994b2214fa94a183742ba5804493f30281b3d4fbacc4983d4cb56f87991a0",
+    "scarlet_ui_confirm_32000_s16le.pcm": "1548f32abcdacd8e394cfed2ef7526c908a87e3de16b79698b2c17dc48c7b698",
+    "scarlet_ui_select_32000_s16le.pcm": "394c727fadbef8fc78fdde0294788c2a35a85e23e05912ee8a1649211c999a6e",
+    "septette_new_32000_mono_s16le.pcm": "ab1106f6c16b19aac0989c89939eea9317c1ce988429eb0b14773f6b1c1f53cc",
+    "top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+    "touhou.bin": "68201d8d785a758a89f8ceab03015df4520fab69d8c41a4ceab51ef646b41d1b",
+    "transition_menu_1.rgb332": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "transition_menu_2.rgb332": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  },
+  "previous_release_retained": "/home/xilinx/rvgame_latest_20261103_native800_cloud_fast_b",
+  "third_reboot_skipped_per_user_acceleration": true,
+  "physical_power_cycle_verified": false,
+  "manual_external_input_acceptance": false
+}

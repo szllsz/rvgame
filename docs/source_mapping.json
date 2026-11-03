@@ -1265,19 +1265,19 @@
     "published_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
   },
   "report/amd_design_report.pdf": {
-    "source": "report/amd_design_report.pdf",
-    "source_sha256": "86388af9848146aad2b5d9e7473c45ff0263653db0025156283b212be79714f4",
-    "published_sha256": "86388af9848146aad2b5d9e7473c45ff0263653db0025156283b212be79714f4"
+    "source": "submission/final/source.rar:rvgame/report/amd_design_report.pdf",
+    "source_sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33",
+    "published_sha256": "e4700cb4bd688611e1bcc8d5b3f4e01e5ff6ffa25633c5289e9f50b16bd90f33"
   },
   "report/amd_design_report.tex": {
-    "source": "report/amd_design_report.tex",
-    "source_sha256": "880c59d0c69a44a5b6cf2d7376f536661b56b76957aac4325033185e164e200a",
-    "published_sha256": "880c59d0c69a44a5b6cf2d7376f536661b56b76957aac4325033185e164e200a"
+    "source": "submission/final/source.rar:rvgame/report/amd_design_report.tex",
+    "source_sha256": "88b4cc5875a2da6f825864a1272f3db7331f55bb74dadbff917e0497fd9d54e7",
+    "published_sha256": "ba423c9b1aed125a9e204f0dd1b25520925e7f1e24f2f06a170e4c67d26f3928"
   },
   "report/amd_requirements_matrix.md": {
-    "source": "report/amd_requirements_matrix.md",
-    "source_sha256": "7a6c05bb1933b193723d438346a770a84a6ba881624f386f1f52d547e57c7f47",
-    "published_sha256": "8800198d0dcc8e1d520c5f627abead79ef2da4e13bfe66b8b9177755aaf55a6f"
+    "source": "submission/amd_native800_20261102/report/amd_requirements_matrix.md",
+    "source_sha256": "b862ee4752b85d491e1ceb2449b980c5850b5bd59034567c24f8d30405f4fa09",
+    "published_sha256": "7fce7f13642ecacdd9961ed2bae8ea3bad9b3bdab866366649f247b1e52bcbc9"
   },
   "report/collaboration/current_ui_and_delivery.json": {
     "source": "report/collaboration/current_ui_and_delivery.json",
@@ -1305,24 +1305,24 @@
     "published_sha256": "9d2b5cacde55e38d32fc4934e915d8864bd8b4f914d8f977f1357eb7c35f29ee"
   },
   "report/competition_report.docx": {
-    "source": "report/competition_report.docx",
-    "source_sha256": "c755bdb9fbe488bed6cddf15c2b5a433b4ea3e8d009d02563d6ef8c1c748c818",
-    "published_sha256": "01bb1a0dd24470547e2299bb02f46b528de61f9029353e71eac46c495e9277be"
+    "source": "submission/final/source.rar:rvgame/report/competition_report.docx",
+    "source_sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c",
+    "published_sha256": "a87ba056850fe2a343d92b15ff413c672f150ffdd2627b6c2662d1ccec0c931c"
   },
   "report/competition_report.pdf": {
-    "source": "report/competition_report.pdf",
-    "source_sha256": "8fe0c69c67ff3fec5cdd948e7c5f6a07604da990c9bea6e040ce32c086f58b69",
-    "published_sha256": "3c1f50ff4a1977cd95b42357fc7ffc324e3deaef42420f9c4c270ba7e9b77c25"
+    "source": "submission/final/source.rar:rvgame/report/competition_report.pdf",
+    "source_sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427",
+    "published_sha256": "9a52bec1ce1b395d1c483e8694af9fa6d76b6e3fee7e78f08b64d9330fe24427"
   },
   "report/contribution_and_sources.md": {
-    "source": "report/contribution_and_sources.md",
-    "source_sha256": "7cd5888c3c279739bdb3b7c75f4a857d010a3dfc6efdb377bb6e4862ac5ee500",
-    "published_sha256": "b071e6525aa516d7ea83f4330b094a64534059c0c5d842b58aa09b6970b52601"
+    "source": "submission/amd_native800_20261102/report/contribution_and_sources.md",
+    "source_sha256": "7dc98ec3fb9ff4187ed43c7d141b91b0d97e50d8111859fd3d4ae56310e8962e",
+    "published_sha256": "7dc98ec3fb9ff4187ed43c7d141b91b0d97e50d8111859fd3d4ae56310e8962e"
   },
   "report/design_report.md": {
-    "source": "report/design_report.md",
-    "source_sha256": "b505e92b5c610222d38d2986181287a9689beff6628d7c9b15d1e9582d791101",
-    "published_sha256": "b505e92b5c610222d38d2986181287a9689beff6628d7c9b15d1e9582d791101"
+    "source": "submission/final/source.rar:rvgame/report/design_report.md",
+    "source_sha256": "f8f028568ab10f3c0d53159ed7edec53b98438cf748f3061517bc05081883778",
+    "published_sha256": "ef18627cda68d64e44d2bd3f907a7fbf0cbf4147e4929bdd2c507be623e48a67"
   },
   "report/figures/architecture.pdf": {
     "source": "report/figures/architecture.pdf",
@@ -1340,19 +1340,19 @@
     "published_sha256": "b9e4bcd87b078502e96de342e5a6f635c8631a0340b5330424a05ddf5a07ceed"
   },
   "report/figures/cpu_pipeline.pdf": {
-    "source": "report/figures/cpu_pipeline.pdf",
-    "source_sha256": "df95d5417d04c33ffe820e5111362bce536b6ecddcfbfcc2a4880b506674a7ef",
-    "published_sha256": "df95d5417d04c33ffe820e5111362bce536b6ecddcfbfcc2a4880b506674a7ef"
+    "source": "submission/final/source.rar:rvgame/report/figures/cpu_pipeline.pdf",
+    "source_sha256": "367655ecb5d73695df5212114fe25be810024e4f0302a85e4b7cb968179e58ca",
+    "published_sha256": "367655ecb5d73695df5212114fe25be810024e4f0302a85e4b7cb968179e58ca"
   },
   "report/figures/cpu_pipeline.png": {
-    "source": "report/figures/cpu_pipeline.png",
-    "source_sha256": "89f09dcf21601ce71ceceb9c9cd93c06e6e94f5f5f641f0a5dc51302537f80fa",
-    "published_sha256": "89f09dcf21601ce71ceceb9c9cd93c06e6e94f5f5f641f0a5dc51302537f80fa"
+    "source": "submission/final/source.rar:rvgame/report/figures/cpu_pipeline.png",
+    "source_sha256": "11eaa8da7654b099c29e2d9c3ed8dc19434da65602338d07338c901821b7c5ea",
+    "published_sha256": "11eaa8da7654b099c29e2d9c3ed8dc19434da65602338d07338c901821b7c5ea"
   },
   "report/figures/cpu_pipeline.svg": {
-    "source": "report/figures/cpu_pipeline.svg",
-    "source_sha256": "c00598993b4e674fcf89cf35df87f45ed5a0d4740c0d9999c3425b94235ca5a1",
-    "published_sha256": "c00598993b4e674fcf89cf35df87f45ed5a0d4740c0d9999c3425b94235ca5a1"
+    "source": "submission/final/source.rar:rvgame/report/figures/cpu_pipeline.svg",
+    "source_sha256": "d0122ccf7be7d1138e217aada75e80c9613c0a26f2012b7e1f7923f52221e272",
+    "published_sha256": "c6730d27180b02e056169ab88c0cf3fdf4f641fc0db12b8890f6f666df88d5b1"
   },
   "report/figures/egg_workload.pdf": {
     "source": "report/figures/egg_workload.pdf",
@@ -1385,19 +1385,19 @@
     "published_sha256": "ff553a25c85456f0f0825d768a84d48d31997521347c9000645f68caba6a00f8"
   },
   "report/figures/input_flow.pdf": {
-    "source": "report/figures/input_flow.pdf",
-    "source_sha256": "8b33990a6a764f7b8a9110f31d9dbb3b63159f9579c77ba8d8b5333903458ca0",
-    "published_sha256": "8b33990a6a764f7b8a9110f31d9dbb3b63159f9579c77ba8d8b5333903458ca0"
+    "source": "submission/final/source.rar:rvgame/report/figures/input_flow.pdf",
+    "source_sha256": "aefc14a97c73ba25841fcc2b409a0c3ec20c51f3568b8eba9f11d43a2fffffd2",
+    "published_sha256": "aefc14a97c73ba25841fcc2b409a0c3ec20c51f3568b8eba9f11d43a2fffffd2"
   },
   "report/figures/input_flow.png": {
-    "source": "report/figures/input_flow.png",
-    "source_sha256": "7fbb15ce3b566cc79e3b60a292e22e1cd44d31e04a4e8f22b1fb97a96b9594db",
-    "published_sha256": "7fbb15ce3b566cc79e3b60a292e22e1cd44d31e04a4e8f22b1fb97a96b9594db"
+    "source": "submission/final/source.rar:rvgame/report/figures/input_flow.png",
+    "source_sha256": "4b62685475f0ea6e4b7fee954369935dbcb3c79e21ae5cda5ec04fcda245ac4c",
+    "published_sha256": "4b62685475f0ea6e4b7fee954369935dbcb3c79e21ae5cda5ec04fcda245ac4c"
   },
   "report/figures/input_flow.svg": {
-    "source": "report/figures/input_flow.svg",
-    "source_sha256": "2d772e629d9390d4aaa11d6fa7d835883ab63666157b301181059f4ecf62e842",
-    "published_sha256": "2d772e629d9390d4aaa11d6fa7d835883ab63666157b301181059f4ecf62e842"
+    "source": "submission/final/source.rar:rvgame/report/figures/input_flow.svg",
+    "source_sha256": "0b7f2df48b275b36de00a24270f5c7238bb895a7dbb299ff163dbe4dee5f8ad4",
+    "published_sha256": "783d2fecbc2b1e3ca48eb4402606ddbc925e9019a9641b0fef99b29dc4d1b70f"
   },
   "report/figures/main_menu.png": {
     "source": "report/figures/main_menu.png",
@@ -1405,24 +1405,24 @@
     "published_sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276"
   },
   "report/figures/owner_retirement.pdf": {
-    "source": "report/figures/owner_retirement.pdf",
-    "source_sha256": "3cde5a29304acf7104af5cba3865d754b8a70f3d909cd6dee4ac42aa2c75fa41",
-    "published_sha256": "3cde5a29304acf7104af5cba3865d754b8a70f3d909cd6dee4ac42aa2c75fa41"
+    "source": "submission/final/source.rar:rvgame/report/figures/owner_retirement.pdf",
+    "source_sha256": "f9d3f242d26d00cce8894abf44551d2350e24fac7a3b251e1bfcb2761dc6a850",
+    "published_sha256": "f9d3f242d26d00cce8894abf44551d2350e24fac7a3b251e1bfcb2761dc6a850"
   },
   "report/figures/owner_retirement.png": {
-    "source": "report/figures/owner_retirement.png",
-    "source_sha256": "8f2a96768e92f948df5cb9e48af88c3a976009a1d8218c789922b78b754d6503",
-    "published_sha256": "8f2a96768e92f948df5cb9e48af88c3a976009a1d8218c789922b78b754d6503"
+    "source": "submission/final/source.rar:rvgame/report/figures/owner_retirement.png",
+    "source_sha256": "1e4a016894eba64a35a6f773e2267e9aa47e6dad382efcd32d3cfa149f7de873",
+    "published_sha256": "1e4a016894eba64a35a6f773e2267e9aa47e6dad382efcd32d3cfa149f7de873"
   },
   "report/figures/owner_retirement.svg": {
-    "source": "report/figures/owner_retirement.svg",
-    "source_sha256": "ec941fc39d7b825a6b444c3167b8fbef2d1e32a5c91413f076258fae9d82391b",
-    "published_sha256": "ec941fc39d7b825a6b444c3167b8fbef2d1e32a5c91413f076258fae9d82391b"
+    "source": "submission/final/source.rar:rvgame/report/figures/owner_retirement.svg",
+    "source_sha256": "27cd86429cc35d842dc878155e681e9512db43a6e033c9399d5fe525dd5323d7",
+    "published_sha256": "097fb7fd002451d91ca024698c01f9b9d9e41843ed1a97306d40fb36165bc7aa"
   },
   "report/figures/provenance.json": {
-    "source": "report/figures/provenance.json",
-    "source_sha256": "b5c605f57bd527ce93f0a3e172b6ee56e627cd57cafc647e6997ede24f8410d9",
-    "published_sha256": "b5c605f57bd527ce93f0a3e172b6ee56e627cd57cafc647e6997ede24f8410d9"
+    "source": "submission/final/source.rar:rvgame/report/figures/provenance.json",
+    "source_sha256": "2750d691ec995fdbb38fa3b95be6054ee8039a8a440e77e924cee7bbea3f2a2c",
+    "published_sha256": "1ab32d3d6d5abc9157f9d3d41eec9f4181aa296c2cc4b168f18e6cbea259049f"
   },
   "report/figures/star_barrage.png": {
     "source": "report/figures/star_barrage.png",
@@ -1430,24 +1430,24 @@
     "published_sha256": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756"
   },
   "report/figures/two_band_sequence.pdf": {
-    "source": "report/figures/two_band_sequence.pdf",
-    "source_sha256": "35742a7285a9d5119a589789c57528a2632bcee31e2fb47425d95256fbf0aabc",
-    "published_sha256": "35742a7285a9d5119a589789c57528a2632bcee31e2fb47425d95256fbf0aabc"
+    "source": "submission/final/source.rar:rvgame/report/figures/two_band_sequence.pdf",
+    "source_sha256": "1793651837111285f944f3c47510bfe994acd5cdcfe78c5d3f4e12512e1a385b",
+    "published_sha256": "1793651837111285f944f3c47510bfe994acd5cdcfe78c5d3f4e12512e1a385b"
   },
   "report/figures/two_band_sequence.png": {
-    "source": "report/figures/two_band_sequence.png",
-    "source_sha256": "4e4255f35fb524b7a9fbcbb6f05c5859c2fc1ceb2b06bbfb34e74a93c5b155b6",
-    "published_sha256": "4e4255f35fb524b7a9fbcbb6f05c5859c2fc1ceb2b06bbfb34e74a93c5b155b6"
+    "source": "submission/final/source.rar:rvgame/report/figures/two_band_sequence.png",
+    "source_sha256": "1bbb7ce23cf9c099fd51d890e8cba95041a2e98c029bcbbc16157edfaee7132f",
+    "published_sha256": "1bbb7ce23cf9c099fd51d890e8cba95041a2e98c029bcbbc16157edfaee7132f"
   },
   "report/figures/two_band_sequence.svg": {
-    "source": "report/figures/two_band_sequence.svg",
-    "source_sha256": "ac742fbfba601cce2968f5c8d47ffc3fa43c999f50e9420b90eab55691f445bc",
-    "published_sha256": "ac742fbfba601cce2968f5c8d47ffc3fa43c999f50e9420b90eab55691f445bc"
+    "source": "submission/final/source.rar:rvgame/report/figures/two_band_sequence.svg",
+    "source_sha256": "3c155f9306f83c6c9636796c26c496c5bff0c00e7233299053ab9394af6d7ddf",
+    "published_sha256": "96256f8584fad18299249120e4698ddce913eb06cdd1fbb1188a5c9dbd53dfb0"
   },
   "report/manual_lab_checklist.md": {
-    "source": "report/manual_lab_checklist.md",
-    "source_sha256": "46df1e62e0c13bd4b6ca356742195c2e63bf759996b10d951c837fb0d52d68ec",
-    "published_sha256": "cb76e89e0cf160fbe05f5f6c35b129a96ffb546a1ea08ed8b744f7596999bfa8"
+    "source": "submission/amd_native800_20261102/report/manual_lab_checklist.md",
+    "source_sha256": "c3c07d2beefb237680f0f76bd14f609878e2d7126a6c440758c8128035bc8c2e",
+    "published_sha256": "b98734ce97cd2904abd3d0b1aa3b28c64aa98da8c21ddeb30fc3ef8e3f031d2e"
   },
   "report/metrics.json": {
     "source": "report/metrics.json",
@@ -1455,14 +1455,14 @@
     "published_sha256": "4166eb7122214191d3b701a8fe1c79a0e2694a13827434df7095a6051340228d"
   },
   "report/model_collaboration.md": {
-    "source": "report/model_collaboration.md",
-    "source_sha256": "985ffa9bcfd4de105ecb5fded89a841eb4ba3b4291c6f021f328719eecb17926",
-    "published_sha256": "985ffa9bcfd4de105ecb5fded89a841eb4ba3b4291c6f021f328719eecb17926"
+    "source": "submission/amd_native800_20261102/report/model_collaboration.md",
+    "source_sha256": "2ecc94568b3b805630049a509b693f74177d9a98bf1860c1b51ec350be22921d",
+    "published_sha256": "b66ef77e2c9555e293a545410a273db70df736e13948b183019d02716d47e126"
   },
   "report/photo_checklist_20261102.md": {
-    "source": "report/photo_checklist_20261102.md",
-    "source_sha256": "eefaf18c0b6af51b6fb8b035175047479c17204d689d1ebe834e4b2a63659297",
-    "published_sha256": "eefaf18c0b6af51b6fb8b035175047479c17204d689d1ebe834e4b2a63659297"
+    "source": "submission/amd_native800_20261102/report/photo_checklist_20261102.md",
+    "source_sha256": "156a121c3fa96f5e24d9e7244164e1bd7df0728376552840501871251cff16a5",
+    "published_sha256": "a9cf8f9fc3c49c8290943e6ac1e85f7c920ad099020da5ed54718c930d7bb25b"
   },
   "report/poster/amd_poster_en.pdf": {
     "source": "report/poster/amd_poster_en.pdf",
@@ -1495,9 +1495,9 @@
     "published_sha256": "b3773db9d64a195e8d63b6ad1e3989a70bb0574945b23029d4961518d29863ff"
   },
   "report/reproduction.md": {
-    "source": "report/reproduction.md",
-    "source_sha256": "f4595c3bbb05e3d7fefd5f7dcacf703b5095660e8accd020f77f5b9e7cb352f0",
-    "published_sha256": "77bf2dcb6793944b3a0b584819e35952c3d5f32e1584eaa885d9f459689f9d5d"
+    "source": "submission/amd_native800_20261102/report/reproduction.md",
+    "source_sha256": "38b98cff8300eb8d9b5ef2e7ed9b10b8f91223b64da777ae14d746747ed5c7ee",
+    "published_sha256": "191de058817f869def35468fea53af75c65b1dfab1fd0e5b0af0c5623af7e54e"
   },
   "report/screenshots/04_main_menu.png": {
     "source": "report/screenshots/04_main_menu.png",
@@ -1580,9 +1580,9 @@
     "published_sha256": "6356a31efc5a6ce39a74401b4195618e5ab5819343f5ada2a90e308ab9b6f0c6"
   },
   "report/usb_compatibility.md": {
-    "source": "report/usb_compatibility.md",
-    "source_sha256": "75d902b2b8d6f6865fa7cdab94ace59bd44fadf5a5d504ccff619135147aebe3",
-    "published_sha256": "75d902b2b8d6f6865fa7cdab94ace59bd44fadf5a5d504ccff619135147aebe3"
+    "source": "submission/amd_native800_20261102/report/usb_compatibility.md",
+    "source_sha256": "98e1ed2cff91d57b650ae76158885f2a2e7cb807da7de219c61d1804a739c7ee",
+    "published_sha256": "52a48faafaafcb615f3efe9f7e642605817e78371d5cb54821a7995e50a3dffe"
   },
   "software/source/interactive/software/brotato_fidelity_20261027/brotato_fidelity_display.h": {
     "source": "software/source/interactive/software/brotato_fidelity_20261027/brotato_fidelity_display.h",
@@ -6493,5 +6493,130 @@
     "source": "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/star_combined_battle.rgb332",
     "source_sha256": "d98512bf6974e34dd90db14476343dbc326ba3c6fa1edbf7451a965920c08697",
     "published_sha256": "d98512bf6974e34dd90db14476343dbc326ba3c6fa1edbf7451a965920c08697"
+  },
+  "report/technical_report.md": {
+    "source": "submission/final/source.rar:rvgame/report/technical_report.md",
+    "source_sha256": "364220ff413ea5fc8361296f5bc968101645ce0de3f834e19168ef088c2660d3",
+    "published_sha256": "fd25fdbd2d93b515a7e257b20da47129ba5bf2c4871c425bae087a649584ccb1"
+  },
+  "report/photos/01_system_overview.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/01_system_overview.jpg",
+    "source_sha256": "6ff4867015d808a37f091a746441bc1f071cb57658b616f4de2537087e09bc18",
+    "published_sha256": "6ff4867015d808a37f091a746441bc1f071cb57658b616f4de2537087e09bc18"
+  },
+  "report/photos/01_system_overview.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/01_system_overview.pdf",
+    "source_sha256": "a86a146ce6f1ec617e7dd9dded48ae6e707ff5e702396b8217c280e2c472d26a",
+    "published_sha256": "a86a146ce6f1ec617e7dd9dded48ae6e707ff5e702396b8217c280e2c472d26a"
+  },
+  "report/photos/02_usb_power.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/02_usb_power.jpg",
+    "source_sha256": "79d72a6952e7208a757d5f3139c90cc188ac37ccda80976982f2a5f85daf5c0b",
+    "published_sha256": "79d72a6952e7208a757d5f3139c90cc188ac37ccda80976982f2a5f85daf5c0b"
+  },
+  "report/photos/02_usb_power.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/02_usb_power.pdf",
+    "source_sha256": "81828e8046025cb6be36c712c46b8d4f0393c8c26b2591193d6ac0cd2633770e",
+    "published_sha256": "81828e8046025cb6be36c712c46b8d4f0393c8c26b2591193d6ac0cd2633770e"
+  },
+  "report/photos/03_power_context.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/03_power_context.jpg",
+    "source_sha256": "12bfbd0c2116c7ce58e22a897bf333b129a670966736cc9d18d072a7b5b152b8",
+    "published_sha256": "12bfbd0c2116c7ce58e22a897bf333b129a670966736cc9d18d072a7b5b152b8"
+  },
+  "report/photos/03_power_context.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/03_power_context.pdf",
+    "source_sha256": "9889c6dbd32689f8b3be4c555fe80501f7d22ec3005eecef749b56e0621c5080",
+    "published_sha256": "9889c6dbd32689f8b3be4c555fe80501f7d22ec3005eecef749b56e0621c5080"
+  },
+  "report/photos/04_audio_chain.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/04_audio_chain.jpg",
+    "source_sha256": "caa13276695300f5e1bd1ab130f762b1d80022848a1ba77e313611319cc57170",
+    "published_sha256": "caa13276695300f5e1bd1ab130f762b1d80022848a1ba77e313611319cc57170"
+  },
+  "report/photos/04_audio_chain.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/04_audio_chain.pdf",
+    "source_sha256": "8e24051b627663ebadfc650b63b043fe0279558cd7233730796f9f7b7b3452dc",
+    "published_sha256": "8e24051b627663ebadfc650b63b043fe0279558cd7233730796f9f7b7b3452dc"
+  },
+  "report/photos/05_adapter_top.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/05_adapter_top.jpg",
+    "source_sha256": "591e18cf19c4a5bfad62ab8ca47af7206caee2256c65165ff898d893a3835098",
+    "published_sha256": "591e18cf19c4a5bfad62ab8ca47af7206caee2256c65165ff898d893a3835098"
+  },
+  "report/photos/05_adapter_top.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/05_adapter_top.pdf",
+    "source_sha256": "44816ff64c95e6484ddab45e431ee0a8c7d34c7eccf0f2f07fa4bc864b9cddc3",
+    "published_sha256": "44816ff64c95e6484ddab45e431ee0a8c7d34c7eccf0f2f07fa4bc864b9cddc3"
+  },
+  "report/photos/06_touch_operation.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/06_touch_operation.jpg",
+    "source_sha256": "0310422aacc6cb71ebbf1aa207342f467e2d38f274077f1dbb483b92bf78fe74",
+    "published_sha256": "0310422aacc6cb71ebbf1aa207342f467e2d38f274077f1dbb483b92bf78fe74"
+  },
+  "report/photos/06_touch_operation.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/06_touch_operation.pdf",
+    "source_sha256": "7cc3b977857f706dfc7bf7c67b6e336e4ac12240548e992120fcadde0bd4dd4c",
+    "published_sha256": "7cc3b977857f706dfc7bf7c67b6e336e4ac12240548e992120fcadde0bd4dd4c"
+  },
+  "report/photos/07_gamepad_operation.jpg": {
+    "source": "submission/amd_native800_20261102/report/photos/07_gamepad_operation.jpg",
+    "source_sha256": "62c57027150aa5caed6c5babee74656130aa0b921eae979d818a25bcd9753b7a",
+    "published_sha256": "62c57027150aa5caed6c5babee74656130aa0b921eae979d818a25bcd9753b7a"
+  },
+  "report/photos/07_gamepad_operation.pdf": {
+    "source": "submission/amd_native800_20261102/report/photos/07_gamepad_operation.pdf",
+    "source_sha256": "4deaab56659a4d25db55206ec89f7b37dc48c89f00224a6d427ef6ab61332f01",
+    "published_sha256": "4deaab56659a4d25db55206ec89f7b37dc48c89f00224a6d427ef6ab61332f01"
+  },
+  "report/photos/manifest.json": {
+    "source": "submission/amd_native800_20261102/report/photos/manifest.json",
+    "source_sha256": "b46272da07073901e5ed0ef1863d9b5ebf175b0eefcd40c558f9ca37d60cf753",
+    "published_sha256": "7b48eac4318bdba9123149b0fdf6b342521a5dea3cbb58bc2175be94d314d07e"
+  },
+  "report/evidence/boot_completion_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/boot_completion_20261103.json",
+    "source_sha256": "eff990f6c59c4ee79055e2b845df70d7bbf6af29a15eeb8f2813cbf5ca9de733",
+    "published_sha256": "5da9e39f2a5482eb858d8e860652e31a4fa387d14510c7469e2b2d14a12ff15f"
+  },
+  "report/evidence/installed_release_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/installed_release_20261103.json",
+    "source_sha256": "d30e627b734c939574f04bbf3e5beacf0dc6bb5084cbdcbf897c8bfd209d75f2",
+    "published_sha256": "88d4cf7196cd517b6cf2b258dea92fe08292e8fa6a6269d41bf07239267320f9"
+  },
+  "report/evidence/published_snapshot_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/published_snapshot_20261103.json",
+    "source_sha256": "d1f17116b88e5fe4ded79f1ac33769d3cbf94d65123d9cd5ff05a6b3f1b1a098",
+    "published_sha256": "c6d9e23efffa969df8ade7844baab131debfc4004e7d9a940d8091fe3d97423d"
+  },
+  "report/evidence/usb_installation_e_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/usb_installation_e_20261103.json",
+    "source_sha256": "d32a147ed9029cef24f8d1d9f302f27ef015f12aff0b9c6ef5a7fd730a1d0ad5",
+    "published_sha256": "f41a226ac4ac2c136f0dfb081d686b83644d0bd18fa78a7f7668c054c5ee2010"
+  },
+  "report/evidence/video_first_cut_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/video_first_cut_20261103.json",
+    "source_sha256": "b2a6e7f15a3594d8c61bc6aca665dabefcf8c6955c5551d30c94905fc5b5b196",
+    "published_sha256": "c2891dcdb01a0818ffc96c78d3396953d497641e1ce476f618591207e35c8767"
+  },
+  "report/evidence/document_refresh_20261103.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/document_refresh_20261103.json",
+    "source_sha256": "3026243a832da9ac4cb708b03fe982085dafc69d62feead15ac91d8e9c216ea7",
+    "published_sha256": "82b6a748c7958521cc2723c9088069b9c26a48998f55be5fad0bb0689e6c4324"
+  },
+  "report/evidence/video_final_20261103.json": {
+    "source": "submission/final/source.rar:rvgame/report/evidence/video_final_20261103.json",
+    "source_sha256": "dcbe60339e938318b801b7890061223acd982f547d1a037e67b16499f5c60c5b",
+    "published_sha256": "dcbe60339e938318b801b7890061223acd982f547d1a037e67b16499f5c60c5b"
+  },
+  "report/evidence/video_comparison_readings.json": {
+    "source": "submission/amd_native800_20261102/report/evidence/video_comparison_readings.json",
+    "source_sha256": "9db7fde4a782a11bc04417d1a2511bce17c66a1c2bdf008fbc16a6474b5eea3a",
+    "published_sha256": "95b1e2c89472fe6036d1aadbab6af1e47a2a71d338edad3ff360f38c9cd2a6c7"
+  },
+  "report/evidence/contest_final_review.json": {
+    "source": "submission/final/source.rar:rvgame/report/evidence/contest_final_review.json",
+    "source_sha256": "242709868d8f6eec1064ec9050d7efc677a5dc08571f73681ca30264713e4d20",
+    "published_sha256": "242709868d8f6eec1064ec9050d7efc677a5dc08571f73681ca30264713e4d20"
   }
 }
