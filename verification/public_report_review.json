@@ -1,0 +1,134 @@
+{
+  "source_sha256": "c755bdb9fbe488bed6cddf15c2b5a433b4ea3e8d009d02563d6ef8c1c748c818",
+  "output_sha256": "01bb1a0dd24470547e2299bb02f46b528de61f9029353e71eac46c495e9277be",
+  "preserved_parts": {
+    "word/footer1.xml": "7cc9a412ae9680220f6c49983b5cebd0fb1e290d4034fee61a9f587ba977b22f",
+    "word/footer2.xml": "2c837368fb74bfbd46898144bd35f871a1cb37a00da6135e425c202b665b8cb6",
+    "word/footer3.xml": "f7f33cbc428f16016b96fd41c6e29b329a91e6a1942a8e4e7c4e8332da35029a",
+    "word/header1.xml": "79bf0bda36dcc73e5e6b738f5ac470fa8d198b9d4dd0e0b975cfe60549c6fab6",
+    "word/header2.xml": "3b5eae2c5845bca5504b9d33d322af26cf3a05934ed295799d82acec18e8bd5e",
+    "word/header3.xml": "528ed28b8703d93b050584d793edeebb427f27bb9a1f23cbda4130caf35b5522",
+    "word/numbering.xml": "4c856d1c47d7214f308853fb4cdf4cf1f694e8f574c29f0b1027a0b64335c747",
+    "word/theme/theme1.xml": "20b1cf0f6bd861afd2ee727424bf2da47b72e5e70232e7477547132a50c1f809"
+  },
+  "figures": [
+    {
+      "path": "figures/architecture.png",
+      "sha256": "c510687d861a9862bd340667392b6c581ac4f2647dda9a55b73fac308d1f5908",
+      "caption": "图1 系统总体结构与主要数据流",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/cpu_pipeline.png",
+      "sha256": "89f09dcf21601ce71ceceb9c9cd93c06e6e94f5f5f641f0a5dc51302537f80fa",
+      "caption": "图2 五主级流水与受约束双指令路径",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/gpu_datapath.png",
+      "sha256": "56541ef81336334bded2e27697234e0f001fceda97ca5c01b6bad138641bdacf",
+      "caption": "图3 图形命令 暂存区与 DDR 显示通路",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/two_band_sequence.png",
+      "sha256": "4e4255f35fb524b7a9fbcbb6f05c5859c2fc1ceb2b06bbfb34e74a93c5b155b6",
+      "caption": "图4 两带提交控制模块的功能仿真时序",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/input_flow.png",
+      "sha256": "7fbb15ce3b566cc79e3b60a292e22e1cd44d31e04a4e8f22b1fb97a96b9594db",
+      "caption": "图5 事件采集与统一输入处理流程",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/owner_retirement.png",
+      "sha256": "8f2a96768e92f948df5cb9e48af88c3a976009a1d8218c789922b78b754d6503",
+      "caption": "图6 应用正常退出与资源释放顺序",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/04_main_menu.png",
+      "sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
+      "caption": "图7 主菜单板端运行画面",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/05_cpu_performance.png",
+      "sha256": "4eb4f77f84abac8d04aad90f9f28ee5b95d0697ab0f10eb059bf48cdcc159454",
+      "caption": "图8 CPU 测评板端结果页",
+      "clip_bottom_rows": 8,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/07_tile.png",
+      "sha256": "149afc766d00d685211606ffddec5b08a7a75b45080a175335c074e2cfc1a666",
+      "caption": "图9 TILE 默认 512 对象板端画面",
+      "clip_bottom_rows": 2,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/09_alpha.png",
+      "sha256": "57edb13436af96f53091ad11d71acbecec3a3009b5dc65fe4f44e990239b4997",
+      "caption": "图10 Alpha 默认 32 对象板端画面",
+      "clip_bottom_rows": 2,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/10_egg_bros_showcase.png",
+      "sha256": "1523432e65a39a14186cbd03a14d32631c92a6e1ea645c7f6d75ba75e3954141",
+      "caption": "图11 鸡蛋兄弟展示模式板端画面",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "screenshots/11_star_barrage_battle.png",
+      "sha256": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
+      "caption": "图12 星际弹幕默认挡板端画面",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    },
+    {
+      "path": "figures/egg_workload.png",
+      "sha256": "70b7958e41bc9ae8ab53a9db8a85c5cfa423a60f30bafb0b385c8189dd9a1589",
+      "caption": "图13 鸡蛋兄弟三个波次的有效计量段平均帧率",
+      "clip_bottom_rows": 0,
+      "source_pixels_modified": false
+    }
+  ],
+  "source_unchanged": true,
+  "visual_review_pending": false,
+  "visual_reviewed_pages": 20,
+  "unchanged_pages_from_reviewed_b": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "pdf_sha256": "3c1f50ff4a1977cd95b42357fc7ffc324e3deaef42420f9c4c270ba7e9b77c25",
+  "layout": "Five-part reference-derived report; official current header/footer retained",
+  "renderer": "Microsoft Word COM; packaged LibreOffice renderer unavailable"
+}

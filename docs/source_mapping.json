@@ -1307,12 +1307,12 @@
   "report/competition_report.docx": {
     "source": "report/competition_report.docx",
     "source_sha256": "c755bdb9fbe488bed6cddf15c2b5a433b4ea3e8d009d02563d6ef8c1c748c818",
-    "published_sha256": "c755bdb9fbe488bed6cddf15c2b5a433b4ea3e8d009d02563d6ef8c1c748c818"
+    "published_sha256": "01bb1a0dd24470547e2299bb02f46b528de61f9029353e71eac46c495e9277be"
   },
   "report/competition_report.pdf": {
     "source": "report/competition_report.pdf",
     "source_sha256": "8fe0c69c67ff3fec5cdd948e7c5f6a07604da990c9bea6e040ce32c086f58b69",
-    "published_sha256": "8fe0c69c67ff3fec5cdd948e7c5f6a07604da990c9bea6e040ce32c086f58b69"
+    "published_sha256": "3c1f50ff4a1977cd95b42357fc7ffc324e3deaef42420f9c4c270ba7e9b77c25"
   },
   "report/contribution_and_sources.md": {
     "source": "report/contribution_and_sources.md",

@@ -14,8 +14,8 @@
       "bytes": 91
     },
     "docs/current_status.md": {
-      "sha256": "7415af365114ea6996b79162a4e825bcc772e70cce92e545b0e5477cbca031f8",
-      "bytes": 1982
+      "sha256": "68c4593ac3328df72f3237151030887ad6b9efb2b0ad982b5e086ae79e1d6592",
+      "bytes": 2202
     },
     "docs/omitted_files.json": {
       "sha256": "72b419894a1e0f12df42099fd90c5de4d9f23a2abc2572b95ccc6d1a9b875873",
@@ -26,7 +26,7 @@
       "bytes": 628
     },
     "docs/source_mapping.json": {
-      "sha256": "9e4c4cf696a54785970de5d0176e83a5284ed2ca18739eb7a2fd8061a24b26b7",
+      "sha256": "c00781e660044a18ff6aee44e0bec870be35ce9cd04ef281c0e7a38d0eab02f7",
       "bytes": 508283
     },
     "hardware/export.tcl": {
@@ -426,8 +426,8 @@
       "bytes": 4464
     },
     "README.md": {
-      "sha256": "a693a7a93a314bbae673feffa8f1e4062df021345c060a5edd9692d026d6b4f9",
-      "bytes": 4703
+      "sha256": "10ff1244487832630beb46625b306ff57ecd792abfeb6db1bbbb4cbe274b8755",
+      "bytes": 4954
     },
     "report/amd_design_report.pdf": {
       "sha256": "86388af9848146aad2b5d9e7473c45ff0263653db0025156283b212be79714f4",
@@ -462,12 +462,12 @@
       "bytes": 644
     },
     "report/competition_report.docx": {
-      "sha256": "c755bdb9fbe488bed6cddf15c2b5a433b4ea3e8d009d02563d6ef8c1c748c818",
-      "bytes": 681356
+      "sha256": "01bb1a0dd24470547e2299bb02f46b528de61f9029353e71eac46c495e9277be",
+      "bytes": 913140
     },
     "report/competition_report.pdf": {
-      "sha256": "8fe0c69c67ff3fec5cdd948e7c5f6a07604da990c9bea6e040ce32c086f58b69",
-      "bytes": 936557
+      "sha256": "3c1f50ff4a1977cd95b42357fc7ffc324e3deaef42420f9c4c270ba7e9b77c25",
+      "bytes": 1215658
     },
     "report/contribution_and_sources.md": {
       "sha256": "b071e6525aa516d7ea83f4330b094a64534059c0c5d842b58aa09b6970b52601",
@@ -680,6 +680,14 @@
     "report/screenshots/provenance.json": {
       "sha256": "6356a31efc5a6ce39a74401b4195618e5ab5819343f5ada2a90e308ab9b6f0c6",
       "bytes": 3907
+    },
+    "report/screenshots/readme.md": {
+      "sha256": "c9a0e02bdb294e6f257c75975ee15e221af64c0f01d9e86ecb6b18f427b5528f",
+      "bytes": 1042
+    },
+    "report/technical_report.md": {
+      "sha256": "e758d16b13a7d4e88e38f76c8e4f934bf8036975c590c4f9d38c713bd897bf73",
+      "bytes": 24055
     },
     "report/usb_compatibility.md": {
       "sha256": "75d902b2b8d6f6865fa7cdab94ace59bd44fadf5a5d504ccff619135147aebe3",
@@ -5020,6 +5028,10 @@
     "verification/public_final_visual_recheck.json": {
       "sha256": "1736837e59cc1a6b2917b7658a92cbb6a13d8742c24757413741ffb1469e174b",
       "bytes": 5840
+    },
+    "verification/public_report_review.json": {
+      "sha256": "295e32126c9f3c28ff1b5aef7b2e6062ad63214fc2479fe78913b6da7efd1bc0",
+      "bytes": 5186
     },
     "verification/public_software_rebuild.json": {
       "sha256": "62e3dda5c7474f8911d93e41d9b6dfe6b69899f2ddb776cf26ef2499a11fa1ee",
