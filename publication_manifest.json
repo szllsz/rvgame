@@ -27,7 +27,7 @@
       "bytes": 628
     },
     "docs/source_mapping.json": {
-      "sha256": "36164ecdccade3583d6c3c076c541549638ceac013559ebdcdf90a7763e5de40",
+      "sha256": "b22c67b9fc910f0b4718862623ea1f1042fb716c77c18e34ae017abc9528822e",
       "bytes": 510654
     },
     "docs/usb_wake_recovery.md": {
@@ -431,8 +431,8 @@
       "bytes": 4464
     },
     "README.md": {
-      "sha256": "d65a74d82957a06a004d4d2f12f620f36c70736ca40a70fa3895967c8b734084",
-      "bytes": 5562
+      "sha256": "11b712a9cd4cc9f575fffde9789daa8a753fec8304242057cd524a1f4bc3377f",
+      "bytes": 3952
     },
     "report/amd_design_report.pdf": {
       "sha256": "7f17cd81fd799a3a1993a5f807e878978a50ef0d1560b547932a50107d1e5730",
@@ -715,8 +715,8 @@
       "bytes": 192389
     },
     "report/reproduction.md": {
-      "sha256": "191de058817f869def35468fea53af75c65b1dfab1fd0e5b0af0c5623af7e54e",
-      "bytes": 5294
+      "sha256": "c8ddb6f82671d1067499fd6d7399ae1aad58c94e11f37639be881fe2045323e4",
+      "bytes": 2633
     },
     "report/screenshots/04_main_menu.png": {
       "sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
