@@ -28,6 +28,8 @@ def main():
         base=ROOT/folder/('source' if key=='source_files' else '')
         for name,digest in record[key].items():assert sha(base/name)==digest,(folder,name)
     sw=read(ROOT/'software/result.json');recipes=read(ROOT/'software/recipes.json')
+    runtime_names={p.relative_to(ROOT/'runtime').as_posix() for p in (ROOT/'runtime').rglob('*') if p.is_file()}
+    assert set(read(ROOT/'runtime/release_manifest.json')['files'])<=runtime_names,'Runtime paths must match filename case on Linux'
     assert len(recipes)==8 and sha(ROOT/'software/recipes.json')==sw['recipe_sha256']
     for app,recipe in recipes.items():assert sha(ROOT/'runtime/package'/(app+'.bin'))==recipe['expected_binary_sha256']
     for case in read(ROOT/'sim/fixtures.json')['cases']:

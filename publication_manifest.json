@@ -26,7 +26,7 @@
       "bytes": 628
     },
     "docs/source_mapping.json": {
-      "sha256": "f615d48ec5117078b3ecbc1f21feb2b90e23c5789165e5b35f72f0b8f22b6805",
+      "sha256": "9e4c4cf696a54785970de5d0176e83a5284ed2ca18739eb7a2fd8061a24b26b7",
       "bytes": 508283
     },
     "hardware/export.tcl": {
@@ -854,7 +854,7 @@
       "bytes": 3157
     },
     "runtime/release_manifest.json": {
-      "sha256": "847c492f981dbabe18eeaf43b3485fa718b73a6dedb7ac58c01c243d8ef5821e",
+      "sha256": "343a31f37d356d5cb2612259d3dc8a670d0d7ee0d6b32a2fb0b79099eee723c8",
       "bytes": 5732
     },
     "runtime/rollback.md": {
@@ -5250,8 +5250,8 @@
       "bytes": 8583
     },
     "verify_publication.py": {
-      "sha256": "8a815ce8b1f040603630ebcb3a6c7554167efa1a0a661c2508210f050e6181d2",
-      "bytes": 1973
+      "sha256": "9b30a114cf381e53e60b12f18e498d45024b437a67c17722c604a0acfb1af747",
+      "bytes": 2219
     }
   }
 }
