@@ -1202,12 +1202,12 @@
   "runtime/readme.md": {
     "source": "runtime/readme.md",
     "source_sha256": "9291ad64e61c985eeda48f6617063ffd9e6ae27e0b4b76ef78d1c348af9345a8",
-    "published_sha256": "65d953d04230a7a5f64f4b2cb94ef735a3e8b1a2c946e862c6fef092fc63be7f"
+    "published_sha256": "95fd69af70167a0700cf11c733f824c0e0d289c3dc3e0b4535f8b6f5ed3df6b3"
   },
   "runtime/release_manifest.json": {
     "source": "runtime/release_manifest.json",
     "source_sha256": "9b56435746bf25bbedf23d647893d64b4c51ba296a6ca4c2a348c549fc01b550",
-    "published_sha256": "343a31f37d356d5cb2612259d3dc8a670d0d7ee0d6b32a2fb0b79099eee723c8"
+    "published_sha256": "c2f5a89e8888cf12d0403324acaf72a5f18483ac132eda8f6c97ff0f6365b1d9"
   },
   "runtime/rollback.md": {
     "source": "runtime/rollback.md",
@@ -1232,17 +1232,17 @@
   "runtime/usb_priority/readme.md": {
     "source": "runtime/usb_priority/README.md",
     "source_sha256": "e19ed8f5903b07100014f9884ead22cfa330f1b5151ab77a483bf786937560df",
-    "published_sha256": "b61ec9c3fcbc18c29fe881a4d159bea9227f403d8f7d7368eb77b04f08842e2f"
+    "published_sha256": "0919d968ab64c3e94136754cc75df9bbf402ee37400ad1dc8bcbd906291bc285"
   },
   "runtime/usb_priority/rvgame-usb-priority.service": {
     "source": "runtime/usb_priority/rvgame-usb-priority.service",
     "source_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
-    "published_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073"
+    "published_sha256": "908127c7bfb5a9766e79b2601cfbc2ef330b7f43cf768c40bf34139989f161f7"
   },
   "runtime/usb_priority/usb_priority_guard.py": {
     "source": "runtime/usb_priority/usb_priority_guard.py",
     "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
-    "published_sha256": "8587f70893e6ff8c9300973551daaccc34f1bc85e5709c9c554e69621cf51ce1"
+    "published_sha256": "66c0aa6e17732fce89a8e1d7f399be16717bb3a5dcf662eee5d4f020c39aeeb6"
   },
   "runtime/usb_touch/install.py": {
     "source": "runtime/usb_touch/install.py",
@@ -1497,7 +1497,7 @@
   "report/reproduction.md": {
     "source": "report/reproduction.md",
     "source_sha256": "f4595c3bbb05e3d7fefd5f7dcacf703b5095660e8accd020f77f5b9e7cb352f0",
-    "published_sha256": "f4595c3bbb05e3d7fefd5f7dcacf703b5095660e8accd020f77f5b9e7cb352f0"
+    "published_sha256": "77bf2dcb6793944b3a0b584819e35952c3d5f32e1584eaa885d9f459689f9d5d"
   },
   "report/screenshots/04_main_menu.png": {
     "source": "report/screenshots/04_main_menu.png",

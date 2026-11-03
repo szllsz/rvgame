@@ -1,0 +1,18 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": false,
+  "checks": [
+    "Same USB address with new stale status reserves gamepad first",
+    "Quiet IRQ plus responding control endpoints does not reset a sleeping device",
+    "One timed-out control endpoint is insufficient for host recovery",
+    "Stale input plus stalled IRQ and two descriptor timeouts permits recovery",
+    "Without explicit recovery option no control probe or host reset occurs",
+    "Fresh decoded status required after recovery epoch",
+    "Two host resets within five minutes block further mutation",
+    "Initial timeout waits for application startup before bounded failure",
+    "Startup wait remains bounded at ninety seconds",
+    "Application readiness starts one fresh reservation window; later polls do not extend it",
+    "Unknown USB identity refuses host recovery"
+  ]
+}

@@ -1,6 +1,6 @@
 # 从本目录复现
 
-**本轮覆盖：代码已同步到 `native800_audio5_b`。** 新菜单改为触屏双击、鼠标单击进入，虚拟按钮条移除；战斗音乐精确去掉开头5秒并平移循环点，其他音乐不变，默认音量5。USB优先服务单列在 `runtime/usb_priority`。下文旧版的整套独立入口板测与菜单回放只保留为历史证据，当前资格以 `verification/local_revision_status.json`、`standalone_status.json` 为准；成品报告/海报将随实拍一起更新。
+**当前公开版：`native800_final_visual_a` 应用与 20261103-b USB 恢复服务。** 主菜单触屏双击、鼠标单击进入；音乐仍跳过开头5秒，默认音量5。八目标已从公开依赖闭包逐字节重建，见 verification/public_software_rebuild.json；USB资格单列 verification/usb_wake_delivery.json。当前状态以根README及docs/current_status.md为准，下文原始测量记录按当时版本解释。
 
 本次验证使用同一台 Windows 开发机和原 AX7020。源码在隔离新目录重建；未声称已在全新电脑、第二块板或新 SD 卡验证。路径中空格的软件/仿真重放也已实际通过。以下命令均从本目录根执行；所有输出目录须新建且不存在，脚本不会清理旧结果。
 
@@ -20,11 +20,13 @@ python sim/replay.py --destination "D:/rvgame_sim_new" --vivado-bin "D:/Xilinx/2
 
 ```powershell
 python runtime/run.py
-python verification/recheck_metrics.py --output "D:/rvgame_metrics_new.json"
-python verification/recheck_ui.py --output "D:/rvgame_ui_audit_new"
+python verify_publication.py
+python verification/recheck_final_visual.py --output "D:/rvgame_final_visual_new.json"
 ```
 
-前两项使用Python标准库，UI PCM参考重算另需NumPy；可在自己的虚拟环境安装 `python -m pip install numpy`。以上命令不连接板卡。正常板端入口为 `sudo -E python3 runtime/run.py --start`，具体环境、单owner和停止操作见runtime/readme.md与rollback.md。当前input_robustness完整目录已在原板新路径验证正常菜单、扫描前进、零下溢、SIGINT退休和三释放，随后恢复正式版；收据按当前runtime清单SHA绑定，历史menu_pointer收据另存，不重标。状态见verification/standalone_status.json。入口不会安装systemd服务，不代表新SD验证；原板正式owner仍在运行时不要另启。
+上述公开入口已离线复核通过，不连接板卡；当前两游戏复核所需的差异输入和原始帧随包保存。正常板端入口为 `sudo -E python3 runtime/run.py --start`，环境、单owner和停止操作见runtime/readme.md与rollback.md。之前独立入口板测绑定原应用版本，新增可选USB helper单独安装验证；完整公开清单没有冒称重新做过独立入口板测。入口不会自动安装系统服务，不代表新SD验证，原板owner仍运行时不要另启。
+
+下面关于 recheck_metrics.py 和 recheck_ui.py 的段落说明历史验证过程；这些旧脚本可能需要未重复发布的旧二进制，不作为当前公开包的重跑入口。请使用上面的三条命令。
 
 `verification/evidence_index.json`保存原始文件的来源、大小与SHA256；原始日志中的历史绝对路径只作来源信息。`recheck_metrics.py`从原始CPU文本、图形capacity计数和当前镜头版鸡蛋阶段meter重算，同时核对程序/硬件绑定，具体数量见输出收据。旧final_status_y的Alpha二进制与当前不同，当前Alpha使用showcase_final_g的对应证据。两份旧接收报告引用的共享脚本已在历史过程中被覆盖，原哈希和缺口如实保留；不声称保存了该脚本的旧字节。
 

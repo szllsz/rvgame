@@ -14,8 +14,8 @@
       "bytes": 91
     },
     "docs/current_status.md": {
-      "sha256": "68c4593ac3328df72f3237151030887ad6b9efb2b0ad982b5e086ae79e1d6592",
-      "bytes": 2202
+      "sha256": "8121b0fe93e6407d45dc27325587a67247ff975397f5036cf041157b0e2286a6",
+      "bytes": 2892
     },
     "docs/omitted_files.json": {
       "sha256": "72b419894a1e0f12df42099fd90c5de4d9f23a2abc2572b95ccc6d1a9b875873",
@@ -26,8 +26,12 @@
       "bytes": 628
     },
     "docs/source_mapping.json": {
-      "sha256": "c00781e660044a18ff6aee44e0bec870be35ce9cd04ef281c0e7a38d0eab02f7",
+      "sha256": "24d0d262b3c41deb913a814329ca2de3772f8e972027cdc34ab9f6b647be467e",
       "bytes": 508283
+    },
+    "docs/usb_wake_recovery.md": {
+      "sha256": "37e8e760571f439b2e699ff5abbff3234e1172bd3063ac614437f21c8efe68cf",
+      "bytes": 4874
     },
     "hardware/export.tcl": {
       "sha256": "c112256b397aec44d506655a600e218334559bd8021afa1eab7da9bc10a334f2",
@@ -426,8 +430,8 @@
       "bytes": 4464
     },
     "README.md": {
-      "sha256": "10ff1244487832630beb46625b306ff57ecd792abfeb6db1bbbb4cbe274b8755",
-      "bytes": 4954
+      "sha256": "24af5f95f0bd10ea050f652f85ea4d953d119c323c86d12ad4315bd5e4f1bc90",
+      "bytes": 5055
     },
     "report/amd_design_report.pdf": {
       "sha256": "86388af9848146aad2b5d9e7473c45ff0263653db0025156283b212be79714f4",
@@ -614,8 +618,8 @@
       "bytes": 192389
     },
     "report/reproduction.md": {
-      "sha256": "f4595c3bbb05e3d7fefd5f7dcacf703b5095660e8accd020f77f5b9e7cb352f0",
-      "bytes": 5286
+      "sha256": "77bf2dcb6793944b3a0b584819e35952c3d5f32e1584eaa885d9f459689f9d5d",
+      "bytes": 5244
     },
     "report/screenshots/04_main_menu.png": {
       "sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
@@ -858,11 +862,11 @@
       "bytes": 560092
     },
     "runtime/readme.md": {
-      "sha256": "65d953d04230a7a5f64f4b2cb94ef735a3e8b1a2c946e862c6fef092fc63be7f",
-      "bytes": 3157
+      "sha256": "95fd69af70167a0700cf11c733f824c0e0d289c3dc3e0b4535f8b6f5ed3df6b3",
+      "bytes": 3382
     },
     "runtime/release_manifest.json": {
-      "sha256": "343a31f37d356d5cb2612259d3dc8a670d0d7ee0d6b32a2fb0b79099eee723c8",
+      "sha256": "c2f5a89e8888cf12d0403324acaf72a5f18483ac132eda8f6c97ff0f6365b1d9",
       "bytes": 5732
     },
     "runtime/rollback.md": {
@@ -882,16 +886,16 @@
       "bytes": 2901
     },
     "runtime/usb_priority/readme.md": {
-      "sha256": "b61ec9c3fcbc18c29fe881a4d159bea9227f403d8f7d7368eb77b04f08842e2f",
-      "bytes": 2159
+      "sha256": "0919d968ab64c3e94136754cc75df9bbf402ee37400ad1dc8bcbd906291bc285",
+      "bytes": 2837
     },
     "runtime/usb_priority/rvgame-usb-priority.service": {
-      "sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
-      "bytes": 493
+      "sha256": "908127c7bfb5a9766e79b2601cfbc2ef330b7f43cf768c40bf34139989f161f7",
+      "bytes": 557
     },
     "runtime/usb_priority/usb_priority_guard.py": {
-      "sha256": "8587f70893e6ff8c9300973551daaccc34f1bc85e5709c9c554e69621cf51ce1",
-      "bytes": 9724
+      "sha256": "66c0aa6e17732fce89a8e1d7f399be16717bb3a5dcf662eee5d4f020c39aeeb6",
+      "bytes": 17685
     },
     "runtime/usb_touch/install.py": {
       "sha256": "5ac352281fb03ebb19a4704e6f39eeffd0153a2068d007d75f235438d67bb915",
@@ -5260,6 +5264,26 @@
     "verification/ui_recheck.json": {
       "sha256": "4b51992f85194c7ce993d1e9c73a9e3c6e3d1d0ea6d682a91e848b23297e4e03",
       "bytes": 8583
+    },
+    "verification/usb_wake/candidate_b/observation_a.json": {
+      "sha256": "8804c6bfe9516b28d0830bb8f9e7456d25b81fdb6101262ac2febaa86d00452c",
+      "bytes": 60397
+    },
+    "verification/usb_wake/host_b/result.json": {
+      "sha256": "900765b4d2c76b09be86dc3715d6441f1d34259e8bfceafbcd651793dd49817f",
+      "bytes": 885
+    },
+    "verification/usb_wake/installation_b/result.json": {
+      "sha256": "181cf3ce226bee4cab59e4a4768d93244065ef26bbfcb04754330fd93043db5e",
+      "bytes": 15385
+    },
+    "verification/usb_wake/manual_feedback_final.json": {
+      "sha256": "2c2c89f88b3f48da2b768398dcf42bc1cf46d779336a04636e280e19a877a4cf",
+      "bytes": 239
+    },
+    "verification/usb_wake_delivery.json": {
+      "sha256": "407d3470f426fc0e45f3c6981eb9f64d744ccaab38c059e6f54af39c38c7ae20",
+      "bytes": 1187
     },
     "verify_publication.py": {
       "sha256": "9b30a114cf381e53e60b12f18e498d45024b437a67c17722c604a0acfb1af747",

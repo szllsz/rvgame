@@ -1,27 +1,31 @@
-# 精确设备的手柄优先兼容服务
+# 精确设备的输入预留与 USB 停滞恢复
 
-对应原 AX7020/PYNQ 板上的旧 `05e3:0608` hub、G102、VADER4 有线手柄和 P008 触屏。公开版本须显式配置 `RVGAME_G102_SERIAL`，默认不操作任何鼠标。匹配序列号及两份 HID 描述符后，停用未使用的附加键盘接口；手柄重枚举时暂时解绑鼠标主接口，确认手柄有效输入后恢复鼠标。不重置USB主机或PL。
+适用于已核准的 AX7020/PYNQ、05e3:0608 单 TT 集线器、G102、有线 VADER4 与 P008 组合。程序不访问 PL/MMIO，也不改变内核或轮询间隔。其操作会改变鼠标接口绑定，显式启用恢复选项后还可能重绑 ci_hdrc.0，不能作为只读工具使用。
 
-本板原服务已安装启用，普通及约1秒手柄重插曾获用户确认。11月3日另有运行中三输入失效、重启恢复的报告，原因未定。公开版仅增加序列号环境配置，未在板上替换原服务；冷启动、长休眠及其他型号未完整验收。`run.py` 不自动安装此系统服务。
+手柄重新枚举或同地址出现 stale／传输错误时，先释放鼠标主接口，等手柄有效解码后恢复。USB IRQ 至少 5 秒无进展且输入异常时，才检查 hub 与鼠标的标准设备描述符；两个请求均超时且完整拓扑仍匹配，才恢复 USB 主机。安静的设备只要控制请求正常，就不触发主机恢复。最多每 5 分钟恢复两次。
 
-在另一个已核准环境安装前，先检查源/服务字节及设备身份，确保没有其他USB恢复试验。以下路径是本板部署约定：
+启动时等待应用能够读取 USB，再计算独立的 12 秒预留窗口；初始等待上限 90 秒。原候选实际捕获两次总线停滞并自动恢复，用户随后关闭再启动手柄，确认三输入恢复。最终 b 版修正启动计时，安装与正常启动通过；这不证明所有设备组合、长休眠或 EHCI 根因已经修复。
+
+## 安装与运行
+
+公开源码不保存个人序列号。必须显式配置 `RVGAME_G102_SERIAL` 为核准 G102 的序列号；未配置时不改变鼠标绑定。原板安装字节与公开版仅此配置差异，见 verification/usb_wake_delivery.json。
+
+先按 runtime/rollback.md 让现有应用正常退休，检查程序／显示缓冲释放和 HP 恢复，再停止旧 USB helper。不能在手柄读取仍运行时直接恢复附加鼠标接口：本板曾因此产生约 71 秒超时。只有确认旧 helper 已退出、清理完成，才继续以下步骤；清理失败保留现场，不能叠加新恢复流程。
 
 ```sh
-sudo install -D -m 0644 usb_priority_guard.py /usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py
+sudo install -D -m 0644 usb_priority_guard.py /usr/local/lib/rvgame-usb-priority-20261103-b/usb_priority_guard.py
 sudo install -m 0644 rvgame-usb-priority.service /etc/systemd/system/rvgame-usb-priority.service
 sudo systemd-analyze verify /etc/systemd/system/rvgame-usb-priority.service
-sudo systemctl daemon-reload
+sudo systemctl edit rvgame-usb-priority.service
 ```
 
-启用前用 `sudo systemctl edit rvgame-usb-priority.service` 添加下列配置，将占位值换成核准设备的实际序列号；不要直接使用占位值：
+服务覆盖配置：
 
 ```ini
 [Service]
 Environment=RVGAME_G102_SERIAL=YOUR_VERIFIED_SERIAL
 ```
 
-然后执行 `sudo systemctl enable --now rvgame-usb-priority.service`。序列号匹配只是精确设备试验边界，不代表任意同型号硬件都已验证。
+替换占位值并保存后，运行 `sudo systemctl daemon-reload` 和 `sudo systemctl enable --now rvgame-usb-priority.service`，再启动应用。保留既有单一显示 owner；不要叠加第二个运行入口。
 
-运行状态在 `/run/rvgame-usb-priority/state.json`；日志用 `journalctl -u rvgame-usb-priority.service` 查看。服务持有 `/run/lock/p008-usb-host-recovery.lock`，其他USB主机恢复操作前必须正常停服务并确认鼠标两接口恢复。它会改变USB驱动绑定，不能标为只读观察器。
-
-回退用 `sudo systemctl disable --now rvgame-usb-priority.service`，随后核对 `stopped_restored` 及主/附加接口的 usbhid 绑定。保留文件和失败收据，不需批量删除。
+状态文件为 `/run/rvgame-usb-priority/state.json`，日志通过 `journalctl -u rvgame-usb-priority.service` 查看。程序持有 `/run/lock/p008-usb-host-recovery.lock`。手动停止／回退同样先退休应用，再停 helper 并确认 `stopped_restored`；系统关机时 `Before=rvgame-unified-boot.service` 提供逆序停止关系。旧版文件与失败记录保留，无需批量删除。
