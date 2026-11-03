@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/framebuffer_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module framebuffer_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/ddr_framebuffer.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_framebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/ddr_bitmap_blit.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_bitmap_blit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/ddr_read_mux.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_read_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/sprite_rom.v" into library work
+INFO: [VRFC 10-311] analyzing module sprite_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/legacy640_tail/native_frame_commit_20261031.v" into library work
+INFO: [VRFC 10-311] analyzing module native_frame_commit

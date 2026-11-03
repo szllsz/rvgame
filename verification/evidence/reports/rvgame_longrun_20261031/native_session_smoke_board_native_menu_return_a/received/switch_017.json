@@ -1,0 +1,39 @@
+{
+  "segment": 17,
+  "from": "bitmap",
+  "to": "menu",
+  "request_begin": 12935.646235488,
+  "begin": 12935.686621051,
+  "final": null,
+  "pid": 22919,
+  "frame_base": 940572672,
+  "overlay_reloaded": false,
+  "display_buffer_retained": true,
+  "immutable_image_cached": true,
+  "cached_program_bytes": 24578004,
+  "plain_retirement": {
+    "safe_to_hold": true,
+    "kind": "plain_exit",
+    "final": null,
+    "application": "bitmap",
+    "exit_page": 911,
+    "frame_status": 0
+  },
+  "music_final": null,
+  "audio_preferences": 4,
+  "transition_banner_updates": 33,
+  "held_final_frames": true,
+  "hp1_drained": true,
+  "hp1_idle_observed": 12935.733474832,
+  "old_program_freed": true,
+  "display_kept_enabled": true,
+  "return_banner_file": "return_banner_017.rgb332",
+  "ready": 12935.78560553,
+  "total_seconds": 0.13937004199942749,
+  "allocation": {
+    "physical_base": 941621248,
+    "allocated_bytes": 624448,
+    "image_bytes": 624448
+  },
+  "pass_": true
+}

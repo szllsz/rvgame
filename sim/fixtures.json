@@ -1,0 +1,507 @@
+{
+  "scope": "8 fixture groups / 10 simulation runs: native800 graphics and backpressure, legacy640 tail, concurrent PCM and bad-sample rejection, posted software pixels and missing-initialization rejection, old HOLD deadlock reproduction plus two safe-abort cases. No full CPU ISA or real DDR/HDMI qualification is implied.",
+  "cases": [
+    {
+      "name": "graphics_ideal",
+      "negative": false,
+      "markers": [
+        "PASS NATIVE800_B2 stalled=0",
+        "pixels=480000"
+      ],
+      "files": {
+        "assets.hex": "266b983b9d5fdbc642f2d6c2cccfa86882380ad9af2ecc553db64ab98a5ca507",
+        "commands.hex": "94f22e08c96dc0506be8275d5c2b08d21d5f4db03fb1680316936efe2da21473",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.json": "84949b7c6bfbe72d5280e0bb5829bf1f763efbee1c783fe00fcc219336d8d395",
+        "fixture.vh": "3b5b3160ce4e36a3bc53fd474d2d3f76eaca2187ca7bdea0d6551c83d14088b7",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "reference.hex": "32f45324aead329ba9f0f4d0f86b754c9eef1773406db3aae2b092373a26db12",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_b2_20261031.sv": "775405e70e97c02ddee1565b2d90f2d3b2e00bd080217b253c720540db0a0095"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "framebuffer_engine.v",
+          "ddr_framebuffer.v",
+          "ddr_bitmap_blit.v",
+          "ddr_read_mux.v",
+          "sprite_rom.v",
+          "native_frame_commit_20261031.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_b2_20261031.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_b2_20261031",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_b2_staging_trim_a/result.json",
+      "source_receipt_sha256": "b8a7bc8afc1c2d8b4724d528d30a0b0201ab7ba91883436a23d6d5ce2033f09a"
+    },
+    {
+      "name": "graphics_backpressure",
+      "negative": false,
+      "markers": [
+        "PASS NATIVE800_B2 stalled=1",
+        "pixels=480000"
+      ],
+      "files": {
+        "assets.hex": "266b983b9d5fdbc642f2d6c2cccfa86882380ad9af2ecc553db64ab98a5ca507",
+        "commands.hex": "94f22e08c96dc0506be8275d5c2b08d21d5f4db03fb1680316936efe2da21473",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.json": "2568a7835bee6c299fecf2de8a30e0945b4c7d1efbb09d7532caf1eb3e718665",
+        "fixture.vh": "9059a67007fb1974cb28c68959121cd92bfa15d2f8056b508d123cef891553a0",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "reference.hex": "32f45324aead329ba9f0f4d0f86b754c9eef1773406db3aae2b092373a26db12",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_b2_20261031.sv": "775405e70e97c02ddee1565b2d90f2d3b2e00bd080217b253c720540db0a0095"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "framebuffer_engine.v",
+          "ddr_framebuffer.v",
+          "ddr_bitmap_blit.v",
+          "ddr_read_mux.v",
+          "sprite_rom.v",
+          "native_frame_commit_20261031.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_b2_20261031.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_b2_20261031",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_b2_staging_trim_a/result.json",
+      "source_receipt_sha256": "b8a7bc8afc1c2d8b4724d528d30a0b0201ab7ba91883436a23d6d5ce2033f09a"
+    },
+    {
+      "name": "legacy640_tail",
+      "negative": false,
+      "markers": [
+        "PASS: FRAME_TAIL public_pixels=307200",
+        "alpha_key_tail=640"
+      ],
+      "files": {
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_framebuffer_tail.v": "3c5d0ed8155e4173d5d5bf0cad9ad918df9d85d757ddc956cbef6f53aaba0857"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "framebuffer_engine.v",
+          "ddr_framebuffer.v",
+          "ddr_bitmap_blit.v",
+          "ddr_read_mux.v",
+          "sprite_rom.v",
+          "native_frame_commit_20261031.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_framebuffer_tail.v"
+        ],
+        [
+          "xelab.bat",
+          "tb_framebuffer_tail",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_b2_staging_trim_a/result.json",
+      "source_receipt_sha256": "b8a7bc8afc1c2d8b4724d528d30a0b0201ab7ba91883436a23d6d5ce2033f09a"
+    },
+    {
+      "name": "audio_concurrent",
+      "negative": false,
+      "markers": [
+        "PASS NATIVE_PCM_CONCURRENT samples=601 crc=b6755442",
+        "PASS NATIVE800_B2 stalled=1"
+      ],
+      "files": {
+        "assets.hex": "266b983b9d5fdbc642f2d6c2cccfa86882380ad9af2ecc553db64ab98a5ca507",
+        "commands.hex": "94f22e08c96dc0506be8275d5c2b08d21d5f4db03fb1680316936efe2da21473",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.json": "2568a7835bee6c299fecf2de8a30e0945b4c7d1efbb09d7532caf1eb3e718665",
+        "fixture.vh": "9059a67007fb1974cb28c68959121cd92bfa15d2f8056b508d123cef891553a0",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "nes_apu_core.v": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8",
+        "nes_audio.v": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19",
+        "reference.hex": "32f45324aead329ba9f0f4d0f86b754c9eef1773406db3aae2b092373a26db12",
+        "scarlet_pcm_stream.v": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_b2_20261031.sv": "8e3c69ebfa011849f1dde2b3be75ef121d9ac62f92cfaa555b85e56c278608ca"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "framebuffer_engine.v",
+          "ddr_framebuffer.v",
+          "ddr_bitmap_blit.v",
+          "ddr_read_mux.v",
+          "sprite_rom.v",
+          "native_frame_commit_20261031.v",
+          "nes_apu_core.v",
+          "nes_audio.v",
+          "scarlet_pcm_stream.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_b2_20261031.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_b2_20261031",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_audio_concurrent_staging_trim_a/result.json",
+      "source_receipt_sha256": "41faa1043118b2243a67e78d5674e74d77f8f1740ba20c9e53301f2132e300df"
+    },
+    {
+      "name": "audio_bad_sample",
+      "negative": true,
+      "markers": [
+        "Fatal: NATIVE_PCM_SAMPLE_ORDER"
+      ],
+      "files": {
+        "assets.hex": "266b983b9d5fdbc642f2d6c2cccfa86882380ad9af2ecc553db64ab98a5ca507",
+        "commands.hex": "94f22e08c96dc0506be8275d5c2b08d21d5f4db03fb1680316936efe2da21473",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.json": "2568a7835bee6c299fecf2de8a30e0945b4c7d1efbb09d7532caf1eb3e718665",
+        "fixture.vh": "9059a67007fb1974cb28c68959121cd92bfa15d2f8056b508d123cef891553a0",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "nes_apu_core.v": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8",
+        "nes_audio.v": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19",
+        "reference.hex": "32f45324aead329ba9f0f4d0f86b754c9eef1773406db3aae2b092373a26db12",
+        "scarlet_pcm_stream.v": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_b2_20261031.sv": "3191cdf53cf6150856a810fe13a4aff54c595e90bf17e22758a2841b15b9227e"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "framebuffer_engine.v",
+          "ddr_framebuffer.v",
+          "ddr_bitmap_blit.v",
+          "ddr_read_mux.v",
+          "sprite_rom.v",
+          "native_frame_commit_20261031.v",
+          "nes_apu_core.v",
+          "nes_audio.v",
+          "scarlet_pcm_stream.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_b2_20261031.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_b2_20261031",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_audio_concurrent_staging_trim_a/result.json",
+      "source_receipt_sha256": "41faa1043118b2243a67e78d5674e74d77f8f1740ba20c9e53301f2132e300df"
+    },
+    {
+      "name": "software_port",
+      "negative": false,
+      "markers": [
+        "PASS NATIVE800_SOFTWARE_PORT posted_CDC=1 pixels=480000 full_tail=64"
+      ],
+      "files": {
+        "cdc_request_reply.v": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293",
+        "cpu_mmio_write_fifo.v": "d82912011ed3407adca3c39d3dc7ccc958fa0a7e7f127a34411bc13a9ec14542",
+        "cpu_peripheral_cdc.v": "5fceda15cc727c0d973a3d65da3f52d3383840a41c42cb238af61c8e78c7c05c",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.vh": "ddc4abd8abc3f723ab5c5e3ddedc0ba8d0466f7487cc0038ff580f11d1c98856",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "nes_apu_core.v": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8",
+        "nes_audio.v": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19",
+        "scarlet_pcm_stream.v": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_software_port.sv": "0de050fc397043988a4de89ce9ce515ba0954bbedd6bbfbffc23481e8fd3419c"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "ddr_bitmap_blit.v",
+          "ddr_framebuffer.v",
+          "ddr_read_mux.v",
+          "framebuffer_engine.v",
+          "native_frame_commit_20261031.v",
+          "nes_apu_core.v",
+          "nes_audio.v",
+          "scarlet_pcm_stream.v",
+          "sprite_rom.v",
+          "cpu_peripheral_cdc.v",
+          "cpu_mmio_write_fifo.v",
+          "cdc_request_reply.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_software_port.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_software_port",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/astra_native800_software_port_sim_positive_a/result.json",
+      "source_receipt_sha256": "430128d0e0660e6b1ca36fb3e1b35db2b8bc974a99aceb26626d8a65f8847683"
+    },
+    {
+      "name": "software_missing_init",
+      "negative": true,
+      "markers": [
+        "Fatal: SW_PIXEL_UNINITIALIZED_FLUSH_REJECT"
+      ],
+      "files": {
+        "cdc_request_reply.v": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293",
+        "cpu_mmio_write_fifo.v": "d82912011ed3407adca3c39d3dc7ccc958fa0a7e7f127a34411bc13a9ec14542",
+        "cpu_peripheral_cdc.v": "5fceda15cc727c0d973a3d65da3f52d3383840a41c42cb238af61c8e78c7c05c",
+        "ddr_bitmap_blit.v": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+        "ddr_framebuffer.v": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+        "ddr_read_mux.v": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+        "fixture.vh": "ddc4abd8abc3f723ab5c5e3ddedc0ba8d0466f7487cc0038ff580f11d1c98856",
+        "framebuffer_engine.v": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "nes_apu_core.v": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8",
+        "nes_audio.v": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19",
+        "scarlet_pcm_stream.v": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9",
+        "sprite_rom.v": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+        "tb_native800_software_port.sv": "554dda5d59801227f86ff7653561d3046233de6ab1c76940ec001fecd31fbb97"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "ddr_bitmap_blit.v",
+          "ddr_framebuffer.v",
+          "ddr_read_mux.v",
+          "framebuffer_engine.v",
+          "native_frame_commit_20261031.v",
+          "nes_apu_core.v",
+          "nes_audio.v",
+          "scarlet_pcm_stream.v",
+          "sprite_rom.v",
+          "cpu_peripheral_cdc.v",
+          "cpu_mmio_write_fifo.v",
+          "cdc_request_reply.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb_native800_software_port.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native800_software_port",
+          "-s",
+          "test",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "test",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/astra_native800_software_port_sim_missing_init_negative_a/result.json",
+      "source_receipt_sha256": "7edf51070d9a751a2dfda6d244013ed286b3132edf1920bf8fe10c29fe6f567e"
+    },
+    {
+      "name": "hold_retirement",
+      "negative": false,
+      "markers": [
+        "PASS REPRODUCED_NATIVE_HOLD_DEADLOCK",
+        "PASS NATIVE_ABORT_BEFORE_HOLD dma_busy=0",
+        "PASS NATIVE_ABORT_BEFORE_HOLD dma_busy=1"
+      ],
+      "files": {
+        "cdc_request_reply.v": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293",
+        "native_frame_commit_20261031.v": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+        "ps_control.v": "2874256d07477961019a687c5985a873a25f5b6e92984ecf8a4474f38db54875",
+        "ps_video_bridge.v": "f8b342b75649e8d12b7ae2375f0fc53925c73e37ccaac90e2f3081af553e144b",
+        "tb.sv": "75cdf661d8af11df898e396d65491230ee45a43b8b1f18df3c8c58d7c32348bd"
+      },
+      "commands": [
+        [
+          "xvlog.bat",
+          "ps_control.v",
+          "ps_video_bridge.v",
+          "cdc_request_reply.v",
+          "native_frame_commit_20261031.v"
+        ],
+        [
+          "xvlog.bat",
+          "-sv",
+          "tb.sv"
+        ],
+        [
+          "xelab.bat",
+          "tb_native_hold_old",
+          "-s",
+          "tb_native_hold_old",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "tb_native_hold_old",
+          "-runall"
+        ],
+        [
+          "xelab.bat",
+          "tb_native_hold_abort",
+          "-s",
+          "tb_native_hold_abort",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "tb_native_hold_abort",
+          "-runall"
+        ],
+        [
+          "xelab.bat",
+          "tb_native_hold_abort_dma",
+          "-s",
+          "tb_native_hold_abort_dma",
+          "-debug",
+          "typical",
+          "-mt",
+          "off",
+          "-timescale",
+          "1ns/1ps"
+        ],
+        [
+          "xsim.bat",
+          "tb_native_hold_abort_dma",
+          "-runall"
+        ]
+      ],
+      "source_receipt": "reports/rvgame_longrun_20261031/native_hold_fault_sim_a/result.json",
+      "source_receipt_sha256": "37200fcf7c7edf37f0ff22905849888545e1207526fef40d44b43cb3f38f8d1b"
+    }
+  ]
+}

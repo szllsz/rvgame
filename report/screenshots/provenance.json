@@ -1,0 +1,77 @@
+{
+  "pass_": true,
+  "physical_photographs": false,
+  "unmodified_readback_pngs": true,
+  "images": [
+    {
+      "name": "04_main_menu",
+      "title": "新版主菜单",
+      "note": "触屏双击 / 鼠标左键进入；去除虚拟方向和OK条。",
+      "source": "reports/final_board_screenshots_20261102_a/04_main_menu.png",
+      "sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "05_cpu_performance",
+      "title": "CPU性能结果",
+      "note": "实际4000次CoreMark结果；当前CPU程序字节未变。",
+      "source": "reports/final_board_screenshots_20261102_a/05_cpu_performance.png",
+      "sha256": "4eb4f77f84abac8d04aad90f9f28ee5b95d0697ab0f10eb059bf48cdcc159454",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "06_cpu_crc_details",
+      "title": "CPU验证与CRC",
+      "note": "两轮CRC/计时结果按原始屏幕显示保留。",
+      "source": "reports/final_board_screenshots_20261102_a/06_cpu_crc_details.png",
+      "sha256": "731b04311d8211303eb9c7c68c2a12cea39c8b67ce84b741c9edb20712a671b4",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "07_tile",
+      "title": "TILE图块",
+      "note": "硬件512对象；连续帧率资格另见测量日志，软件栏待测按实际保留。",
+      "source": "reports/final_board_screenshots_20261102_a/07_tile.png",
+      "sha256": "149afc766d00d685211606ffddec5b08a7a75b45080a175335c074e2cfc1a666",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "08_ddr_bitmap",
+      "title": "DDR位图",
+      "note": "硬件96对象；完整原始画面，不单独裁出60帧数字。",
+      "source": "reports/final_board_screenshots_20261102_a/08_ddr_bitmap.png",
+      "sha256": "97431eefa7f37b03a4b5f6c455e7bb754e9aac6359350d6f138eeda025f85f18",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "09_alpha",
+      "title": "Alpha混合",
+      "note": "硬件32对象，实际50%混合显示。",
+      "source": "reports/final_board_screenshots_20261102_a/09_alpha.png",
+      "sha256": "57edb13436af96f53091ad11d71acbecec3a3009b5dc65fe4f44e990239b4997",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "10_egg_bros_showcase",
+      "title": "鸡蛋兄弟手动三波",
+      "note": "LT/RT选择波次；同一波内部重复原10秒场景，不自动换波。",
+      "source": "reports/rvgame_longrun_20261031/egg_manual_received_b/egg_manual_stage_1.png",
+      "sha256": "1523432e65a39a14186cbd03a14d32631c92a6e1ea645c7f6d75ba75e3954141",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    },
+    {
+      "name": "11_star_barrage_battle",
+      "title": "星际弹幕新版",
+      "note": "新怪兽、简化侧栏；LT/RT三挡，默认音量5。",
+      "source": "reports/rvgame_longrun_20261031/space_visual_received_e/star_tier_1.png",
+      "sha256": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
+      "kind": "actual board framebuffer screenshot, not physical photo"
+    }
+  ],
+  "pdf_sha256": "b25144062abb10b29b046489a7e8984d67dfbf8224e760064a73ea569c2779c0",
+  "receipt_sources": {
+    "reports/final_board_screenshots_20261102_a/result.json": "154e2263420461ac0e39e2fa390790aca02e861b763ec64d2a607f2fc656caf1",
+    "reports/rvgame_longrun_20261031/space_visual_received_e/result.json": "fddc58613d346ac3bbb0832e0b5cf3c57989d5a706b1e3e0d93f980e320cd40b",
+    "reports/rvgame_longrun_20261031/egg_manual_received_b/result.json": "5a4077ceae666d6dfae0f73f4c0cde7dcfd821c463b4b17b849474993c199ee5"
+  }
+}

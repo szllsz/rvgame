@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="195" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 195" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="195"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-195)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="176" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,352) scale(1,-1)">应用退出与内存生命周期</text>
+			<rect x="12" y="103" width="106" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="19" y="118.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,236) scale(1,-1)">请求正常退出</text>
+			<path d="M 118,121 L 130,121 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="130 121, 125 123.5, 125 118.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="130" y="103" width="106" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="137" y="118.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,236) scale(1,-1)">验证当前final</text>
+			<path d="M 236,121 L 248,121 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="248 121, 243 123.5, 243 118.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="248" y="103" width="106" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="255" y="118.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,236) scale(1,-1)">确认整帧完成</text>
+			<path d="M 354,121 L 366,121 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="366 121, 361 123.5, 361 118.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="366" y="103" width="106" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="373" y="118.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,236) scale(1,-1)">确认DMA排空</text>
+			<path d="M 472,121 L 484,121 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="484 121, 479 123.5, 479 118.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="484" y="103" width="106" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="491" y="118.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,236) scale(1,-1)">HOLD再释放</text>
+			<text x="12" y="75" style="font-family: Chinese; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,150) scale(1,-1)">正常路径：当前run身份 + FNV/交替位 + 音频暂停ACK + 退场帧 + HP排空</text>
+			<text x="12" y="48" style="font-family: Chinese; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,96) scale(1,-1)">无法证明排空：保留owner与buffer，隔离当前实例；不得先HOLD、强杀或重载</text>
+			<text x="12" y="20" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,40) scale(1,-1)">依赖示意，不是仪器波形。fatal取消路径另须验证实际取消和总线排空。</text>
+		</g>
+	</g>
+</svg>

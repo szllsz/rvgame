@@ -1,0 +1,39 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Mon Nov  2 00:34:45 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_exceptions -coverage -file D:/Project/rvgame/reports/h800a/independent_exception_coverage.rpt
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  Type                     Setup      Hold   From      Through  To       Endpoints  From (%)  Through (%)  To (%)
+--------  -----------------------  ---------  -----  --------  -------  -------  ---------  --------  -----------  ------
+3         False Path               false      false            2 pins            2                    100.00        
+4         False Path               false      false            1 pins            0                    100.00        
+5         False Path               false      false  1 ports                     1          100.00                  
+6         False Path               false      false  1 ports            1 pins   1          100.00                 100.00
+7         False Path               false      false  3 ports            3 pins   3          100.00                 100.00
+9         False Path               false      false                     1 cells  1                                 0.00
+10        False Path               false      false                     1 cells  1                                 33.33
+12        Max Delay Datapath Only  max_dpo=8  -      69 pins            69 pins  69         100.00                 100.00
+14        Max Delay Datapath Only  max_dpo=8  -      32 pins            32 pins  32         100.00                 100.00
+16        Max Delay Datapath Only  max_dpo=8  -      1 pins             1 pins   1          100.00                 100.00
+18        Max Delay Datapath Only  max_dpo=8  -      1 pins             1 pins   1          100.00                 100.00
+20        Max Delay Datapath Only  max_dpo=8  -      49 pins            49 pins  49         100.00                 100.00
+22        Max Delay Datapath Only  max_dpo=8  -      33 pins            33 pins  33         100.00                 100.00
+24        Max Delay Datapath Only  max_dpo=8  -      1 pins             1 pins   1          100.00                 100.00
+26        Max Delay Datapath Only  max_dpo=8  -      1 pins             1 pins   1          100.00                 100.00
+28        False Path               false      false                     6 pins   6                                 100.00
+29        Max Delay                max=20     -      1 clocks           3 ports  3          100.00                 100.00
+30        Min Delay                -          min=0  1 clocks           3 ports  3          100.00                 100.00
+31        Max Delay Datapath Only  max_dpo=8  -      3 pins             3 pins   3          100.00                 100.00
+33        Max Delay Datapath Only  max_dpo=8  -      3 pins             3 pins   3          100.00                 100.00
+35        Max Delay Datapath Only  max_dpo=8  -      272 pins           68 pins  68         100.00                 100.00
+
+Warning: the percentages reported indicate the number of pins covered by the exception relative to the number of pins specified implicitly or explicitly.

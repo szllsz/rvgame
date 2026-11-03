@@ -1,0 +1,43 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "checks": [
+    "mouse_return_0x360",
+    "touch_return_0x360",
+    "mouse_return_0x361",
+    "touch_return_0x361",
+    "mouse_return_0x370",
+    "touch_return_0x370",
+    "mouse_return_0x380",
+    "touch_return_0x380",
+    "mouse_return_0x390",
+    "touch_return_0x390",
+    "mouse_return_0x350",
+    "touch_return_0x350",
+    "mouse_return_0x351",
+    "touch_return_0x351",
+    "mouse_return_0x352",
+    "touch_return_0x352",
+    "mouse_return_0x3d0",
+    "touch_return_0x3d0",
+    "mouse_return_0x3e0",
+    "touch_return_0x3e0",
+    "mouse_return_0x3e8",
+    "touch_return_0x3e8",
+    "menu_OK",
+    "body_and_margin_ignored",
+    "physical_priority",
+    "queued_transition_press_blocked",
+    "normal_source_forwards_SELECT_without_pointer_snapshot",
+    "G102_exact_match",
+    "G102_one_attempt",
+    "G102_open_failure_restores",
+    "G102_restore_failure_closes_fd",
+    "unknown_device_no_rebind"
+  ],
+  "sources": {
+    "pointer_controls.py": "8a0012c43a79c7e84111d1ae9c9770425c1a22a29c7ce719e8c9a41c93f1115f",
+    "pointer_devices.py": "19a54c336e67681e4695dbdf5611a7e68275e6a4594d664a9b58683a45a7caf4",
+    "pointer_source.py": "8ccfc52770ba887152786c96b913c6424ad2735863b1866b06e2e0a84ec43406"
+  }
+}

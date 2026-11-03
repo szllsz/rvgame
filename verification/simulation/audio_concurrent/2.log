@@ -1,0 +1,30 @@
+Vivado Simulator v2025.2.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2025.2.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_native800_b2_20261031 -s test -debug typical -mt off -timescale 1ns/1ps 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'sq2' [D:/Project/rvgame/reports/detached simulation completion b/audio_concurrent/nes_apu_core.v:679]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'sq2' [D:/Project/rvgame/reports/detached simulation completion b/audio_concurrent/nes_apu_core.v:680]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.scarlet_pcm_stream_default
+Compiling module work.LenCtr_Lookup
+Compiling module work.SquareChan
+Compiling module work.TriangleChan
+Compiling module work.NoiseChan
+Compiling module work.DmcChan
+Compiling module work.ApuLookupTable
+Compiling module work.APU
+Compiling module work.nes_audio(CLOCK_HZ=105000000,SER...
+Compiling module work.sprite_rom
+Compiling module work.native_frame_commit
+Compiling module work.ddr_framebuffer(NATIVE800=1)
+Compiling module work.ddr_bitmap_blit(FRAME_WIDTH=800,...
+Compiling module work.ddr_read_mux
+Compiling module work.framebuffer_engine(DDR_BITMAP=1,...
+Compiling module work.tb_native800_b2_20261031
+Built simulation snapshot test

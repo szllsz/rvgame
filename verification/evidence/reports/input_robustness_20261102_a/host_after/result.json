@@ -1,0 +1,37 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": false,
+  "checks": [
+    {
+      "name": "lost_wheel_clears_pending_action",
+      "pass_": true
+    },
+    {
+      "name": "lost_mouse_clears_SELECT",
+      "pass_": true
+    },
+    {
+      "name": "multitouch_cancel_clears_OK_pulse",
+      "pass_": true
+    },
+    {
+      "name": "bad_debug_report_keeps_mouse_reader",
+      "pass_": true
+    },
+    {
+      "name": "removed_touch_keeps_mouse_reader",
+      "pass_": true
+    },
+    {
+      "name": "mouse_connection_does_not_hide_pad_error",
+      "pass_": true
+    }
+  ],
+  "sources": {
+    "pointer_controls.py": "fad9028466af383facef77f718e8d25b3ade37ef8c07b45e63ff368606f4013b",
+    "pointer_devices.py": "e68ae9a32c3dda184cff6c11450b53bf79fb05a405e61a602bd0424f4ba20f2a",
+    "pointer_source.py": "72c4613661918f38962fcb66e09448e92d7a7f4e77a42fbafd57b9b6be3c1027"
+  },
+  "scope": "Software event/failure semantics; no USB kernel repair claim"
+}

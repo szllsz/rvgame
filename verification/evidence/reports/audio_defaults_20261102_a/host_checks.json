@@ -1,0 +1,33 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "checks": [
+    "ScarletMusic_starts_at_original_5_seconds",
+    "ScarletMusic_loop_wrap",
+    "ScarletUiMusic_starts_at_original_5_seconds",
+    "ScarletUiMusic_loop_wrap",
+    "default_unmuted_volume_5",
+    "shipped_unmuted_volume_5"
+  ],
+  "old_music": {
+    "file": "septette_new_32000_mono_s16le.pcm",
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "sample_rate": 32000,
+    "loop_start": 1203255,
+    "loop_end": 5526906
+  },
+  "new_music": {
+    "file": "septette_new_32000_mono_s16le.pcm",
+    "sha256": "ab1106f6c16b19aac0989c89939eea9317c1ce988429eb0b14773f6b1c1f53cc",
+    "sample_rate": 32000,
+    "loop_start": 1043255,
+    "loop_end": 5366906,
+    "source_original_sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "intro_skipped_samples": 160000,
+    "intro_skipped_seconds": 5
+  },
+  "all_eight_bins_unchanged": true,
+  "other_music_unchanged": true,
+  "default_volume": 5,
+  "muted": 0
+}

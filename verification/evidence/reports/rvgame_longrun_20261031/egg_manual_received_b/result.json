@@ -1,0 +1,242 @@
+{
+  "pass_": true,
+  "board_tested": true,
+  "manual_tested": false,
+  "original_restored": true,
+  "meets_three_targets": true,
+  "metrics": [
+    {
+      "wave": 1,
+      "population": 64,
+      "FPS": 60.00000150313165,
+      "strict60": true,
+      "held_wall_seconds": 35.07771457500348,
+      "closed_epochs": [
+        {
+          "epoch": 1,
+          "population": 64,
+          "seconds": 7.9833335142857145,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 59.99999864002389,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        },
+        {
+          "epoch": 2,
+          "population": 64,
+          "seconds": 7.983332752380952,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 60.00000436623951,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        },
+        {
+          "epoch": 3,
+          "population": 64,
+          "seconds": 7.983333133333334,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 60.00000150313156,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "population": 85,
+      "FPS": 41.83333256155769,
+      "strict60": false,
+      "held_wall_seconds": 35.063650533003965,
+      "closed_epochs": [
+        {
+          "epoch": 6,
+          "population": 85,
+          "seconds": 7.999999542857143,
+          "frames": 336,
+          "scans": 480,
+          "presents": 336,
+          "FPS": 42.000002400000135,
+          "nonunit": 77,
+          "missed": 144,
+          "strict60": false
+        },
+        {
+          "epoch": 7,
+          "population": 85,
+          "seconds": 8.000000247619047,
+          "frames": 335,
+          "scans": 480,
+          "presents": 335,
+          "FPS": 41.87499870386909,
+          "nonunit": 78,
+          "missed": 145,
+          "strict60": false
+        },
+        {
+          "epoch": 8,
+          "population": 85,
+          "seconds": 8.000000657142857,
+          "frames": 333,
+          "scans": 480,
+          "presents": 333,
+          "FPS": 41.62499658080385,
+          "nonunit": 80,
+          "missed": 147,
+          "strict60": false
+        }
+      ]
+    },
+    {
+      "wave": 20,
+      "population": 100,
+      "FPS": 29.75000053125002,
+      "strict60": false,
+      "held_wall_seconds": 35.02412070699938,
+      "closed_epochs": [
+        {
+          "epoch": 11,
+          "population": 100,
+          "seconds": 7.999999942857142,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.7500002125,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        },
+        {
+          "epoch": 12,
+          "population": 100,
+          "seconds": 7.999999990476191,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.750000035416665,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        },
+        {
+          "epoch": 14,
+          "population": 100,
+          "seconds": 7.999999638095238,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.750001345833397,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "egg_title",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_title.rgb332",
+      "raw_sha256": "f43c241230e006952a1829d755929fa31f3a605a48be719df6a288b9fb0b5fcb",
+      "png_sha256": "5695e6a5c666dc8ef27d3d28548a34453f0c0836c24660374843bb5d158ad572"
+    },
+    {
+      "name": "egg_manual_stage_1",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_manual_stage_1.rgb332",
+      "raw_sha256": "5dfa653b071d4ca2085d5ba5752266f6e07583bd529ab042d5b1c0d70511ac4e",
+      "png_sha256": "1523432e65a39a14186cbd03a14d32631c92a6e1ea645c7f6d75ba75e3954141"
+    },
+    {
+      "name": "egg_manual_stage_2",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_manual_stage_2.rgb332",
+      "raw_sha256": "c40a4ac0dff8346312a86873827afd02a5af248e3bdcbb1f0497da5b0b1c0b42",
+      "png_sha256": "7ce3e2eac31c9aadaed314a9ebbb2accc4901329c6ac69ac8bd448ef416ab932"
+    },
+    {
+      "name": "egg_manual_stage_3",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_manual_stage_3.rgb332",
+      "raw_sha256": "6d3e14e23291a996f67807643580f0f6b8f6b12a627b5f9ae4711b167a76d2b2",
+      "png_sha256": "d90ffaa1bbf709ef381f3d89499dd4d9f80053d1d0556e207a00aa9d33b28fa8"
+    },
+    {
+      "name": "egg_pause",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_pause.rgb332",
+      "raw_sha256": "4c5a06e847e16c6b14446caf0e0147ff0f79376d888bae6f2a0d5a499164fbe9",
+      "png_sha256": "2edbf28703fd458a8aad335a12cd7b279a820e8141b6b219281d43952a6ea78f"
+    },
+    {
+      "name": "egg_normal_camera",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/egg_normal_camera.rgb332",
+      "raw_sha256": "b9bfbdd9c76a3d0e1c2400e27127e490ed1bf5b183492758fd334adabace6300",
+      "png_sha256": "30fb8799bc7cbc3ebdab0fe7494ea749a7a1509c7c3f52f4357e3c29f258a8a6"
+    },
+    {
+      "name": "star_combined_battle",
+      "raw": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/star_combined_battle.rgb332",
+      "raw_sha256": "d98512bf6974e34dd90db14476343dbc326ba3c6fa1edbf7451a965920c08697",
+      "png_sha256": "15cc3124952d79d2314669e7f6c97d17a04dd41c1e9c85418f12eefbdfa70d21"
+    }
+  ],
+  "CRC_packets": 47,
+  "PCM_CRC_snapshots": 217,
+  "safe_switches": 7,
+  "zero_faults": true,
+  "program_sha256": "dff38a561c953e441c6e5ede7024b098985cabd4dddd137aac036a82c1c7fc46",
+  "star_program_sha256": "68201d8d785a758a89f8ceab03015df4520fab69d8c41a4ceab51ef646b41d1b",
+  "native_session_sha256": "d66cf0295d66f3486f74b6cf95fb182325688600e80dc2257b28cb2ab7025703",
+  "showcase_CRC_packets": 19,
+  "manifest_sha256": "728f2700bfa4073b6dae42a77b2188e15363590ae766b63468f099cc2a241cef",
+  "source_installed_release_sha256": "81153134d4cc242c2eb7056725ca33353c022aa1f6725ee7207fb5cc8e09c98b",
+  "scope": "Manual tier retention, explicitly bounded scene epochs or identified exploratory long windows; no physical input or cold-boot claim",
+  "evidence": {
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/result.json": "7581d9d4a005fb4d8de7a156bde67ca6e6f07abe3d843ec8ad819a1c72d507ee",
+    "reports/rvgame_longrun_20261031/egg_manual_support_b/result.json": "cbd665ba02f30c1c6f941037daa1f936e7e59c869c4e4a89b656e4cb2762e891",
+    "reports/rvgame_longrun_20261031/egg_manual_support_b/package/manifest.json": "728f2700bfa4073b6dae42a77b2188e15363590ae766b63468f099cc2a241cef",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/allocation.json": "1986fb5f069f65c699a456ac8e489e7f42d31cc77d116afebcc94f4252490097",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/audio_exit_wait_005.json": "03628f8f9d8157e0d96824f653031fe638a1c4e134faeac1aa804c055ddcd705",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/audio_exit_wait_006.json": "420baf7f247bdcd25b93fa706674223872c8760f6ec0eb6ba2fffc3bccbc24b2",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/candidate_manifest.json": "54f6c149ecf10e53e64bf9500e1da0ee2d9f0addeb4265e23ea76ddc6ce4e7e3",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/cleanup.json": "1c321b3a32a50784e6a3b4fe7e6173e62e3f42dafd930c852c219d529fb38d7e",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/input_trace.jsonl": "98d13cc737301e9c1ae142bd55081c27d13fca801421665df525cb04fa1d6b1a",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/mailbox_final.json": "a9cb1812da0b3b4fbefc03c75bb08e1c73e09e2c6e3b7f348a0ebda7988ca8fa",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/manifest.json": "728f2700bfa4073b6dae42a77b2188e15363590ae766b63468f099cc2a241cef",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_refill_gaps.jsonl": "813640bf60478670db3b49712da35703ce6a4f6c17c4e556b63c7f5d15a7816d",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_samples.jsonl": "304517d70ef3e040557e096c4686a417ffebc4e2a953399d92a88a807eff933f",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_segment_001_final.json": "b58197386b60b71dfd50097a951805bed10a09b0d011fde380d72d54c6ac2001",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_segment_003_final.json": "bd6c93b41ad2d8cac849016f4d3268a98787ed3a240afb874a34d3de36c7e697",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_segment_005_final.json": "f0fc7a5b92de63ca903137e43a413da852bc951846617f586c573c50dea81d16",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/music_segment_006_final.json": "6dfd59686c7a9dd22edef0c9e286256b5fc4051f0837c3adf7e7d594a33d27bf",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/progress.json": "469271ebd698ae11b2c3540cbd3dbb7db0666d9749520ebf2bf33543d264f441",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/raw_input.json": "e448651abc66628008fbc77ba59c0ca7c74c2f2f409ff4c9ce7489707b95b33a",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/ready.json": "11b454147128d63c5eb3c5fa17c461e0b72dc36856fbdb85df6088984adc8743",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/result.json": "96acaf50b24be19df616164b1a9cd06b587c2e8d78e66963e70cd4184c708370",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/s1_contract.json": "e0637fbce9ebaad9dbf2b80c6440367787090712dca78d154ae7d02ceeb55c8a",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/samples.jsonl": "902abbe47742da81f3e870e681e7e5131ac4045f92b7b90e4ac3c4ca2172603e",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_000_final.json": "6e2f58e4c0400533b01fe33af2ebc167364450ae2207b1d16641f6bbb70190a1",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_001_final.json": "83e9b186ce61187157e02ab624e5bd48113c38e37892a4f8c6fdda324184df2e",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_002_final.json": "613bed2509d32399d20dcb79489e8d5f699e63043e1529d57a2fb4535c6e5fa3",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_003_final.json": "c87c635cd47e9b36267a5e34bb3b06b1a8e4cd893c2b1c6d52670268843fd8e3",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_004_final.json": "67a465b51ff44a1888d0f42e05e8a1d0c78dfce78adab42308d3bfa7d262484a",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_005_final.json": "3c9dfacd55bcfe42a0a7d6fdf5444aa480cbf2b954909a9db1ef5552d0b4b388",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_006_final.json": "37fce69b0f6406314217dd7175b79260541e73216aa5cb197c9d6c4c8b133a67",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/segment_007_final.json": "a9cb1812da0b3b4fbefc03c75bb08e1c73e09e2c6e3b7f348a0ebda7988ca8fa",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/session_current.json": "13f7a09ce22330c151abc96522ad521e941e661880caf4def14f7f4e1e037c86",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/showcase_samples.jsonl": "fa1cd65a92ca90552f5f2c50c95dbe57f12e1877395d0d9be40afa3ca8bf685e",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/startup.jsonl": "76c6cbfd44eeac402bb6a8ebba113c51b0b17e962e1416c317720badff27bb14",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_000.json": "c18191f6fb61f3a72e223fb6192d819e4e928ff1f7038ea29136f0544d35280e",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_001.json": "c5ba7b5bd3bd79ac8fcf003afeabd7d57843f0976cab1ae3212d81aef145908d",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_002.json": "4b24f1090f86b7cab3b7087d616c5a69b7cfcf936915835751b3dd6120a4c68f",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_003.json": "1efa0456c0dc5dad9064deb26e562605de122cc50c364c9bdcd2b64041507452",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_004.json": "5fa789f81a8f82205c65919f929d723d8070974eb841476fae3fc58965a03997",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_005.json": "45fd1c5fca022b10456b53bef6fabfeb51287162578b15d06a79dbd31ee9783a",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/switch_006.json": "d14f29b34765854ff3be1f2d5f7f510a2185a4f556445468e94bff983ac60f67"
+  }
+}

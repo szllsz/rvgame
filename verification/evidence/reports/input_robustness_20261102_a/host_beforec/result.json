@@ -1,0 +1,43 @@
+{
+  "pass_": false,
+  "host_only": true,
+  "board_tested": false,
+  "checks": [
+    {
+      "name": "lost_wheel_clears_pending_action",
+      "pass_": false,
+      "error": "AssertionError(('wheel escaped loss', 64))"
+    },
+    {
+      "name": "lost_mouse_clears_SELECT",
+      "pass_": false,
+      "error": "AssertionError(('SELECT escaped loss', 4))"
+    },
+    {
+      "name": "multitouch_cancel_clears_OK_pulse",
+      "pass_": false,
+      "error": "AssertionError(('OK pulse survived multitouch cancellation', 2))"
+    },
+    {
+      "name": "bad_debug_report_keeps_mouse_reader",
+      "pass_": false,
+      "error": "AssertionError(('read from closed descriptor', 11))"
+    },
+    {
+      "name": "removed_touch_keeps_mouse_reader",
+      "pass_": false,
+      "error": "AssertionError(('read from closed descriptor', 10))"
+    },
+    {
+      "name": "mouse_connection_does_not_hide_pad_error",
+      "pass_": false,
+      "error": "AssertionError({'mask': 0, 'raw_left': (0, 0), 'raw_right': (0, 0), 'left': (0, 0), 'right': (0, 0), 'dpad': (0, 0), 'movement': (0, 0), 'triggers': (0, 0), 'trigger_buttons': 0, 'stick_clicks': 0, 'deadzone': 6553, 'source': 'mixed_pointer', 'connected': True})"
+    }
+  ],
+  "sources": {
+    "pointer_controls.py": "8a0012c43a79c7e84111d1ae9c9770425c1a22a29c7ce719e8c9a41c93f1115f",
+    "pointer_devices.py": "19a54c336e67681e4695dbdf5611a7e68275e6a4594d664a9b58683a45a7caf4",
+    "pointer_source.py": "8ccfc52770ba887152786c96b913c6424ad2735863b1866b06e2e0a84ec43406"
+  },
+  "scope": "Software event/failure semantics; no USB kernel repair claim"
+}

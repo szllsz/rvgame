@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "pid": 31036,
+  "error": null,
+  "program_freed": true,
+  "display_freed": true,
+  "hp_restored": true,
+  "trace_writer_flushed": true
+}

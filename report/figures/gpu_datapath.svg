@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="245" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 245" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="245"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-245)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="223" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,446) scale(1,-1)">二维图形模块：控制与像素数据通路</text>
+			<rect x="12" y="145" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="19" y="163.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">RV32 MMIO输入</text>
+			<rect x="212" y="145" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="219" y="163.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">裁剪 / 翻转 / Alpha</text>
+			<rect x="412" y="145" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="419" y="163.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">800×300单带暂存</text>
+			<rect x="12" y="45" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="19" y="63.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,126) scale(1,-1)">整帧交换 / HDMI</text>
+			<rect x="212" y="45" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="219" y="63.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,126) scale(1,-1)">DDR完整帧缓冲</text>
+			<rect x="412" y="45" width="176" height="42" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="419" y="63.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,126) scale(1,-1)">HP1 DMA写后台帧缓冲</text>
+			<path d="M 188,166 L 212,166 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="212 166, 207 168.5, 207 163.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 388,166 L 412,166 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="412 166, 407 168.5, 407 163.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 500,145 L 500,87 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="500 87, 497 93, 503 93" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 412,66 L 388,66 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="388 66, 394 63, 394 69" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 212,66 L 188,66 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="188 66, 194 63, 194 69" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<text x="18" y="125" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,250) scale(1,-1)">cmd / src / xy / size</text>
+			<text x="225" y="125" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,250) scale(1,-1)">TILE、DDR位图与像素写入</text>
+			<text x="515" y="112" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,224) scale(1,-1)">完整带</text>
+			<text x="18" y="17" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,34) scale(1,-1)">接口/机制示意；262144字节暂存区供两带复用，只有完整帧才切为前台帧缓冲。</text>
+		</g>
+	</g>
+</svg>

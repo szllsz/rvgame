@@ -1,0 +1,2082 @@
+{
+  "README.md": {
+    "sha256": "303d598747cd1ed534131582632ad5cc39f0f7236530264980301412cf4f13a6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "report/requirements/amd_track_guide_2026.md": {
+    "sha256": "aa8c1880538663e106ed88d8a70fc864e6faa68a652f907d9b86a034cdfd0753",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/recipes.json": {
+    "sha256": "b1631134d73079fd8370b5d093d20bd25477ca7709ff3c06c18b6abfd14df86a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/result.json": {
+    "sha256": "e47c1c8715c6c3e737120bbad22a80c9d6589704e081f5e6a5d0ab0602116cff",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/reports/rvgame_longrun_20261031/power_punch_music_a/result.json": {
+    "sha256": "a1e5a561b7af1b3eaad92f0423f7faa3f5b766271fde7c164982dc5ade9e5e8b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/reports/rvgame_longrun_20261031/two_music_session_streaming_a/result.json": {
+    "sha256": "f5b580eff18d41fca5e9cb263a56382cebaf29e63169ec4a5deed4a0449de1de",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/scripts/audit_longrun_source_closure_20261031.py": {
+    "sha256": "6ff80c44bf51a6a32970fa1cd2718a59ba8de3bb90b73b41d9ab5610f38be3ca",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/scripts/build_longrun_apps_20261031.py": {
+    "sha256": "1311f50259c8f9a00d06c5c2678360880fd0dc97b93c0e6a39162dcf512d0297",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/scripts/build_touhou_probe_20261031.py": {
+    "sha256": "cd9dc88e8aa364b5d1c54ebd2e066bbcc0c2a987849da4a5bdcb2f96f8b1704a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/arena_audio.h": {
+    "sha256": "7c4419ca53d60e6cedb9ae0b2872c9af05b82b1e65f9e7e26da5f4d01d35f1b2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/core_portme.h": {
+    "sha256": "978c96f3cfb49f0409da6298126e110b3e61c1c6909db43931d0e05557116f2e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/fidelity_ui_data.h": {
+    "sha256": "faf0846b157653edad456968cf3edfde859144db0d05acad430607b5c8b56ea8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/fidelity_world.h": {
+    "sha256": "4df489cc3a3152698330812b27b98c1fbd799ba19fe45d2dcdfb00272a822f94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/native_boot.h": {
+    "sha256": "6fd4950ccb213bb7ee224bebb27e111372bb8b04b6cb804f29bdc90f3b9cc5d6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/platform_input.h": {
+    "sha256": "4a8491f185e5a62ff426e52549eaea1c3074d571762e4e846e2e8f5782b15c92",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/subtitle_font.h": {
+    "sha256": "0d323f89f5cc83da7541f64833adfca77fed5401a4e978777331660f8aa65a94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/system_menu.c": {
+    "sha256": "eeda7a737f1235bf111714f7c4619fe7be363edf7fddfefa01f4b28c5640cfbe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/touhou_menu_icon.h": {
+    "sha256": "d906797bb1ecb10fef84bcd4993976958bec4bf85447a9c5ed58e521b2dfe14a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_polish_fixed_20261101/work_ui.h": {
+    "sha256": "0adfdd34e2d057c99690245be59e17e4ff20ad3ae098c9b176e1504deaffd66c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/camera_effect_detail.h": {
+    "sha256": "25de9903d404ef332b68b52955b7d465a6bdede4d776e599ee0495de221565ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/core_portme.h": {
+    "sha256": "978c96f3cfb49f0409da6298126e110b3e61c1c6909db43931d0e05557116f2e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/home_background800.h": {
+    "sha256": "7e17fb3f2a1d362010e3f77062d541dea3e6b9bad41c2d02aafdbf01fddfb1b6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/home_background800_data.c": {
+    "sha256": "d064eecff683b19cc74f0b041863127ccdeb46c93e1a1d9f29b823d742022261",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/native800_visual_data.c": {
+    "sha256": "6c08ff24af6a1af52a608fc2fb346de2e68a6fdbd15c430f0115c5bad310cd52",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/native800_visual_data.h": {
+    "sha256": "9b0c253f3b5dc7c0c223bfc5a37824d4b72641cd4f57aa6932f71fb05a710c6e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/native800_visual_data_v2.c": {
+    "sha256": "615c135a56bba5a50b0d5e7d1eae3c892bddd267daa6c058bec3f1d365d8fdcd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/native800_visual_data_v2.h": {
+    "sha256": "3dc9fa6f4364b7d367538c745fbd3222936d985bc344e15c9c26c8268df2a8d3",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/touhou_menu_icon.h": {
+    "sha256": "d906797bb1ecb10fef84bcd4993976958bec4bf85447a9c5ed58e521b2dfe14a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/brotato_showcase_tiers128_20261101/work_ui.h": {
+    "sha256": "0adfdd34e2d057c99690245be59e17e4ff20ad3ae098c9b176e1504deaffd66c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/longrun_input_polish_fixed_a/menu/build.json": {
+    "sha256": "002061bde97259cfad8784c9be84075ee32c28a1b9214fb8fd7f5c15796bb3a6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/longrun_input_polish_fixed_a/menu/work_font.h": {
+    "sha256": "d8a037680e3519b406371f42cbd3e7baae8f8fd53426ae04bfd76ad71753cc07",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/longrun_input_polish_tiers_128_a/game/build.json": {
+    "sha256": "7e87d84c6394a8c2222bbc8fd603df6d7fe0e087081c65a368744cefbd887187",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_native720_retire_d/scarlet_assets.h": {
+    "sha256": "7d8e2258c952ebb560458182835e022fe6a5b12d85a7b8907291a3d001a6c0fe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_native720_retire_d/scarlet_script_data.h": {
+    "sha256": "2c9414bf7cd7da73653d9a7ee8911964f363ae66e0f4afd958f0e453fdf1d62c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_native720_retire_d/touhou_assets.h": {
+    "sha256": "ae6d4e22c8dcc2d3e66ab877749a2e212cb337f8ba657fbf895c20e84b2fd0f5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_native720_retire_d/touhou_comparison_data.h": {
+    "sha256": "f1136994f99f91c7ad8b134888d39e3a5c88a5d369939a63ad12f541bfcebb86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_polish_fixed_a/build.json": {
+    "sha256": "81aab45bd811307bfd385a09ef307e2417bc395a91668e481c2faa8fcbba3b93",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_polish_fixed_a/scarlet_assets.h": {
+    "sha256": "7d8e2258c952ebb560458182835e022fe6a5b12d85a7b8907291a3d001a6c0fe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_polish_fixed_a/scarlet_script_data.h": {
+    "sha256": "2c9414bf7cd7da73653d9a7ee8911964f363ae66e0f4afd958f0e453fdf1d62c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_polish_fixed_a/touhou_assets.h": {
+    "sha256": "ae6d4e22c8dcc2d3e66ab877749a2e212cb337f8ba657fbf895c20e84b2fd0f5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/touhou_probe_scarlet_polish_fixed_a/touhou_comparison_data.h": {
+    "sha256": "f1136994f99f91c7ad8b134888d39e3a5c88a5d369939a63ad12f541bfcebb86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/alpha/assets.h": {
+    "sha256": "210da4c89400bae55ffc9bf3d417f1b461b410f88126d188d22e143844b12f57",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/alpha/font.h": {
+    "sha256": "0f982602081e5a727ff7c40ae35a69b144294ef5ee9016409c0013df69eb41e7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/alpha/work_font.h": {
+    "sha256": "318d6ef0e6fa20e1a010f4edde202a3784e15d3bcf6d3248d8102950b1818c4c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/bitmap/assets.h": {
+    "sha256": "210da4c89400bae55ffc9bf3d417f1b461b410f88126d188d22e143844b12f57",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/bitmap/font.h": {
+    "sha256": "0f982602081e5a727ff7c40ae35a69b144294ef5ee9016409c0013df69eb41e7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/bitmap/work_font.h": {
+    "sha256": "e25d4781c6cb492cde4899e9641b06cf959b5bb3735803a48c2d2899e8928673",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/coremark/performance_4000/build_config.h": {
+    "sha256": "bf022d3c7daef9f0bf0d8a3e43f4169db1e09b5e5ce711a763c2c876c7752a97",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/coremark/performance_4000/ee_printf.c": {
+    "sha256": "8595b2fd9e0f89da08e6367f7d2f8d900b33747fbd603678e49631608be97a34",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/coremark/validation_4000/build_config.h": {
+    "sha256": "bf022d3c7daef9f0bf0d8a3e43f4169db1e09b5e5ce711a763c2c876c7752a97",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/coremark/validation_4000/ee_printf.c": {
+    "sha256": "8595b2fd9e0f89da08e6367f7d2f8d900b33747fbd603678e49631608be97a34",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/coremark/work_font.h": {
+    "sha256": "705b04f09ea406bd04cd1732d2b72a7975e80d31a7d32444b06ae70c15b35847",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/gfx/font.h": {
+    "sha256": "a4bf65ad139a2a5692476123f029091716d76e545b3443f54668a97ee96ad836",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/gfx/gfx_motion.h": {
+    "sha256": "8fa2804a0632c57e6bf1770cda825d2c439917f49f306419e2179870fcf3a807",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/build/work_demo_current_pad_navigation_a/gfx/work_font.h": {
+    "sha256": "9ed3dac8ec18531444814817f61ecc050c8a5223d70d8b409f581351c9a5f2b1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/core_display.c": {
+    "sha256": "1c96bf2488c4c0b6c74d0f327c914078d950961cf19f7ddf64a22fc49c843944",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/core_portme.c": {
+    "sha256": "815b1aeab699eb01fa2a06a7638a7caeda8a249330bf1890a4bb72ed23f34608",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/core_portme.h": {
+    "sha256": "978c96f3cfb49f0409da6298126e110b3e61c1c6909db43931d0e05557116f2e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/alpha_demo.c": {
+    "sha256": "2b5413f7d6364ce098e855cee35d5e2eb2d54cf6f79711f7b368e3f4d626df83",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/asset_worksets.h": {
+    "sha256": "f081f2c9a71628451e6de0b1797214b78afb5527400a70864c436c60beba3b10",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/bench_ui.h": {
+    "sha256": "c15080c96bf554056ffc568896555cb870c45901dae336f629a00b393d250c01",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/bitmap_demo.c": {
+    "sha256": "c19b913ea80624729640788ef3550d51e899fecd3d821d63889cc6c2b43d4a06",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/capacity_meter.h": {
+    "sha256": "e5f8f9853dcd11117d459730bde6b7047a4568fca2b8eeaa4bbe3b40fa9d43dd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/fps_history.h": {
+    "sha256": "5aa19996a473f6a9f613baac70366ac908c0f1507f113145e3f6868eae2a8994",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/graphics/gfx_bench.c": {
+    "sha256": "de7916072d7acb7d16a7f98839447a9cd030b7a31896463e6608204bd234a06a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/current_pad_ui_20261031/work_ui.h": {
+    "sha256": "0adfdd34e2d057c99690245be59e17e4ff20ad3ae098c9b176e1504deaffd66c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/load_capacity_20261029/graphics/capacity_meter.h": {
+    "sha256": "9b9825375b06550466a98192c748a47136b2b5d64ae6440bf610fec7ceddd7d1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/load_capacity_20261029/graphics/fps_history.h": {
+    "sha256": "5aa19996a473f6a9f613baac70366ac908c0f1507f113145e3f6868eae2a8994",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/load_capacity_20261029/potato_icon.h": {
+    "sha256": "2bec03e7e5dd04c1878033ccf41b95883fcd74a5762d076c776a470fdc360600",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/longrun_input_20261031/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/longrun_input_20261031/platform_input.h": {
+    "sha256": "4a8491f185e5a62ff426e52549eaea1c3074d571762e4e846e2e8f5782b15c92",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/longrun_integrated_20261031/native_boot.h": {
+    "sha256": "64e71885a75314562e3c8c0841c4b26fe8b96a362d1c6e1b10503e548dee9515",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/native800_demo_assets.h": {
+    "sha256": "64548efac6985bf1cfcf15c804b56e3b46d53b18cb2e10b7cd8c6453b851ac64",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/native800_menu_characters.h": {
+    "sha256": "e7f3e63b2badf3e7600f781452047de73688051caa2b8aab675169accd520f89",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/atan_table.h": {
+    "sha256": "1ed576b29135f7ac4729a933b995d02dddcef0b8e49e0d5e90f7889afc6d692d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/copying.upstream": {
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/direction_table.h": {
+    "sha256": "5189e1521dbd31372e9520c6a231331bb186a7ee07a058dfa1b378e3f6fb292d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/game_runtime.c": {
+    "sha256": "1d6f2b72b62ed07c4f95a4b03fa2e33016afc2d0a68fe58d32adcedfdd09b385",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_demo.c": {
+    "sha256": "38a2853f1696f2d7fb78e771f5fb20b9d709e0a66a77d81bc82976d91f4c5e20",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_demo.h": {
+    "sha256": "45950b0e8c77f025e730df4688a6a439411be112a02a599800d8aa6662e22dbf",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_presentation.c": {
+    "sha256": "5b48a7ce2eba15c0658698b73d076fafa5c5644e188e6eb7f023be1e38d7f334",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_presentation.h": {
+    "sha256": "aeba2568b0ae9c1d785e1bbf72447884a2b89b88e04f44ea2dcdb148a04337dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_render.c": {
+    "sha256": "612853db1d14e64878a27b4d27f709a3310a51c31db22eb9897fd7c2d72b1d46",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/scarlet_render.h": {
+    "sha256": "80be7c8fda8b00cdc511ccbc9bed09b99b9cd3dcb82febeda9cc0f62e75b2f6a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_collision.c": {
+    "sha256": "800d55ab395a5874ed339a101c046972961cda7fb88bbc4793fcfe9b405adf98",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_collision.h": {
+    "sha256": "e79e5a906f7b28af5d3ea6518dd77a8e3f417f15ee130ffa9fa084a286f730c7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_comparison.h": {
+    "sha256": "25f5c7e89d723af68e47a199bcc4534771d11e2972e7275b27c749ad6b28e563",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_game.c": {
+    "sha256": "2db26a01e26f702802742480813bb51d2719e5d546760b80028d3006fc50e03b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_game.h": {
+    "sha256": "7c80d1c4bafbdf5c88e088984afffb4f0dac97767c8a0cf195f04257a53189a5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_gfx.c": {
+    "sha256": "4c215874fadc13157a4a40396085cfb8115df84ae1287b5fe435607ef24b7d5d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_gfx.h": {
+    "sha256": "8959a409a669575abaf15df0c42e7a26fc8bb99591006465ddf545e8e86065ce",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_math.c": {
+    "sha256": "de3a629507634dd9a009122f630148a4a97c7ed40ea35e1fc01c6dfe39f396f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_math.h": {
+    "sha256": "1b1e2807ad16a996d744de873e5af56e1365052c445529d5f3c30e55b8aa2227",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_model.c": {
+    "sha256": "7d1cf711c74a5c42280d4d490221d82f5f0f8e60489d81f0e22475f9439a9e85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_model.h": {
+    "sha256": "f682e143d5f61594e88cf9dd6648c77bb80e7f7d4b97ff6dcc334b4f91792af6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_patterns.c": {
+    "sha256": "449d7dc6ae8416b7a5600ba892f8e96c68970118f069b82d9d2da6daf4506eb7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_patterns.h": {
+    "sha256": "9711f15acc135b27368f2a9d57133ff08bda5c304322686c209f0140e1bf0543",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_player.c": {
+    "sha256": "7bed4c88a156f3f0624377a079a7937139bd0effb544250ae2000d1b6952e5fa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_player.h": {
+    "sha256": "4219a3b63ffcd38001bd9775d7f2f46a4943e3a36a487589b569d247935ca5e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_sound.c": {
+    "sha256": "f4922a367a80f820003280baee058eaadeb5b04f220713bbe97c62c1f97f531f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_native720_20261101/touhou_sound.h": {
+    "sha256": "72ac44eb97d0c7865b6f6d8986fbe2b0d5833ef1c715de48aa9375f4124f9754",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/atan_table.h": {
+    "sha256": "1ed576b29135f7ac4729a933b995d02dddcef0b8e49e0d5e90f7889afc6d692d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/direction_table.h": {
+    "sha256": "5189e1521dbd31372e9520c6a231331bb186a7ee07a058dfa1b378e3f6fb292d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/game_runtime.c": {
+    "sha256": "f1fb1816d2c141efc23f6388c0c006e9bae612c2bd099f4b9062cd8942b9dab0",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_demo.c": {
+    "sha256": "38a2853f1696f2d7fb78e771f5fb20b9d709e0a66a77d81bc82976d91f4c5e20",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_demo.h": {
+    "sha256": "45950b0e8c77f025e730df4688a6a439411be112a02a599800d8aa6662e22dbf",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_presentation.c": {
+    "sha256": "5b48a7ce2eba15c0658698b73d076fafa5c5644e188e6eb7f023be1e38d7f334",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_presentation.h": {
+    "sha256": "aeba2568b0ae9c1d785e1bbf72447884a2b89b88e04f44ea2dcdb148a04337dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_render.c": {
+    "sha256": "c04e08705ac52497f2b02dad474c2d6619fce2f22930137d998453904f22e66d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/scarlet_render.h": {
+    "sha256": "80be7c8fda8b00cdc511ccbc9bed09b99b9cd3dcb82febeda9cc0f62e75b2f6a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_collision.c": {
+    "sha256": "800d55ab395a5874ed339a101c046972961cda7fb88bbc4793fcfe9b405adf98",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_collision.h": {
+    "sha256": "e79e5a906f7b28af5d3ea6518dd77a8e3f417f15ee130ffa9fa084a286f730c7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_comparison.h": {
+    "sha256": "25f5c7e89d723af68e47a199bcc4534771d11e2972e7275b27c749ad6b28e563",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_game.c": {
+    "sha256": "2db26a01e26f702802742480813bb51d2719e5d546760b80028d3006fc50e03b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_game.h": {
+    "sha256": "7c80d1c4bafbdf5c88e088984afffb4f0dac97767c8a0cf195f04257a53189a5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_gfx.c": {
+    "sha256": "b3cddd2b1dfd4ebce8e5e38581a4b1526e3545ecb5f9e41896b321909225a818",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_gfx.h": {
+    "sha256": "87a7742a1ff3eca1a868ebf1123d67bf2c72b4a61c3f3ceeef1de9f127469ed9",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_math.c": {
+    "sha256": "de3a629507634dd9a009122f630148a4a97c7ed40ea35e1fc01c6dfe39f396f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_math.h": {
+    "sha256": "1b1e2807ad16a996d744de873e5af56e1365052c445529d5f3c30e55b8aa2227",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_model.c": {
+    "sha256": "7d1cf711c74a5c42280d4d490221d82f5f0f8e60489d81f0e22475f9439a9e85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_model.h": {
+    "sha256": "f682e143d5f61594e88cf9dd6648c77bb80e7f7d4b97ff6dcc334b4f91792af6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_patterns.c": {
+    "sha256": "449d7dc6ae8416b7a5600ba892f8e96c68970118f069b82d9d2da6daf4506eb7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_patterns.h": {
+    "sha256": "9711f15acc135b27368f2a9d57133ff08bda5c304322686c209f0140e1bf0543",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_player.c": {
+    "sha256": "7bed4c88a156f3f0624377a079a7937139bd0effb544250ae2000d1b6952e5fa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_player.h": {
+    "sha256": "4219a3b63ffcd38001bd9775d7f2f46a4943e3a36a487589b569d247935ca5e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_sound.c": {
+    "sha256": "f4922a367a80f820003280baee058eaadeb5b04f220713bbe97c62c1f97f531f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/scarlet_polish_fixed_20261101/touhou_sound.h": {
+    "sha256": "72ac44eb97d0c7865b6f6d8986fbe2b0d5833ef1c715de48aa9375f4124f9754",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/two_music_polish_20261031/native_session.py": {
+    "sha256": "129309018d8a7d30182d674a782ab08bef5282d8919dad81931fa3adcb8ce6c1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/two_music_polish_20261031/pynq_brotato_session.py": {
+    "sha256": "ae2802407b6667cb26d2bf76c801203ca839318ff9b58389662fa562433aafcb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/two_music_polish_20261031/scarlet_pcm.py": {
+    "sha256": "b0677c0dd97fa4e62c6e1930564d66cbd0e866f937636e805e03a7f1bce7cf37",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/two_music_polish_20261031/trace_writer.py": {
+    "sha256": "8cce40edefe25c5f4659fb324aacfef76adfb19aa60572f236b16f2dcf2a4495",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/work_font800.h": {
+    "sha256": "275a22deb982f63cc5c1f9d101b82464bd6554ddef0073d54e1b412aaddc6ed8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/software/work_font800_v2.h": {
+    "sha256": "c56dda4b78fb1e92a21d36e74ea6b342872b6817b7535139c8dcfbaacb4c9ff2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/core_list_join.c": {
+    "sha256": "cb85efa5ca7e8537ce90fdce8c13fc01de0457a162fc44ceba5e300e97306418",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/core_main.c": {
+    "sha256": "c240afdd1bda84af55643ca812fcbb0dd52063a7bae2ebf12f5fc12e487328ff",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/core_matrix.c": {
+    "sha256": "247761a5bfd88868e4fba4b56646512f03a74ba6d35011b9bf902854f078e98b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/core_state.c": {
+    "sha256": "b3e36c4dee73824c36261dd2f405bbd4e49f9eb94dd5bc2dfbd0e17ab3b3c028",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/core_util.c": {
+    "sha256": "166e9bf09afd290adffe2c6681d913c18373f77e457fae258499fbaad10b04fc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/interactive/third_party/coremark/coremark.h": {
+    "sha256": "0c6655620a7fb984a0f9a69b90e6fb0626694535971abfb3ca0eb88422cbeab0",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/menu/software/brotato_polish_fixed_20261101/touhou_menu_icon.h": {
+    "sha256": "d906797bb1ecb10fef84bcd4993976958bec4bf85447a9c5ed58e521b2dfe14a",
+    "reason": "unused legacy menu bitmap"
+  },
+  "software/source/menu/software/load_capacity_20261029/potato_icon.h": {
+    "sha256": "2bec03e7e5dd04c1878033ccf41b95883fcd74a5762d076c776a470fdc360600",
+    "reason": "unused legacy menu bitmap"
+  },
+  "software/source/space/scripts/build_touhou_probe_20261031.py": {
+    "sha256": "cd9dc88e8aa364b5d1c54ebd2e066bbcc0c2a987849da4a5bdcb2f96f8b1704a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/build/touhou_probe_space_ui_polish_a/scarlet_assets.h": {
+    "sha256": "54966a3e1fa3e7c042048dcacd9af7e06aa398d43e63812af4607717f45302af",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/build/touhou_probe_space_ui_polish_a/scarlet_script_data.h": {
+    "sha256": "2c9414bf7cd7da73653d9a7ee8911964f363ae66e0f4afd958f0e453fdf1d62c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/build/touhou_probe_space_ui_polish_a/touhou_assets.h": {
+    "sha256": "d58798f68273a3ea6127d17c38d6adffa258ce852effa0a3079df1cb282aef36",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/build/touhou_probe_space_ui_polish_a/touhou_comparison_data.h": {
+    "sha256": "f1136994f99f91c7ad8b134888d39e3a5c88a5d369939a63ad12f541bfcebb86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/atan_table.h": {
+    "sha256": "1ed576b29135f7ac4729a933b995d02dddcef0b8e49e0d5e90f7889afc6d692d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/copying.upstream": {
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/direction_table.h": {
+    "sha256": "5189e1521dbd31372e9520c6a231331bb186a7ee07a058dfa1b378e3f6fb292d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/game_runtime.c": {
+    "sha256": "405710ba1809480ee346348e1080b50dea3fb797cc01bea7e44d78ab14214955",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/native800_frontend_assets.h": {
+    "sha256": "c65d3cc7b6632f4d643644520162cfe43ca21f4c6b078aa24d0d03d7c8d5851a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/native800_frontend_boot.h": {
+    "sha256": "d3eeaa0082ec25828d07fd957fb8f6600fd90b3493ad40203d45cb5e3872917c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/native800_pause_assets.h": {
+    "sha256": "b2d4854ffad8419e05f20e6ac7ec5c4c1767171c1ad75ad2a1bbac7634571ce7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/native800_space_ui.h": {
+    "sha256": "449c196ef3a644c4d789114a8827af56c9087a6ac035e174a83e07a42dc81d17",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_demo.c": {
+    "sha256": "38a2853f1696f2d7fb78e771f5fb20b9d709e0a66a77d81bc82976d91f4c5e20",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_demo.h": {
+    "sha256": "e48b2cae6ab3698842f7fde415821239b69630fc310ee7725455163a867ae44c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_presentation.c": {
+    "sha256": "871c19679fb7b0cf27b45a06f0b5cd0d319a687307f0c55d5abab9b524fce107",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_presentation.h": {
+    "sha256": "aeba2568b0ae9c1d785e1bbf72447884a2b89b88e04f44ea2dcdb148a04337dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_render.c": {
+    "sha256": "fc329299d593516862dbb2497eb1d3b83ba053f56e291f1dcb5e93e279a669eb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/scarlet_render.h": {
+    "sha256": "80be7c8fda8b00cdc511ccbc9bed09b99b9cd3dcb82febeda9cc0f62e75b2f6a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_collision.c": {
+    "sha256": "800d55ab395a5874ed339a101c046972961cda7fb88bbc4793fcfe9b405adf98",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_collision.h": {
+    "sha256": "e79e5a906f7b28af5d3ea6518dd77a8e3f417f15ee130ffa9fa084a286f730c7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_comparison.h": {
+    "sha256": "25f5c7e89d723af68e47a199bcc4534771d11e2972e7275b27c749ad6b28e563",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_game.c": {
+    "sha256": "2db26a01e26f702802742480813bb51d2719e5d546760b80028d3006fc50e03b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_game.h": {
+    "sha256": "7c80d1c4bafbdf5c88e088984afffb4f0dac97767c8a0cf195f04257a53189a5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_gfx.c": {
+    "sha256": "4e7b8c23e01f7ed9c4a79b857e8fd9de8235c09a9d6c8e3d76499d09afdb84f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_gfx.h": {
+    "sha256": "196fe90671d80094fa4c1624e00e5c9676b8fd511c7d70726f40834293ee5c1d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_math.c": {
+    "sha256": "de3a629507634dd9a009122f630148a4a97c7ed40ea35e1fc01c6dfe39f396f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_math.h": {
+    "sha256": "1b1e2807ad16a996d744de873e5af56e1365052c445529d5f3c30e55b8aa2227",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_model.c": {
+    "sha256": "7d1cf711c74a5c42280d4d490221d82f5f0f8e60489d81f0e22475f9439a9e85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_model.h": {
+    "sha256": "f682e143d5f61594e88cf9dd6648c77bb80e7f7d4b97ff6dcc334b4f91792af6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_patterns.c": {
+    "sha256": "449d7dc6ae8416b7a5600ba892f8e96c68970118f069b82d9d2da6daf4506eb7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_patterns.h": {
+    "sha256": "9711f15acc135b27368f2a9d57133ff08bda5c304322686c209f0140e1bf0543",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_player.c": {
+    "sha256": "7bed4c88a156f3f0624377a079a7937139bd0effb544250ae2000d1b6952e5fa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_player.h": {
+    "sha256": "4219a3b63ffcd38001bd9775d7f2f46a4943e3a36a487589b569d247935ca5e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_sound.c": {
+    "sha256": "f4922a367a80f820003280baee058eaadeb5b04f220713bbe97c62c1f97f531f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/sol_native800_detail_20261101/touhou_sound.h": {
+    "sha256": "72ac44eb97d0c7865b6f6d8986fbe2b0d5833ef1c715de48aa9375f4124f9754",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/space_visual_20261103_c/copying.upstream": {
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/space/software/start.s": {
+    "sha256": "ae8095dfbec45337a605e4f240c210e67f9f95e7038ca3eafef9503df256ab51",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/reports/rvgame_longrun_20261031/power_punch_music_a/result.json": {
+    "sha256": "a1e5a561b7af1b3eaad92f0423f7faa3f5b766271fde7c164982dc5ade9e5e8b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/reports/rvgame_longrun_20261031/two_music_session_streaming_a/result.json": {
+    "sha256": "f5b580eff18d41fca5e9cb263a56382cebaf29e63169ec4a5deed4a0449de1de",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/scripts/audit_longrun_source_closure_20261031.py": {
+    "sha256": "6ff80c44bf51a6a32970fa1cd2718a59ba8de3bb90b73b41d9ab5610f38be3ca",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/scripts/build_longrun_apps_20261031.py": {
+    "sha256": "1311f50259c8f9a00d06c5c2678360880fd0dc97b93c0e6a39162dcf512d0297",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/scripts/build_touhou_probe_20261031.py": {
+    "sha256": "cd9dc88e8aa364b5d1c54ebd2e066bbcc0c2a987849da4a5bdcb2f96f8b1704a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/brotato_fidelity_display.h": {
+    "sha256": "30be3e8adecc75a254a06ce13e9a705d8bb9150da5840c187d6d70a2919fea97",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/bt_mailbox.h": {
+    "sha256": "15c63fe9b16947730c4acad46209dee5221886251de22c03fcfaf656a459faf4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_attack_assets.c": {
+    "sha256": "ea61d2e882848238ecaf646b7b2356960008f51fd42d560fd0cfaa890b378a17",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_attack_assets.h": {
+    "sha256": "78be7a26e8640990acd1532e6df375bdd541ee8479c62e6172320c5614619281",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_body_data.c": {
+    "sha256": "4fdcc0d445a710fb74dd17b273f3dc3f7607ae5b14301cfda21e320067cbf70a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_combat.c": {
+    "sha256": "c4a258cf036708b440dde5238dc13eea448ecd54d9ec45957e826f5d9a8e4625",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_combat.h": {
+    "sha256": "e524223215766f18395d1f655cd65606a6719ab800b6299593adcca7e2555382",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_contact_tables.c": {
+    "sha256": "0dfeb06dc8a222f8a57fbf16ac47186c47e82c990b2d9d6e2354bad9a1c91a83",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_contact_tables.h": {
+    "sha256": "ce1398531e845eff13036dd64087b2b28e30eb6a1ea52a131a73c86fa9c9ae6b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_enemies.c": {
+    "sha256": "77882295a355860e937930b3c6585af92d11daa2b5ab1d1d990621d002a8c006",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_enemy_data.c": {
+    "sha256": "d8c686d65e14af4997d21cdb3af88c850f6f080e69cfe4fc5e1fc6bc2f1e7ade",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_enemy_data.h": {
+    "sha256": "f6cf6cbdfcc9d1bd441644e4b1a500c97bd5e499f46e5cab9e3334d7a7e44358",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_extension_assets.c": {
+    "sha256": "18ae0b72dad2230896e39454b843ab954792e7e84a1320c3da8cc09aab1d9474",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_extension_assets.h": {
+    "sha256": "468834d5d0d9de0ed6b6838fd62826a9052d47922b46649670f9a1d45f63797a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_geometry.c": {
+    "sha256": "08afe2d377dc34d544f19cb04238c89a91c915149888e00b1a8c8c078ce1596e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_geometry.h": {
+    "sha256": "f090ebf6e9234726b21d0c72335eb72096a4989a15b85c0427bbc0973375e83d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_ground_regions.c": {
+    "sha256": "e9baef1f2d4514e17d039fa9e004add58f02bcf8fd9d0a370618ee64441cd144",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_ground_regions.h": {
+    "sha256": "fd4e9d4a22039e6812ac54c5e1e53704d472b3cf0d72529fd1fe6dafd7ce6bd1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_growth.c": {
+    "sha256": "957b06abefb73988c56600d1aca8ed6d4f3356c0b8d0af094f43655bb356467f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_growth.h": {
+    "sha256": "e8641522781042b487247b86f5c2f028d69a921d55cea43f3f7ce67ac6a0a0e7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_held_assets.c": {
+    "sha256": "42610420d877c777880e7308c484d0ccb40ed87392fbc9f6c7626125ea0ffa1d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_held_assets.h": {
+    "sha256": "569224005d55dc6500fdfe74ded60147f300101462e7e1b9074c64f83d6f0d70",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_home_assets.c": {
+    "sha256": "7d943e9747d35c47d82dfe73eabd4884025bc09ccc6473dfacfd17697b4367a2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_home_assets.h": {
+    "sha256": "3c2313406ad6256b49aae38eb9546f3afbba4361945c4a89c065fb9436211dc8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_motion_data.c": {
+    "sha256": "4a28e65dca84ba6c3f11653ff21ddad9e0da4c9d86d2042c401cec4c289eb3d4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_orbit_data.c": {
+    "sha256": "33baf90a3f29cee54fb8c79839c842768240d8ff1e21fdf55af20a7b10ee02ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_pacifist_assets.c": {
+    "sha256": "c9a8c630142b07b1bec8116dcfc8da033be0d266553f2715d9c4ca11fe25bd2f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_pacifist_assets.h": {
+    "sha256": "f9078f36f477a7f07dfec6355a159c9d86dc6f87862ff4535bb6a64cc87caaf1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_projectile_motion.c": {
+    "sha256": "0c5816b77ef97a46c8d1b059d2054d5a20ab03617d6fce373b0da3ab38f89d3b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_projectile_motion.h": {
+    "sha256": "d8169f5e814ac255dc6909ffc5b3e3bbe07fd3655e16ddc7703b0fb2858f8b88",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_rules.c": {
+    "sha256": "d844b5d10828d5d7a411e8a7ce38ad4d1e1dbc9e25cab267b9528a451515f4f8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_rules.h": {
+    "sha256": "2495a7ee3f909a93ab86893e35c7414ce4ad8ba07caceb4fb686fe69ed519ecd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_run.c": {
+    "sha256": "4d8417fe4dcc14b319f81036847474cc4b2dc7f201b113584e96f4c5f7497570",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_run.h": {
+    "sha256": "c8bc1c07e350d8747f5e4e5db003990116862053ea75cc53dfb47c856899afd5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_selection.c": {
+    "sha256": "f059be4727aa3d156573d05240c0a4b1cafbf9ba4a150d91135387601d6bd4bb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_selection.h": {
+    "sha256": "730903933afb05f97f420a80442c193c5bba97c552234af851c5def6b62f7aff",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_sine.c": {
+    "sha256": "cd1846857306ea7f8d5dfbfbfb5949eebfa14a76cacc8efc4c1328bd2475992b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_structure_data.c": {
+    "sha256": "a827302f1d4141ad290c033a2cb1de15bffeebe53f30b0d5c2b73430479bafd9",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_structure_data.h": {
+    "sha256": "4d00ce64633eb9651ac9311ddd060e7a720c1dc0bd4c8ed7d9adc4945500a4d4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_structures.c": {
+    "sha256": "08ec6c2848e723e7c809e7016f119c44ac546ec2b94b79c9a1e7a7163af18306",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_tables.c": {
+    "sha256": "c90882966425ddd6a60ae090dbbfcee85f58354ac3a3f1f4a78efb140f7b8383",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_tables.h": {
+    "sha256": "628f383a2a0dae087f9d75343d92e5dd9140de8ab367f894c4faf184867876f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_ui_data.c": {
+    "sha256": "10fbcc767cd74a54cca1445bd24c7ddc8589007b3d87e1abc0b8a07e60812df5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_ui_data.h": {
+    "sha256": "1bad90c6f160ab33ba8b7b216f624c4daa3186ab84c9c10dd2836664c569334f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_visibility_assets.c": {
+    "sha256": "4182432ed5c3685327a89380996ac4802dce54e4fb402aa24e7079d7cec75da1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_visibility_assets.h": {
+    "sha256": "2e19ab75d5762a8949fb165ec84330b10473346e017d7ff15a51f037e769f9ea",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_visual_data.c": {
+    "sha256": "5b6e36d4176b8cf69d034be05ed56edae80e182a9d744865e5f518cb627a8d14",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_visual_data.h": {
+    "sha256": "61c6628d16002d2df59b3673faa7cb624161d23c4487a180cc7e16318a873d77",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_wave_data.c": {
+    "sha256": "7db806b53cec38176205d423fef2a5e4bd0dbe27e0334b67ef5669984eca1f01",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_wave_data.h": {
+    "sha256": "e46566b38bed87f74dfcc9e3417780ffd99ba1297c16ad60cd1c27f31fc9608e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_waves.c": {
+    "sha256": "765db44cf961203c577e6716f5883c627cb7f25d2eeaaf40707e896371ba68c6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_world.h": {
+    "sha256": "ff38c859571d530d6091b5f72c3b9e4aa23cf19a299c0ab5fb697f17d46aa09c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_wrench_assets.c": {
+    "sha256": "a1900c92cc0dfc1ecc519af1f27c84b220ae46f7b21aa42c0c3e6c3c53f48de1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_fidelity_20261027/fidelity_wrench_assets.h": {
+    "sha256": "a7a7d596ee10a193754bb8f2a10d1226316782e860ddf45133cb6d88ac0c0234",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/arena_audio.h": {
+    "sha256": "7c4419ca53d60e6cedb9ae0b2872c9af05b82b1e65f9e7e26da5f4d01d35f1b2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/core_portme.h": {
+    "sha256": "978c96f3cfb49f0409da6298126e110b3e61c1c6909db43931d0e05557116f2e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/fidelity_ui_data.h": {
+    "sha256": "faf0846b157653edad456968cf3edfde859144db0d05acad430607b5c8b56ea8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/fidelity_world.h": {
+    "sha256": "4df489cc3a3152698330812b27b98c1fbd799ba19fe45d2dcdfb00272a822f94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/native_boot.h": {
+    "sha256": "6fd4950ccb213bb7ee224bebb27e111372bb8b04b6cb804f29bdc90f3b9cc5d6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/platform_input.h": {
+    "sha256": "4a8491f185e5a62ff426e52549eaea1c3074d571762e4e846e2e8f5782b15c92",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/subtitle_font.h": {
+    "sha256": "0d323f89f5cc83da7541f64833adfca77fed5401a4e978777331660f8aa65a94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/system_menu.c": {
+    "sha256": "884326c8c88a08667fb487c567daa98472be53999380457bc9276f60b129d08b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/touhou_menu_icon.h": {
+    "sha256": "d906797bb1ecb10fef84bcd4993976958bec4bf85447a9c5ed58e521b2dfe14a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_polish_fixed_20261101/work_ui.h": {
+    "sha256": "0adfdd34e2d057c99690245be59e17e4ff20ad3ae098c9b176e1504deaffd66c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/arena_audio.c": {
+    "sha256": "4dd5bd03de583a02af6e5b349df40003f60feb19f39c7448a521bd2af6299c3b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/arena_audio.h": {
+    "sha256": "7c4419ca53d60e6cedb9ae0b2872c9af05b82b1e65f9e7e26da5f4d01d35f1b2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/core_portme.h": {
+    "sha256": "978c96f3cfb49f0409da6298126e110b3e61c1c6909db43931d0e05557116f2e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_bodies.c": {
+    "sha256": "a523d074f90d98a443905ef480b3c6779b17da4f5f9530247c05d7cd469bd899",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_loot.c": {
+    "sha256": "1f749327b7c1dec22993e891b40142917a4732a36c5175ce4d14446fe515b803",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_player.c": {
+    "sha256": "495b413cfeffbf212338e1e6d9bd16811de82f899451a3d08012d3d6fcb29aa6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_showcase.c": {
+    "sha256": "1c55e346cb2ca6be01c6daf01d070b80326f7c23481d2879d03cda7231c16722",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_ui_data.h": {
+    "sha256": "faf0846b157653edad456968cf3edfde859144db0d05acad430607b5c8b56ea8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_world.c": {
+    "sha256": "ba5e1afc510c9e838a91b95bacffaa28abc9f537fecd493e3f500927b9185dbb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/fidelity_world.h": {
+    "sha256": "4df489cc3a3152698330812b27b98c1fbd799ba19fe45d2dcdfb00272a822f94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/game_runtime.c": {
+    "sha256": "c0bed572a471545356daa39201a1b00672aba9c47d4c90323d0b306ca0a9f79d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/home_background800.h": {
+    "sha256": "7e17fb3f2a1d362010e3f77062d541dea3e6b9bad41c2d02aafdbf01fddfb1b6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/home_background800_data.c": {
+    "sha256": "d064eecff683b19cc74f0b041863127ccdeb46c93e1a1d9f29b823d742022261",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/home_display.c": {
+    "sha256": "f8d38ab5000e33a985103500c224dd8c26db25f248712dbfa7c95b190163d2eb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effect_detail.h": {
+    "sha256": "883d707568319bd918e2353ccf608991cc6c602e58bf4319c1c92d2b5b5e5bde",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_attack.c": {
+    "sha256": "91eea57c861102024fbf315bb5f3502bb884f90108cc501d2e25de1f3146b12f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_attack.h": {
+    "sha256": "4f8ee7d0d84008fed3ac6330fae7bfaa082b39c4bafbda6d9d97f14b6eece208",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_red.c": {
+    "sha256": "76248b63fed880f849e6d889c846b405fc871611ae8a94d15de00df2b3d673de",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_red.h": {
+    "sha256": "a60cde680854cd576d3d1e741965e3aee76ed16a25a1d2096888a9525d24ac25",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_visibility.c": {
+    "sha256": "a93133ffba4e06d2489bce3dd0696fa505ff0173c3d22b316d4e884d40ed07f1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_visibility.h": {
+    "sha256": "56333a6cde9e017a58488896f3ed51c34f4ef92686c08f2166247b7958c50bae",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_wrench.c": {
+    "sha256": "83dc05d320c0bc0c89f6fca3d1dbfaf63aa12ac7a8bee77fc9b12fe524754b21",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_effects_wrench.h": {
+    "sha256": "b552cd002b7e3d6bc73204079830c338f59118532173dc47956eee6ac0bc74e2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_home_detail.c": {
+    "sha256": "c8bcc04b5a0877dffff3b3b6fce2ea06034344579c0361abb452cebf4b638cdb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_home_detail.h": {
+    "sha256": "9b8968a685a850d50916ac4ada3cbb3c993644ba6a49914a96d472eda70e5233",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data.c": {
+    "sha256": "6c08ff24af6a1af52a608fc2fb346de2e68a6fdbd15c430f0115c5bad310cd52",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data.h": {
+    "sha256": "9b0c253f3b5dc7c0c223bfc5a37824d4b72641cd4f57aa6932f71fb05a710c6e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data_v2.c": {
+    "sha256": "615c135a56bba5a50b0d5e7d1eae3c892bddd267daa6c058bec3f1d365d8fdcd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data_v2.h": {
+    "sha256": "3dc9fa6f4364b7d367538c745fbd3222936d985bc344e15c9c26c8268df2a8d3",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data_v3.c": {
+    "sha256": "d32ca070a26d9b3f884d82b7e43b9f1bd06fb27e9227a0cceb133f9c2f78eb02",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native800_visual_data_v3.h": {
+    "sha256": "3ff01c047d77b50914cc38346122429b6369df0155890f70b29b400befe58b23",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/native_boot.h": {
+    "sha256": "64e71885a75314562e3c8c0841c4b26fe8b96a362d1c6e1b10503e548dee9515",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/platform_input.h": {
+    "sha256": "4a8491f185e5a62ff426e52549eaea1c3074d571762e4e846e2e8f5782b15c92",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/subtitle_font.c": {
+    "sha256": "d41151438698dd814988c395ab06c6141cb0d1ac7835b80e4f4dd93bad255f7a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/subtitle_font.h": {
+    "sha256": "0d323f89f5cc83da7541f64833adfca77fed5401a4e978777331660f8aa65a94",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/touhou_menu_icon.h": {
+    "sha256": "d906797bb1ecb10fef84bcd4993976958bec4bf85447a9c5ed58e521b2dfe14a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/brotato_showcase_tiers128_20261101/work_ui.h": {
+    "sha256": "0adfdd34e2d057c99690245be59e17e4ff20ad3ae098c9b176e1504deaffd66c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/longrun_input_polish_fixed_a/menu/build.json": {
+    "sha256": "002061bde97259cfad8784c9be84075ee32c28a1b9214fb8fd7f5c15796bb3a6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/longrun_input_polish_fixed_a/menu/work_font.h": {
+    "sha256": "d8a037680e3519b406371f42cbd3e7baae8f8fd53426ae04bfd76ad71753cc07",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/longrun_input_polish_tiers_128_a/game/build.json": {
+    "sha256": "7e87d84c6394a8c2222bbc8fd603df6d7fe0e087081c65a368744cefbd887187",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_native720_retire_d/scarlet_assets.h": {
+    "sha256": "7d8e2258c952ebb560458182835e022fe6a5b12d85a7b8907291a3d001a6c0fe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_native720_retire_d/scarlet_script_data.h": {
+    "sha256": "2c9414bf7cd7da73653d9a7ee8911964f363ae66e0f4afd958f0e453fdf1d62c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_native720_retire_d/touhou_assets.h": {
+    "sha256": "ae6d4e22c8dcc2d3e66ab877749a2e212cb337f8ba657fbf895c20e84b2fd0f5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_native720_retire_d/touhou_comparison_data.h": {
+    "sha256": "f1136994f99f91c7ad8b134888d39e3a5c88a5d369939a63ad12f541bfcebb86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_polish_fixed_a/build.json": {
+    "sha256": "81aab45bd811307bfd385a09ef307e2417bc395a91668e481c2faa8fcbba3b93",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_polish_fixed_a/scarlet_assets.h": {
+    "sha256": "7d8e2258c952ebb560458182835e022fe6a5b12d85a7b8907291a3d001a6c0fe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_polish_fixed_a/scarlet_script_data.h": {
+    "sha256": "2c9414bf7cd7da73653d9a7ee8911964f363ae66e0f4afd958f0e453fdf1d62c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_polish_fixed_a/touhou_assets.h": {
+    "sha256": "ae6d4e22c8dcc2d3e66ab877749a2e212cb337f8ba657fbf895c20e84b2fd0f5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/touhou_probe_scarlet_polish_fixed_a/touhou_comparison_data.h": {
+    "sha256": "f1136994f99f91c7ad8b134888d39e3a5c88a5d369939a63ad12f541bfcebb86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/alpha/assets.h": {
+    "sha256": "210da4c89400bae55ffc9bf3d417f1b461b410f88126d188d22e143844b12f57",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/alpha/work_font.h": {
+    "sha256": "318d6ef0e6fa20e1a010f4edde202a3784e15d3bcf6d3248d8102950b1818c4c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/bitmap/assets.h": {
+    "sha256": "210da4c89400bae55ffc9bf3d417f1b461b410f88126d188d22e143844b12f57",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/bitmap/work_font.h": {
+    "sha256": "e25d4781c6cb492cde4899e9641b06cf959b5bb3735803a48c2d2899e8928673",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/coremark/work_font.h": {
+    "sha256": "705b04f09ea406bd04cd1732d2b72a7975e80d31a7d32444b06ae70c15b35847",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/build/work_demo_current_pad_navigation_a/gfx/work_font.h": {
+    "sha256": "9ed3dac8ec18531444814817f61ecc050c8a5223d70d8b409f581351c9a5f2b1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/current_pad_ui_20261031/graphics/asset_worksets.h": {
+    "sha256": "f081f2c9a71628451e6de0b1797214b78afb5527400a70864c436c60beba3b10",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/enemy_projectile_visuals.c": {
+    "sha256": "f4dd1ddfa73ba5a5f13fd3a88474951b138e88680a8e07070ceda3a3ad278ca6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/enemy_projectile_visuals.h": {
+    "sha256": "0572f55bcc5640b2b2e3ca400c2f1834c28f943fda9e6f40e5ba175949373f76",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/focus_font.c": {
+    "sha256": "00643507473ae736856e214f3812323d9e0e7b464aca428cfa5d5260d7e1b3d2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/focus_font.h": {
+    "sha256": "836b1a28f812f54ea339a37e693d8dd42e752fb12976bc488b685860111b7172",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/graphics/capacity_meter.h": {
+    "sha256": "9b9825375b06550466a98192c748a47136b2b5d64ae6440bf610fec7ceddd7d1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/graphics/fps_history.h": {
+    "sha256": "5aa19996a473f6a9f613baac70366ac908c0f1507f113145e3f6868eae2a8994",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/home_background.h": {
+    "sha256": "6a77269ff2f3ae4f1ac892c2a7600a9120c0bd6413f6888a5247b39716dcecc7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/home_bounce.h": {
+    "sha256": "b3580da2430635b0f00bba3ab86a46ee77026097bf6a00fb7258741b2d3c4e8c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/load_capacity_20261029/potato_icon.h": {
+    "sha256": "2bec03e7e5dd04c1878033ccf41b95883fcd74a5762d076c776a470fdc360600",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/longrun_input_20261031/input_tone.h": {
+    "sha256": "94604c11e3d3c9b242b7750eeafd93fc0ead3b3e15c3a31c4101c5cae0b1dffa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/longrun_input_20261031/platform_input.h": {
+    "sha256": "4a8491f185e5a62ff426e52549eaea1c3074d571762e4e846e2e8f5782b15c92",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/longrun_integrated_20261031/native_boot.h": {
+    "sha256": "64e71885a75314562e3c8c0841c4b26fe8b96a362d1c6e1b10503e548dee9515",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/native800_menu_characters.h": {
+    "sha256": "aa5c08fc6b13826fed92b353b1fe67fc7e94de096bc14dec61276e9257e63ac4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/atan_table.h": {
+    "sha256": "1ed576b29135f7ac4729a933b995d02dddcef0b8e49e0d5e90f7889afc6d692d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/copying.upstream": {
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/direction_table.h": {
+    "sha256": "5189e1521dbd31372e9520c6a231331bb186a7ee07a058dfa1b378e3f6fb292d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/game_runtime.c": {
+    "sha256": "1d6f2b72b62ed07c4f95a4b03fa2e33016afc2d0a68fe58d32adcedfdd09b385",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_demo.c": {
+    "sha256": "38a2853f1696f2d7fb78e771f5fb20b9d709e0a66a77d81bc82976d91f4c5e20",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_demo.h": {
+    "sha256": "45950b0e8c77f025e730df4688a6a439411be112a02a599800d8aa6662e22dbf",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_presentation.c": {
+    "sha256": "5b48a7ce2eba15c0658698b73d076fafa5c5644e188e6eb7f023be1e38d7f334",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_presentation.h": {
+    "sha256": "aeba2568b0ae9c1d785e1bbf72447884a2b89b88e04f44ea2dcdb148a04337dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_render.c": {
+    "sha256": "612853db1d14e64878a27b4d27f709a3310a51c31db22eb9897fd7c2d72b1d46",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/scarlet_render.h": {
+    "sha256": "80be7c8fda8b00cdc511ccbc9bed09b99b9cd3dcb82febeda9cc0f62e75b2f6a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_collision.c": {
+    "sha256": "800d55ab395a5874ed339a101c046972961cda7fb88bbc4793fcfe9b405adf98",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_collision.h": {
+    "sha256": "e79e5a906f7b28af5d3ea6518dd77a8e3f417f15ee130ffa9fa084a286f730c7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_comparison.h": {
+    "sha256": "25f5c7e89d723af68e47a199bcc4534771d11e2972e7275b27c749ad6b28e563",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_game.c": {
+    "sha256": "2db26a01e26f702802742480813bb51d2719e5d546760b80028d3006fc50e03b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_game.h": {
+    "sha256": "7c80d1c4bafbdf5c88e088984afffb4f0dac97767c8a0cf195f04257a53189a5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_gfx.c": {
+    "sha256": "4c215874fadc13157a4a40396085cfb8115df84ae1287b5fe435607ef24b7d5d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_gfx.h": {
+    "sha256": "8959a409a669575abaf15df0c42e7a26fc8bb99591006465ddf545e8e86065ce",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_math.c": {
+    "sha256": "de3a629507634dd9a009122f630148a4a97c7ed40ea35e1fc01c6dfe39f396f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_math.h": {
+    "sha256": "1b1e2807ad16a996d744de873e5af56e1365052c445529d5f3c30e55b8aa2227",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_model.c": {
+    "sha256": "7d1cf711c74a5c42280d4d490221d82f5f0f8e60489d81f0e22475f9439a9e85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_model.h": {
+    "sha256": "f682e143d5f61594e88cf9dd6648c77bb80e7f7d4b97ff6dcc334b4f91792af6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_patterns.c": {
+    "sha256": "449d7dc6ae8416b7a5600ba892f8e96c68970118f069b82d9d2da6daf4506eb7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_patterns.h": {
+    "sha256": "9711f15acc135b27368f2a9d57133ff08bda5c304322686c209f0140e1bf0543",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_player.c": {
+    "sha256": "7bed4c88a156f3f0624377a079a7937139bd0effb544250ae2000d1b6952e5fa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_player.h": {
+    "sha256": "4219a3b63ffcd38001bd9775d7f2f46a4943e3a36a487589b569d247935ca5e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_sound.c": {
+    "sha256": "f4922a367a80f820003280baee058eaadeb5b04f220713bbe97c62c1f97f531f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_native720_20261101/touhou_sound.h": {
+    "sha256": "72ac44eb97d0c7865b6f6d8986fbe2b0d5833ef1c715de48aa9375f4124f9754",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/atan_table.h": {
+    "sha256": "1ed576b29135f7ac4729a933b995d02dddcef0b8e49e0d5e90f7889afc6d692d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/direction_table.h": {
+    "sha256": "5189e1521dbd31372e9520c6a231331bb186a7ee07a058dfa1b378e3f6fb292d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/game_runtime.c": {
+    "sha256": "f1fb1816d2c141efc23f6388c0c006e9bae612c2bd099f4b9062cd8942b9dab0",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_demo.c": {
+    "sha256": "38a2853f1696f2d7fb78e771f5fb20b9d709e0a66a77d81bc82976d91f4c5e20",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_demo.h": {
+    "sha256": "45950b0e8c77f025e730df4688a6a439411be112a02a599800d8aa6662e22dbf",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_presentation.c": {
+    "sha256": "5b48a7ce2eba15c0658698b73d076fafa5c5644e188e6eb7f023be1e38d7f334",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_presentation.h": {
+    "sha256": "aeba2568b0ae9c1d785e1bbf72447884a2b89b88e04f44ea2dcdb148a04337dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_render.c": {
+    "sha256": "c04e08705ac52497f2b02dad474c2d6619fce2f22930137d998453904f22e66d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/scarlet_render.h": {
+    "sha256": "80be7c8fda8b00cdc511ccbc9bed09b99b9cd3dcb82febeda9cc0f62e75b2f6a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_collision.c": {
+    "sha256": "800d55ab395a5874ed339a101c046972961cda7fb88bbc4793fcfe9b405adf98",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_collision.h": {
+    "sha256": "e79e5a906f7b28af5d3ea6518dd77a8e3f417f15ee130ffa9fa084a286f730c7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_comparison.h": {
+    "sha256": "25f5c7e89d723af68e47a199bcc4534771d11e2972e7275b27c749ad6b28e563",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_game.c": {
+    "sha256": "2db26a01e26f702802742480813bb51d2719e5d546760b80028d3006fc50e03b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_game.h": {
+    "sha256": "7c80d1c4bafbdf5c88e088984afffb4f0dac97767c8a0cf195f04257a53189a5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_gfx.c": {
+    "sha256": "b3cddd2b1dfd4ebce8e5e38581a4b1526e3545ecb5f9e41896b321909225a818",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_gfx.h": {
+    "sha256": "87a7742a1ff3eca1a868ebf1123d67bf2c72b4a61c3f3ceeef1de9f127469ed9",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_math.c": {
+    "sha256": "de3a629507634dd9a009122f630148a4a97c7ed40ea35e1fc01c6dfe39f396f6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_math.h": {
+    "sha256": "1b1e2807ad16a996d744de873e5af56e1365052c445529d5f3c30e55b8aa2227",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_model.c": {
+    "sha256": "7d1cf711c74a5c42280d4d490221d82f5f0f8e60489d81f0e22475f9439a9e85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_model.h": {
+    "sha256": "f682e143d5f61594e88cf9dd6648c77bb80e7f7d4b97ff6dcc334b4f91792af6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_patterns.c": {
+    "sha256": "449d7dc6ae8416b7a5600ba892f8e96c68970118f069b82d9d2da6daf4506eb7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_patterns.h": {
+    "sha256": "9711f15acc135b27368f2a9d57133ff08bda5c304322686c209f0140e1bf0543",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_player.c": {
+    "sha256": "7bed4c88a156f3f0624377a079a7937139bd0effb544250ae2000d1b6952e5fa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_player.h": {
+    "sha256": "4219a3b63ffcd38001bd9775d7f2f46a4943e3a36a487589b569d247935ca5e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_sound.c": {
+    "sha256": "f4922a367a80f820003280baee058eaadeb5b04f220713bbe97c62c1f97f531f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/scarlet_polish_fixed_20261101/touhou_sound.h": {
+    "sha256": "72ac44eb97d0c7865b6f6d8986fbe2b0d5833ef1c715de48aa9375f4124f9754",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/two_music_polish_20261031/native_session.py": {
+    "sha256": "129309018d8a7d30182d674a782ab08bef5282d8919dad81931fa3adcb8ce6c1",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/two_music_polish_20261031/pynq_brotato_session.py": {
+    "sha256": "ae2802407b6667cb26d2bf76c801203ca839318ff9b58389662fa562433aafcb",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/two_music_polish_20261031/scarlet_pcm.py": {
+    "sha256": "b0677c0dd97fa4e62c6e1930564d66cbd0e866f937636e805e03a7f1bce7cf37",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/two_music_polish_20261031/trace_writer.py": {
+    "sha256": "8cce40edefe25c5f4659fb324aacfef76adfb19aa60572f236b16f2dcf2a4495",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/work_demo_return_ui_20261029/home_background.h": {
+    "sha256": "6a77269ff2f3ae4f1ac892c2a7600a9120c0bd6413f6888a5247b39716dcecc7",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/work_demo_return_ui_20261029/home_background_data.c": {
+    "sha256": "d862141a5a384fb4c72052f41609c455fe82a0bc4d62cfa61f0062084823612c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/work_demo_return_ui_20261029/home_bounce.h": {
+    "sha256": "b3580da2430635b0f00bba3ab86a46ee77026097bf6a00fb7258741b2d3c4e8c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/work_demo_return_ui_20261029/home_bounce_data.c": {
+    "sha256": "138531094ac3983dca631972919cac8ced974814d8c8fa0452855d4bf60f71df",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source/stable/software/work_font800.h": {
+    "sha256": "275a22deb982f63cc5c1f9d101b82464bd6554ddef0073d54e1b412aaddc6ed8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "software/source_origins.json": {
+    "sha256": "96141a15105e3c274a744011f8157025e177acb27d683efc6ff252748fa4728a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/egg_camera_follow_20261102_a/game/game.bin": {
+    "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/game.bin": {
+    "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/menu.bin": {
+    "sha256": "621ec948201d91cfc7ba01ce811f654ae1c8dcfdbe8ec5ba7902c2938e34f2ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/role_reference_0.rgb332": {
+    "sha256": "f3e313cc41ab55ed29cb4c89e6fe85a4786b3def7dc2c1f5cb7b79dee899781f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/role_reference_1.rgb332": {
+    "sha256": "a33f929f9995d2c3c369784d5e728fe5a2f6f621d191fc35490777d94a12d78a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/role_reference_2.rgb332": {
+    "sha256": "1bbbb6590a0e4ff10db43d03a6713b60f03a5b0ce3b976a750c17226b9898760",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/role_reference_3.rgb332": {
+    "sha256": "1918089391e2226db9399f60a8450bfb5fb1be9971133bd91b5fc9d6087d9147",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/role_reference_4.rgb332": {
+    "sha256": "7157ab68986e4cbc7aa9259bb2f5a50786047a6d2a7c9b92ccd7c70be5f20189",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/septette_new_32000_mono_s16le.pcm": {
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/egg_camera_support_c/package/touhou.bin": {
+    "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/final_capture_audio5_support_b/package/game.bin": {
+    "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/final_capture_audio5_support_b/package/touhou.bin": {
+    "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/game.bin": {
+    "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/menu.bin": {
+    "sha256": "c4e1fa05ad5a0724143d419b98a82afa22b5549655cb01f42cacfb8f416aca06",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/pointer_arrow.rgb332": {
+    "sha256": "9efd1f3a5af95d2656ba97afbdd62a497ca51311c86164175f2c0b8a8e7d57e8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/pointer_hand.rgb332": {
+    "sha256": "cb30d493b9adea64f7eb75c1523999a10332a16050f940df08009e5c6f56aa30",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/pointer_reference.rgb332": {
+    "sha256": "0615a7a43e684bd2550f02cabf07acb93eac5045878af02c89c670593e9230bd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/septette_new_32000_mono_s16le.pcm": {
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/input_robustness_support_a/package/touhou.bin": {
+    "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_pointer_support_a/package/menu.bin": {
+    "sha256": "870920a728a846a87f094921baf4f0c023ac70844340a57e256ba54f0d0dfefa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_pointer_support_a/package/pointer_arrow.rgb332": {
+    "sha256": "9efd1f3a5af95d2656ba97afbdd62a497ca51311c86164175f2c0b8a8e7d57e8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_pointer_support_a/package/pointer_hand.rgb332": {
+    "sha256": "cb30d493b9adea64f7eb75c1523999a10332a16050f940df08009e5c6f56aa30",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_pointer_support_a/package/pointer_reference.rgb332": {
+    "sha256": "76f6c8f3fbda6c8bd814e8784fcd65bfd19d9c61eaa4a95099755feef8a17fe4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_return_support_a/package/game.bin": {
+    "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_return_support_a/package/menu.bin": {
+    "sha256": "870920a728a846a87f094921baf4f0c023ac70844340a57e256ba54f0d0dfefa",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_return_support_a/package/septette_new_32000_mono_s16le.pcm": {
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/menu_return_support_a/package/touhou.bin": {
+    "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/native_plain_001_0000005d.rgb332": {
+    "sha256": "497fdf70d43e1538752a5b47825f625914de34c2f302e0a8f6b736b387f7f0e4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/return_banner_001.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/return_banner_004.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/return_banner_006.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/title.rgb332": {
+    "sha256": "6d09e3728568e2f4f3c261312e2be24796b3b8f2eec2ed8e4548347c0ce92fcc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_0_center.rgb332": {
+    "sha256": "fcdff5ded75a7198936a13dbfc04567e081b32a68a4acd25fbdd9208cf314966",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_0_follow.rgb332": {
+    "sha256": "47ec828ecd91373fff36132e526badbbdb26560dd4036b5728389098e459f03c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_0_left_edge.rgb332": {
+    "sha256": "8d428472c949b5ed36547f2775d7217beebb4a9031999dcb465dc49fc39d2f8c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_1_center.rgb332": {
+    "sha256": "6a1a906b070e45a5aa5240f234687a35d1f0ce77e4656b321c2329fe19e5a378",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_2_center.rgb332": {
+    "sha256": "836704719fc80a8d980dad73324e7b2a1c2e23d446b87f0809f48f736084efdd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_3_center.rgb332": {
+    "sha256": "81208072d0e565cbe617f3b5197e54b918c0fd14f74a4d46030c2eeaa0492232",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_camera_c/received/role_4_center.rgb332": {
+    "sha256": "7181dd364a1b11ee0a5b6147ce31824f8ce9622956ec078288b40582be7d4d2f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/return_banner_001.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/return_banner_003.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/return_banner_006.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/title.rgb332": {
+    "sha256": "1cd2102004016f8d36c82c6b0c02c766da5ae6dc85371270ec264ff3b701139f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_egg_manual_b/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/arrow_actual.rgb332": {
+    "sha256": "654b66263141fd51d267cc3243a4232918e41d6e4fa45e528e6ab715517110be",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/hand_actual.rgb332": {
+    "sha256": "d0e916345305018b52e2ee092761ce8bdd454ad91e83fbeb2b5c5dc9264e9d13",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/menu_dock_fixed.rgb332": {
+    "sha256": "37a5897ec00c9b4de08beef5969a23c413e986cd0785a8e5885ea8cc516814f5",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/pointer_arrow.rgb332": {
+    "sha256": "9efd1f3a5af95d2656ba97afbdd62a497ca51311c86164175f2c0b8a8e7d57e8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/pointer_hand.rgb332": {
+    "sha256": "cb30d493b9adea64f7eb75c1523999a10332a16050f940df08009e5c6f56aa30",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/pointer_reference.rgb332": {
+    "sha256": "0615a7a43e684bd2550f02cabf07acb93eac5045878af02c89c670593e9230bd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_001.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_003.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_005.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_007.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_009.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_011.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_013.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_015.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_017.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_019.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_021.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/return_banner_023.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/title.rgb332": {
+    "sha256": "6d09e3728568e2f4f3c261312e2be24796b3b8f2eec2ed8e4548347c0ce92fcc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_input_robustness_a/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/arrow_actual.rgb332": {
+    "sha256": "c53fdf22e86e8dcf61de40e6ac4dd27f38577da37b11346a141ab62f7c66101b",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/hand_actual.rgb332": {
+    "sha256": "93466d18bf24ae595d2dac2eb4286738dc718970e25b3073245aae9ee9515a68",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/menu_dock.rgb332": {
+    "sha256": "eb197fad8d531195dfb5e88eb2775d847e5011e91c7108667ee3992d20e30bc3",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/pointer_arrow.rgb332": {
+    "sha256": "9efd1f3a5af95d2656ba97afbdd62a497ca51311c86164175f2c0b8a8e7d57e8",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/pointer_hand.rgb332": {
+    "sha256": "cb30d493b9adea64f7eb75c1523999a10332a16050f940df08009e5c6f56aa30",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/pointer_reference.rgb332": {
+    "sha256": "76f6c8f3fbda6c8bd814e8784fcd65bfd19d9c61eaa4a95099755feef8a17fe4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/title.rgb332": {
+    "sha256": "6d09e3728568e2f4f3c261312e2be24796b3b8f2eec2ed8e4548347c0ce92fcc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_menu_pointer_a/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_000.rgb332": {
+    "sha256": "25aca2d1f44c65026d661306c35b36024243fdb52a3edca00a699260eca5f725",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_002.rgb332": {
+    "sha256": "cf60777c70383a6eb8373b63427a34e3035f8c30d7276feb54440d0c1b33be6c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_004.rgb332": {
+    "sha256": "2b34523ee3273653352cab8f36ed816ccb384e7cefe19f223c48e1b7dfa30630",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_006.rgb332": {
+    "sha256": "b500d3cd922cc21560bce92438c54ec49ab5a15380b12c08e5534d3d41d08232",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_008.rgb332": {
+    "sha256": "eca16a9e7fac2dc033d4b00b0301f10456592dc0b6ba14572bf8305524e3a693",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_010.rgb332": {
+    "sha256": "303ea2f8763aeb730e559403f66d7354cc88dbe4151d91ca692d2b069be39200",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_012.rgb332": {
+    "sha256": "cf60777c70383a6eb8373b63427a34e3035f8c30d7276feb54440d0c1b33be6c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_014.rgb332": {
+    "sha256": "2b34523ee3273653352cab8f36ed816ccb384e7cefe19f223c48e1b7dfa30630",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/loading_frozen_016.rgb332": {
+    "sha256": "b500d3cd922cc21560bce92438c54ec49ab5a15380b12c08e5534d3d41d08232",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_001_00000115.rgb332": {
+    "sha256": "801d53368663fe345b94a0918351172821b744e016b0b18b74b868b70c49065c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_001_00000116.rgb332": {
+    "sha256": "080793290e72d0d1d11b3deb50d366d4659d226a4f564a8fe4c8adfcfe1ba612",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_003_000002f6.rgb332": {
+    "sha256": "d5c6b2099d0536cf37bc28a86660fa3c0e7d2a6c1bf9229d0d6997ffeb140281",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_003_000002f7.rgb332": {
+    "sha256": "f0db33eb89fc77c0ad84338b4ef5d7275aefb6d0777dee57735a81c0b9a10e3a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_005_00000585.rgb332": {
+    "sha256": "afc784ddd5c6b9b11046870401927965fc14f9ef11b26d19f0492bd84d5b44b2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_005_00000586.rgb332": {
+    "sha256": "fbafdd6296a967e27c90e3ffd1722bda3897df97f1330c28fde4f1e6015859b4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_007_000008cc.rgb332": {
+    "sha256": "c4a3a97ba948270dbe60ec8b1e9513695e78a824483c5f7c01b4b9089991c6ae",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/native_plain_007_000008cd.rgb332": {
+    "sha256": "a6e872f6155ea0562ed1724def87d111fdfadf1dd3405348c751873fd5054e19",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_final_status_y/received/title.rgb332": {
+    "sha256": "a07f8628fae60e7ac7f08fbce85dd30f562781661f866e81dd7bca301ceb4f82",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/loading_frozen_000.rgb332": {
+    "sha256": "303ea2f8763aeb730e559403f66d7354cc88dbe4151d91ca692d2b069be39200",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/loading_frozen_004.rgb332": {
+    "sha256": "eca16a9e7fac2dc033d4b00b0301f10456592dc0b6ba14572bf8305524e3a693",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/loading_frozen_006.rgb332": {
+    "sha256": "b500d3cd922cc21560bce92438c54ec49ab5a15380b12c08e5534d3d41d08232",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/loading_frozen_008.rgb332": {
+    "sha256": "2b34523ee3273653352cab8f36ed816ccb384e7cefe19f223c48e1b7dfa30630",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/loading_frozen_010.rgb332": {
+    "sha256": "cf60777c70383a6eb8373b63427a34e3035f8c30d7276feb54440d0c1b33be6c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/native_frontend_001_46510000.rgb332": {
+    "sha256": "c06262659cdeed2ca0fcf9252d62fa1d255773979566adba959139ec9e6525ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/native_frontend_002_46531890.rgb332": {
+    "sha256": "12bdcc2df094aa0fcc49987098bd10caf221065cfd64d373d573d224e54b2948",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/native_frontend_002_46531891.rgb332": {
+    "sha256": "af845654b02cd43ce2bde9ea02d0acdf8dfb135b065e0477d8885258e47d123a",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/native_frontend_002_46531892.rgb332": {
+    "sha256": "d9dd5fa33488632e63dd5afd41d6596f64362df526b127141df688119c719aea",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/native_frontend_003_46510000.rgb332": {
+    "sha256": "c06262659cdeed2ca0fcf9252d62fa1d255773979566adba959139ec9e6525ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/return_banner_003.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/return_banner_005.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/return_banner_007.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/return_banner_009.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/return_banner_011.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/title.rgb332": {
+    "sha256": "cf8ef6c0689f36f0bccedba6bebd0cfd871b11115ec51f6fd42c17058db12d56",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_sol_suite800_showcase_final_g/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_46530156.rgb332": {
+    "sha256": "eccd0bda75dd8cc6a6dbac16a8e14623a6fdc09a8e71ef45b7adb03e09c900fd",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_46531890.rgb332": {
+    "sha256": "f0f50d7fccc36eb14a61e319901d147e0fdcf2f3dc5b72462416b1084980f23c",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_46531894.rgb332": {
+    "sha256": "f55df6f7088ff446a474a0b604f06aa64dd2ac9a9965f5c3a088661e4c833d85",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_465318d4.rgb332": {
+    "sha256": "c2786a5aeda9c68dacc1b29fc8bfe514d84055b524b1003bc33c58d25fd3a00e",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_465318d5.rgb332": {
+    "sha256": "1b7e6ef702bfdef40c7b37a19e5c41523dd11638313de41b8dad1782f4d0132f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_46531955.rgb332": {
+    "sha256": "07e11a40cce1e83cfea5b530674c255c98a36c713fea4f45c29c4064f6c1b894",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/native_frontend_002_46531956.rgb332": {
+    "sha256": "6fce165237d90a2b827081fd76d58f7e7141bba7f283ba4598bce20ac169cff4",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/return_banner_003.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/title.rgb332": {
+    "sha256": "6d09e3728568e2f4f3c261312e2be24796b3b8f2eec2ed8e4548347c0ce92fcc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_ui_polish_c/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_visual_e/received/return_banner_003.rgb332": {
+    "sha256": "e16e77fe897a4adcd25e16fae33a8a7c8f2828cfaa60d267576227f8ba9554c2",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_visual_e/received/title.rgb332": {
+    "sha256": "e97f9cd216b9d62e574833ea17645a1bf2e49bd42831080dee05e19c3bd935dc",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_visual_e/received/transition_menu_1.rgb332": {
+    "sha256": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/native_session_smoke_board_native_space_visual_e/received/transition_menu_2.rgb332": {
+    "sha256": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/game.bin": {
+    "sha256": "d479bbeeef530e1bb4a7db3b5fc751deeb49904e6dfce5786a8b91748bbbc2ba",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/menu.bin": {
+    "sha256": "621ec948201d91cfc7ba01ce811f654ae1c8dcfdbe8ec5ba7902c2938e34f2ac",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/septette_new_32000_mono_s16le.pcm": {
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/evidence/reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/touhou.bin": {
+    "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/hardware/cold_rebuild/products/system640.xsa": {
+    "sha256": "7e9ef8120b62f252ba053c85a03f0b9289f433d6489a453fdeab88caeb355393",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/hardware/cold_rebuild/products/top.bit": {
+    "sha256": "9783db22ad9cef9ce40457f02d0b601e570612d1864c8df0bbdf12f445439cfe",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verification/hardware/cold_rebuild/products/top.hwh": {
+    "sha256": "88437ec562054c3f93e8cac38fbb88cd0670e05ef84fbdabd2e1789ae37df2b6",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  },
+  "verify.py": {
+    "sha256": "7209d53808afce57c3d0a9c4ebdaa96ddfaace9cd9df677988ba4463cddf8c1d",
+    "reason": "outside selected source closure, duplicated verification payload, or official guide linked separately"
+  }
+}

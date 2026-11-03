@@ -1,0 +1,20 @@
+{
+  "pass_": true,
+  "adopted": true,
+  "definition": "latest means the persistent version selected by rvgame-unified-boot.service",
+  "remote": "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a",
+  "override": "/etc/systemd/system/rvgame-unified-boot.service.d/70-rvgame-latest.conf",
+  "override_sha256": "a7c05a292587a27f4949a14add5e2ec86f503666ab3cc6b362d24b3b7ee9d13e",
+  "release_sha256": "2314addc5d7ee0ff46666cf97a9682b13838e239c6157a99b10379aa9508f9f0",
+  "local_candidate": "reports\\rvgame_longrun_20261031\\latest_boot_native800_space_polish_a\\candidate",
+  "source_root": "reports/rvgame_longrun_20261031/latest_boot_native800_space_polish_a/software/source",
+  "installation_receipt": "reports\\rvgame_longrun_20261031\\latest_boot_native800_space_polish_a\\installation.json",
+  "installation_receipt_sha256": "4c82dfc59e2777622d430aa22081d5d281b957a68031f6573eb63d719fb93ade",
+  "legacy_formal": "/home/xilinx/rvgame_work_demo_release_p_20261029_n",
+  "legacy_protected_files": 140,
+  "physical_power_cycle_verified": false,
+  "current_revision_performance_and_manual_checks_deferred_by_user": false,
+  "manual_checks_skipped_by_user": false,
+  "manual_checks_pending": true,
+  "automatic_board_tests_pending": false
+}

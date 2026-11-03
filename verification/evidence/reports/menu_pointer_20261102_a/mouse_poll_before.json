@@ -1,0 +1,1 @@
+{"mousepoll": "0\n", "hid": [{"name": "0003:046D:C092.0004", "driver": "/sys/bus/hid/drivers/hid-generic", "report_bytes": 4096}, {"name": "0003:046D:C092.0003", "driver": "/sys/bus/hid/drivers/hid-generic", "report_bytes": 4096}], "endpoints": [{"bInterval": "01", "wMaxPacketSize": "0008", "type": "Interrupt", "direction": "in"}]}

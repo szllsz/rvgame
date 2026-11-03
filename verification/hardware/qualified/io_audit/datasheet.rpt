@@ -1,0 +1,115 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Sun Nov  1 13:00:18 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_datasheet -file {D:\Project\rvgame\reports\whole2025_2_hw_astra_native800_a\io_audit/datasheet.rpt}
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Data Sheet Report
+
+Input Ports Setup/Hold
+
+----------+----------+---------+-------+---------------+---------+---------------+---------+--------------------+
+Reference | Input    | IO Reg  | Delay |     Setup(ns) | Process |      Hold(ns) | Process | Internal           |
+Clock     | Port     | Type    | Type  | to Clk (Edge) | Corner  | to Clk (Edge) | Corner  | Clock              |
+----------+----------+---------+-------+---------------+---------+---------------+---------+--------------------+
+sys_clk   | hdmi_hpd | FDSE    | -     |     6.503 (r) | SLOW    |    -2.821 (r) | FAST    | clk_out1_cpu_clock |
+sys_clk   | key_n[0] | FDSE    | -     |     5.418 (r) | SLOW    |    -2.446 (r) | FAST    | clk_out1_cpu_clock |
+sys_clk   | key_n[1] | FDSE    | -     |     6.412 (r) | SLOW    |    -2.949 (r) | FAST    | clk_out1_cpu_clock |
+sys_clk   | key_n[2] | FDSE    | -     |     6.007 (r) | SLOW    |    -2.683 (r) | FAST    | clk_out1_cpu_clock |
+sys_clk   | rst_n    | FDRE    | -     |     6.173 (r) | SLOW    |    -2.761 (r) | FAST    | clk_out1_cpu_clock |
+----------+----------+---------+-------+---------------+---------+---------------+---------+--------------------+
+
+
+Output Ports Clock-to-out
+
+----------+----------------+----------------+-------+----------------+---------+----------------+---------+----------------------+
+Reference | Output         | IO Reg         | Delay | Max Clk (Edge) | Process | Min Clk (Edge) | Process | Internal             |
+Clock     | Port           | Type           | Type  |    to port(ns) | Corner  |    to port(ns) | Corner  | Clock                |
+----------+----------------+----------------+-------+----------------+---------+----------------+---------+----------------------+
+sys_clk   | led[0]         | FDRE           | -     |      8.088 (r) | SLOW    |      2.471 (r) | FAST    | clk_out1_cpu_clock   |
+sys_clk   | led[1]         | FDRE           | -     |      7.861 (r) | SLOW    |      2.398 (r) | FAST    | clk_out1_cpu_clock   |
+sys_clk   | audio_bclk     | FDRE           | -     |      5.272 (r) | SLOW    |      2.053 (r) | FAST    | clk_out1_video_clock |
+sys_clk   | audio_din      | FDRE           | -     |      6.019 (r) | SLOW    |      2.393 (r) | FAST    | clk_out1_video_clock |
+sys_clk   | audio_lrc      | FDSE           | -     |      5.222 (r) | SLOW    |      2.047 (r) | FAST    | clk_out1_video_clock |
+sys_clk   | led[2]         | FDRE           | -     |      6.668 (r) | SLOW    |      1.841 (r) | FAST    | clk_out1_video_clock |
+sys_clk   | led[3]         | FDRE           | -     |      6.360 (r) | SLOW    |      1.695 (r) | FAST    | clk_out1_video_clock |
+sys_clk   | TMDS_clk_n     | OSERDESE2 (IO) | -     |      1.862 (r) | SLOW    |      0.215 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_clk_p     | OSERDESE2 (IO) | -     |      1.861 (r) | SLOW    |      0.214 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_n[0] | OSERDESE2 (IO) | -     |      1.930 (r) | SLOW    |      0.278 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_n[1] | OSERDESE2 (IO) | -     |      1.889 (r) | SLOW    |      0.239 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_n[2] | OSERDESE2 (IO) | -     |      1.858 (r) | SLOW    |      0.208 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_p[0] | OSERDESE2 (IO) | -     |      1.929 (r) | SLOW    |      0.277 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_p[1] | OSERDESE2 (IO) | -     |      1.888 (r) | SLOW    |      0.238 (r) | FAST    | clk_out2_video_clock |
+sys_clk   | TMDS_data_p[2] | OSERDESE2 (IO) | -     |      1.857 (r) | SLOW    |      0.207 (r) | FAST    | clk_out2_video_clock |
+----------+----------------+----------------+-------+----------------+---------+----------------+---------+----------------------+
+
+
+Setup between Clocks
+
+--------+-------------+---------------+---------+---------------+---------+---------------+---------+---------------+---------+
+Source  | Destination |  Src:Rise     | Process |  Src:Rise     | Process |  Src:Fall     | Process |  Src:Fall     | Process |
+Clock   | Clock       | Dest:Rise(ns) | Corner  | Dest:Fall(ns) | Corner  | Dest:Rise(ns) | Corner  | Dest:Fall(ns) | Corner  |
+--------+-------------+---------------+---------+---------------+---------+---------------+---------+---------------+---------+
+sys_clk | sys_clk     |         9.491 | SLOW    |               |         |               |         |               |         |
+--------+-------------+---------------+---------+---------------+---------+---------------+---------+---------------+---------+
+
+
+Setup / Hold times for input bus
+Clocked by: sys_clk
+Worst Case Data Window: 3.965 ns
+Ideal Clock Offset to Actual Clock: -4.429 ns
+-------------------+-------------+---------+-------------+---------+-----------+-----------+---------------+
+                   |             | Process |             | Process | Setup     |  Hold     | Source Offset |
+Source             |   Setup(ns) | Corner  |    Hold(ns) | Corner  | Slack(ns) | Slack(ns) | to Center(ns) |
+-------------------+-------------+---------+-------------+---------+-----------+-----------+---------------+
+key_n[0]           |   5.418 (r) | SLOW    |  -2.446 (r) | FAST    |       inf |       inf |             - |
+key_n[1]           |   6.412 (r) | SLOW    |  -2.949 (r) | FAST    |       inf |       inf |             - |
+key_n[2]           |   6.007 (r) | SLOW    |  -2.683 (r) | FAST    |       inf |       inf |             - |
+-------------------+-------------+---------+-------------+---------+-----------+-----------+---------------+
+Worst Case Summary |   6.412 (r) | SLOW    |  -2.446 (r) | FAST    |       inf |       inf |             - |
+-------------------+-------------+---------+-------------+---------+-----------+-----------+---------------+
+
+
+
+Max / Min delays for output bus
+Clocked by: sys_clk
+Bus Skew: 0.073 ns
+-------------------+-------------+---------+------------+---------+----------+
+                   |     Max     | Process |    Min     | Process | Edge     |
+Pad                |   Delay(ns) | Corner  |  Delay(ns) | Corner  | Skew(ns) |
+-------------------+-------------+---------+------------+---------+----------+
+TMDS_data_n[0]     |   1.930 (r) | SLOW    |  0.278 (r) | FAST    |    0.073 |
+TMDS_data_n[1]     |   1.889 (r) | SLOW    |  0.239 (r) | FAST    |    0.032 |
+TMDS_data_n[2]     |   1.858 (r) | SLOW    |  0.208 (r) | FAST    |    0.001 |
+TMDS_data_p[0]     |   1.929 (r) | SLOW    |  0.277 (r) | FAST    |    0.072 |
+TMDS_data_p[1]     |   1.888 (r) | SLOW    |  0.238 (r) | FAST    |    0.031 |
+TMDS_data_p[2]     |   1.857 (r) | SLOW    |  0.207 (r) | FAST    |    0.000 |
+-------------------+-------------+---------+------------+---------+----------+
+Worst Case Summary |   1.930 (r) | SLOW    |  0.207 (r) | FAST    |    0.073 |
+-------------------+-------------+---------+------------+---------+----------+
+
+
+
+Max / Min delays for output bus
+Clocked by: sys_clk
+Bus Skew: 1.728 ns
+-------------------+-------------+---------+-------------+---------+----------+
+                   |     Max     | Process |     Min     | Process | Edge     |
+Pad                |   Delay(ns) | Corner  |   Delay(ns) | Corner  | Skew(ns) |
+-------------------+-------------+---------+-------------+---------+----------+
+led[0]             |   8.088 (r) | SLOW    |   2.471 (r) | FAST    |    1.728 |
+led[1]             |   7.861 (r) | SLOW    |   2.398 (r) | FAST    |    1.501 |
+led[2]             |   6.668 (r) | SLOW    |   1.841 (r) | FAST    |    0.309 |
+led[3]             |   6.360 (r) | SLOW    |   1.695 (r) | FAST    |    0.000 |
+-------------------+-------------+---------+-------------+---------+----------+
+Worst Case Summary |   8.088 (r) | SLOW    |   1.695 (r) | FAST    |    1.728 |
+-------------------+-------------+---------+-------------+---------+----------+
+
+
+

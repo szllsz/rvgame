@@ -1,0 +1,58 @@
+{
+  "script_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+  "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+  "kernel_changed": false,
+  "application_changed": false,
+  "cold_boot_tested": false,
+  "unit": "MainPID=23768\nExecMainStatus=0\nActiveState=active\nUnitFileState=enabled\n",
+  "state": {
+    "phase": "mouse_restored",
+    "events": [
+      {
+        "at": 33295.749728189,
+        "phase": "starting"
+      },
+      {
+        "at": 33295.901818753,
+        "phase": "companion_disabled"
+      },
+      {
+        "at": 33295.981089142,
+        "phase": "mouse_paused"
+      },
+      {
+        "at": 33295.982920858,
+        "phase": "waiting_gamepad",
+        "key": [
+          "1-1.2",
+          "13"
+        ],
+        "urb_start": 41454
+      },
+      {
+        "at": 33297.923639546,
+        "phase": "gamepad_decoded_input_confirmed",
+        "key": [
+          "1-1.2",
+          "13"
+        ],
+        "urb_delta": 92
+      },
+      {
+        "at": 33297.934965793,
+        "phase": "mouse_restored",
+        "reason": "gamepad_reserved_first"
+      }
+    ],
+    "mouse_identity": [
+      "046d",
+      "c092",
+      "CONFIGURE_MOUSE_SERIAL",
+      "7"
+    ],
+    "main_paused": false,
+    "companion_disabled": true,
+    "host_reset": false,
+    "MMIO_access": false
+  }
+}

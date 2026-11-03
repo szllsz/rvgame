@@ -1,0 +1,158 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Sun Nov  1 12:58:22 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_timing -delay_type max -to [get_ports {audio_din audio_bclk audio_lrc}] -max_paths 3 -file D:/Project/rvgame/reports/whole2025_2_hw_astra_native800_a/acceptance/audio_outputs_max.rpt
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             13.981ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/audio_din_reg_lopt_replica/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            audio_din
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            20.000ns  (MaxDelay Path 20.000ns)
+  Data Path Delay:        6.418ns  (logic 4.161ns (64.825%)  route 2.258ns (35.175%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           0.000ns
+  Clock Path Skew:        0.400ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.000ns
+    Source Clock Delay      (SCD):    -0.400ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Timing Exception:       MaxDelay Path 20.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.566    -0.400    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X108Y85        FDRE                                         r  u_soc/g_audio.u_audio/audio_din_reg_lopt_replica/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X108Y85        FDRE (Prop_fdre_C_Q)         0.433     0.033 r  u_soc/g_audio.u_audio/audio_din_reg_lopt_replica/Q
+                         net (fo=1, routed)           2.258     2.291    lopt
+    W18                  OBUF (Prop_obuf_I_O)         3.728     6.019 r  audio_din_OBUF_inst/O
+                         net (fo=0)                   0.000     6.019    audio_din
+    W18                                                               r  audio_din (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   20.000    20.000    
+                         clock pessimism              0.000    20.000    
+                         output delay                -0.000    20.000    
+  -------------------------------------------------------------------
+                         required time                         20.000    
+                         arrival time                          -6.019    
+  -------------------------------------------------------------------
+                         slack                                 13.981    
+
+Slack (MET) :             14.728ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/audio_bclk_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            audio_bclk
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            20.000ns  (MaxDelay Path 20.000ns)
+  Data Path Delay:        5.669ns  (logic 4.119ns (72.660%)  route 1.550ns (27.340%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           0.000ns
+  Clock Path Skew:        0.397ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.000ns
+    Source Clock Delay      (SCD):    -0.397ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Timing Exception:       MaxDelay Path 20.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.569    -0.397    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X106Y87        FDRE                                         r  u_soc/g_audio.u_audio/audio_bclk_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X106Y87        FDRE (Prop_fdre_C_Q)         0.379    -0.018 r  u_soc/g_audio.u_audio/audio_bclk_reg/Q
+                         net (fo=8, routed)           1.550     1.532    audio_bclk_OBUF
+    P14                  OBUF (Prop_obuf_I_O)         3.740     5.272 r  audio_bclk_OBUF_inst/O
+                         net (fo=0)                   0.000     5.272    audio_bclk
+    P14                                                               r  audio_bclk (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   20.000    20.000    
+                         clock pessimism              0.000    20.000    
+                         output delay                -0.000    20.000    
+  -------------------------------------------------------------------
+                         required time                         20.000    
+                         arrival time                          -5.272    
+  -------------------------------------------------------------------
+                         slack                                 14.728    
+
+Slack (MET) :             14.778ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/audio_lrc_reg/C
+                            (rising edge-triggered cell FDSE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            audio_lrc
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            20.000ns  (MaxDelay Path 20.000ns)
+  Data Path Delay:        5.618ns  (logic 4.186ns (74.496%)  route 1.433ns (25.504%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           0.000ns
+  Clock Path Skew:        0.397ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.000ns
+    Source Clock Delay      (SCD):    -0.397ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Timing Exception:       MaxDelay Path 20.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.569    -0.397    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X106Y87        FDSE                                         r  u_soc/g_audio.u_audio/audio_lrc_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X106Y87        FDSE (Prop_fdse_C_Q)         0.379    -0.018 r  u_soc/g_audio.u_audio/audio_lrc_reg/Q
+                         net (fo=7, routed)           1.433     1.415    audio_lrc_OBUF
+    Y16                  OBUF (Prop_obuf_I_O)         3.807     5.222 r  audio_lrc_OBUF_inst/O
+                         net (fo=0)                   0.000     5.222    audio_lrc
+    Y16                                                               r  audio_lrc (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   20.000    20.000    
+                         clock pessimism              0.000    20.000    
+                         output delay                -0.000    20.000    
+  -------------------------------------------------------------------
+                         required time                         20.000    
+                         arrival time                          -5.222    
+  -------------------------------------------------------------------
+                         slack                                 14.778    
+
+
+
+

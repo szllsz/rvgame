@@ -1,0 +1,18 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "manifest_sha256": "2adf7e0cf73ec377eed32a02a6fc9f8f5875f027009fbbbc1ac96ef9309f8a2a",
+  "unchanged_application_bins": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "game.bin": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "menu.bin": "870920a728a846a87f094921baf4f0c023ac70844340a57e256ba54f0d0dfefa",
+    "touhou.bin": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  },
+  "scope": "Six application entry/return routes using mouse and touch; no application control expansion"
+}

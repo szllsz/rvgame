@@ -1,0 +1,5 @@
+* -text
+*.py linguist-language=Python
+*.mem linguist-generated=true
+*.hex linguist-generated=true
+software/source/**/fidelity_*_data.c linguist-generated=true

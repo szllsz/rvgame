@@ -1,0 +1,39 @@
+{
+  "segment": 13,
+  "from": "coremark",
+  "to": "menu",
+  "request_begin": 22018.981192783,
+  "begin": 22029.145876064,
+  "final": null,
+  "pid": 24136,
+  "frame_base": 940572672,
+  "overlay_reloaded": false,
+  "display_buffer_retained": true,
+  "immutable_image_cached": true,
+  "cached_program_bytes": 24578004,
+  "plain_retirement": {
+    "safe_to_hold": true,
+    "kind": "plain_exit",
+    "final": null,
+    "application": "coremark",
+    "exit_page": 866,
+    "frame_status": 0
+  },
+  "music_final": null,
+  "audio_preferences": 4,
+  "transition_banner_updates": 29,
+  "held_final_frames": true,
+  "hp1_drained": true,
+  "hp1_idle_observed": 22029.187358155,
+  "old_program_freed": true,
+  "display_kept_enabled": true,
+  "return_banner_file": "return_banner_013.rgb332",
+  "ready": 22029.239524384,
+  "total_seconds": 10.258331600998645,
+  "allocation": {
+    "physical_base": 941621248,
+    "allocated_bytes": 624448,
+    "image_bytes": 624448
+  },
+  "pass_": true
+}

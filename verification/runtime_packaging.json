@@ -1,0 +1,15 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": true,
+  "release_sha256": "9b56435746bf25bbedf23d647893d64b4c51ba296a6ca4c2a348c549fc01b550",
+  "installed_source_sha256": "bc2d28de675af0b292a1afc802993285d74168b2e36a3f25e578d1073708585b",
+  "changed_payloads": [
+    "game.bin",
+    "native_session.py",
+    "touhou.bin"
+  ],
+  "all_payload_bytes_equal_to_installed": true,
+  "scope": "Final code sync; detached wrapper board recheck follows separately",
+  "standalone_receipt_sha256": "af96431453dbf31113567a0093be6bc62e01e74b2c4cc39358686d609f4f48e7"
+}

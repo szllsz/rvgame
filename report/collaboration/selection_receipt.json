@@ -1,0 +1,19 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "exact_substrings_verified": true,
+  "records": [
+    {
+      "file": "earlier_cpu_and_verification.json",
+      "sha256": "7c28f475df233d4b71ff40b612cef62d1c6027243a6e9578822fd3ef830b0b21",
+      "selected": 9,
+      "source_export_sha256": "f53271059cb1600229191ef897af1fba26cf6d9c0196da057043c5cd5e13eb8d"
+    },
+    {
+      "file": "current_ui_and_delivery.json",
+      "sha256": "9446bf4498613cf2a1e74e1487a3101d1ed78ec74385df691a0464d1e968db29",
+      "selected": 15,
+      "source_export_sha256": "1181341390c8bd3c6f78cbf5821ed9ba0281aace0c7455a40834402905c694eb"
+    }
+  ]
+}

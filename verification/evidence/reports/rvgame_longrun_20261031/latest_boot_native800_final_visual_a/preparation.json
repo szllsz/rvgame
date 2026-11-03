@@ -1,0 +1,28 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "boot_installed": false,
+  "native800": true,
+  "remote": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a",
+  "override": "/etc/systemd/system/rvgame-unified-boot.service.d/70-rvgame-latest.conf",
+  "previous_registry_sha256": "2bb0c88fe03a66573a120be98386f7453509b85ce441ff5786cf97925ac8501b",
+  "release_sha256": "bc2d28de675af0b292a1afc802993285d74168b2e36a3f25e578d1073708585b",
+  "override_sha256": "82e82b4eea912156342ec60520812dc457db4c336515839c640398ba961972ef",
+  "current_source": "reports/rvgame_longrun_20261031/latest_boot_native800_final_visual_a/software/source",
+  "automatic_board_test_receipt": "reports/rvgame_longrun_20261031/space_visual_received_e/result.json",
+  "automatic_gates": {
+    "reports/rvgame_longrun_20261031/space_visual_received_e/result.json": "fddc58613d346ac3bbb0832e0b5cf3c57989d5a706b1e3e0d93f980e320cd40b",
+    "reports/rvgame_longrun_20261031/egg_manual_received_b/result.json": "5a4077ceae666d6dfae0f73f4c0cde7dcfd821c463b4b17b849474993c199ee5",
+    "reports/rvgame_longrun_20261031/scarlet_native_host_space_visual_d/result.json": "58b55d243b12ee918444ac61812ab67e1b106352c2a5423d7f01893c90efd91b",
+    "reports/rvgame_longrun_20261031/space_tiers_host_d/result.json": "a8ccdc9ce7e63f429193bdc4fbe169a812d1c48dfe6f04337d41673ab6750dd5",
+    "reports/space_visual_delivery_20261103_d/detached rebuild/result.json": "305bb2aed917511cbecfc738a0e577712f401ec4f119d9a672ac520e1c9d00eb",
+    "reports/final_board_screenshots_20261102_a/result.json": "154e2263420461ac0e39e2fa390790aca02e861b763ec64d2a607f2fc656caf1",
+    "reports/egg_manual_tiers_20261103_b/host_c/result.json": "13d11dc236e335bbbee704359f112118e69be46e64d6b33e4cea92e5d3285e82",
+    "reports/egg_manual_tiers_20261103_b/logic_a/result.json": "7f847802dc8cf6b714aea37991804751f29c9072cd87d7656427537adc2a9205",
+    "reports/egg_manual_tiers_20261103_b/detached rebuild/result.json": "a3feee982871cb29c03bc1574f3b4fea99c77d2aa7e5527af05ceb4c87fe8978",
+    "software/space_visual_runtime_20261103/host_result.json": "57c3d42e4193b5c707b30ac55ec7511f789b6765dd19d46c3a263f7163a3780f"
+  },
+  "authorization": "User approved preview, visual implementation and LT/RT three measured load tiers, with previous input/audio changes retained",
+  "installer_sha256": "80a02c073116243013eed91f92146ab838be746d6ac48ed8588a5f8580d38fff",
+  "health_probe_sha256": "419f309df488e55750c4c43bf1f3f3212970485e2a67933589ee83366862f65d"
+}

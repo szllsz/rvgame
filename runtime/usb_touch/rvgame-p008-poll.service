@@ -1,0 +1,18 @@
+[Unit]
+Description=Qualified P008 HID continuous polling compatibility
+After=systemd-udevd.service
+Before=rvgame-unified-boot.service
+
+[Service]
+Type=simple
+RuntimeDirectory=rvgame-p008-poll
+RuntimeDirectoryMode=0755
+ExecStart=/usr/local/share/pynq-venv/bin/python3 -B -u /usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py --seconds 0 --output-directory /run/rvgame-p008-poll
+Restart=on-failure
+RestartSec=2
+KillSignal=SIGTERM
+SendSIGKILL=no
+TimeoutStopSec=infinity
+
+[Install]
+WantedBy=multi-user.target

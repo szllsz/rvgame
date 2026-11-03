@@ -1,0 +1,202 @@
+{
+  "pass_": true,
+  "board_tested": true,
+  "manual_tested": false,
+  "source_release_sha256": "193aec43a306807fe1e242761ef95b6b984361455ecf96a97a0b71b7fde5b573",
+  "remote": "/home/xilinx/rvgame_latest_20261101_native800_space_fast_a",
+  "CPU": [
+    {
+      "phase": 0,
+      "iterations": 4000,
+      "ticks": 1129481426,
+      "clock_hz": 105000000,
+      "seconds": 10.756965961904761,
+      "iterations_per_second": 371.85206443580773,
+      "per_MHz": 3.5414482327219785,
+      "CRC": [
+        59893,
+        59156,
+        8151,
+        36410,
+        26053
+      ]
+    },
+    {
+      "phase": 1,
+      "iterations": 4000,
+      "ticks": 1132545383,
+      "clock_hz": 105000000,
+      "seconds": 10.786146504761906,
+      "iterations_per_second": 370.84606613066734,
+      "per_MHz": 3.531867296482546,
+      "CRC": [
+        6386,
+        58305,
+        1863,
+        36228,
+        21065
+      ]
+    }
+  ],
+  "CPU_console_integer_seconds_warning": "Use ticks/105MHz; printed integer Total time=10 and Iterations/Sec=400 are not the precise score.",
+  "star_barrage_default": {
+    "seconds": 60.883333542857144,
+    "frames": 3653,
+    "scans": 3653,
+    "FPS": 59.99999979351609,
+    "missed": 0,
+    "nonunit": 0,
+    "missed_logic": 0,
+    "strict_every_scan": true
+  },
+  "egg_bros_curve": [
+    {
+      "epoch": 1,
+      "population": 64,
+      "seconds": 7.983333019047619,
+      "frames": 479,
+      "scans": 479,
+      "FPS": 60.00000236206392,
+      "nonunit": 0,
+      "missed": 0,
+      "meter": [
+        1,
+        64,
+        480,
+        838249967,
+        0,
+        479,
+        479,
+        0
+      ],
+      "stage_strict60": true
+    },
+    {
+      "epoch": 2,
+      "population": 85,
+      "seconds": 7.983333380952381,
+      "frames": 370,
+      "scans": 479,
+      "FPS": 46.34655504714253,
+      "nonunit": 59,
+      "missed": 109,
+      "meter": [
+        2,
+        85,
+        371,
+        838250005,
+        0,
+        479,
+        370,
+        59
+      ],
+      "stage_strict60": false
+    },
+    {
+      "epoch": 3,
+      "population": 100,
+      "seconds": 7.999999685714286,
+      "frames": 250,
+      "scans": 480,
+      "FPS": 31.250001227678617,
+      "nonunit": 99,
+      "missed": 230,
+      "meter": [
+        3,
+        100,
+        251,
+        839999967,
+        0,
+        480,
+        250,
+        99
+      ],
+      "stage_strict60": false
+    },
+    {
+      "epoch": 4,
+      "population": 64,
+      "seconds": 7.983332914285715,
+      "frames": 479,
+      "scans": 479,
+      "FPS": 60.000003149418596,
+      "nonunit": 0,
+      "missed": 0,
+      "meter": [
+        4,
+        64,
+        480,
+        838249956,
+        0,
+        479,
+        479,
+        0
+      ],
+      "stage_strict60": true
+    },
+    {
+      "epoch": 5,
+      "population": 85,
+      "seconds": 7.9833335142857145,
+      "frames": 370,
+      "scans": 479,
+      "FPS": 46.34655427308735,
+      "nonunit": 59,
+      "missed": 109,
+      "meter": [
+        5,
+        85,
+        371,
+        838250019,
+        0,
+        479,
+        370,
+        59
+      ],
+      "stage_strict60": false
+    },
+    {
+      "epoch": 6,
+      "population": 100,
+      "seconds": 8.000000123809524,
+      "frames": 248,
+      "scans": 480,
+      "FPS": 30.9999995202381,
+      "nonunit": 100,
+      "missed": 232,
+      "meter": [
+        6,
+        100,
+        249,
+        840000013,
+        0,
+        480,
+        248,
+        100
+      ],
+      "stage_strict60": false
+    }
+  ],
+  "egg_window_scope": "60 seconds of the ordinary three-stage10s cycle; phase meters exclude their original first120 warmup ticks",
+  "original_restored": true,
+  "restored_owner_snapshot": 27613,
+  "boot_id": "a5e2c5da-e2f5-4a18-8d75-8a3dc4835ea8",
+  "evidence": {
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/result.json": "5cf4fa7afaf70a0018a2d3353c22f1c2282badd122d4c7e5dd5a6d45d377e9ba",
+    "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/result.json": "8da3b2951e4f623c827ba537100419e40b98f6abfea49e14f79377513bcffedc",
+    "reports/rvgame_longrun_20261031/current_review_support_a/result.json": "1b0f094ff34e2dbed8621ac34f4afd335000d0cac2f924ebcaa07be528298bdb",
+    "docs/latest_boot_release.json": "67a71467e68b2c8fda3e89f615a79d73003a20f5eefb20c0512e03b8766a4219"
+  },
+  "unchanged_payload": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "game.bin": "d479bbeeef530e1bb4a7db3b5fc751deeb49904e6dfce5786a8b91748bbbc2ba",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "menu.bin": "621ec948201d91cfc7ba01ce811f654ae1c8dcfdbe8ec5ba7902c2938e34f2ac",
+    "top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+    "touhou.bin": "d7ff3a0d92e5c8d6dc8d5367e482e85232d69f9ecdbd02dc4a80984d4589907d",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  }
+}

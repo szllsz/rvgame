@@ -1,0 +1,88 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "source_release_sha256": "5bd345e5482631b798115e360e0ecccf6494170956083117833ba2614f3f5467",
+  "manifest_sha256": "ff9c9c298fb923ff341110775656e2a9d5aff14a8a98f4214a011d8325df6077",
+  "host_receipt_sha256": "84838b6d83c8cef19db5520c782683f3321999a36a061adc5c3528e19ec61e71",
+  "game_sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+  "roles": [
+    {
+      "role": 0,
+      "width": 35,
+      "height": 40,
+      "x": -18,
+      "y": -35,
+      "sha256": "f3e313cc41ab55ed29cb4c89e6fe85a4786b3def7dc2c1f5cb7b79dee899781f"
+    },
+    {
+      "role": 1,
+      "width": 35,
+      "height": 40,
+      "x": -18,
+      "y": -35,
+      "sha256": "a33f929f9995d2c3c369784d5e728fe5a2f6f621d191fc35490777d94a12d78a"
+    },
+    {
+      "role": 2,
+      "width": 35,
+      "height": 40,
+      "x": -18,
+      "y": -35,
+      "sha256": "1bbbb6590a0e4ff10db43d03a6713b60f03a5b0ce3b976a750c17226b9898760"
+    },
+    {
+      "role": 3,
+      "width": 38,
+      "height": 40,
+      "x": -19,
+      "y": -35,
+      "sha256": "1918089391e2226db9399f60a8450bfb5fb1be9971133bd91b5fc9d6087d9147"
+    },
+    {
+      "role": 4,
+      "width": 35,
+      "height": 40,
+      "x": -18,
+      "y": -35,
+      "sha256": "7157ab68986e4cbc7aa9259bb2f5a50786047a6d2a7c9b92ccd7c70be5f20189"
+    }
+  ],
+  "unchanged_files": [
+    "alpha.bin",
+    "bitmap.bin",
+    "bt_mailbox.py",
+    "coremark.bin",
+    "gfx.bin",
+    "input_actions.py",
+    "input_backend.py",
+    "legacy_gamepad.py",
+    "menu.bin",
+    "native_session.py",
+    "power_punch_32000_mono_s16le.pcm",
+    "pynq_brotato_fidelity.py",
+    "pynq_brotato_session.py",
+    "pynq_classic_session.py",
+    "pynq_ddr.py",
+    "pynq_gamepad.py",
+    "pynq_menu.py",
+    "replay_input.py",
+    "scarlet_pcm.py",
+    "scarlet_title01_32000_mono_s16le.pcm",
+    "scarlet_ui_cancel_32000_s16le.pcm",
+    "scarlet_ui_confirm_32000_s16le.pcm",
+    "scarlet_ui_pcm.py",
+    "scarlet_ui_select_32000_s16le.pcm",
+    "septette_new_32000_mono_s16le.pcm",
+    "top.bit",
+    "top.hwh",
+    "touhou.bin",
+    "trace_writer.py",
+    "transition_menu_1.rgb332",
+    "transition_menu_2.rgb332",
+    "usb_xinput.py",
+    "validation.bin"
+  ],
+  "scope": "Camera ROM only; actual production PS, hardware and PCM unchanged; raw input injected by the sole owner in explicit test mode"
+}

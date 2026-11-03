@@ -1,0 +1,101 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": false,
+  "results": {
+    "match": {
+      "pass": true,
+      "checked_files": 1,
+      "checked_comparisons": 1,
+      "errors": [],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "wrong_hash": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "file": "actual.bin",
+          "error": "SHA256 mismatch"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "wrong_byte": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "comparison": 0,
+          "error": "Byte mismatch at actual offset 2"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "empty_range": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "comparison": 0,
+          "error": "Comparison range is empty or outside artifact"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "out_of_bounds": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "comparison": 0,
+          "error": "Comparison range is empty or outside artifact"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "escape_root": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "file": "../unrelated",
+          "error": "Path escapes artifact root: ../unrelated"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "empty_manifest": {
+      "pass": false,
+      "checked_files": 0,
+      "checked_comparisons": 0,
+      "errors": [
+        {
+          "error": "Manifest contains no checks"
+        }
+      ],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "valid_slice": {
+      "pass": true,
+      "checked_files": 0,
+      "checked_comparisons": 1,
+      "errors": [],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    },
+    "actual_installed_release_files": {
+      "pass": true,
+      "checked_files": 47,
+      "checked_comparisons": 0,
+      "errors": [],
+      "scope": "artifact bytes and version identity; no hardware or semantic correctness claim"
+    }
+  },
+  "source_release_sha256": "2314addc5d7ee0ff46666cf97a9682b13838e239c6157a99b10379aa9508f9f0",
+  "checker_sha256": "2557c8bbbf3949c047bf9a4d640c90ea664fe27d9a9035182917cbfb8cc01b61"
+}

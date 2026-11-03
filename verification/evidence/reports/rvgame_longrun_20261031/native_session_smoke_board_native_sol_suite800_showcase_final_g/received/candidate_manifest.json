@@ -1,0 +1,201 @@
+{
+  "bit": "top.bit",
+  "application": "game.bin",
+  "applications": {
+    "menu": "menu.bin",
+    "coremark": "coremark.bin",
+    "validation": "validation.bin",
+    "gfx": "gfx.bin",
+    "bitmap": "bitmap.bin",
+    "alpha": "alpha.bin",
+    "game": "game.bin",
+    "touhou": "touhou.bin"
+  },
+  "native_geometry": [
+    800,
+    600
+  ],
+  "geometry": [
+    800,
+    600
+  ],
+  "native_suite800": true,
+  "session_start": "menu",
+  "session_menu": {
+    "application": "menu.bin"
+  },
+  "native_music": {
+    "game": {
+      "file": "power_punch_32000_mono_s16le.pcm",
+      "sha256": "b40d10df9c25bb26746de73ecf2e86d430db016a6b709c8678e5e832d1b06f6f",
+      "sample_rate": 32000,
+      "loop_start": 0,
+      "loop_end": 4466024
+    },
+    "touhou": {
+      "file": "septette_new_32000_mono_s16le.pcm",
+      "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+      "sample_rate": 32000,
+      "loop_start": 1203255,
+      "loop_end": 5526906
+    }
+  },
+  "scarlet_music": {
+    "file": "septette_new_32000_mono_s16le.pcm",
+    "sha256": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "sample_rate": 32000,
+    "loop_start": 1203255,
+    "loop_end": 5526906
+  },
+  "telemetry_transport": "state_ack_v2",
+  "normal_input_default": true,
+  "showcase_telemetry": {
+    "magic": 1112822585,
+    "version": 4,
+    "seed": 20261028,
+    "auxiliary_only": true,
+    "normal_words_retained": 80,
+    "actual_wave": 20,
+    "difficulty": 5,
+    "stage_ids": [
+      1,
+      10,
+      20
+    ],
+    "bosses_per_stage": 2,
+    "default_showcase_invulnerability": true,
+    "fixed_perimeter_route": "clockwise,100 world units inset,ordinary player speed,reset each stage",
+    "auxiliary_status": "BSW4, wave,difficulty,bosses,route x/y/dx/dy/version1,current meter8,previous meter8; remaining status words zero",
+    "loop": "seeded_full_cycle_v1",
+    "full_cycle_stage_keys": [
+      1,
+      10,
+      20
+    ],
+    "reset_scope": "showcase game state and original seed after heavy stage; ordinary waves unchanged",
+    "populations": [
+      100,
+      110,
+      114
+    ],
+    "logic_seconds": [
+      30,
+      20,
+      40
+    ],
+    "performance_qualified": false
+  },
+  "presentation_only": true,
+  "scarlet_density": {
+    "levels": 8,
+    "default": 1
+  },
+  "native_capacity_defaults": {
+    "gfx": 512,
+    "bitmap": 96,
+    "alpha": 32
+  },
+  "touhou_build_sha256": "1c04a87b18b3731d03917d1891b89fbc2bf2d65d5c72cda5a33437da113f73f3",
+  "display": {
+    "logical": [
+      800,
+      600
+    ],
+    "output": [
+      1024,
+      600
+    ],
+    "viewport": [
+      112,
+      0,
+      800,
+      600
+    ],
+    "filter": "native one-to-one, two staging bands"
+  },
+  "clock_hz": 105000000,
+  "CPU_indicators_unchanged": true,
+  "files": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "bt_mailbox.py": "b27d4b3b2876bec317eb06b27d61deb2976ccabe11e7c39d97bc9d6fac4b1059",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "driver.py": "a6a0123ea8229f20f4f98d410f7aedd4318aff258086233a3b47d99d600a8d89",
+    "game.bin": "a86e99acb44262bd927722cd831ff80ab1c0641a5914b0cb54f6ce966f196a23",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "input_actions.py": "4cb19bb7e027eb097b97975dda199af78dd48af8c23fbf6c546ca7585d9ec794",
+    "input_backend.py": "fe560789b98fe9bc304309522219ccb6ebe9cf854d3d36ddb19b85b6f861ec13",
+    "legacy_gamepad.py": "94100d895a32008075ade36dd2a3f498f04bdae4f62122870f18b6dd191ac51b",
+    "menu.bin": "14fabacd10eabe41f36796cd51ada1b2d5f1c42f0e66cef51d71f42a8708abaf",
+    "native_session.py": "c343e7b2992a7a90575324109d6d51d50b7d61fbc15f5e94eaa2b2aa88a03b0b",
+    "power_punch_32000_mono_s16le.pcm": "b40d10df9c25bb26746de73ecf2e86d430db016a6b709c8678e5e832d1b06f6f",
+    "pynq_brotato_fidelity.py": "83ad2331e1c7dd7169118695d780d8b910a02fc59f5c5dff327929c7f5fa2687",
+    "pynq_brotato_session.py": "6391bd943e1b924e74a540ed4979eb2d3c3f1442ce64959137a84e00242ad53e",
+    "pynq_classic_session.py": "de907a507135def167196b747d4fea9b2b01d07cfd9f9388658fb07f87617319",
+    "pynq_ddr.py": "1bede108d60181c376895b0a66d83344579d6dfffccd0fbce40cd025c5f50a27",
+    "pynq_gamepad.py": "bafd832b283d411495f9153efd17298dc917bc6bf31b571c6817bdc933c4ac8c",
+    "pynq_menu.py": "bfb3d5c078f40fc04aa85fb756485a1b3180acb0e96fd87f5c728372764439e8",
+    "replay_input.py": "0974ac6b5fd212cba72bb1a273c87d8dd2f27fb29cd5d00ec442103859229cf9",
+    "scarlet_pcm.py": "b0677c0dd97fa4e62c6e1930564d66cbd0e866f937636e805e03a7f1bce7cf37",
+    "scarlet_title01_32000_mono_s16le.pcm": "c7862a25285473ae591ed1bce6c8c27daefcf85ba67925fd97167d28b387ec4a",
+    "scarlet_ui_cancel_32000_s16le.pcm": "d6c994b2214fa94a183742ba5804493f30281b3d4fbacc4983d4cb56f87991a0",
+    "scarlet_ui_confirm_32000_s16le.pcm": "1548f32abcdacd8e394cfed2ef7526c908a87e3de16b79698b2c17dc48c7b698",
+    "scarlet_ui_pcm.py": "14c24973d4909d60c3e6bf92ea98cdc8b107c2a31398d446a5df41187b2ae037",
+    "scarlet_ui_select_32000_s16le.pcm": "394c727fadbef8fc78fdde0294788c2a35a85e23e05912ee8a1649211c999a6e",
+    "septette_new_32000_mono_s16le.pcm": "9a63809bdbe9b6990b5e5d1d054c19bc388e5c937d9a32ae75554c1081e8732f",
+    "top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+    "touhou.bin": "cc65d83a204bd610b623b3ca889daecec0d626989a67035a8d380c9aeb45b9f4",
+    "trace_writer.py": "8cce40edefe25c5f4659fb324aacfef76adfb19aa60572f236b16f2dcf2a4495",
+    "transition_menu_1.rgb332": "3572b1211b0333f15e00e95e2b368c7f68550fb248e8b08c3c2177a0320ccc7f",
+    "transition_menu_2.rgb332": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
+    "usb_xinput.py": "9c475ca82ee1ef7a0f0253deece335604e6c861ed8e17eb27d298ca948107e33",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  },
+  "touhou_frontend": true,
+  "touhou_showcase_only": true,
+  "touhou_title_music": {
+    "file": "scarlet_title01_32000_mono_s16le.pcm",
+    "sha256": "c7862a25285473ae591ed1bce6c8c27daefcf85ba67925fd97167d28b387ec4a",
+    "sample_rate": 32000,
+    "loop_start": 352000,
+    "loop_end": 3767649,
+    "source_track": "local New Classic bgm/th06_01.opus",
+    "title": "title track01"
+  },
+  "ui_effects": {
+    "select": {
+      "file": "scarlet_ui_select_32000_s16le.pcm",
+      "sha256": "394c727fadbef8fc78fdde0294788c2a35a85e23e05912ee8a1649211c999a6e",
+      "sample_rate": 32000,
+      "samples": 1600,
+      "source": "reports/rvgame_longrun_20261031/scarlet_resources_extract_a/extracted/new/th06IN/select00.wav",
+      "source_sha256": "2bb72505a93865df8eb1eb2620ecf931efed56552aa250abf80415e554711c56",
+      "gain": 0.75,
+      "original_recording": true
+    },
+    "confirm": {
+      "file": "scarlet_ui_confirm_32000_s16le.pcm",
+      "sha256": "1548f32abcdacd8e394cfed2ef7526c908a87e3de16b79698b2c17dc48c7b698",
+      "sample_rate": 32000,
+      "samples": 15720,
+      "source": "reports/rvgame_longrun_20261031/scarlet_resources_extract_a/extracted/new/th06IN/ok00.wav",
+      "source_sha256": "04ed7d6ff5924d39a548fdcf297009dd9c0c3a28327965902e398bd9781687ff",
+      "gain": 0.75,
+      "original_recording": true
+    },
+    "cancel": {
+      "file": "scarlet_ui_cancel_32000_s16le.pcm",
+      "sha256": "d6c994b2214fa94a183742ba5804493f30281b3d4fbacc4983d4cb56f87991a0",
+      "sample_rate": 32000,
+      "samples": 19749,
+      "source": "reports/rvgame_longrun_20261031/scarlet_resources_extract_a/extracted/new/th06IN/cancel00.wav",
+      "source_sha256": "b67060220c49072bfc626ae83385f8a6a5e0aef8566f7edac50276732152c068",
+      "gain": 0.75,
+      "original_recording": true
+    }
+  },
+  "title_assets_sha256": "5e7215a48525f97cad1d58f946f6ff39108761372a018115cf1b2f8f8043c3c5",
+  "local_preview_only": true,
+  "public_asset_permission_verified": false
+}

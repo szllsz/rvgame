@@ -1,0 +1,219 @@
+{
+  "files": {
+    "rtl/ps_control.v": {
+      "sha256": "2874256d07477961019a687c5985a873a25f5b6e92984ecf8a4474f38db54875",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/button_input.v": {
+      "sha256": "324e8a7c4c9ba6ca2be7558687ebea9f46b3ad3f0c23740e4cb7f16e2a6a1dd0",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/color_bar.v": {
+      "sha256": "ea3d7bcb7ef8fcd026e8530687e552025f2ff68bf9748f2eef3a4b104922839d",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/ddr_bitmap_blit.v": {
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/ddr_framebuffer.v": {
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/ddr_read_cache.v": {
+      "sha256": "cfd53229f953f00ecd9a820eeb4d2b63738f6b92b5f226ec396a45aace5266f9",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/ddr_read_mux.v": {
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/framebuffer_engine.v": {
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/game_asset_ram.v": {
+      "sha256": "79263d6ce0a5596f4f866393cad8d368cee58fe6d6166fb6899d1c84f0481692",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/game_fps.v": {
+      "sha256": "535bdd0c40c5fbde84ba5dd8ba83bf15ebc35ce4a18e75583ade0a93291ad41b",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/graphics_c_rom.v": {
+      "sha256": "6818dcf93fa6396d5cff3bca754c3b6f25420297b0074e6f8b68f09376e10388",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/graphics_program_rom.v": {
+      "sha256": "4ef1e5090f99955d6fbfed3a904eb782dfcbc65c9f7e1ebcbac4d22ed5afe904",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/graphics_soc.v": {
+      "sha256": "449ad4ee52e203eef9aee87ae343033edbcc94e921cc7d15f52cb73c270f4d2e",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/nes_apu_core.v": {
+      "sha256": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/nes_audio.v": {
+      "sha256": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/rv32i_alu.v": {
+      "sha256": "a797b9548d9a2b3fc797f4b697dd47abee16131cf0001a49fa0a656e58f236f6",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/rv32i_game_core.v": {
+      "sha256": "6b98e09245f01e3b10e2e8dbd2987e82b1592d322caa9ac15f3f48a3767b05cc",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/rv32i_imm_gen.v": {
+      "sha256": "26aedf1a85b688e6cce02fd035292f9f8f09161cea94508b9b4e2248c74137c5",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/sprite_rom.v": {
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/top_system640.v": {
+      "sha256": "01d589deade861b1701569a1efe363cbc904237ee035e9756faac965d120d040",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/rv32i_regfile.v": {
+      "sha256": "a2ff71d50f5f23d314072dbb3604ee2ed8bf3db5afe92b848d947841b7c50259",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/rv32i_core.v": {
+      "sha256": "5d0cb05c13d1c35c298d7e3c5dfa0c15cacdc2f8aedbfd8802f0032d1b86f7da",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/program.mem": {
+      "sha256": "ba01bfeb242e928f37ebbd38981dbca230b714c62c06c4f60fa6f99e64557df2",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/program0.mem": {
+      "sha256": "159f9a7140073a6ab7e89011d5d0d86833fe12354906096e7e82d35612f44aa9",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/program1.mem": {
+      "sha256": "5d34705ed7172ded8cd508df2f11dd4ce8cc9c79753e6b537fde54bd52b7d0e6",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/program2.mem": {
+      "sha256": "17c94475862737db7190f4c281d2e48bad3a99a35564151c6fbe1168d9f0a86a",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "constraints/hdmi_out_test.xdc": {
+      "sha256": "3be0fca173a3bd5727ff204cc02427bb7adba2fcc2a003780df689f75654c3a6",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "constraints/board.xdc": {
+      "sha256": "ade821cb6ac49b37fd619812132913ef02d7a02fb18caddb8d668b24c143541b",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "constraints/audio.xdc": {
+      "sha256": "c2fc961847b59446f4858330749a57f0819537a1f910c1fca2a6b9466557d28b",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip/rgb2dvi_0.xci": {
+      "sha256": "0bffcf7cde72a96763d507b6d4783470d2276d7a94092875c8a4b6512060036e",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip/video_clock.xci": {
+      "sha256": "2d90a4f5940a25a40fc89c47a7f788914f202e32d9ab0e7f7fc364e9e3f07323",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/component.xml": {
+      "sha256": "647d1355417504c6d1d9ca623a99bfe744119aee708cbd7b84329f0c9ecc9c55",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/docs/rgb2dvi_v1_2.pdf": {
+      "sha256": "cbd8609fb8b415031e6260db92a324f71697afe4f606f95c5216045e320fa04b",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/ClockGen.vhd": {
+      "sha256": "377bf4c8abd4fbd10bd84d5b6d9796fb29da0a7389df44e17204353307c55af1",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/DVI_Constants.vhd": {
+      "sha256": "4f634d35e638f89040a0c58a199a13ced67cd757a36763e98c75acd2edebc863",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/OutputSERDES.vhd": {
+      "sha256": "8145971992829bc520cd1c82dbb78a54d2ea91146417bd69cb62af1e158c76f6",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/rgb2dvi.vhd": {
+      "sha256": "c91a4140b8618c144cf987fa8958466dfa97b5f886e471ecb8066e86e04d9b86",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/rgb2dvi.xdc": {
+      "sha256": "5263196a2c78a5c1818991c9372d8be2e1e905c7dc7c66e2098ed1c4b16208e4",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/rgb2dvi_clocks.xdc": {
+      "sha256": "3ba47f0eee0a85c6ba8c2227a1ce42fdcb0184c949e3767a2aa2bc7c5a6420ae",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/rgb2dvi_ooc.xdc": {
+      "sha256": "859282bc19a75dbd9fa55ccf8671caa8e9f1dbd668cc0bd8d03e212fd9141cea",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/SyncAsync.vhd": {
+      "sha256": "8c226a1121313391bf99c207857632f5883938f1d9c7856c8310c41af1596cbe",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/SyncAsyncReset.vhd": {
+      "sha256": "09d342d737f70901cba6236f7ead07afa29a4de8b8b78c3b3237900a0a2a61d7",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/src/TMDS_Encoder.vhd": {
+      "sha256": "a92ae95220730c43fb5a806714aa8f0076936c301dcf15b321206ac8d8b28748",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/xgui/rgb2dvi_v1_1.tcl": {
+      "sha256": "ef2af323b6752addcf17239fae91ded5375573098e3e6945b2bb526daca33142",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/xgui/rgb2dvi_v1_2.tcl": {
+      "sha256": "a2d21c71fd3908455a5d9bafd53b784fa650bf7290cb777b449bdeb8e04df566",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/rgb2dvi_v1_3/xgui/rgb2dvi_v1_3.tcl": {
+      "sha256": "a2d21c71fd3908455a5d9bafd53b784fa650bf7290cb777b449bdeb8e04df566",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/tmds_v1_0/tmds.xml": {
+      "sha256": "b4e558193ceae27c7c37ac364bd6d3a301bdc8af1b5a5a08949b6c99c3cc95aa",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "ip_repo/tmds_v1_0/tmds_rtl.xml": {
+      "sha256": "b9533c80c323c7aebe7bf49763292873526c9f41f3a849e3f30483295a3a4da5",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "rtl/video_define.v": {
+      "sha256": "d2312684f804e7da1e8d184edcf12fcc63e82c30d285bd17fba59a533f46ce8e",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "build/ps_sys.tcl": {
+      "sha256": "c20574160bc65c1d1e18883c4dc8361bbea93183071376375be17c815465bfd0",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "build/frame640_power.tcl": {
+      "sha256": "a96fc791a0e2bc033df931b652211d34e7eed7bd7ba8237fcb70467fafb1c4c2",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "build/recreate.tcl": {
+      "sha256": "30a79c5558ae2f0bc288a6aa76bf365acfd3aec1d1be6b65fa24c42c15b8df34",
+      "source": "source-local origin omitted; original provenance digest retained"
+    },
+    "build/accept.tcl": {
+      "sha256": "1838a205121c0a229de05449d53cfb3bf0b95b0db1da5093ad1a6eca4168b4cb",
+      "source": "source-local origin omitted; original provenance digest retained"
+    }
+  },
+  "vivado": "2024.2",
+  "part": "xc7z020clg400-2",
+  "stage": "packaged; reconstruction and implementation not yet verified"
+}

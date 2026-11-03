@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/rvgame/reports/detached simulation completion b/hold_retirement/tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module native_hold_case
+INFO: [VRFC 10-311] analyzing module tb_native_hold_old
+INFO: [VRFC 10-311] analyzing module tb_native_hold_abort
+INFO: [VRFC 10-311] analyzing module tb_native_hold_abort_dma

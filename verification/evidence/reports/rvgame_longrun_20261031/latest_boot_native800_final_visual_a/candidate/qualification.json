@@ -1,0 +1,208 @@
+{
+  "pass_": true,
+  "automatic_board_tested": true,
+  "manual_tested": false,
+  "manual_pending": true,
+  "automatic_gates": {
+    "reports/rvgame_longrun_20261031/space_visual_received_e/result.json": "fddc58613d346ac3bbb0832e0b5cf3c57989d5a706b1e3e0d93f980e320cd40b",
+    "reports/rvgame_longrun_20261031/egg_manual_received_b/result.json": "5a4077ceae666d6dfae0f73f4c0cde7dcfd821c463b4b17b849474993c199ee5",
+    "reports/rvgame_longrun_20261031/scarlet_native_host_space_visual_d/result.json": "58b55d243b12ee918444ac61812ab67e1b106352c2a5423d7f01893c90efd91b",
+    "reports/rvgame_longrun_20261031/space_tiers_host_d/result.json": "a8ccdc9ce7e63f429193bdc4fbe169a812d1c48dfe6f04337d41673ab6750dd5",
+    "reports/space_visual_delivery_20261103_d/detached rebuild/result.json": "305bb2aed917511cbecfc738a0e577712f401ec4f119d9a672ac520e1c9d00eb",
+    "reports/final_board_screenshots_20261102_a/result.json": "154e2263420461ac0e39e2fa390790aca02e861b763ec64d2a607f2fc656caf1",
+    "reports/egg_manual_tiers_20261103_b/host_c/result.json": "13d11dc236e335bbbee704359f112118e69be46e64d6b33e4cea92e5d3285e82",
+    "reports/egg_manual_tiers_20261103_b/logic_a/result.json": "7f847802dc8cf6b714aea37991804751f29c9072cd87d7656427537adc2a9205",
+    "reports/egg_manual_tiers_20261103_b/detached rebuild/result.json": "a3feee982871cb29c03bc1574f3b4fea99c77d2aa7e5527af05ceb4c87fe8978",
+    "software/space_visual_runtime_20261103/host_result.json": "57c3d42e4193b5c707b30ac55ec7511f789b6765dd19d46c3a263f7163a3780f"
+  },
+  "unchanged_binaries": [
+    "coremark",
+    "validation",
+    "gfx",
+    "bitmap",
+    "alpha",
+    "menu"
+  ],
+  "hardware_unchanged": true,
+  "input_USB_PCM_unchanged": true,
+  "PS_change": "native_session density upper bound 8 to 9 only",
+  "native_capacity_defaults": {
+    "gfx": 512,
+    "bitmap": 96,
+    "alpha": 32
+  },
+  "parent_qualification_sha256": "d8634dec28801825df3b496b2051995c0d1abfc894d33f51ec3c09a0e968fbbc",
+  "space_tiers": [
+    {
+      "density": 1,
+      "seconds": 61.93333331428571,
+      "completed_frames": 3716,
+      "scans": 3716,
+      "completed_FPS": 60.00000001845302,
+      "nonunit_scans": 0,
+      "missed_scans": 0,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": true
+    },
+    {
+      "density": 2,
+      "seconds": 63.06666654285714,
+      "completed_frames": 3278,
+      "scans": 3784,
+      "completed_FPS": 51.976744288084824,
+      "nonunit_scans": 506,
+      "missed_scans": 506,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": false
+    },
+    {
+      "density": 9,
+      "seconds": 65.4500000952381,
+      "completed_frames": 2084,
+      "scans": 3927,
+      "completed_FPS": 31.841100030061334,
+      "nonunit_scans": 1843,
+      "missed_scans": 1843,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": false
+    }
+  ],
+  "egg_manual_stages": [
+    {
+      "wave": 1,
+      "population": 64,
+      "FPS": 60.00000150313165,
+      "strict60": true,
+      "held_wall_seconds": 35.07771457500348,
+      "closed_epochs": [
+        {
+          "epoch": 1,
+          "population": 64,
+          "seconds": 7.9833335142857145,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 59.99999864002389,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        },
+        {
+          "epoch": 2,
+          "population": 64,
+          "seconds": 7.983332752380952,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 60.00000436623951,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        },
+        {
+          "epoch": 3,
+          "population": 64,
+          "seconds": 7.983333133333334,
+          "frames": 479,
+          "scans": 479,
+          "presents": 479,
+          "FPS": 60.00000150313156,
+          "nonunit": 0,
+          "missed": 0,
+          "strict60": true
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "population": 85,
+      "FPS": 41.83333256155769,
+      "strict60": false,
+      "held_wall_seconds": 35.063650533003965,
+      "closed_epochs": [
+        {
+          "epoch": 6,
+          "population": 85,
+          "seconds": 7.999999542857143,
+          "frames": 336,
+          "scans": 480,
+          "presents": 336,
+          "FPS": 42.000002400000135,
+          "nonunit": 77,
+          "missed": 144,
+          "strict60": false
+        },
+        {
+          "epoch": 7,
+          "population": 85,
+          "seconds": 8.000000247619047,
+          "frames": 335,
+          "scans": 480,
+          "presents": 335,
+          "FPS": 41.87499870386909,
+          "nonunit": 78,
+          "missed": 145,
+          "strict60": false
+        },
+        {
+          "epoch": 8,
+          "population": 85,
+          "seconds": 8.000000657142857,
+          "frames": 333,
+          "scans": 480,
+          "presents": 333,
+          "FPS": 41.62499658080385,
+          "nonunit": 80,
+          "missed": 147,
+          "strict60": false
+        }
+      ]
+    },
+    {
+      "wave": 20,
+      "population": 100,
+      "FPS": 29.75000053125002,
+      "strict60": false,
+      "held_wall_seconds": 35.02412070699938,
+      "closed_epochs": [
+        {
+          "epoch": 11,
+          "population": 100,
+          "seconds": 7.999999942857142,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.7500002125,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        },
+        {
+          "epoch": 12,
+          "population": 100,
+          "seconds": 7.999999990476191,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.750000035416665,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        },
+        {
+          "epoch": 14,
+          "population": 100,
+          "seconds": 7.999999638095238,
+          "frames": 238,
+          "scans": 480,
+          "presents": 238,
+          "FPS": 29.750001345833397,
+          "nonunit": 103,
+          "missed": 242,
+          "strict60": false
+        }
+      ]
+    }
+  ],
+  "scope": "Star art and 3 tiers, Egg manual stages and ordinary-play regression; direct menu replay inherited by SHA; physical photos/cold boot/listening deferred to user"
+}

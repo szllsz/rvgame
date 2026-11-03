@@ -1,0 +1,88 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "source_only": true,
+  "original_project_used": false,
+  "stages": [
+    {
+      "stage": "recreate",
+      "exit_code": 0,
+      "seconds": 34.60523438453674,
+      "command": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\vivado.bat",
+        "-mode",
+        "batch",
+        "-source",
+        "D:\\Project\\rvgame\\reports\\h800a\\recreate_entry.tcl",
+        "-log",
+        "D:\\Project\\rvgame\\reports\\h800a\\recreate.log",
+        "-journal",
+        "D:\\Project\\rvgame\\reports\\h800a\\recreate.jou",
+        "-tclargs",
+        "D:\\Project\\rvgame\\reports\\h800a\\vivado"
+      ]
+    },
+    {
+      "stage": "platform",
+      "exit_code": 0,
+      "seconds": 32.99131751060486,
+      "command": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\vivado.bat",
+        "-mode",
+        "batch",
+        "-source",
+        "D:\\Project\\rvgame\\reports\\h800a\\platform_entry.tcl",
+        "-log",
+        "D:\\Project\\rvgame\\reports\\h800a\\platform.log",
+        "-journal",
+        "D:\\Project\\rvgame\\reports\\h800a\\platform.jou",
+        "-tclargs",
+        "D:\\Project\\rvgame\\reports\\h800a"
+      ]
+    },
+    {
+      "stage": "implementation",
+      "exit_code": 0,
+      "seconds": 1677.8961226940155,
+      "command": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\vivado.bat",
+        "-mode",
+        "batch",
+        "-source",
+        "D:\\Project\\rvgame\\reports\\h800a\\implementation_entry.tcl",
+        "-log",
+        "D:\\Project\\rvgame\\reports\\h800a\\implementation.log",
+        "-journal",
+        "D:\\Project\\rvgame\\reports\\h800a\\implementation.jou",
+        "-tclargs",
+        "D:\\Project\\rvgame\\reports\\h800a"
+      ]
+    },
+    {
+      "stage": "export",
+      "exit_code": 0,
+      "seconds": 149.9611370563507,
+      "command": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\vivado.bat",
+        "-mode",
+        "batch",
+        "-source",
+        "D:\\Project\\rvgame\\reports\\h800a\\export_entry.tcl",
+        "-log",
+        "D:\\Project\\rvgame\\reports\\h800a\\export.log",
+        "-journal",
+        "D:\\Project\\rvgame\\reports\\h800a\\export.jou",
+        "-tclargs",
+        "D:\\Project\\rvgame\\reports\\h800a",
+        "D:\\Project\\rvgame\\reports\\h800a\\products"
+      ]
+    }
+  ],
+  "recipe_sha256": "d981495429dcc934ca7f38249dd6348e571311e65560d9429ec4765c410fd3f3",
+  "products": {
+    "system640.xsa": "7e9ef8120b62f252ba053c85a03f0b9289f433d6489a453fdeab88caeb355393",
+    "top.bit": "9783db22ad9cef9ce40457f02d0b601e570612d1864c8df0bbdf12f445439cfe",
+    "top.hwh": "88437ec562054c3f93e8cac38fbb88cd0670e05ef84fbdabd2e1789ae37df2b6"
+  },
+  "scope": "source-only synthesis/route/physical script gates and bit/XSA export; not new board qualification"
+}

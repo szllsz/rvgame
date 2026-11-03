@@ -1,0 +1,45 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "tool_family": "2025.2",
+  "adaptations": {
+    "hardware\\display_scale_20261030\\inputs\\build\\audit_fifo.tcl": {
+      "original_sha256": "9624024311fff5c64cad6c213698180b7b7e4957f71c02e0455f33a7d49e2bc0",
+      "adapted_sha256": "bd4f3fe9b664f9429c54936b841b3dd497410341ba5eb14702bacb827b1c123c",
+      "only_change": "selected2025.2 family version guard; original timing/resource/CDC/IO/PCM checks retained"
+    },
+    "scripts\\audit_cpu_board_io_b.tcl": {
+      "original_sha256": "b7c75ff1cd99387692f256283b88010d6bb717c5a8e01e2e11b78302db67a3e7",
+      "adapted_sha256": "3f96ed0d860fcce2d4554c7839628ca90bc8e4850978b8cce94001cbc53c8af5",
+      "only_change": "selected2025.2 family version guard; original timing/resource/CDC/IO/PCM checks retained"
+    },
+    "scripts\\audit_cpu_board_io.tcl": {
+      "original_sha256": "52e9ed7833df5b4a148e86a7398a9e5cfcea0ce44f619aa0f473f6af2c50cb1c",
+      "adapted_sha256": "805f5b810ba3fa327a2c7fadaf198ef7601b1146e6651b7fb297a9fc8265d384",
+      "only_change": "selected2025.2 family version guard; original timing/resource/CDC/IO/PCM checks retained"
+    },
+    "scripts\\export_qualified_cpu_trial.tcl": {
+      "original_sha256": "7a35f7145f39be9ca015de4c015ae8ad9c9607baa5c0012d3fd2da7b4be61f1a",
+      "adapted_sha256": "c112256b397aec44d506655a600e218334559bd8021afa1eab7da9bc10a334f2",
+      "only_change": "selected2025.2 family version guard; original timing/resource/CDC/IO/PCM checks retained"
+    },
+    "reports\\whole2025_2_hw_astra_native800_a\\scarlet_pcm_mapping.tcl": {
+      "original_sha256": "1276951a640caeb2325f9df998348145242943c85ee52aa018d99583020cc2a3",
+      "adapted_sha256": "c317c706bfcb44a2e0710eb67e906b4b768a2d34c6528868cfdcc161be08c358",
+      "only_change": "selected2025.2 family version guard; original timing/resource/CDC/IO/PCM checks retained"
+    }
+  },
+  "resumed_export": {},
+  "physical_qualification_sha256": "33696cb6ac375c06f0ca1c2e2c015902e7dae7cba7813ac486cf5a98b3a12173",
+  "audio_qualification_sha256": "12c83a38eac43c6f1d6777d8f2afd35128e743e77613187c555a87a9394bb2f5",
+  "platform_audit_sha256": "414ef911ae908e09a808f2637225a364b24780f1a44560409d979f84c339a075",
+  "source_code": {
+    "scripts\\qualify_display_hardware_20261030.py": "fcea48cd09cc850cd5958fa7efae97a9b5c3e90dcc231c6a69a75a0256b1bc37",
+    "scripts\\qualify_scarlet_audio_hardware_20261031.py": "f9ef337ee8c3402cc5ae99aec82237ec0b5a38bef2d6f5864f640cb357927990",
+    "scripts\\astra_native8002025_qualify_20261101.py": "8070ebbd37e546a8f6c75d0206ba003e8ec3dc2e46c93736fe762eb8aee3c851",
+    "reports\\whole2025_2_hw_astra_native800_a\\qualification_sources\\physical_2025_2.py": "03b0a2e594dc141cde1fd033cd7441752a310249b1d2ef9f3d85c4fd15ff4f12",
+    "reports\\whole2025_2_hw_astra_native800_a\\qualification_sources\\audio_2025_2.py": "0d5121c0ddcb9644557808f6ddc0bd13468316858b0aad86f9f89fcf19fd37a9"
+  },
+  "full_original_physical_gates_retained": true,
+  "limitation": "2025.2 hardware artifacts only; own automatic board tests remain required"
+}

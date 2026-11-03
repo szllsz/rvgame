@@ -1,0 +1,14 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": false,
+  "ordinary_120_tick_state_identical": true,
+  "retained_stage_ticks": 1800,
+  "bounded_scene_loops": 3,
+  "clamped_selection": true,
+  "deterministic_reentry": true,
+  "pause_and_normal_ignored": true,
+  "build_sha256": "b63671b6cc45d109ca985f5fffd819d08140553cc6c8651e95b15e20a851eba3",
+  "test_sha256": "0c7dbdd7d1a8180e40941a7f313d16b3d043fabd9a9a9f27bd91fce4e8394820",
+  "ordinary_state_FNV": 4248719551
+}

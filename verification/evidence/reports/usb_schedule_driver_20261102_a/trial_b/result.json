@@ -1,0 +1,246 @@
+{
+  "pass_": false,
+  "manual_tested": false,
+  "phase": "finished",
+  "USB_host_rebinds": 1,
+  "kernel_image_changed": false,
+  "MMIO_write": false,
+  "requested_seconds": 120,
+  "stages": [
+    {
+      "name": "fresh_USB_baseline",
+      "at": 17499.035368209
+    },
+    {
+      "name": "finished",
+      "at": 17547.569256558
+    }
+  ],
+  "kernel_tainted_before": "4096",
+  "delay_init_requested": true,
+  "original_usbcore_quirks": "\n",
+  "before_owner": {
+    "supervisor_pid": 23878,
+    "child_pid": 23879,
+    "target": "session",
+    "directory": "/home/xilinx/rvgame_latest_20261102_native800_menu_return_a/runs/13153935999102_session",
+    "run": "/home/xilinx/rvgame_latest_20261102_native800_menu_return_a/runs/13153935999102_session",
+    "persistent_native_owner": true,
+    "test_input": false,
+    "monotonic": 13155.597456849,
+    "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+  },
+  "before_interfaces": [
+    {
+      "name": "1-1.1:1.0",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_81": "01"
+      },
+      "HID_SHA256": [
+        "9516e2eb08355b209fba2a015ac349eb341d9fb6cf61fc38382a2e44ace9f611"
+      ]
+    },
+    {
+      "name": "1-1.1:1.1",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      },
+      "HID_SHA256": [
+        "2796c74a2e615814c81e46f6993426adf4c1d4ed3c20411a6deac4c96af2b2b0"
+      ]
+    },
+    {
+      "name": "1-1.4:1.0",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      },
+      "HID_SHA256": [
+        "d394982f1108740d7c19e93c7e669e75b0e24a94c59fd45a67b54ce48eb26d16"
+      ]
+    }
+  ],
+  "applied_usbcore_quirks": "045e:028e:g\n\n",
+  "recovery": {
+    "before": {
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353",
+      "monotonic": 17499.065347658,
+      "devices": [
+        {
+          "path": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "speed": "480",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "1"
+        },
+        {
+          "path": "1-1.1",
+          "idVendor": "046d",
+          "idProduct": "c092",
+          "speed": "12",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "3"
+        },
+        {
+          "path": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "speed": "480",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "2"
+        },
+        {
+          "path": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "speed": "12",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "5"
+        },
+        {
+          "path": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "speed": "12",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "4"
+        }
+      ],
+      "inputs": "I: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse\"\nP: Phys=usb-ci_hdrc.0-1.1/input0\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:046D:C092.0016/input/input29\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=event0 \nB: PROP=0\nB: EV=17\nB: KEY=ffff0000 0 0 0 0 0 0 0 0\nB: REL=1943\nB: MSC=10\n\nI: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse Keyboard\"\nP: Phys=usb-ci_hdrc.0-1.1/input1\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:046D:C092.0017/input/input30\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=kbd event1 \nB: PROP=0\nB: EV=10001f\nB: KEY=33eff 0 0 0 0 483ffff 17aff32d bfd44446 0 0 1 130ff3 8b17c007 ffff7bfa d941dfff febeffdf ffefffff ffffffff fffffffe\nB: REL=1040\nB: ABS=1 0\nB: MSC=10\n\nI: Bus=0003 Vendor=1a86 Product=e5e3 Version=0100\nN: Name=\"wch.cn USB2IIC_CTP_CONTROL\"\nP: Phys=usb-ci_hdrc.0-1.4/input0\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:1A86:E5E3.0018/input/input33\nU: Uniq=\nH: Handlers=event2 \nB: PROP=0\nB: EV=1b\nB: KEY=400 0 0 0 0 0 0 0 0 0 0\nB: ABS=100 3\nB: MSC=10\n\n",
+      "dmesg": "[17329.622127] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17330.159296] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17330.696739] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17331.233500] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17331.769949] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17332.306709] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17332.843474] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17333.379992] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17333.916727] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17334.453500] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17334.989803] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17335.526220] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17336.073295] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17336.610519] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17337.147307] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17337.687662] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17338.225083] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17338.762441] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17339.299769] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17339.836797] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17340.373275] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17340.910049] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17341.447934] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17341.984314] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17342.520837] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17343.057608] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17343.594439] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17344.130995] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17344.667611] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17345.204665] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17345.742055] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17346.279510] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17346.817025] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17347.354110] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17347.892519] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17348.429327] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17348.966055] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17349.502414] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17350.038872] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17350.576073] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17351.112625] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17351.649057] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17352.185693] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17352.723005] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17353.261538] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17353.798337] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17354.338590] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17354.878425] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17355.417755] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17355.954652] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17356.491662] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17357.028343] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17357.565065] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17358.102233] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17358.639092] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17359.175399] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17359.716271] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17360.253276] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17360.789913] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17361.326286] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17361.863044] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17362.401267] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17362.938245] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17363.475411] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17364.012468] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17364.549353] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17365.085762] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17365.622425] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17366.159460] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17366.695842] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17367.232199] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17367.769367] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17368.305627] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17368.842173] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17369.379144] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17369.915584] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17370.452132] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17370.989696] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17371.526885] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17372.063983] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17372.601381] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17373.138574] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17373.677491] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17374.213836] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17374.750970] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17375.287156] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17375.823459] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17376.365769] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17376.902205] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17377.438621] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17377.976169] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17378.512616] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17379.049747] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17379.587186] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17380.124794] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17380.661667] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17381.198912] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17381.735616] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17382.271937] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17382.808802] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17383.345690] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17383.882085] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17384.430262] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17384.973285] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17385.510418] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17386.047998] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17386.585164] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17387.122564] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17387.659785] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17388.196529] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17388.733756] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17389.270645] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17389.806938] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17390.343552] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17390.880323] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17391.416584] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17391.952841] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17392.489622] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17393.026171] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17393.562663] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17394.099184] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17394.637112] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17395.174387] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17395.711318] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17396.252684] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17396.796220] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17397.332914] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17397.869231] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17398.405856] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17398.942560] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17399.479138] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17400.015893] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17400.552916] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17401.089382] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17401.626175] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17402.163200] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17402.700340] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17403.237506] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17403.775071] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17404.315642] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17404.852418] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17405.389634] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17405.925976] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17406.462670] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17406.999701] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17407.536036] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17408.072493] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17408.613953] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17409.157277] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17409.693618] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17410.230336] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17410.767982] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17411.305288] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17411.842275] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17412.379802] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17412.916432] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17413.452738] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17413.989327] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17414.527437] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17415.064007] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17415.600629] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17416.137575] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17416.674286] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17417.210795] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17417.747691] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17418.284317] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17418.821324] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17419.358753] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17419.895931] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17420.432724] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17420.974541] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17421.511358] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17422.047720] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17422.584452] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17423.121129] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17423.657655] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17424.194442] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17424.732415] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17425.269165] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17425.805881] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17426.342278] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17426.879111] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17427.416468] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17427.953255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17428.490466] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17429.029641] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17429.566283] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17430.103399] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17430.639492] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17431.175686] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17431.712600] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17432.249225] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17432.785566] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17433.327728] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17433.864837] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17434.401157] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17434.937488] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17435.474787] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17436.012448] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17436.549844] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17437.086888] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17437.624230] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17438.161011] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17438.697286] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17439.234255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17439.771261] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17440.307673] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17440.844442] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17441.381239] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17441.917811] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17442.454512] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17442.995760] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17443.549405] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17444.104662] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17444.642021] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17445.194433] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17445.752780] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17446.316230] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17446.862028] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17447.398248] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17447.934846] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17448.471699] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17449.008351] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17449.544947] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17450.081955] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17450.618389] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17451.155125] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17451.693962] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17452.231809] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17452.768828] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17453.305732] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17453.843059] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17454.379747] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17454.916063] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17455.452814] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17455.989613] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17456.526165] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17457.062757] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17457.599913] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17458.141681] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17458.678196] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17459.215150] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17459.751785] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17460.289308] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17460.826596] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17461.363830] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17461.900949] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17462.437766] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17462.974867] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17463.511421] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17464.048006] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17464.584944] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17465.122116] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17465.658502] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17466.196008] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17466.733032] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17467.269423] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17467.805758] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17468.343332] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17468.880440] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17469.417280] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17469.955084] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17470.493981] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17471.030579] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17471.567255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17472.104212] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17472.640633] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17473.177019] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17473.714503] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17474.250760] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17474.787016] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17475.324068] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17475.861966] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17476.398271] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17476.938790] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17477.476030] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17478.015149] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17478.552339] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17479.089209] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17479.625254] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17480.161939] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17480.698855] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17481.234996] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17481.771293] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17482.308136] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17482.855645] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17483.395119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17483.932545] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17484.469754] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17485.006828] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17485.544391] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17486.081354] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17486.618119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17487.155080] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17487.691505] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17488.228081] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17488.765304] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17489.301867] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17489.838207] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17490.374888] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17490.911838] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17491.448227] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17491.984516] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17492.521862] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17493.059119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17493.595898] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17494.133288] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17494.670061] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17495.253273] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17495.801786] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17496.342986] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17496.885178] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17497.435332] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17497.985268] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17498.542948] usb 1-1.2: usbfs: usb_submit_urb returned -28\n"
+    },
+    "stages": [
+      "unbound",
+      "rebound"
+    ],
+    "scope": "One-shot USB host driver rebind; no root-cause claim",
+    "after": {
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353",
+      "monotonic": 17537.463470582,
+      "devices": [
+        {
+          "path": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "speed": "480",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "1"
+        },
+        {
+          "path": "1-1.1",
+          "idVendor": "046d",
+          "idProduct": "c092",
+          "speed": "12",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "3"
+        },
+        {
+          "path": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "speed": "480",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "2"
+        },
+        {
+          "path": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "speed": "12",
+          "bConfigurationValue": "1",
+          "authorized": "1",
+          "devnum": "4"
+        }
+      ],
+      "inputs": "I: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse\"\nP: Phys=usb-ci_hdrc.0-1.1/input0\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:046D:C092.0019/input/input34\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=event0 \nB: PROP=0\nB: EV=17\nB: KEY=ffff0000 0 0 0 0 0 0 0 0\nB: REL=1943\nB: MSC=10\n\nI: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse Keyboard\"\nP: Phys=usb-ci_hdrc.0-1.1/input1\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:046D:C092.001A/input/input35\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=kbd event1 \nB: PROP=0\nB: EV=10001f\nB: KEY=33eff 0 0 0 0 483ffff 17aff32d bfd44446 0 0 1 130ff3 8b17c007 ffff7bfa d941dfff febeffdf ffefffff ffffffff fffffffe\nB: REL=1040\nB: ABS=1 0\nB: MSC=10\n\n",
+      "dmesg": "[17396.252684] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17396.796220] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17397.332914] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17397.869231] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17398.405856] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17398.942560] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17399.479138] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17400.015893] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17400.552916] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17401.089382] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17401.626175] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17402.163200] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17402.700340] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17403.237506] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17403.775071] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17404.315642] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17404.852418] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17405.389634] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17405.925976] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17406.462670] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17406.999701] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17407.536036] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17408.072493] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17408.613953] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17409.157277] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17409.693618] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17410.230336] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17410.767982] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17411.305288] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17411.842275] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17412.379802] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17412.916432] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17413.452738] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17413.989327] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17414.527437] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17415.064007] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17415.600629] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17416.137575] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17416.674286] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17417.210795] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17417.747691] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17418.284317] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17418.821324] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17419.358753] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17419.895931] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17420.432724] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17420.974541] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17421.511358] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17422.047720] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17422.584452] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17423.121129] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17423.657655] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17424.194442] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17424.732415] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17425.269165] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17425.805881] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17426.342278] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17426.879111] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17427.416468] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17427.953255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17428.490466] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17429.029641] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17429.566283] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17430.103399] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17430.639492] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17431.175686] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17431.712600] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17432.249225] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17432.785566] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17433.327728] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17433.864837] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17434.401157] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17434.937488] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17435.474787] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17436.012448] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17436.549844] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17437.086888] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17437.624230] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17438.161011] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17438.697286] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17439.234255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17439.771261] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17440.307673] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17440.844442] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17441.381239] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17441.917811] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17442.454512] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17442.995760] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17443.549405] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17444.104662] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17444.642021] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17445.194433] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17445.752780] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17446.316230] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17446.862028] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17447.398248] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17447.934846] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17448.471699] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17449.008351] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17449.544947] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17450.081955] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17450.618389] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17451.155125] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17451.693962] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17452.231809] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17452.768828] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17453.305732] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17453.843059] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17454.379747] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17454.916063] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17455.452814] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17455.989613] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17456.526165] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17457.062757] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17457.599913] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17458.141681] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17458.678196] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17459.215150] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17459.751785] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17460.289308] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17460.826596] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17461.363830] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17461.900949] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17462.437766] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17462.974867] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17463.511421] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17464.048006] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17464.584944] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17465.122116] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17465.658502] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17466.196008] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17466.733032] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17467.269423] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17467.805758] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17468.343332] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17468.880440] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17469.417280] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17469.955084] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17470.493981] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17471.030579] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17471.567255] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17472.104212] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17472.640633] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17473.177019] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17473.714503] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17474.250760] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17474.787016] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17475.324068] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17475.861966] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17476.398271] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17476.938790] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17477.476030] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17478.015149] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17478.552339] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17479.089209] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17479.625254] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17480.161939] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17480.698855] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17481.234996] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17481.771293] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17482.308136] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17482.855645] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17483.395119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17483.932545] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17484.469754] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17485.006828] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17485.544391] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17486.081354] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17486.618119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17487.155080] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17487.691505] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17488.228081] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17488.765304] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17489.301867] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17489.838207] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17490.374888] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17490.911838] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17491.448227] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17491.984516] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17492.521862] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17493.059119] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17493.595898] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17494.133288] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17494.670061] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17495.253273] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17495.801786] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17496.342986] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17496.885178] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17497.435332] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17497.985268] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17498.542948] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17499.135896] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17499.158936] ci_hdrc ci_hdrc.0: remove, state 1\n[17499.159055] usb usb1: USB disconnect, device number 1\n[17499.159081] usb 1-1: USB disconnect, device number 2\n[17499.159099] usb 1-1.1: USB disconnect, device number 3\n[17499.260792] usb 1-1.2: USB disconnect, device number 4\n[17499.262027] usb 1-1.4: USB disconnect, device number 5\n[17499.345638] ci_hdrc ci_hdrc.0: USB bus 1 deregistered\n[17499.385316] debugfs: Directory 'ci_hdrc.0' with parent 'ulpi' already present!\n[17499.398756] ULPI transceiver vendor/product ID 0x0424/0x0007\n[17499.398788] Found SMSC USB3320 ULPI transceiver.\n[17499.398808] ULPI integrity check: passed.\n[17499.398878] ci_hdrc ci_hdrc.0: EHCI Host Controller\n[17499.398930] ci_hdrc ci_hdrc.0: new USB bus registered, assigned bus number 1\n[17499.429111] ci_hdrc ci_hdrc.0: USB 2.0 started, EHCI 1.00\n[17499.431783] hub 1-0:1.0: USB hub found\n[17499.431863] hub 1-0:1.0: 1 port detected\n[17499.728784] usb 1-1: new high-speed USB device number 2 using ci_hdrc\n[17499.932039] hub 1-1:1.0: USB hub found\n[17499.932374] hub 1-1:1.0: 4 ports detected\n[17500.258733] usb 1-1.1: new full-speed USB device number 3 using ci_hdrc\n[17500.416760] input: Logitech G102 LIGHTSYNC Gaming Mouse as /devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:046D:C092.0019/input/input34\n[17500.417157] hid-generic 0003:046D:C092.0019: input: USB HID v1.11 Mouse [Logitech G102 LIGHTSYNC Gaming Mouse] on usb-ci_hdrc.0-1.1/input0\n[17500.425546] input: Logitech G102 LIGHTSYNC Gaming Mouse Keyboard as /devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:046D:C092.001A/input/input35\n[17500.490058] hid-generic 0003:046D:C092.001A: input,hiddev96: USB HID v1.11 Keyboard [Logitech G102 LIGHTSYNC Gaming Mouse] on usb-ci_hdrc.0-1.1/input1\n[17500.588989] usb 1-1.2: new full-speed USB device number 4 using ci_hdrc\n[17503.198768] usb 1-1.4: new full-speed USB device number 5 using ci_hdrc\n[17503.211757] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17503.744433] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17504.276441] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17504.807838] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17505.343864] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17505.893135] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17506.427180] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17506.964475] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17507.502619] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17508.036674] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17508.569409] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17509.101590] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17509.633679] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17510.165646] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17510.697381] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17511.229394] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17511.766744] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17512.305333] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17512.848786] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17513.389206] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17513.858726] usb 1-1.4: device not accepting address 5, error -110\n[17513.921638] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17514.453713] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17514.913495] usb 1-1-port4: cannot disable (err = -110)\n[17514.985683] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17515.517532] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17515.952499] usb 1-1-port4: cannot reset (err = -110)\n[17516.049492] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17516.581200] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17516.993807] usb 1-1-port4: cannot reset (err = -110)\n[17517.112808] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17517.644484] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17518.033929] usb 1-1-port4: cannot reset (err = -110)\n[17518.182740] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17518.725363] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17519.073934] usb 1-1-port4: cannot reset (err = -110)\n[17519.280176] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17519.822928] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17520.113140] usb 1-1-port4: cannot reset (err = -110)\n[17520.116839] usb 1-1-port4: Cannot enable. Maybe the USB cable is bad?\n[17520.356207] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17520.888267] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17521.153802] usb 1-1-port4: cannot disable (err = -110)\n[17521.157694] usb 1-1-port4: attempt power cycle\n[17521.420788] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17521.956314] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17522.488592] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17523.023058] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17523.555834] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17524.087471] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17524.623014] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17524.675999] usb 1-1-port4: cannot reset (err = -110)\n[17525.164364] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17525.716625] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17525.718945] usb 1-1-port4: cannot reset (err = -110)\n[17526.248652] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17526.758740] usb 1-1-port4: cannot reset (err = -110)\n[17526.784815] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17527.316607] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17527.793006] usb 1-1-port4: cannot reset (err = -110)\n[17527.850319] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17528.381995] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17528.833837] usb 1-1-port4: cannot reset (err = -110)\n[17528.837550] usb 1-1-port4: Cannot enable. Maybe the USB cable is bad?\n[17528.913521] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17529.445723] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17529.873817] usb 1-1-port4: cannot disable (err = -110)\n[17529.978259] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17530.510763] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17530.914367] usb 1-1-port4: cannot reset (err = -110)\n[17531.051323] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17531.596410] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17531.953900] usb 1-1-port4: cannot reset (err = -110)\n[17532.159878] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17532.693124] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17532.993788] usb 1-1-port4: cannot reset (err = -110)\n[17533.225726] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17533.757465] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17534.033913] usb 1-1-port4: cannot reset (err = -110)\n[17534.289225] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17534.820855] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17535.073812] usb 1-1-port4: cannot reset (err = -110)\n[17535.077514] usb 1-1-port4: Cannot enable. Maybe the USB cable is bad?\n[17535.353777] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17535.885703] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17536.113833] usb 1-1-port4: cannot disable (err = -110)\n[17536.117721] usb 1-1-port4: unable to enumerate USB device\n[17536.417404] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17536.949079] usb 1-1.2: usbfs: usb_submit_urb returned -28\n[17537.158775] usb 1-1-port4: cannot disable (err = -110)\n[17537.508316] usb 1-1.2: usbfs: usb_submit_urb returned -28\n"
+    },
+    "same_boot": true,
+    "driver_bound": true,
+    "gamepad_input_present": false
+  },
+  "fresh_interfaces": [
+    {
+      "name": "1-1.1:1.0",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_81": "01"
+      },
+      "HID_SHA256": [
+        "9516e2eb08355b209fba2a015ac349eb341d9fb6cf61fc38382a2e44ace9f611"
+      ]
+    },
+    {
+      "name": "1-1.1:1.1",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      },
+      "HID_SHA256": [
+        "2796c74a2e615814c81e46f6993426adf4c1d4ed3c20411a6deac4c96af2b2b0"
+      ]
+    },
+    {
+      "name": "1-1.4:1.0",
+      "present": false,
+      "driver": null,
+      "intervals": {},
+      "HID_SHA256": []
+    }
+  ],
+  "error": "AssertionError('Qualified HID descriptors did not reappear')",
+  "usbcore_quirks_restored": false,
+  "module_unloaded": true,
+  "final_interfaces": [
+    {
+      "name": "1-1.1:1.0",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_81": "01"
+      },
+      "HID_SHA256": [
+        "9516e2eb08355b209fba2a015ac349eb341d9fb6cf61fc38382a2e44ace9f611"
+      ]
+    },
+    {
+      "name": "1-1.1:1.1",
+      "present": true,
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      },
+      "HID_SHA256": [
+        "2796c74a2e615814c81e46f6993426adf4c1d4ed3c20411a6deac4c96af2b2b0"
+      ]
+    },
+    {
+      "name": "1-1.4:1.0",
+      "present": false,
+      "driver": null,
+      "intervals": {},
+      "HID_SHA256": []
+    }
+  ],
+  "intervals_restored": false,
+  "HID_bindings_restored": false,
+  "same_display_owner": true,
+  "lifecycle_pass": false,
+  "kernel_tainted_after": "4096"
+}

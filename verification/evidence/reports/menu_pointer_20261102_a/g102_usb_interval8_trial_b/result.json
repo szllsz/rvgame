@@ -1,0 +1,22 @@
+{
+  "before": {
+    "1-1.1": "6",
+    "1-1.2": "3",
+    "1-1.4": "5"
+  },
+  "interval_ms": 8,
+  "USB_host_reset": false,
+  "MMIO_write": false,
+  "event": "event1",
+  "opened": false,
+  "errno": 16,
+  "error": "[Errno 16] Device or resource busy: '/dev/input/event1'",
+  "original_interval_reprobed": true,
+  "global_parameter_restored": true,
+  "after": {
+    "1-1.1": "6",
+    "1-1.2": "3",
+    "1-1.4": "5"
+  },
+  "addresses_unchanged": true
+}

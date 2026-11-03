@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="248.5207100591716" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 248" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="248.5207100591716"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-248)" style="clip-path: url(#clip)">
+		<g transform=" matrix(1.183432,0,0,1.183432,0,0)">
+			<rect x="0" y="140" width="136" height="65" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="32.616499999999995" y="189" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,378) scale(1,-1)">PS ARM + PYNQ</text>
+			<text x="29.323999999999998" y="174" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,348) scale(1,-1)">USB input / PCM refill</text>
+			<text x="27.536" y="163" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">load and buffer lifetime</text>
+			<rect x="180" y="140" width="141" height="65" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="215.994" y="189" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,378) scale(1,-1)">RISC-V 105 MHz</text>
+			<text x="207.82" y="174" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,348) scale(1,-1)">application logic / MMIO</text>
+			<text x="207.6" y="163" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">128 KiB local work RAM</text>
+			<rect x="365" y="140" width="142" height="65" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="407.497" y="189" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,378) scale(1,-1)">DDR memory</text>
+			<text x="406.212" y="174" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,348) scale(1,-1)">program / assets</text>
+			<text x="398.648" y="163" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,326) scale(1,-1)">double display banks</text>
+			<rect x="0" y="30" width="136" height="70" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="26.487500000000004" y="84" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,168) scale(1,-1)">2D graphics engine</text>
+			<text x="30.647999999999996" y="69" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,138) scale(1,-1)">TILE / bitmap / Alpha</text>
+			<text x="22.211999999999996" y="58" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,116) scale(1,-1)">CPU and HW comparison</text>
+			<rect x="180" y="30" width="141" height="70" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="213.231" y="84" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,168) scale(1,-1)">800 x 300 staging</text>
+			<text x="204.916" y="69" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,138) scale(1,-1)">two bands / 262144 bytes</text>
+			<text x="201.82" y="58" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,116) scale(1,-1)">atomic whole-frame publish</text>
+			<rect x="365" y="30" width="142" height="70" rx="4" ry="4" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="404.5" y="84" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,168) scale(1,-1)">HDMI scan-out</text>
+			<text x="392.416" y="69" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,138) scale(1,-1)">native 800 x 600 content</text>
+			<text x="394.416" y="58" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,116) scale(1,-1)">1024 x 600 scan output</text>
+			<path d="M 136,172 L 180,172 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="180 172, 175 174.5, 175 169.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 321,172 L 365,172 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="365 172, 360 174.5, 360 169.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 250,140 L 250,118 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="250 118, 247.5 123, 252.5 123" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 250,118 L 68,118 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 68,118 L 68,100 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="68 100, 65.5 105, 70.5 105" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 136,65 L 180,65 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="180 65, 175 67.5, 175 62.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 321,65 L 343,65 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 343,65 L 343,156 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 343,156 L 365,156 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="365 156, 360 158.5, 360 153.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<path d="M 436,140 L 436,100 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="436 100, 433.5 105, 438.5 105" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<text x="123.608" y="14" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,28) scale(1,-1)">64 KiB read cache + 4 KiB instruction buffer; HP1 copies bands to DDR</text>
+			<text x="125.15125" y="1" style="font-family: Helvetica; font-size: 7.5px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,2) scale(1,-1)">Audio uses PS PCM refill and PL APU / I2S, separate from the display path</text>
+		</g>
+	</g>
+</svg>

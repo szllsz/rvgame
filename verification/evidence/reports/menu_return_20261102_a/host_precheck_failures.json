@@ -1,0 +1,8 @@
+{
+  "pass_": false,
+  "board_tested": false,
+  "attempts": [
+    {"attempt":"a","stage":"transition assertion","error":"Test prohibited a harmless visible mouse cursor after returning; corrected to prohibit click and button carryover."},
+    {"attempt":"b","stage":"Linux open flags under Windows mock","error":"Windows os has no O_NONBLOCK; test now explicitly supplies the Linux flag while mocking os.open."}
+  ]
+}

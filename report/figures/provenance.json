@@ -1,0 +1,57 @@
+{
+  "pass_": true,
+  "schematic_not_measured_waveforms": [
+    "architecture",
+    "owner_retirement",
+    "cpu_pipeline",
+    "gpu_datapath",
+    "input_flow"
+  ],
+  "measured_plot": "egg_workload",
+  "measurement_source": "report/metrics.json",
+  "measurement_sha256": "4166eb7122214191d3b701a8fe1c79a0e2694a13827434df7095a6051340228d",
+  "RTL_sources": [
+    "reports/whole2025_2_hw_astra_native800_a/inputs/rtl/graphics_soc.v",
+    "reports/whole2025_2_hw_astra_native800_a/inputs/rtl/rv32i_pipeline_core.v"
+  ],
+  "files": {
+    "architecture.pdf": "4141f3ed108654eb43800a084c72fb94f4404a5916ad05f067f08d2b45ca887c",
+    "architecture.png": "c510687d861a9862bd340667392b6c581ac4f2647dda9a55b73fac308d1f5908",
+    "architecture.svg": "b9e4bcd87b078502e96de342e5a6f635c8631a0340b5330424a05ddf5a07ceed",
+    "cpu_pipeline.pdf": "df95d5417d04c33ffe820e5111362bce536b6ecddcfbfcc2a4880b506674a7ef",
+    "cpu_pipeline.png": "89f09dcf21601ce71ceceb9c9cd93c06e6e94f5f5f641f0a5dc51302537f80fa",
+    "cpu_pipeline.svg": "c00598993b4e674fcf89cf35df87f45ed5a0d4740c0d9999c3425b94235ca5a1",
+    "egg_workload.pdf": "e3dbed8b99a45db5be04c1f327df15a6155bc35f7c09b642f28cccc1113f6aaa",
+    "egg_workload.png": "70b7958e41bc9ae8ab53a9db8a85c5cfa423a60f30bafb0b385c8189dd9a1589",
+    "egg_workload.svg": "6294a1f99606d93a222ccfd4fc3773f8f84bdb1805636d1274af46fc7e82c31c",
+    "gpu_datapath.pdf": "0879874b92fa19c2cb6ce4d197905d8c0e82ef195c62c1dd4d2c0662963ac22d",
+    "gpu_datapath.png": "56541ef81336334bded2e27697234e0f001fceda97ca5c01b6bad138641bdacf",
+    "gpu_datapath.svg": "ff553a25c85456f0f0825d768a84d48d31997521347c9000645f68caba6a00f8",
+    "input_flow.pdf": "8b33990a6a764f7b8a9110f31d9dbb3b63159f9579c77ba8d8b5333903458ca0",
+    "input_flow.png": "7fbb15ce3b566cc79e3b60a292e22e1cd44d31e04a4e8f22b1fb97a96b9594db",
+    "input_flow.svg": "2d772e629d9390d4aaa11d6fa7d835883ab63666157b301181059f4ecf62e842",
+    "main_menu.png": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
+    "owner_retirement.pdf": "3cde5a29304acf7104af5cba3865d754b8a70f3d909cd6dee4ac42aa2c75fa41",
+    "owner_retirement.png": "8f2a96768e92f948df5cb9e48af88c3a976009a1d8218c789922b78b754d6503",
+    "owner_retirement.svg": "ec941fc39d7b825a6b444c3167b8fbef2d1e32a5c91413f076258fae9d82391b",
+    "star_barrage.png": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
+    "two_band_sequence.pdf": "35742a7285a9d5119a589789c57528a2632bcee31e2fb47425d95256fbf0aabc",
+    "two_band_sequence.png": "4e4255f35fb524b7a9fbcbb6f05c5859c2fc1ceb2b06bbfb34e74a93c5b155b6",
+    "two_band_sequence.svg": "ac742fbfba601cce2968f5c8d47ffc3fa43c999f50e9420b90eab55691f445bc"
+  },
+  "simulation_plot": "two_band_sequence",
+  "simulation_source": "verification/timing_illustration/trace.csv",
+  "simulation_boundary": "Controller-only functional example, prescribed copy_busy and test clock; not a board timing measurement",
+  "style_reference": "https://wavedrom.com/tutorial.html",
+  "renderer": "ReportLab vector rendering of actual XSim CSV; no external skill installed",
+  "main_menu_image": {
+    "source": "reports/final_board_screenshots_20261102_a/04_main_menu.png",
+    "sha256": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
+    "kind": "actual board framebuffer screenshot, not photograph"
+  },
+  "star_barrage_image": {
+    "source": "reports/rvgame_longrun_20261031/space_visual_received_e/star_tier_1.png",
+    "sha256": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
+    "kind": "actual board framebuffer screenshot of generated-boss artwork"
+  }
+}

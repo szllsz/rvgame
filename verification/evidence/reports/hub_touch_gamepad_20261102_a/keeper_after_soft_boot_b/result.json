@@ -1,0 +1,6376 @@
+{
+  "read_only": true,
+  "USB_reset": false,
+  "driver_changed": false,
+  "MMIO_access": false,
+  "scope": "USB identities, submitted URBs, IRQ progress and fresh kernel messages; not decoded controller actions",
+  "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353",
+  "before": {
+    "state": {
+      "supervisor_pid": 377,
+      "child_pid": 523,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261102_native800_egg_camera_a/runs/27767487298_session",
+      "run": "/home/xilinx/rvgame_latest_20261102_native800_egg_camera_a/runs/27767487298_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 28.700550117,
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "current": {
+      "segment": 0,
+      "active": "menu",
+      "menu": true,
+      "pid": 523,
+      "frame_base": 940572672,
+      "ready": 52.739712391
+    },
+    "owner_error": null
+  },
+  "samples": [
+    {
+      "monotonic": 95.76373591,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "6998",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 7171
+    },
+    {
+      "monotonic": 96.79188566,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "7221",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 7395
+    },
+    {
+      "monotonic": 97.821099269,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "7444",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 7620
+    },
+    {
+      "monotonic": 98.850309897,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "7668",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 7842
+    },
+    {
+      "monotonic": 99.878594288,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "7893",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 8066
+    },
+    {
+      "monotonic": 100.913066541,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "8115",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 8288
+    },
+    {
+      "monotonic": 101.94168087,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "8330",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 8505
+    },
+    {
+      "monotonic": 102.970364406,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "8520",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 8695
+    },
+    {
+      "monotonic": 103.998482649,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "8682",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 8856
+    },
+    {
+      "monotonic": 105.026452395,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "8901",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 9074
+    },
+    {
+      "monotonic": 106.064805865,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "9122",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 9296
+    },
+    {
+      "monotonic": 107.093195778,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "9340",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 9516
+    },
+    {
+      "monotonic": 108.122096499,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "9563",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 9739
+    },
+    {
+      "monotonic": 109.149613417,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "9788",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 9961
+    },
+    {
+      "monotonic": 110.176414894,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "10010",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 10183
+    },
+    {
+      "monotonic": 111.218909774,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "10234",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 10410
+    },
+    {
+      "monotonic": 112.247231667,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "10395",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 10569
+    },
+    {
+      "monotonic": 113.275217346,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "10567",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 10740
+    },
+    {
+      "monotonic": 114.302895142,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "10784",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 10957
+    },
+    {
+      "monotonic": 115.3301855,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "11006",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 11179
+    },
+    {
+      "monotonic": 116.375680546,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "11232",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "15",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 11405
+    },
+    {
+      "monotonic": 117.403594194,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "11454",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "16",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 11629
+    },
+    {
+      "monotonic": 118.431762086,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "11678",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "60",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 11896
+    },
+    {
+      "monotonic": 119.459359957,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "11902",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "108",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 12168
+    },
+    {
+      "monotonic": 120.48678353,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "12113",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "155",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 12427
+    },
+    {
+      "monotonic": 121.540454578,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "12276",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 12618
+    },
+    {
+      "monotonic": 122.569065139,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "12472",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 12814
+    },
+    {
+      "monotonic": 123.598604501,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "12696",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 13036
+    },
+    {
+      "monotonic": 124.626805496,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "12918",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 13258
+    },
+    {
+      "monotonic": 125.670116136,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "13133",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 13475
+    },
+    {
+      "monotonic": 126.725575179,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "13355",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 13695
+    },
+    {
+      "monotonic": 127.753271596,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "13574",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 13914
+    },
+    {
+      "monotonic": 128.781022034,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "13799",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 14139
+    },
+    {
+      "monotonic": 129.810463944,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "13980",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 14320
+    },
+    {
+      "monotonic": 130.838036422,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "14142",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 14482
+    },
+    {
+      "monotonic": 131.897168545,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "14370",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 14710
+    },
+    {
+      "monotonic": 132.926400858,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "14593",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 14933
+    },
+    {
+      "monotonic": 133.953752446,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "14814",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 15154
+    },
+    {
+      "monotonic": 134.981394764,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "15037",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 15377
+    },
+    {
+      "monotonic": 136.010990395,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "15259",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 15599
+    },
+    {
+      "monotonic": 137.073869622,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "15491",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 15831
+    },
+    {
+      "monotonic": 138.101494237,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "15695",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 16035
+    },
+    {
+      "monotonic": 139.128871971,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "15863",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 16203
+    },
+    {
+      "monotonic": 140.156298638,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "16050",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 16390
+    },
+    {
+      "monotonic": 141.185918743,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "16272",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 16612
+    },
+    {
+      "monotonic": 142.251820385,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "16501",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 16841
+    },
+    {
+      "monotonic": 143.280396918,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "16722",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 17064
+    },
+    {
+      "monotonic": 144.3084135,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "16945",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 17289
+    },
+    {
+      "monotonic": 145.336791329,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "17171",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 17513
+    },
+    {
+      "monotonic": 146.364843384,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "17395",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 17735
+    },
+    {
+      "monotonic": 147.436329972,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "17598",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 17938
+    },
+    {
+      "monotonic": 148.463935768,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "17755",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 18095
+    },
+    {
+      "monotonic": 149.494093651,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "17964",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 18304
+    },
+    {
+      "monotonic": 150.522196069,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "18186",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 18526
+    },
+    {
+      "monotonic": 151.549852359,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "18409",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 18749
+    },
+    {
+      "monotonic": 152.639469189,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "18646",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 18986
+    },
+    {
+      "monotonic": 153.666929268,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "18867",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 19207
+    },
+    {
+      "monotonic": 154.694771443,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "19089",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 19429
+    },
+    {
+      "monotonic": 155.722518307,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "19308",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 19648
+    },
+    {
+      "monotonic": 156.749731348,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "19467",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 19807
+    },
+    {
+      "monotonic": 157.836558016,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "19658",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 19998
+    },
+    {
+      "monotonic": 158.864017855,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "19881",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 20221
+    },
+    {
+      "monotonic": 159.892551413,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "20103",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 20444
+    },
+    {
+      "monotonic": 160.920492014,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "20326",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 20669
+    },
+    {
+      "monotonic": 161.957521389,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "20544",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 20884
+    },
+    {
+      "monotonic": 163.0446138,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "20776",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 21117
+    },
+    {
+      "monotonic": 164.072566588,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "20994",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 21334
+    },
+    {
+      "monotonic": 165.099873083,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "21187",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 21527
+    },
+    {
+      "monotonic": 166.127560213,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "21344",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 21684
+    },
+    {
+      "monotonic": 167.155117576,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "21552",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 21892
+    },
+    {
+      "monotonic": 168.241370112,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "21786",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 22126
+    },
+    {
+      "monotonic": 169.269431496,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "22010",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 22350
+    },
+    {
+      "monotonic": 170.296110443,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "22231",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 22571
+    },
+    {
+      "monotonic": 171.32377711,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "22453",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 22793
+    },
+    {
+      "monotonic": 172.351407819,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "22676",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 23016
+    },
+    {
+      "monotonic": 173.442368716,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "22905",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 23247
+    },
+    {
+      "monotonic": 174.470415747,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "23074",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 23415
+    },
+    {
+      "monotonic": 175.498521995,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "23263",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 23607
+    },
+    {
+      "monotonic": 176.527149435,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "23489",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 23831
+    },
+    {
+      "monotonic": 177.554952542,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "23710",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 24051
+    },
+    {
+      "monotonic": 178.674868787,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "23949",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 24290
+    },
+    {
+      "monotonic": 179.702768422,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "24170",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 24512
+    },
+    {
+      "monotonic": 180.731843696,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "24391",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 24734
+    },
+    {
+      "monotonic": 181.759529526,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "24618",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 24958
+    },
+    {
+      "monotonic": 182.786394234,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "24806",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 25146
+    },
+    {
+      "monotonic": 183.89063683,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "24970",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 25312
+    },
+    {
+      "monotonic": 184.918773772,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "25182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 25525
+    },
+    {
+      "monotonic": 185.946610965,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "25408",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 25749
+    },
+    {
+      "monotonic": 186.974340888,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "25624",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 25964
+    },
+    {
+      "monotonic": 188.002583565,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "25847",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 26189
+    },
+    {
+      "monotonic": 189.120906775,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "26091",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 26431
+    },
+    {
+      "monotonic": 190.148129165,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "26311",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 26651
+    },
+    {
+      "monotonic": 191.175609738,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "26529",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 26869
+    },
+    {
+      "monotonic": 192.203723901,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "26696",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 27036
+    },
+    {
+      "monotonic": 193.231486375,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "26875",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 27215
+    },
+    {
+      "monotonic": 194.348582188,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "27119",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 27461
+    },
+    {
+      "monotonic": 195.376425073,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "27342",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 27682
+    },
+    {
+      "monotonic": 196.404753843,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "27564",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 27904
+    },
+    {
+      "monotonic": 197.432404858,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "27786",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 28126
+    },
+    {
+      "monotonic": 198.459950836,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "28008",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 28348
+    },
+    {
+      "monotonic": 199.58647352,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "28242",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 28583
+    },
+    {
+      "monotonic": 200.614891048,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "28433",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 28775
+    },
+    {
+      "monotonic": 201.642969628,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "28594",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 28935
+    },
+    {
+      "monotonic": 202.670838668,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "28806",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 29146
+    },
+    {
+      "monotonic": 203.698274366,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "29029",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 29369
+    },
+    {
+      "monotonic": 204.830832383,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "29275",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 29615
+    },
+    {
+      "monotonic": 205.858879377,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "29499",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 29839
+    },
+    {
+      "monotonic": 206.886374569,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "29720",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 30060
+    },
+    {
+      "monotonic": 207.913812579,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "29943",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 30283
+    },
+    {
+      "monotonic": 208.941193469,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "30159",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 30499
+    },
+    {
+      "monotonic": 210.063205556,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "30329",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 30669
+    },
+    {
+      "monotonic": 211.090274983,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "30527",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 30867
+    },
+    {
+      "monotonic": 212.118120649,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "30746",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 31086
+    },
+    {
+      "monotonic": 213.144980457,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "30969",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 31309
+    },
+    {
+      "monotonic": 214.173055609,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "31190",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 31530
+    },
+    {
+      "monotonic": 215.30201529,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "31436",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 31776
+    },
+    {
+      "monotonic": 215.763226797,
+      "devices": [
+        {
+          "port": "1-1",
+          "idVendor": "05e3",
+          "idProduct": "0608",
+          "devnum": "2",
+          "urbnum": "62",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        },
+        {
+          "port": "1-1.2",
+          "idVendor": "045e",
+          "idProduct": "028e",
+          "devnum": "3",
+          "urbnum": "31536",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "1-1.4",
+          "idVendor": "1a86",
+          "idProduct": "e5e3",
+          "devnum": "5",
+          "urbnum": "182",
+          "speed": "12",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "on"
+        },
+        {
+          "port": "usb1",
+          "idVendor": "1d6b",
+          "idProduct": "0002",
+          "devnum": "1",
+          "urbnum": "27",
+          "speed": "480",
+          "authorized": "1",
+          "bConfigurationValue": "1",
+          "power/runtime_status": "active",
+          "power/control": "auto"
+        }
+      ],
+      "irq": 31876
+    }
+  ],
+  "kernel_events": [],
+  "completed": true,
+  "seconds": 120.02830531299999,
+  "after": {
+    "state": {
+      "supervisor_pid": 377,
+      "child_pid": 523,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261102_native800_egg_camera_a/runs/27767487298_session",
+      "run": "/home/xilinx/rvgame_latest_20261102_native800_egg_camera_a/runs/27767487298_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 28.700550117,
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "current": {
+      "segment": 0,
+      "active": "menu",
+      "menu": true,
+      "pid": 523,
+      "frame_base": 940572672,
+      "ready": 52.739712391
+    },
+    "owner_error": null
+  },
+  "same_owner": true
+}

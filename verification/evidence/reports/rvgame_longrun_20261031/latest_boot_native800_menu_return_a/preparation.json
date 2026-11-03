@@ -1,0 +1,21 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "boot_installed": false,
+  "native800": true,
+  "remote": "/home/xilinx/rvgame_latest_20261102_native800_menu_return_a",
+  "override": "/etc/systemd/system/rvgame-unified-boot.service.d/70-rvgame-latest.conf",
+  "previous_registry_sha256": "4a943e4f0614ea03c3d655470400583667779636885bd9dc896225193026fcac",
+  "release_sha256": "f36e03f26367bd1b1b1139fb827849a571a95aebd7c8ccb10e6281694dd1bd45",
+  "override_sha256": "c4ed870a70d024a89edf153f5e5a115286f1024123deff442dda7394b0f62348",
+  "current_source": "reports/rvgame_longrun_20261031/latest_boot_native800_menu_return_a/software/source",
+  "automatic_board_test_receipt": "reports/menu_return_20261102_a/received_a/result.json",
+  "automatic_gates": {
+    "reports/menu_return_20261102_a/received_a/result.json": "166ef3dc5c2eeb65723318969b0337ea82a7b2599288033ad4207e465a42bb7c",
+    "reports/menu_return_20261102_a/host_checks.json": "cdcb92ece9e7dd207892c0ec880a246482bb1afac33098fa0b2f2f86f7325ee2",
+    "reports/menu_pointer_20261102_a/g102_companion_trial_c/result.json": "cb8772122f6ce420cc6edb9e6bcd53097ebb801b8e93bfc881d14c9deb77cb31"
+  },
+  "authorization": "User requested bug fix and pointer application entry/return for immediate board acceptance; latest integration already authorized",
+  "installer_sha256": "f2ac2e078eb5f14fdf5287d62c376a9ffba6fabef826d8ace90fd4cf9f10f165",
+  "health_probe_sha256": "a17b84f359c74d31f8b275254a758b87dd90cc935c0d57e3333ea6254b1b3406"
+}

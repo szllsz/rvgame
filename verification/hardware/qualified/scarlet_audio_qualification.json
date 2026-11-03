@@ -1,0 +1,37 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "adopted": false,
+  "load_qualified": false,
+  "build_sha256": "3d4a4929e7e46f92df2d278328aa2a7c307733ff7ea4a00cd2693aa955cf6bed",
+  "checks": {
+    "own_full_system_physical_qualification": true,
+    "own_PCM_full_capacity_at105MHz": true
+  },
+  "PCM_memory_style": "distributed",
+  "physical_qualification_sha256": "33696cb6ac375c06f0ca1c2e2c015902e7dae7cba7813ac486cf5a98b3a12173",
+  "files": {
+    "top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9"
+  },
+  "timing": {
+    "wns_ns": 0.033,
+    "whs_ns": 0.057,
+    "wpws_ns": 0.312,
+    "tns_ns": 0.0
+  },
+  "resources": {
+    "lut": 23447.0,
+    "ff": 11576.0,
+    "bram36": 126.0,
+    "dsp": 4.0
+  },
+  "additional_evidence": {
+    "reports\\whole2025_2_hw_astra_native800_a\\scarlet_pcm_mapping.txt": "5080243668f36aa31f7c9e21de3b11c13189d49e74b69d876eda59bc20177f3e",
+    "reports\\whole2025_2_hw_astra_native800_a\\scarlet_pcm_mapping.log": "d86063cc85cece0f60a13b6f00a5789b6e00a1df382d01d4d61e6e0d41c18e11",
+    "reports\\rvgame_longrun_20261031\\scarlet_music_producer_c\\result.json": "4e155a338891116a6e04fff0af456f06632835909489cdc6860966ec23adbff9",
+    "reports\\rvgame_longrun_20261031\\scarlet_session_checks_integrated_navigation_a\\result.json": "065ac00f6648b2b7a82d80a894ba081aaebece338944a940f3a20baf11dc0522",
+    "scripts\\qualify_scarlet_audio_hardware_20261031.py": "f9ef337ee8c3402cc5ae99aec82237ec0b5a38bef2d6f5864f640cb357927990"
+  },
+  "limitation": "hardware file candidate only; application/session/budget and protected board evidence remain required"
+}

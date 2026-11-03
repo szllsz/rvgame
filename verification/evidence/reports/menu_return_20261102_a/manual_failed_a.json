@@ -1,0 +1,13 @@
+{
+  "pass_": false,
+  "manual_tested": true,
+  "release": "native800_menu_return_a",
+  "user_feedback": "三个都没反应",
+  "user_wiring_clarification": "Before installation, the wired gamepad was replaced with its 2.4 GHz USB receiver.",
+  "causation_established": false,
+  "post_install_monitor_interpretation": "No USB kernel messages, but zero IRQ progress; URB submission growth does not prove successful transfers.",
+  "fd_probe_interpretation": "File descriptors opened successfully; no functional input qualification.",
+  "subsequent_recovery": "One explicit USB host rebind, same boot and display owner; not a permanent recovery policy.",
+  "subsequent_direct_evidence": "Three USBDEVFS_SUBMITURB calls for the freshly enumerated 045e:028e receiver returned ENOSPC after successful interface claims.",
+  "scope_boundary": "The ENOSPC evidence describes the post-recovery schedule; it does not prove all earlier USB stalls had this cause."
+}

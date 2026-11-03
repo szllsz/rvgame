@@ -1,0 +1,20 @@
+
+****** xsim v2025.2.1 (64-bit)
+  **** SW Build 6403652 on Thu Mar 19 19:48:24 GMT 2026
+  **** IP Build 6403511 on Thu Mar 19 12:41:45 MDT 2026
+  **** SharedData Build 6403650 on Thu Mar 19 14:02:13 MDT 2026
+  **** Start of session at: Mon Nov  2 01:24:05 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/test/xsim_script.tcl
+# xsim {test} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SW_PIXEL_BAND_WRITTEN band=0 cycles=540089
+SW_PIXEL_BAND_WRITTEN band=1 cycles=1211411
+PASS NATIVE800_SOFTWARE_PORT posted_CDC=1 pixels=480000 full_tail=64 dma_words=120000 cycles=2724869
+$finish called at time : 25951652356 ps : File "D:/Project/rvgame/reports/detached simulation completion b/software_port/tb_native800_software_port.sv" Line 164
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:24 . Memory (MB): peak = 214.066 ; gain = 0.039
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 01:24:30 2026...

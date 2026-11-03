@@ -1,0 +1,13 @@
+{
+  "date_local": "2026-11-02",
+  "timezone": "Asia/Hong_Kong",
+  "release": "native800_menu_pointer_a",
+  "source": "user asynchronous question replies",
+  "observations": [
+    {"wiring":"touch USB on computer; mouse and pad on old hub connected to board", "feedback":"已接好，鼠标能动"},
+    {"wiring":"touch USB returned to old hub; mouse, pad, hub supplemental supply and HDMI unchanged", "feedback":"已接回，三种输入都正常"}
+  ],
+  "duration_verified": false,
+  "new_entry_return_revision_tested": false,
+  "note": "Earlier overlapping popup answers were reconciled; no three-device manual pass was inferred from the prior automatic monitoring window."
+}

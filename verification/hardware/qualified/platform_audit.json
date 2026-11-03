@@ -1,0 +1,306 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "tool_family": "2025.2",
+  "differences": {},
+  "raw_bd_differences": {
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/M_AXI/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "interior"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/M_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/ps7/parameters/PCW_S_AXI_HP0_ID_WIDTH/value": {
+      "before": "6",
+      "after": null
+    },
+    "/components/ps7/parameters/PCW_IRQ_F2P_MODE/value": {
+      "before": null,
+      "after": "DIRECT"
+    },
+    "/components/axi_ctrl/interface_ports/S00_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/M_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/rst_ctrl/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/interface_ports/hp0/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/ps7/parameters/preset/value": {
+      "before": "None",
+      "after": null
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/S_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "interior"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/const_zero/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/interface_ports/M00_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/BRIDGES/value": {
+      "before": null,
+      "after": "M_AXI"
+    },
+    "/components/control/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/interface_ports/M00_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/S_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/ps7/interface_ports/M_AXI_GP0/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/interface_ports/hp0/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/components/ps7/interface_ports/M_AXI_GP0/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/M_AXI/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/interface_ports/hp1/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/interface_ports/hp1/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/axi_ctrl/interface_ports/S00_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/ps7/parameters/PCW_S_AXI_HP1_ID_WIDTH/value": {
+      "before": "6",
+      "after": null
+    },
+    "/components/ps7/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/const_one/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/BRIDGES/value_src": {
+      "before": null,
+      "after": "auto"
+    }
+  },
+  "verified_serializer_changes": {
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/M_AXI/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "interior"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/M_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/ps7/parameters/PCW_S_AXI_HP0_ID_WIDTH/value": {
+      "before": "6",
+      "after": null
+    },
+    "/components/ps7/parameters/PCW_IRQ_F2P_MODE/value": {
+      "before": null,
+      "after": "DIRECT"
+    },
+    "/components/axi_ctrl/interface_ports/S00_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/M_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/rst_ctrl/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/interface_ports/hp0/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/ps7/parameters/preset/value": {
+      "before": "None",
+      "after": null
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/S_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "interior"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/const_zero/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/interface_ports/M00_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/BRIDGES/value": {
+      "before": null,
+      "after": "M_AXI"
+    },
+    "/components/control/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/interface_ports/M00_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/axi_ctrl/components/s00_couplers/interface_ports/S_AXI/hdl_attributes/LOCKED/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/components/ps7/interface_ports/M_AXI_GP0/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/interface_ports/hp0/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/components/ps7/interface_ports/M_AXI_GP0/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/M_AXI/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "default"
+    },
+    "/interface_ports/hp1/bd_attributes/TYPE/value": {
+      "before": null,
+      "after": "END_POINT"
+    },
+    "/interface_ports/hp1/bd_attributes/TYPE/value_src": {
+      "before": null,
+      "after": "auto"
+    },
+    "/components/axi_ctrl/interface_ports/S00_AXI/hdl_attributes/LOCKED/value": {
+      "before": null,
+      "after": "FALSE"
+    },
+    "/components/ps7/parameters/PCW_S_AXI_HP1_ID_WIDTH/value": {
+      "before": "6",
+      "after": null
+    },
+    "/components/ps7/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/const_one/has_run_ip_tcl": {
+      "before": null,
+      "after": "true"
+    },
+    "/components/axi_ctrl/components/s00_couplers/components/auto_pc/interface_ports/S_AXI/bd_attributes/BRIDGES/value_src": {
+      "before": null,
+      "after": "auto"
+    }
+  },
+  "effective_xci": [
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_axi_ctrl_0\\ps_sys_axi_ctrl_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_axi_ctrl_0\\ps_sys_axi_ctrl_0.xci",
+      "before_sha256": "5e87ae645c51835faf8c765ef51a7e0b707cdf9b098fbedc1483cce58a839b7f",
+      "after_sha256": "90790532fed0cbfe84737dfe93a154ba42341d3f48cfba48e722b88934ee97de"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_axi_ctrl_imp_auto_pc_0\\ps_sys_axi_ctrl_imp_auto_pc_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_axi_ctrl_imp_auto_pc_0\\ps_sys_axi_ctrl_imp_auto_pc_0.xci",
+      "before_sha256": "6b0dc7bf1462408bef0acff8e12bc466b3f182662ef41168846c1cb995b2db69",
+      "after_sha256": "2459846dc9746c8d972e8f70e7ae46ca451759969cb6f373bb377411a68822fc"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_const_one_0\\ps_sys_const_one_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_const_one_0\\ps_sys_const_one_0.xci",
+      "before_sha256": "83e2ff5d0e855567ced0dd7d16c07738ca8d8f8d0d9bc5b9bb0f18e06cd0459f",
+      "after_sha256": "fa9d208a650371c4c22fe4988b67d06d2dd1a2c7b5eb6dd91cf09605b85f0b7d"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_const_zero_0\\ps_sys_const_zero_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_const_zero_0\\ps_sys_const_zero_0.xci",
+      "before_sha256": "501e479b73075dd7bcd7590613d73e4350f89d18ee8294e444de2403edb77a3d",
+      "after_sha256": "bd12dc57120a34de3c86774ca71872de27595b88bf3119e66ebd231dc62d3e36"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_control_0\\ps_sys_control_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_control_0\\ps_sys_control_0.xci",
+      "before_sha256": "68eed9bfa0810bb99da56ba225efb8918abedbddb51c80ad9bf619d2107a1b11",
+      "after_sha256": "3df485d9ab3e6c5ec39e10458e70a746d2469781ace4ce3e9cbada6570fbee73"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_ps7_0\\ps_sys_ps7_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_ps7_0\\ps_sys_ps7_0.xci",
+      "before_sha256": "4cd2e1a99420082f0495476f1e768689e09ce5e60bb4983d7230fa737000ab88",
+      "after_sha256": "c046515eb4dfa3d042305769144a8739e742284aa46b26b8f7f66e8dbb0007b2"
+    },
+    {
+      "before": "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_rst_ctrl_0\\ps_sys_rst_ctrl_0.xci",
+      "after": "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ip\\ps_sys_rst_ctrl_0\\ps_sys_rst_ctrl_0.xci",
+      "before_sha256": "bc04b7173945d8d8729f95d74d2320c2da92558d6fea558ae2a8f802b2554b03",
+      "after_sha256": "7a2218f95bc4dbcaae96f794a3cae4b53756425c0eb636f8d5041cb8259fa4a2"
+    }
+  ],
+  "complete_effective_BD_configuration_and_connectivity_equal": true,
+  "CPU_PCM_APU_input_RTL_and_constraints_exact": true,
+  "tool_versions": [
+    "2024.2",
+    "2025.2.1"
+  ],
+  "evidence": {
+    "reports\\native_current_audio_hw_trim_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ps_sys.bd": "ee5928d1083f8ff4db46da6c8ccec4abf7e04fe1be00926fd70005df67028c72",
+    "reports\\whole2025_2_hw_astra_native800_a\\vivado\\system640_clean.srcs\\sources_1\\bd\\build\\ps_sys.bd": "18d752b25fcc938bd7c286c1822ec315b531455f8a2aaedfff8c5c3f2e84a212",
+    "reports\\whole2025_2_hw_astra_native800_a\\vivado\\ip_status.rpt": "4befb72cdbec9495764b95643febd6ee89495edec64ac20e6bc154ef870d6b67",
+    "scripts\\astra_native8002025_audit_20261101.py": "338b42fe87ca056dc90a3fe902c569a421591ac66a7dee9641f745dd51250d83"
+  }
+}

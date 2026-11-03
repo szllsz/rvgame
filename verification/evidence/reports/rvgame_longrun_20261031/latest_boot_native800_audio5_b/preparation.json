@@ -1,0 +1,18 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "boot_installed": false,
+  "native800": true,
+  "remote": "/home/xilinx/rvgame_latest_20261102_native800_audio5_b",
+  "override": "/etc/systemd/system/rvgame-unified-boot.service.d/70-rvgame-latest.conf",
+  "previous_registry_sha256": "a911450005372c7a9502d721048402954a4fe4bd22f91bb5c4bf30389d04cdeb",
+  "release_sha256": "81153134d4cc242c2eb7056725ca33353c022aa1f6725ee7207fb5cc8e09c98b",
+  "override_sha256": "4b15239739e88cc4bf1a62ec055b2d3f968d89fa9f6c96512c4db9dc5f114519",
+  "current_source": "reports/rvgame_longrun_20261031/latest_boot_native800_audio5_b/software/source",
+  "authorization": "User requested battle music skip5s and all default volume5, integrated latest",
+  "installer_sha256": "80a02c073116243013eed91f92146ab838be746d6ac48ed8588a5f8580d38fff",
+  "health_probe_sha256": "419f309df488e55750c4c43bf1f3f3212970485e2a67933589ee83366862f65d",
+  "automatic_gates": {
+    "reports\\audio_defaults_20261102_a\\host_checks.json": "65ed8e6b4a2ba28988f78c0085e41fbde52f04134f17fab1361aeeb60be8bb48"
+  }
+}

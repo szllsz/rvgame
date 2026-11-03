@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="250" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="250"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-250)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="229" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,458) scale(1,-1)">鸡蛋兄弟：已测负载档位与完成帧率</text>
+			<path d="M 72,52 L 574,52 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="43" y="49.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,98) scale(1,-1)">0</text>
+			<path d="M 72,85.75 L 574,85.75 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="43" y="82.75" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,165) scale(1,-1)">15</text>
+			<path d="M 72,119.5 L 574,119.5 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="43" y="116.5" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,233) scale(1,-1)">30</text>
+			<path d="M 72,153.25 L 574,153.25 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="43" y="150.25" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,300) scale(1,-1)">45</text>
+			<path d="M 72,187 L 574,187 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="43" y="184.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,368) scale(1,-1)">60</text>
+			<text x="40" y="204" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,408) scale(1,-1)">FPS</text>
+			<path d="M 94,186.999997 L 94,187.00001 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 90,186.999997 L 98,186.999997 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 90,187.00001 L 98,187.00001 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<circle cx="94" cy="187.0000033820462" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<text x="76" y="200.0000033820462" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,400) scale(1,-1)">60.00</text>
+			<text x="86" y="35" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,70) scale(1,-1)">64</text>
+			<path d="M 367,145.656242 L 367,146.500005 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 363,145.656242 L 371,145.656242 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 363,146.500005 L 371,146.500005 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<circle cx="367" cy="146.1249982635048" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<text x="349" y="159.1249982635048" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,318) scale(1,-1)">41.83</text>
+			<text x="359" y="35" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,70) scale(1,-1)">85</text>
+			<path d="M 562,118.9375 L 562,118.937503 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 558,118.9375 L 566,118.9375 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 558,118.937503 L 566,118.937503 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<circle cx="562" cy="118.93750119531255" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<text x="544" y="131.93750119531256" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,263) scale(1,-1)">29.75</text>
+			<text x="554" y="35" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,70) scale(1,-1)">100</text>
+			<path d="M 94,187.000003 L 367,146.124998 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 367,146.124998 L 562,118.937501 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="252" y="17" style="font-family: Chinese; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,34) scale(1,-1)">场上对象数量</text>
+			<text x="12" y="3" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,6) scale(1,-1)">点为各阶段均值，误差棒为各阶段范围；每阶段约8秒，连线仅引导视线。</text>
+		</g>
+	</g>
+</svg>

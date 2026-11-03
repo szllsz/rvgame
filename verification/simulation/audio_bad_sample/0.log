@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/framebuffer_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module framebuffer_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/ddr_framebuffer.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_framebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/ddr_bitmap_blit.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_bitmap_blit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/ddr_read_mux.v" into library work
+INFO: [VRFC 10-311] analyzing module ddr_read_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/sprite_rom.v" into library work
+INFO: [VRFC 10-311] analyzing module sprite_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/native_frame_commit_20261031.v" into library work
+INFO: [VRFC 10-311] analyzing module native_frame_commit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/nes_apu_core.v" into library work
+INFO: [VRFC 10-311] analyzing module LenCtr_Lookup
+INFO: [VRFC 10-311] analyzing module SquareChan
+INFO: [VRFC 10-311] analyzing module TriangleChan
+INFO: [VRFC 10-311] analyzing module NoiseChan
+INFO: [VRFC 10-311] analyzing module DmcChan
+INFO: [VRFC 10-311] analyzing module ApuLookupTable
+INFO: [VRFC 10-311] analyzing module APU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/nes_audio.v" into library work
+INFO: [VRFC 10-311] analyzing module nes_audio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/audio_bad_sample/scarlet_pcm_stream.v" into library work
+INFO: [VRFC 10-311] analyzing module scarlet_pcm_stream

@@ -1,0 +1,1 @@
+当前正式版为 /home/xilinx/rvgame_latest_20261103_native800_final_visual_a，紧邻前版保留于 /home/xilinx/rvgame_latest_20261102_native800_audio5_b。先当前生产者final/排空、确认三释放，再恢复保存的previous_override.conf和previous_registry.json；未知状态不得HOLD、kill或重载。独立run.py不修改正式服务，退出后仅在确认cleanup通过时恢复原服务。原H和此前稳定版保留。

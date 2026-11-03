@@ -1,0 +1,24 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "source_registry_sha256": "67a71467e68b2c8fda3e89f615a79d73003a20f5eefb20c0512e03b8766a4219",
+  "source_release_sha256": "193aec43a306807fe1e242761ef95b6b984361455ecf96a97a0b71b7fde5b573",
+  "manifest_sha256": "dcc755f71dcb7a9275d286475e0ea96c69bb98aa8460646418569a2041ecfd13",
+  "changed_binary_sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+  "build": "software/build/touhou_probe_space_ui_polish_a",
+  "unchanged_payload": [
+    "alpha.bin",
+    "bitmap.bin",
+    "coremark.bin",
+    "game.bin",
+    "gfx.bin",
+    "menu.bin",
+    "top.bit",
+    "top.hwh",
+    "validation.bin"
+  ],
+  "controller_sha256": "2a6b6cf0284c69b8bc43f653d737b6a39ac64b7cb8257d0b14a96c845fcfd068",
+  "scope": "Star Barrage display change, default/adjacent60s and real pause/switch controls"
+}

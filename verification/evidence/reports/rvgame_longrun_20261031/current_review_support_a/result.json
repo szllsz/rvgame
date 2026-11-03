@@ -1,0 +1,21 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "source_release_sha256": "193aec43a306807fe1e242761ef95b6b984361455ecf96a97a0b71b7fde5b573",
+  "manifest_sha256": "d3a9caa7ee8f56e29088798913b25f2c8aeb36ae4e532dbb8570ba0554008f78",
+  "all_application_and_hardware_bytes_equal_to_installed": true,
+  "current_files": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "game.bin": "d479bbeeef530e1bb4a7db3b5fc751deeb49904e6dfce5786a8b91748bbbc2ba",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "menu.bin": "621ec948201d91cfc7ba01ce811f654ae1c8dcfdbe8ec5ba7902c2938e34f2ac",
+    "top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+    "touhou.bin": "d7ff3a0d92e5c8d6dc8d5367e482e85232d69f9ecdbd02dc4a80984d4589907d",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  }
+}

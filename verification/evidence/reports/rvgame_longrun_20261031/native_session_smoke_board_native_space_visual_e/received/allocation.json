@@ -1,0 +1,14 @@
+{
+  "pid": 6982,
+  "program": {
+    "physical_base": 941621248,
+    "allocated_bytes": 634368,
+    "image_bytes": 634340
+  },
+  "display": {
+    "physical_base": 940572672,
+    "allocated_bytes": 1048576
+  },
+  "test_input": true,
+  "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+}

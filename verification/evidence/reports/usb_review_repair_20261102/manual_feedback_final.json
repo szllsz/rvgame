@@ -1,0 +1,12 @@
+{
+  "companion_disabled_only": "after controller unplug/replug, mouse and touch work, gamepad fails ENOSPC",
+  "manual_main_reorder": "all three recovered",
+  "automatic_guard_first_hotplug": "all three automatically recovered",
+  "automatic_guard_fast_hotplug": "user confirmed approximately 1 second reinsertion works; declined remaining 5 and 10 second matrix",
+  "input_priority": [
+    "gamepad",
+    "touch",
+    "mouse"
+  ],
+  "latest_menu_manual": "user will test later; no new gesture acceptance claimed"
+}

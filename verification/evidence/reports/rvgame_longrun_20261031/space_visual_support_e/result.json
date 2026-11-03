@@ -1,0 +1,11 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "manifest_sha256": "c4c5cc889d92c8121eadee28a15d60aff2e578bcb275623f211280cd7639d6c6",
+  "source_installed_release_sha256": "81153134d4cc242c2eb7056725ca33353c022aa1f6725ee7207fb5cc8e09c98b",
+  "build": "software/build/touhou_probe_space_visual_20261103_d",
+  "changed_binary_sha256": "68201d8d785a758a89f8ceab03015df4520fab69d8c41a4ceab51ef646b41d1b",
+  "scope": "Art, real analog triggers, three 60-second load levels, modes, pause, B exit, exact existing PCM and runtime"
+}

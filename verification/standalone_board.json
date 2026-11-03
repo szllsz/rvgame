@@ -1,0 +1,646 @@
+{
+  "pass_": true,
+  "board_tested": true,
+  "manual_tested": false,
+  "new_SD_tested": false,
+  "remote": "/home/xilinx/rvgame_standalone_final_visual_20261103_a",
+  "release_sha256": "9b56435746bf25bbedf23d647893d64b4c51ba296a6ca4c2a348c549fc01b550",
+  "normal_input": true,
+  "before": {
+    "state": {
+      "supervisor_pid": 11592,
+      "child_pid": 11593,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session",
+      "run": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 43098.175669957,
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "unit": {
+      "MainPID": "11592",
+      "ExecStart": "{ path=/usr/local/share/pynq-venv/bin/python3 ; argv[]=/usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py ; ignore_errors=no ; start_time=[Wed 2025-05-21 02:02:35 UTC] ; stop_time=[n/a] ; pid=11592 ; code=(null) ; status=0/0 }",
+      "ActiveState": "active",
+      "UnitFileState": "enabled"
+    },
+    "ready": {
+      "ready": true,
+      "pid": 11593,
+      "geometry": [
+        800,
+        600
+      ],
+      "allocation": {
+        "physical_base": 941621248,
+        "allocated_bytes": 634368,
+        "image_bytes": 634340
+      },
+      "frame_base": 940572672,
+      "usb_gamepad": "None",
+      "underflows": 0,
+      "test_input": false,
+      "telemetry_transport": "state_ack_v2",
+      "session_start": "menu",
+      "persistent_session": true,
+      "compact_exit": true,
+      "input_preload_seconds": 0.009321615994849708,
+      "gc_startup_seconds": 0.12031429200578714,
+      "gc_startup_collected": 40,
+      "gc_counts_before": [
+        503,
+        2,
+        3
+      ],
+      "gc_counts_after": [
+        90,
+        0,
+        0
+      ]
+    },
+    "active": {
+      "segment": 0,
+      "active": "menu",
+      "menu": true,
+      "pid": 11593,
+      "frame_base": 940572672,
+      "ready": 43110.737051938
+    },
+    "health": {
+      "completed": [
+        10995,
+        11115
+      ],
+      "page": 928,
+      "underflows": 0
+    },
+    "owners": {
+      "processes": [
+        {
+          "pid": 250,
+          "scripts": [
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "starttime": "1413"
+        },
+        {
+          "pid": 11592,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "starttime": "4309525"
+        },
+        {
+          "pid": 11593,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session/pynq_brotato_session.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session/pynq_brotato_session.py"
+          ],
+          "starttime": "4309817"
+        }
+      ],
+      "read_only_helpers": [
+        {
+          "pid": 251,
+          "scripts": [
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py",
+            "--seconds",
+            "0",
+            "--output-directory",
+            "/run/rvgame-p008-poll"
+          ],
+          "starttime": "1418",
+          "source_sha256": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79",
+          "unit_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
+        }
+      ],
+      "usb_input_helpers": [
+        {
+          "pid": 23768,
+          "scripts": [
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py",
+            "--seconds",
+            "0",
+            "--output",
+            "/run/rvgame-usb-priority/state.json"
+          ],
+          "starttime": "3329520",
+          "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+          "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+          "USB_driver_changes": true,
+          "MMIO_access": false
+        }
+      ],
+      "hp0": {
+        "0": 1,
+        "20": 3841
+      },
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "protected_files": 140,
+    "latest_protected_files": 56,
+    "formal_root": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a"
+  },
+  "retired_previous": {
+    "before": {
+      "processes": [
+        {
+          "pid": 250,
+          "scripts": [
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "starttime": "1413"
+        },
+        {
+          "pid": 11592,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "starttime": "4309525"
+        },
+        {
+          "pid": 11593,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session/pynq_brotato_session.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session/pynq_brotato_session.py"
+          ],
+          "starttime": "4309817"
+        }
+      ],
+      "read_only_helpers": [
+        {
+          "pid": 251,
+          "scripts": [
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py",
+            "--seconds",
+            "0",
+            "--output-directory",
+            "/run/rvgame-p008-poll"
+          ],
+          "starttime": "1418",
+          "source_sha256": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79",
+          "unit_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
+        }
+      ],
+      "usb_input_helpers": [
+        {
+          "pid": 23768,
+          "scripts": [
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py",
+            "--seconds",
+            "0",
+            "--output",
+            "/run/rvgame-usb-priority/state.json"
+          ],
+          "starttime": "3329520",
+          "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+          "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+          "USB_driver_changes": true,
+          "MMIO_access": false
+        }
+      ],
+      "hp0": {
+        "0": 1,
+        "20": 3841
+      },
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "after": {
+      "processes": [
+        {
+          "pid": 250,
+          "scripts": [
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "starttime": "1413"
+        }
+      ],
+      "read_only_helpers": [
+        {
+          "pid": 251,
+          "scripts": [
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py",
+            "--seconds",
+            "0",
+            "--output-directory",
+            "/run/rvgame-p008-poll"
+          ],
+          "starttime": "1418",
+          "source_sha256": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79",
+          "unit_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
+        }
+      ],
+      "usb_input_helpers": [
+        {
+          "pid": 23768,
+          "scripts": [
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py",
+            "--seconds",
+            "0",
+            "--output",
+            "/run/rvgame-usb-priority/state.json"
+          ],
+          "starttime": "3329520",
+          "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+          "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+          "USB_driver_changes": true,
+          "MMIO_access": false
+        }
+      ],
+      "hp0": {
+        "0": 0,
+        "20": 3840
+      },
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "state": {
+      "supervisor_pid": 11592,
+      "child_pid": 11593,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session",
+      "run": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43097512261390_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 43098.175669957,
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    }
+  },
+  "remote_verify": "STANDALONE_BYTES_VERIFIED 52\n",
+  "state": {
+    "supervisor_pid": 12221,
+    "child_pid": 12231,
+    "target": "session",
+    "directory": "/home/xilinx/rvgame_standalone_final_visual_20261103_a/runs/43358887569033_session",
+    "run": "/home/xilinx/rvgame_standalone_final_visual_20261103_a/runs/43358887569033_session",
+    "persistent_native_owner": true,
+    "test_input": false,
+    "monotonic": 43359.551633833,
+    "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+  },
+  "ready": {
+    "ready": true,
+    "pid": 12231,
+    "geometry": [
+      800,
+      600
+    ],
+    "allocation": {
+      "physical_base": 941621248,
+      "allocated_bytes": 634368,
+      "image_bytes": 634340
+    },
+    "frame_base": 940572672,
+    "usb_gamepad": "None",
+    "underflows": 0,
+    "test_input": false,
+    "telemetry_transport": "state_ack_v2",
+    "session_start": "menu",
+    "persistent_session": true,
+    "compact_exit": true,
+    "input_preload_seconds": 0.01000394099537516,
+    "gc_startup_seconds": 0.14933893799752695,
+    "gc_startup_collected": 40,
+    "gc_counts_before": [
+      503,
+      2,
+      3
+    ],
+    "gc_counts_after": [
+      90,
+      0,
+      0
+    ]
+  },
+  "active": {
+    "segment": 0,
+    "active": "menu",
+    "menu": true,
+    "pid": 12231,
+    "frame_base": 940572672,
+    "ready": 43372.819457451
+  },
+  "health": {
+    "frame_before": 218,
+    "frame_after": 338,
+    "underflows": 0
+  },
+  "cleanup": {
+    "pass": true,
+    "pid": 12231,
+    "error": null,
+    "program_freed": true,
+    "display_freed": true,
+    "hp_restored": true,
+    "trace_writer_flushed": true
+  },
+  "child_exit": {
+    "supervisor_pid": 12221,
+    "child_pid": 12231,
+    "target": "session",
+    "directory": "/home/xilinx/rvgame_standalone_final_visual_20261103_a/runs/43358887569033_session",
+    "run": "/home/xilinx/rvgame_standalone_final_visual_20261103_a/runs/43358887569033_session",
+    "persistent_native_owner": true,
+    "test_input": false,
+    "monotonic": 43359.551633833,
+    "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353",
+    "exit_code": 0,
+    "end": 43380.739848013,
+    "stop_requested": true
+  },
+  "restore_admission": {
+    "processes": [
+      {
+        "pid": 250,
+        "scripts": [
+          "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+        ],
+        "arguments": [
+          "/usr/local/share/pynq-venv/bin/python3",
+          "-u",
+          "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+        ],
+        "starttime": "1413"
+      }
+    ],
+    "read_only_helpers": [
+      {
+        "pid": 251,
+        "scripts": [
+          "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py"
+        ],
+        "arguments": [
+          "/usr/local/share/pynq-venv/bin/python3",
+          "-B",
+          "-u",
+          "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py",
+          "--seconds",
+          "0",
+          "--output-directory",
+          "/run/rvgame-p008-poll"
+        ],
+        "starttime": "1418",
+        "source_sha256": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79",
+        "unit_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
+      }
+    ],
+    "usb_input_helpers": [
+      {
+        "pid": 23768,
+        "scripts": [
+          "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py"
+        ],
+        "arguments": [
+          "/usr/local/share/pynq-venv/bin/python3",
+          "-B",
+          "-u",
+          "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py",
+          "--seconds",
+          "0",
+          "--output",
+          "/run/rvgame-usb-priority/state.json"
+        ],
+        "starttime": "3329520",
+        "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+        "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+        "USB_driver_changes": true,
+        "MMIO_access": false
+      }
+    ],
+    "hp0": {
+      "0": 0,
+      "20": 3840
+    },
+    "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+  },
+  "after": {
+    "state": {
+      "supervisor_pid": 12397,
+      "child_pid": 12398,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43394141982812_session",
+      "run": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43394141982812_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 43394.770784724,
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "unit": {
+      "MainPID": "12397",
+      "ExecStart": "{ path=/usr/local/share/pynq-venv/bin/python3 ; argv[]=/usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py ; ignore_errors=no ; start_time=[Wed 2025-05-21 02:07:31 UTC] ; stop_time=[n/a] ; pid=12397 ; code=(null) ; status=0/0 }",
+      "ActiveState": "active",
+      "UnitFileState": "enabled"
+    },
+    "ready": {
+      "ready": true,
+      "pid": 12398,
+      "geometry": [
+        800,
+        600
+      ],
+      "allocation": {
+        "physical_base": 941621248,
+        "allocated_bytes": 634368,
+        "image_bytes": 634340
+      },
+      "frame_base": 940572672,
+      "usb_gamepad": "None",
+      "underflows": 0,
+      "test_input": false,
+      "telemetry_transport": "state_ack_v2",
+      "session_start": "menu",
+      "persistent_session": true,
+      "compact_exit": true,
+      "input_preload_seconds": 0.009181550005450845,
+      "gc_startup_seconds": 0.1384387899961439,
+      "gc_startup_collected": 40,
+      "gc_counts_before": [
+        503,
+        2,
+        3
+      ],
+      "gc_counts_after": [
+        90,
+        0,
+        0
+      ]
+    },
+    "active": {
+      "segment": 0,
+      "active": "menu",
+      "menu": true,
+      "pid": 12398,
+      "frame_base": 940572672,
+      "ready": 43407.514131296
+    },
+    "health": {
+      "completed": [
+        209,
+        329
+      ],
+      "page": 928,
+      "underflows": 0
+    },
+    "owners": {
+      "processes": [
+        {
+          "pid": 250,
+          "scripts": [
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "starttime": "1413"
+        },
+        {
+          "pid": 12397,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/supervisor.py"
+          ],
+          "starttime": "4339162"
+        },
+        {
+          "pid": 12398,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43394141982812_session/pynq_brotato_session.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a/runs/43394141982812_session/pynq_brotato_session.py"
+          ],
+          "starttime": "4339476"
+        }
+      ],
+      "read_only_helpers": [
+        {
+          "pid": 251,
+          "scripts": [
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-p008-poll-20261102-a/keeper.py",
+            "--seconds",
+            "0",
+            "--output-directory",
+            "/run/rvgame-p008-poll"
+          ],
+          "starttime": "1418",
+          "source_sha256": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79",
+          "unit_sha256": "716555570659cb2f06598d458752100e62bd722b6daf2d56cbb0fe2545ea624f"
+        }
+      ],
+      "usb_input_helpers": [
+        {
+          "pid": 23768,
+          "scripts": [
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-B",
+            "-u",
+            "/usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py",
+            "--seconds",
+            "0",
+            "--output",
+            "/run/rvgame-usb-priority/state.json"
+          ],
+          "starttime": "3329520",
+          "source_sha256": "5717ffe025685d80137f289a3b6239016182f0fae583111f7e61ce3993f3761e",
+          "unit_sha256": "36089ca7cd2dcb2f28ac3be913d5c02c0fb0a4845d663ee96ebba896b705a073",
+          "USB_driver_changes": true,
+          "MMIO_access": false
+        }
+      ],
+      "hp0": {
+        "0": 1,
+        "20": 3841
+      },
+      "boot_id": "bfd83e11-2f8e-4cd4-91b7-2be33825c353"
+    },
+    "protected_files": 140,
+    "latest_protected_files": 56,
+    "formal_root": "/home/xilinx/rvgame_latest_20261103_native800_final_visual_a"
+  },
+  "original_restored": true
+}

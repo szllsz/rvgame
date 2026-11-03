@@ -1,0 +1,43 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "tool_bin": "D:\\Xilinx\\2025.2.1\\Vivado\\bin",
+  "RTL_sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d",
+  "commands": [
+    {
+      "args": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\xvlog.bat",
+        "-sv",
+        "native_frame_commit_20261031.v",
+        "tb_report_commit.sv"
+      ],
+      "exit_code": 0,
+      "log_sha256": "392422d6894a80bf9598d90d0b4c6084c085e0f5d34bfedea189ad6e9113121a"
+    },
+    {
+      "args": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\xelab.bat",
+        "-debug",
+        "typical",
+        "tb_report_commit",
+        "-s",
+        "report_commit"
+      ],
+      "exit_code": 0,
+      "log_sha256": "8ea2e5574acb5f632e986f719b5eb0bd79d0a88bf13e8894aaa1405535e0fa53"
+    },
+    {
+      "args": [
+        "D:\\Xilinx\\2025.2.1\\Vivado\\bin\\xsim.bat",
+        "report_commit",
+        "-runall"
+      ],
+      "exit_code": 0,
+      "log_sha256": "a533fb437bebae2cf97777c03dca7e03ffee608c453eec4a9172276e6fdf7ade"
+    }
+  ],
+  "scope": "Controller-only functional example with TB-specified copy_busy durations; sampled 1 ns after each clock edge; not actual DMA/HDMI timing",
+  "samples": 50,
+  "trace_sha256": "84a38e1c8f189d8f3678cc6849c03eaf9dbc460bea567123dc6045429421491d",
+  "TB_sha256": "2751e99fb8bb6282c169805970cb300bbc069f9f1595e31d8ceda525c55d274c"
+}

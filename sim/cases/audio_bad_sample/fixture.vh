@@ -1,0 +1,1 @@
+localparam COMMAND_PAIRS=473,STALLED=1;

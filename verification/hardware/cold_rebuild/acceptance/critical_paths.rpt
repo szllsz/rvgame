@@ -1,0 +1,1739 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Mon Nov  2 00:35:00 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_timing -delay_type max -max_paths 15 -path_type full_clock_expanded -file D:/Project/rvgame/reports/h800a/acceptance/critical_paths.rpt
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.033ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[11]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.421ns  (logic 4.992ns (52.987%)  route 4.429ns (47.013%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.020ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.875ns = ( 8.649 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.602     8.741    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y85        LUT3 (Prop_lut3_I1_O)        0.275     9.016 r  u_soc/g_audio.u_audio/frame_sample[11]_i_1/O
+                         net (fo=1, routed)           0.000     9.016    u_soc/g_audio.u_audio/frame_sample[11]_i_1_n_0
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[11]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.408     8.649    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[11]/C
+                         clock pessimism              0.449     9.098    
+                         clock uncertainty           -0.082     9.016    
+    SLICE_X107Y85        FDRE (Setup_fdre_C_D)        0.032     9.048    u_soc/g_audio.u_audio/frame_sample_reg[11]
+  -------------------------------------------------------------------
+                         required time                          9.048    
+                         arrival time                          -9.016    
+  -------------------------------------------------------------------
+                         slack                                  0.033    
+
+Slack (MET) :             0.035ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[10]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.417ns  (logic 4.992ns (53.009%)  route 4.425ns (46.991%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.020ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.875ns = ( 8.649 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.598     8.737    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y85        LUT3 (Prop_lut3_I1_O)        0.275     9.012 r  u_soc/g_audio.u_audio/frame_sample[10]_i_1/O
+                         net (fo=1, routed)           0.000     9.012    u_soc/g_audio.u_audio/frame_sample[10]_i_1_n_0
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.408     8.649    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[10]/C
+                         clock pessimism              0.449     9.098    
+                         clock uncertainty           -0.082     9.016    
+    SLICE_X107Y85        FDRE (Setup_fdre_C_D)        0.030     9.046    u_soc/g_audio.u_audio/frame_sample_reg[10]
+  -------------------------------------------------------------------
+                         required time                          9.046    
+                         arrival time                          -9.012    
+  -------------------------------------------------------------------
+                         slack                                  0.035    
+
+Slack (MET) :             0.047ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[15]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.305ns  (logic 4.992ns (53.650%)  route 4.313ns (46.350%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=1 LUT4=1 LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.120ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.939ns = ( 8.585 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.413ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.485     8.624    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X105Y85        LUT6 (Prop_lut6_I0_O)        0.275     8.899 r  u_soc/g_audio.u_audio/frame_sample[15]_i_1/O
+                         net (fo=1, routed)           0.000     8.899    u_soc/g_audio.u_audio/frame_sample[15]_i_1_n_0
+    SLICE_X105Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[15]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.344     8.585    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X105Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[15]/C
+                         clock pessimism              0.413     8.998    
+                         clock uncertainty           -0.082     8.916    
+    SLICE_X105Y85        FDRE (Setup_fdre_C_D)        0.030     8.946    u_soc/g_audio.u_audio/frame_sample_reg[15]
+  -------------------------------------------------------------------
+                         required time                          8.946    
+                         arrival time                          -8.899    
+  -------------------------------------------------------------------
+                         slack                                  0.047    
+
+Slack (MET) :             0.047ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.408ns  (logic 4.992ns (53.063%)  route 4.416ns (46.937%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.874ns = ( 8.650 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.588     8.727    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X106Y86        LUT3 (Prop_lut3_I1_O)        0.275     9.002 r  u_soc/g_audio.u_audio/frame_sample[0]_i_1/O
+                         net (fo=1, routed)           0.000     9.002    u_soc/g_audio.u_audio/frame_sample[0]_i_1_n_0
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.409     8.650    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[0]/C
+                         clock pessimism              0.449     9.099    
+                         clock uncertainty           -0.082     9.017    
+    SLICE_X106Y86        FDRE (Setup_fdre_C_D)        0.032     9.049    u_soc/g_audio.u_audio/frame_sample_reg[0]
+  -------------------------------------------------------------------
+                         required time                          9.049    
+                         arrival time                          -9.002    
+  -------------------------------------------------------------------
+                         slack                                  0.047    
+
+Slack (MET) :             0.053ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[5]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.400ns  (logic 4.992ns (53.105%)  route 4.408ns (46.895%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.874ns = ( 8.650 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.581     8.720    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X106Y86        LUT3 (Prop_lut3_I1_O)        0.275     8.995 r  u_soc/g_audio.u_audio/frame_sample[5]_i_1/O
+                         net (fo=1, routed)           0.000     8.995    u_soc/g_audio.u_audio/frame_sample[5]_i_1_n_0
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[5]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.409     8.650    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[5]/C
+                         clock pessimism              0.449     9.099    
+                         clock uncertainty           -0.082     9.017    
+    SLICE_X106Y86        FDRE (Setup_fdre_C_D)        0.030     9.047    u_soc/g_audio.u_audio/frame_sample_reg[5]
+  -------------------------------------------------------------------
+                         required time                          9.047    
+                         arrival time                          -8.995    
+  -------------------------------------------------------------------
+                         slack                                  0.053    
+
+Slack (MET) :             0.059ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.394ns  (logic 4.992ns (53.140%)  route 4.402ns (46.860%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.021ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.876ns = ( 8.648 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.575     8.713    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y84        LUT3 (Prop_lut3_I1_O)        0.275     8.988 r  u_soc/g_audio.u_audio/frame_sample[1]_i_1/O
+                         net (fo=1, routed)           0.000     8.988    u_soc/g_audio.u_audio/frame_sample[1]_i_1_n_0
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.407     8.648    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[1]/C
+                         clock pessimism              0.449     9.097    
+                         clock uncertainty           -0.082     9.015    
+    SLICE_X107Y84        FDRE (Setup_fdre_C_D)        0.032     9.047    u_soc/g_audio.u_audio/frame_sample_reg[1]
+  -------------------------------------------------------------------
+                         required time                          9.047    
+                         arrival time                          -8.988    
+  -------------------------------------------------------------------
+                         slack                                  0.059    
+
+Slack (MET) :             0.061ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[13]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.390ns  (logic 4.992ns (53.163%)  route 4.398ns (46.837%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.021ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.876ns = ( 8.648 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.571     8.709    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y84        LUT3 (Prop_lut3_I1_O)        0.275     8.984 r  u_soc/g_audio.u_audio/frame_sample[13]_i_1/O
+                         net (fo=1, routed)           0.000     8.984    u_soc/g_audio.u_audio/frame_sample[13]_i_1_n_0
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.407     8.648    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[13]/C
+                         clock pessimism              0.449     9.097    
+                         clock uncertainty           -0.082     9.015    
+    SLICE_X107Y84        FDRE (Setup_fdre_C_D)        0.030     9.045    u_soc/g_audio.u_audio/frame_sample_reg[13]
+  -------------------------------------------------------------------
+                         required time                          9.045    
+                         arrival time                          -8.984    
+  -------------------------------------------------------------------
+                         slack                                  0.061    
+
+Slack (MET) :             0.067ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[12]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.424ns  (logic 4.995ns (53.002%)  route 4.429ns (46.998%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.020ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.875ns = ( 8.649 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.602     8.741    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y85        LUT3 (Prop_lut3_I1_O)        0.278     9.019 r  u_soc/g_audio.u_audio/frame_sample[12]_i_1/O
+                         net (fo=1, routed)           0.000     9.019    u_soc/g_audio.u_audio/frame_sample[12]_i_1_n_0
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[12]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.408     8.649    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[12]/C
+                         clock pessimism              0.449     9.098    
+                         clock uncertainty           -0.082     9.016    
+    SLICE_X107Y85        FDRE (Setup_fdre_C_D)        0.069     9.085    u_soc/g_audio.u_audio/frame_sample_reg[12]
+  -------------------------------------------------------------------
+                         required time                          9.085    
+                         arrival time                          -9.019    
+  -------------------------------------------------------------------
+                         slack                                  0.067    
+
+Slack (MET) :             0.071ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[9]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.420ns  (logic 4.995ns (53.024%)  route 4.425ns (46.976%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.020ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.875ns = ( 8.649 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.598     8.737    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y85        LUT3 (Prop_lut3_I1_O)        0.278     9.015 r  u_soc/g_audio.u_audio/frame_sample[9]_i_1/O
+                         net (fo=1, routed)           0.000     9.015    u_soc/g_audio.u_audio/frame_sample[9]_i_1_n_0
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.408     8.649    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[9]/C
+                         clock pessimism              0.449     9.098    
+                         clock uncertainty           -0.082     9.016    
+    SLICE_X107Y85        FDRE (Setup_fdre_C_D)        0.069     9.085    u_soc/g_audio.u_audio/frame_sample_reg[9]
+  -------------------------------------------------------------------
+                         required time                          9.085    
+                         arrival time                          -9.015    
+  -------------------------------------------------------------------
+                         slack                                  0.071    
+
+Slack (MET) :             0.076ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[7]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.378ns  (logic 4.992ns (53.233%)  route 4.386ns (46.767%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.020ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.875ns = ( 8.649 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.558     8.697    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y85        LUT3 (Prop_lut3_I1_O)        0.275     8.972 r  u_soc/g_audio.u_audio/frame_sample[7]_i_1/O
+                         net (fo=1, routed)           0.000     8.972    u_soc/g_audio.u_audio/frame_sample[7]_i_1_n_0
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.408     8.649    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y85        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[7]/C
+                         clock pessimism              0.449     9.098    
+                         clock uncertainty           -0.082     9.016    
+    SLICE_X107Y85        FDRE (Setup_fdre_C_D)        0.032     9.048    u_soc/g_audio.u_audio/frame_sample_reg[7]
+  -------------------------------------------------------------------
+                         required time                          9.048    
+                         arrival time                          -8.972    
+  -------------------------------------------------------------------
+                         slack                                  0.076    
+
+Slack (MET) :             0.089ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[6]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.403ns  (logic 4.995ns (53.120%)  route 4.408ns (46.880%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.874ns = ( 8.650 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.581     8.720    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X106Y86        LUT3 (Prop_lut3_I1_O)        0.278     8.998 r  u_soc/g_audio.u_audio/frame_sample[6]_i_1/O
+                         net (fo=1, routed)           0.000     8.998    u_soc/g_audio.u_audio/frame_sample[6]_i_1_n_0
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[6]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.409     8.650    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X106Y86        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[6]/C
+                         clock pessimism              0.449     9.099    
+                         clock uncertainty           -0.082     9.017    
+    SLICE_X106Y86        FDRE (Setup_fdre_C_D)        0.069     9.086    u_soc/g_audio.u_audio/frame_sample_reg[6]
+  -------------------------------------------------------------------
+                         required time                          9.086    
+                         arrival time                          -8.998    
+  -------------------------------------------------------------------
+                         slack                                  0.089    
+
+Slack (MET) :             0.092ns  (required time - arrival time)
+  Source:                 u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_cpu_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_ddr.u_cache/scan_left_reg[2]/R
+                            (rising edge-triggered cell FDRE clocked by clk_out1_cpu_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_cpu_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_cpu_clock rise@9.524ns - clk_out1_cpu_clock rise@0.000ns)
+  Data Path Delay:        8.777ns  (logic 2.300ns (26.206%)  route 6.477ns (73.794%))
+  Logic Levels:           15  (CARRY4=4 LUT2=1 LUT4=2 LUT5=1 LUT6=7)
+  Clock Path Skew:        -0.192ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.110ns = ( 8.414 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.589ns
+    Clock Pessimism Removal (CPR):    0.330ns
+  Clock Uncertainty:      0.112ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.212ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_cpu_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.110     2.539    u_cpu_clock/inst/clk_in1
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.247    -3.708 r  u_cpu_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.597    -2.111    u_cpu_clock/inst/clk_out1_cpu_clock
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.085    -2.026 r  u_cpu_clock/inst/clkout1_buf/O
+                         net (fo=8967, routed)        1.437    -0.589    u_soc/u_cpu/clk_out1
+    SLICE_X58Y87         FDRE                                         r  u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X58Y87         FDRE (Prop_fdre_C_Q)         0.433    -0.156 f  u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/Q
+                         net (fo=12, routed)          0.783     0.627    u_soc/u_cpu/u_multiply/Q[9]
+    SLICE_X57Y83         LUT4 (Prop_lut4_I3_O)        0.105     0.732 f  u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_38/O
+                         net (fo=2, routed)           0.407     1.139    u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_38_n_0
+    SLICE_X57Y82         LUT5 (Prop_lut5_I0_O)        0.105     1.244 r  u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_37/O
+                         net (fo=53, routed)          0.398     1.642    u_soc/u_cpu/cpu_data_address_is_ddr
+    SLICE_X57Y79         LUT6 (Prop_lut6_I0_O)        0.105     1.747 r  u_soc/u_cpu/g_sync_pipeline.fetch_age[3]_i_5/O
+                         net (fo=6, routed)           0.876     2.623    u_soc/u_cpu/g_dual_rf.u_regfile/g_sync_pipeline.fetch_age_reg[3]_0
+    SLICE_X49Y75         LUT6 (Prop_lut6_I1_O)        0.105     2.728 r  u_soc/u_cpu/g_dual_rf.u_regfile/way_ram[1].g_separate_scan.words_reg_0_i_36/O
+                         net (fo=2, routed)           0.450     3.178    u_soc/u_cpu/g_dual_rf.u_regfile/data_read_request
+    SLICE_X49Y74         LUT2 (Prop_lut2_I0_O)        0.105     3.283 r  u_soc/u_cpu/g_dual_rf.u_regfile/way_ram[1].g_separate_scan.words_reg_0_i_33/O
+                         net (fo=97, routed)          0.506     3.789    u_soc/u_cpu/g_dual_rf.u_regfile/g_sync_pipeline.port_owner_reg[1]
+    SLICE_X45Y70         LUT6 (Prop_lut6_I1_O)        0.105     3.894 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_74/O
+                         net (fo=1, routed)           0.470     4.364    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_74_n_0
+    SLICE_X45Y64         LUT6 (Prop_lut6_I1_O)        0.105     4.469 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_56/O
+                         net (fo=1, routed)           0.256     4.725    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_56_n_0
+    SLICE_X45Y65         CARRY4 (Prop_carry4_DI[1]_CO[3])
+                                                      0.418     5.143 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_36/CO[3]
+                         net (fo=1, routed)           0.000     5.143    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_36_n_0
+    SLICE_X45Y66         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.241 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_20/CO[3]
+                         net (fo=1, routed)           0.000     5.241    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_20_n_0
+    SLICE_X45Y67         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.339 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_9/CO[3]
+                         net (fo=1, routed)           0.000     5.339    u_ps/ddr_fault_i_2[0]
+    SLICE_X45Y68         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.437 f  u_ps/saved_address_reg[23]_i_4/CO[3]
+                         net (fo=2, routed)           0.635     6.072    u_ps/saved_address[23]_i_17_0[0]
+    SLICE_X44Y64         LUT6 (Prop_lut6_I1_O)        0.105     6.177 f  u_ps/saved_address[23]_i_3/O
+                         net (fo=4, routed)           0.541     6.718    u_soc/u_cpu/request0
+    SLICE_X44Y55         LUT6 (Prop_lut6_I5_O)        0.105     6.823 r  u_soc/u_cpu/scan_left[3]_i_4/O
+                         net (fo=5, routed)           0.544     7.367    u_soc/g_ddr.u_cache/scan_left_reg[0]_1
+    SLICE_X47Y59         LUT6 (Prop_lut6_I0_O)        0.105     7.472 r  u_soc/g_ddr.u_cache/scan_left[3]_i_2/O
+                         net (fo=6, routed)           0.351     7.823    u_ps/scan_left_reg[3]
+    SLICE_X47Y58         LUT4 (Prop_lut4_I0_O)        0.105     7.928 r  u_ps/scan_left[3]_i_1/O
+                         net (fo=2, routed)           0.260     8.188    u_soc/g_ddr.u_cache/scan_left_reg[3]_0
+    SLICE_X47Y59         FDRE                                         r  u_soc/g_ddr.u_cache/scan_left_reg[2]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_cpu_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.004    11.891    u_cpu_clock/inst/clk_in1
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.242     5.649 r  u_cpu_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.454     7.104    u_cpu_clock/inst/clk_out1_cpu_clock
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.077     7.181 r  u_cpu_clock/inst/clkout1_buf/O
+                         net (fo=8967, routed)        1.233     8.414    u_soc/g_ddr.u_cache/clk_out1
+    SLICE_X47Y59         FDRE                                         r  u_soc/g_ddr.u_cache/scan_left_reg[2]/C
+                         clock pessimism              0.330     8.743    
+                         clock uncertainty           -0.112     8.631    
+    SLICE_X47Y59         FDRE (Setup_fdre_C_R)       -0.352     8.279    u_soc/g_ddr.u_cache/scan_left_reg[2]
+  -------------------------------------------------------------------
+                         required time                          8.279    
+                         arrival time                          -8.188    
+  -------------------------------------------------------------------
+                         slack                                  0.092    
+
+Slack (MET) :             0.092ns  (required time - arrival time)
+  Source:                 u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_cpu_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_ddr.u_cache/scan_left_reg[3]/R
+                            (rising edge-triggered cell FDRE clocked by clk_out1_cpu_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_cpu_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_cpu_clock rise@9.524ns - clk_out1_cpu_clock rise@0.000ns)
+  Data Path Delay:        8.777ns  (logic 2.300ns (26.206%)  route 6.477ns (73.794%))
+  Logic Levels:           15  (CARRY4=4 LUT2=1 LUT4=2 LUT5=1 LUT6=7)
+  Clock Path Skew:        -0.192ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.110ns = ( 8.414 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.589ns
+    Clock Pessimism Removal (CPR):    0.330ns
+  Clock Uncertainty:      0.112ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.212ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_cpu_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.110     2.539    u_cpu_clock/inst/clk_in1
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.247    -3.708 r  u_cpu_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.597    -2.111    u_cpu_clock/inst/clk_out1_cpu_clock
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.085    -2.026 r  u_cpu_clock/inst/clkout1_buf/O
+                         net (fo=8967, routed)        1.437    -0.589    u_soc/u_cpu/clk_out1
+    SLICE_X58Y87         FDRE                                         r  u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X58Y87         FDRE (Prop_fdre_C_Q)         0.433    -0.156 f  u_soc/u_cpu/g_sync_pipeline.mem_address_reg[24]/Q
+                         net (fo=12, routed)          0.783     0.627    u_soc/u_cpu/u_multiply/Q[9]
+    SLICE_X57Y83         LUT4 (Prop_lut4_I3_O)        0.105     0.732 f  u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_38/O
+                         net (fo=2, routed)           0.407     1.139    u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_38_n_0
+    SLICE_X57Y82         LUT5 (Prop_lut5_I0_O)        0.105     1.244 r  u_soc/u_cpu/u_multiply/way_ram[1].g_separate_scan.words_reg_0_i_37/O
+                         net (fo=53, routed)          0.398     1.642    u_soc/u_cpu/cpu_data_address_is_ddr
+    SLICE_X57Y79         LUT6 (Prop_lut6_I0_O)        0.105     1.747 r  u_soc/u_cpu/g_sync_pipeline.fetch_age[3]_i_5/O
+                         net (fo=6, routed)           0.876     2.623    u_soc/u_cpu/g_dual_rf.u_regfile/g_sync_pipeline.fetch_age_reg[3]_0
+    SLICE_X49Y75         LUT6 (Prop_lut6_I1_O)        0.105     2.728 r  u_soc/u_cpu/g_dual_rf.u_regfile/way_ram[1].g_separate_scan.words_reg_0_i_36/O
+                         net (fo=2, routed)           0.450     3.178    u_soc/u_cpu/g_dual_rf.u_regfile/data_read_request
+    SLICE_X49Y74         LUT2 (Prop_lut2_I0_O)        0.105     3.283 r  u_soc/u_cpu/g_dual_rf.u_regfile/way_ram[1].g_separate_scan.words_reg_0_i_33/O
+                         net (fo=97, routed)          0.506     3.789    u_soc/u_cpu/g_dual_rf.u_regfile/g_sync_pipeline.port_owner_reg[1]
+    SLICE_X45Y70         LUT6 (Prop_lut6_I1_O)        0.105     3.894 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_74/O
+                         net (fo=1, routed)           0.470     4.364    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_74_n_0
+    SLICE_X45Y64         LUT6 (Prop_lut6_I1_O)        0.105     4.469 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_56/O
+                         net (fo=1, routed)           0.256     4.725    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address[23]_i_56_n_0
+    SLICE_X45Y65         CARRY4 (Prop_carry4_DI[1]_CO[3])
+                                                      0.418     5.143 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_36/CO[3]
+                         net (fo=1, routed)           0.000     5.143    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_36_n_0
+    SLICE_X45Y66         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.241 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_20/CO[3]
+                         net (fo=1, routed)           0.000     5.241    u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_20_n_0
+    SLICE_X45Y67         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.339 r  u_soc/u_cpu/g_dual_rf.u_regfile/saved_address_reg[23]_i_9/CO[3]
+                         net (fo=1, routed)           0.000     5.339    u_ps/ddr_fault_i_2[0]
+    SLICE_X45Y68         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     5.437 f  u_ps/saved_address_reg[23]_i_4/CO[3]
+                         net (fo=2, routed)           0.635     6.072    u_ps/saved_address[23]_i_17_0[0]
+    SLICE_X44Y64         LUT6 (Prop_lut6_I1_O)        0.105     6.177 f  u_ps/saved_address[23]_i_3/O
+                         net (fo=4, routed)           0.541     6.718    u_soc/u_cpu/request0
+    SLICE_X44Y55         LUT6 (Prop_lut6_I5_O)        0.105     6.823 r  u_soc/u_cpu/scan_left[3]_i_4/O
+                         net (fo=5, routed)           0.544     7.367    u_soc/g_ddr.u_cache/scan_left_reg[0]_1
+    SLICE_X47Y59         LUT6 (Prop_lut6_I0_O)        0.105     7.472 r  u_soc/g_ddr.u_cache/scan_left[3]_i_2/O
+                         net (fo=6, routed)           0.351     7.823    u_ps/scan_left_reg[3]
+    SLICE_X47Y58         LUT4 (Prop_lut4_I0_O)        0.105     7.928 r  u_ps/scan_left[3]_i_1/O
+                         net (fo=2, routed)           0.260     8.188    u_soc/g_ddr.u_cache/scan_left_reg[3]_0
+    SLICE_X47Y59         FDRE                                         r  u_soc/g_ddr.u_cache/scan_left_reg[3]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_cpu_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.004    11.891    u_cpu_clock/inst/clk_in1
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.242     5.649 r  u_cpu_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.454     7.104    u_cpu_clock/inst/clk_out1_cpu_clock
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.077     7.181 r  u_cpu_clock/inst/clkout1_buf/O
+                         net (fo=8967, routed)        1.233     8.414    u_soc/g_ddr.u_cache/clk_out1
+    SLICE_X47Y59         FDRE                                         r  u_soc/g_ddr.u_cache/scan_left_reg[3]/C
+                         clock pessimism              0.330     8.743    
+                         clock uncertainty           -0.112     8.631    
+    SLICE_X47Y59         FDRE (Setup_fdre_C_R)       -0.352     8.279    u_soc/g_ddr.u_cache/scan_left_reg[3]
+  -------------------------------------------------------------------
+                         required time                          8.279    
+                         arrival time                          -8.188    
+  -------------------------------------------------------------------
+                         slack                                  0.092    
+
+Slack (MET) :             0.093ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.397ns  (logic 4.995ns (53.155%)  route 4.402ns (46.845%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.021ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.876ns = ( 8.648 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.575     8.713    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y84        LUT3 (Prop_lut3_I1_O)        0.278     8.991 r  u_soc/g_audio.u_audio/frame_sample[2]_i_1/O
+                         net (fo=1, routed)           0.000     8.991    u_soc/g_audio.u_audio/frame_sample[2]_i_1_n_0
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.407     8.648    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[2]/C
+                         clock pessimism              0.449     9.097    
+                         clock uncertainty           -0.082     9.015    
+    SLICE_X107Y84        FDRE (Setup_fdre_C_D)        0.069     9.084    u_soc/g_audio.u_audio/frame_sample_reg[2]
+  -------------------------------------------------------------------
+                         required time                          9.084    
+                         arrival time                          -8.991    
+  -------------------------------------------------------------------
+                         slack                                  0.093    
+
+Slack (MET) :             0.097ns  (required time - arrival time)
+  Source:                 u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Destination:            u_soc/g_audio.u_audio/frame_sample_reg[14]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_video_clock  {rise@0.000ns fall@4.762ns period=9.524ns})
+  Path Group:             clk_out1_video_clock
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            9.524ns  (clk_out1_video_clock rise@9.524ns - clk_out1_video_clock rise@0.000ns)
+  Data Path Delay:        9.393ns  (logic 4.995ns (53.178%)  route 4.398ns (46.822%))
+  Logic Levels:           22  (CARRY4=14 LUT1=2 LUT2=1 LUT3=2 LUT4=1 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.021ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -0.876ns = ( 8.648 - 9.524 ) 
+    Source Clock Delay      (SCD):    -0.406ns
+    Clock Pessimism Removal (CPR):    0.449ns
+  Clock Uncertainty:      0.082ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.148ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_video_clock rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk (IN)
+                         net (fo=0)                   0.000     0.000    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.429     1.429 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.203     2.632    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.567    -3.935 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.884    -2.051    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.085    -1.966 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.560    -0.406    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X109Y79        FDRE                                         r  u_soc/g_audio.u_audio/serial_dc_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y79        FDRE (Prop_fdre_C_Q)         0.379    -0.027 f  u_soc/g_audio.u_audio/serial_dc_reg[0]/Q
+                         net (fo=3, routed)           0.252     0.226    u_soc/g_audio.u_audio/serial_dc_reg_n_0_[0]
+    SLICE_X108Y80        LUT1 (Prop_lut1_I0_O)        0.105     0.331 r  u_soc/g_audio.u_audio/dc[3]_i_12/O
+                         net (fo=1, routed)           0.377     0.707    u_soc/g_audio.u_audio/dc[3]_i_12_n_0
+    SLICE_X109Y80        CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480     1.187 r  u_soc/g_audio.u_audio/dc_reg[3]_i_7/CO[3]
+                         net (fo=1, routed)           0.000     1.187    u_soc/g_audio.u_audio/dc_reg[3]_i_7_n_0
+    SLICE_X109Y81        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.285 r  u_soc/g_audio.u_audio/dc_reg[3]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.285    u_soc/g_audio.u_audio/dc_reg[3]_i_6_n_0
+    SLICE_X109Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.383 r  u_soc/g_audio.u_audio/dc_reg[7]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.383    u_soc/g_audio.u_audio/dc_reg[7]_i_6_n_0
+    SLICE_X109Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.481 r  u_soc/g_audio.u_audio/dc_reg[11]_i_6/CO[3]
+                         net (fo=1, routed)           0.000     1.481    u_soc/g_audio.u_audio/dc_reg[11]_i_6_n_0
+    SLICE_X109Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     1.579 r  u_soc/g_audio.u_audio/dc_reg[19]_i_8/CO[3]
+                         net (fo=1, routed)           0.000     1.579    u_soc/g_audio.u_audio/dc_reg[19]_i_8_n_0
+    SLICE_X109Y85        CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     1.844 r  u_soc/g_audio.u_audio/dc_reg[19]_i_3/O[1]
+                         net (fo=6, routed)           0.404     2.249    u_soc/g_audio.u_audio/dc_reg[19]_i_3_n_6
+    SLICE_X109Y87        LUT5 (Prop_lut5_I4_O)        0.250     2.499 r  u_soc/g_audio.u_audio/frame_sample[14]_i_19/O
+                         net (fo=2, routed)           0.558     3.056    u_soc/g_audio.u_audio/frame_sample[14]_i_19_n_0
+    SLICE_X107Y84        LUT3 (Prop_lut3_I2_O)        0.105     3.161 r  u_soc/g_audio.u_audio/frame_sample[14]_i_24/O
+                         net (fo=3, routed)           0.452     3.613    u_soc/g_audio.u_audio/frame_sample[14]_i_24_n_0
+    SLICE_X107Y82        LUT2 (Prop_lut2_I0_O)        0.105     3.718 r  u_soc/g_audio.u_audio/frame_sample[14]_i_41/O
+                         net (fo=1, routed)           0.000     3.718    u_soc/g_audio.u_audio/frame_sample[14]_i_41_n_0
+    SLICE_X107Y82        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     4.158 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29/CO[3]
+                         net (fo=1, routed)           0.000     4.158    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_29_n_0
+    SLICE_X107Y83        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     4.290 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_21/CO[1]
+                         net (fo=16, routed)          0.663     4.953    u_soc/g_audio.u_audio/serial_next_sample2
+    SLICE_X110Y81        LUT6 (Prop_lut6_I5_O)        0.275     5.228 r  u_soc/g_audio.u_audio/frame_sample[3]_i_5/O
+                         net (fo=2, routed)           0.480     5.708    u_soc/g_audio.u_audio/frame_sample[3]_i_5_n_0
+    SLICE_X106Y81        LUT4 (Prop_lut4_I0_O)        0.105     5.813 r  u_soc/g_audio.u_audio/frame_sample[3]_i_9/O
+                         net (fo=1, routed)           0.000     5.813    u_soc/g_audio.u_audio/frame_sample[3]_i_9_n_0
+    SLICE_X106Y81        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.270 r  u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.270    u_soc/g_audio.u_audio/frame_sample_reg[3]_i_2_n_0
+    SLICE_X106Y82        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.368 r  u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.368    u_soc/g_audio.u_audio/frame_sample_reg[7]_i_2_n_0
+    SLICE_X106Y83        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.466 r  u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     6.466    u_soc/g_audio.u_audio/frame_sample_reg[11]_i_2_n_0
+    SLICE_X106Y84        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.564 r  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5/CO[3]
+                         net (fo=1, routed)           0.000     6.564    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_5_n_0
+    SLICE_X106Y85        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     6.780 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6/CO[0]
+                         net (fo=2, routed)           0.641     7.422    u_soc/g_audio.u_audio/frame_sample_reg[14]_i_6_n_3
+    SLICE_X105Y84        LUT1 (Prop_lut1_I0_O)        0.309     7.731 r  u_soc/g_audio.u_audio/frame_sample[14]_i_9/O
+                         net (fo=1, routed)           0.000     7.731    u_soc/g_audio.u_audio/frame_sample[14]_i_9_n_0
+    SLICE_X105Y84        CARRY4 (Prop_carry4_S[1]_CO[1])
+                                                      0.408     8.139 f  u_soc/g_audio.u_audio/frame_sample_reg[14]_i_4/CO[1]
+                         net (fo=16, routed)          0.571     8.709    u_soc/g_audio.u_audio/mix_pcm_return3
+    SLICE_X107Y84        LUT3 (Prop_lut3_I1_O)        0.278     8.987 r  u_soc/g_audio.u_audio/frame_sample[14]_i_2/O
+                         net (fo=1, routed)           0.000     8.987    u_soc/g_audio.u_audio/frame_sample[14]_i_2_n_0
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[14]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_video_clock rise edge)
+                                                      9.524     9.524 r  
+    U18                                               0.000     9.524 r  sys_clk (IN)
+                         net (fo=0)                   0.000     9.524    sys_clk
+    U18                  IBUF (Prop_ibuf_I_O)         1.363    10.887 r  u_sys_clk_input/O
+                         net (fo=2, routed)           1.090    11.977    u_video_clock/inst/clk_in1
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.527     5.450 r  u_video_clock/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.714     7.164    u_video_clock/inst/clk_out1_video_clock
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.077     7.241 r  u_video_clock/inst/clkout1_buf/O
+                         net (fo=8773, routed)        1.407     8.648    u_soc/g_audio.u_audio/held_sample_reg[1]
+    SLICE_X107Y84        FDRE                                         r  u_soc/g_audio.u_audio/frame_sample_reg[14]/C
+                         clock pessimism              0.449     9.097    
+                         clock uncertainty           -0.082     9.015    
+    SLICE_X107Y84        FDRE (Setup_fdre_C_D)        0.069     9.084    u_soc/g_audio.u_audio/frame_sample_reg[14]
+  -------------------------------------------------------------------
+                         required time                          9.084    
+                         arrival time                          -8.987    
+  -------------------------------------------------------------------
+                         slack                                  0.097    
+
+
+
+

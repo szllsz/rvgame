@@ -1,0 +1,1 @@
+localparam STALLED=1;

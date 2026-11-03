@@ -1,0 +1,13 @@
+{
+  "segment": 4,
+  "active": "menu",
+  "menu": true,
+  "pid": 6982,
+  "frame_base": 940572672,
+  "allocation": {
+    "physical_base": 941621248,
+    "allocated_bytes": 634368,
+    "image_bytes": 634340
+  },
+  "ready": 41499.84475228
+}

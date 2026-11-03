@@ -1,0 +1,15 @@
+May 20 20:20:47 pynq systemd[1]: Started /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_input_robustness_20261102_a/run.py --start.
+May 20 20:20:51 pynq python3[26636]: STANDALONE_BYTES_VERIFIED 48
+May 20 20:21:03 pynq python3[26662]: FIDELITY_TEMPORARY_READY
+May 20 20:21:03 pynq python3[26662]: INPUT_SOURCE_STATUS {"gamepad_connected": false, "gamepad_source": null, "gamepad_error": "[Errno USB input transfer failed] -1", "gamepad_stale": null, "pointer_devices": []}
+May 20 20:21:03 pynq python3[26662]: USB_INPUT {"word": 0, "state": {"mask": 0, "raw_left": [0, 0], "raw_right": [0, 0], "left": [0, 0], "right": [0, 0], "dpad": [0, 0], "movement": [0, 0], "triggers": [0, 0], "trigger_buttons": 0, "stick_clicks": 0, "deadzone": 6553, "source": "mixed_pointer", "connected": false, "gamepad": {"error": "[Errno USB input transfer failed] -1", "connected": false}, "pointer_devices": []}}
+May 20 20:21:03 pynq python3[26662]: POINTER_OPEN mouse event0
+May 20 20:21:03 pynq python3[26662]: INPUT_SOURCE_STATUS {"gamepad_connected": false, "gamepad_source": null, "gamepad_error": "[Errno USB input transfer failed] -1", "gamepad_stale": null, "pointer_devices": ["mouse"]}
+May 20 20:21:03 pynq python3[26662]: USB_INPUT {"word": 65536, "state": {"mask": 0, "raw_left": [0, 0], "raw_right": [0, 0], "left": [0, 0], "right": [0, 0], "dpad": [0, 0], "movement": [0, 0], "triggers": [0, 0], "trigger_buttons": 0, "stick_clicks": 0, "deadzone": 6553, "source": "mixed_pointer", "connected": true, "gamepad": {"error": "[Errno USB input transfer failed] -1", "connected": false}, "pointer_devices": ["mouse"]}}
+May 20 20:21:11 pynq systemd[1]: Stopping /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_input_robustness_20261102_a/run.py --start...
+May 20 20:21:11 pynq python3[26662]: FIDELITY_TEMPORARY_STOP
+May 20 20:21:11 pynq python3[26662]: FIDELITY_RESOURCES_RELEASED
+May 20 20:21:12 pynq python3[26636]: STANDALONE_OWNER_RETIRED
+May 20 20:21:12 pynq systemd[1]: rvgame-standalone-input-robustness-20261102-a.service: Deactivated successfully.
+May 20 20:21:12 pynq systemd[1]: Stopped /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_input_robustness_20261102_a/run.py --start.
+May 20 20:21:12 pynq systemd[1]: rvgame-standalone-input-robustness-20261102-a.service: Consumed 15.395s CPU time.

@@ -1,0 +1,26 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Mon Nov  2 00:34:41 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file D:/Project/rvgame/reports/h800a/independent_clock_interaction.rpt
+| Design       : top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                            WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock              
+From Clock            To Clock              Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints              
+--------------------  --------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  -----------------------  
+clk_out1_cpu_clock    clk_out1_cpu_clock    rise - rise     0.09     0.00            0        36379             9.52  Clean                Partial False Path       
+clk_out1_cpu_clock    clk_out1_video_clock  rise - rise     5.47     0.00            0          193             8.00  Ignored              Max Delay Datapath Only  
+clk_out1_video_clock  clk_out1_cpu_clock    rise - rise     5.97     0.00            0           70             8.00  Ignored              Max Delay Datapath Only  
+clk_out1_video_clock  clk_out1_video_clock  rise - rise     0.03     0.00            0        41465             9.52  Clean                Partial False Path       
+
+

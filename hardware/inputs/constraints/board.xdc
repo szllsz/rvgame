@@ -1,0 +1,20 @@
+set_property PACKAGE_PIN N15 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+set_property PACKAGE_PIN M14 [get_ports {led[0]}]
+set_property PACKAGE_PIN M15 [get_ports {led[1]}]
+set_property PACKAGE_PIN K16 [get_ports {led[2]}]
+set_property PACKAGE_PIN J16 [get_ports {led[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led[*]}]
+# The physical reset button only enters an asynchronous-assert reset synchronizer.
+set_false_path -from [get_ports rst_n]
+set_property PACKAGE_PIN N16 [get_ports {key_n[0]}]
+set_property PACKAGE_PIN T17 [get_ports {key_n[1]}]
+set_property PACKAGE_PIN R17 [get_ports {key_n[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {key_n[*]}]
+set_property PACKAGE_PIN Y19 [get_ports hdmi_hpd]
+set_property IOSTANDARD LVCMOS33 [get_ports hdmi_hpd]
+# U18 NC7WZ07 has open-drain outputs; HPD needs a pull-up to read high.
+set_property PULLUP TRUE [get_ports hdmi_hpd]
+set_false_path -from [get_ports hdmi_hpd] -to [get_pins {u_hdmi_detect/key_sync1_reg[0]/D}]
+# KEY2/3/4 enter only the first stage of the pixel-clock synchronizer.
+set_false_path -from [get_ports {key_n[*]}] -to [get_pins {u_buttons/key_sync1_reg[*]/D}]

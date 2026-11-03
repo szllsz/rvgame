@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "seconds": 120.03349122299915,
+  "kernel_events": 0,
+  "same_owner": true,
+  "irq_delta": 0,
+  "urb_delta": {
+    "1-1": 0,
+    "1-1.1": 0,
+    "1-1.2": 5959,
+    "1-1.4": 0,
+    "usb1": 0
+  },
+  "human_result_pending": true
+}

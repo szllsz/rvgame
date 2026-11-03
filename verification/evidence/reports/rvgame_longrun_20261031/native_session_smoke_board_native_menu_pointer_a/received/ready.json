@@ -1,0 +1,34 @@
+{
+  "ready": true,
+  "pid": 9448,
+  "geometry": [
+    800,
+    600
+  ],
+  "allocation": {
+    "physical_base": 941621248,
+    "allocated_bytes": 624448,
+    "image_bytes": 624448
+  },
+  "frame_base": 940572672,
+  "usb_gamepad": "/sys/bus/usb/devices/1-1.2",
+  "underflows": 0,
+  "test_input": true,
+  "telemetry_transport": "state_ack_v2",
+  "session_start": "menu",
+  "persistent_session": true,
+  "compact_exit": true,
+  "input_preload_seconds": 0.008827216000099725,
+  "gc_startup_seconds": 0.12043100000028062,
+  "gc_startup_collected": 40,
+  "gc_counts_before": [
+    504,
+    2,
+    3
+  ],
+  "gc_counts_after": [
+    90,
+    0,
+    0
+  ]
+}

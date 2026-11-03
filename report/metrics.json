@@ -1,0 +1,375 @@
+{
+  "pass_": true,
+  "host_only": true,
+  "board_tested": false,
+  "scope": "Current two-game metrics rechecked from raw board evidence; unchanged CPU/graphics retain their exact prior identities. Historical bindings remain explicitly identified.",
+  "CPU": [
+    {
+      "phase": 0,
+      "iterations": 4000,
+      "ticks": 1129481426,
+      "clock_hz": 105000000,
+      "seconds": 10.756965961904761,
+      "iterations_per_second": 371.85206443580773,
+      "per_MHz": 3.5414482327219785,
+      "CRC": [
+        59893,
+        59156,
+        8151,
+        36410,
+        26053
+      ]
+    },
+    {
+      "phase": 1,
+      "iterations": 4000,
+      "ticks": 1132545383,
+      "clock_hz": 105000000,
+      "seconds": 10.786146504761906,
+      "iterations_per_second": 370.84606613066734,
+      "per_MHz": 3.531867296482546,
+      "CRC": [
+        6386,
+        58305,
+        1863,
+        36228,
+        21065
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "application": "gfx",
+      "count": 512,
+      "seconds": 60.45000004761905,
+      "frames": 3627,
+      "scans": 3627,
+      "FPS": 59.999999952735436,
+      "strict60": true,
+      "source": "native_sol_suite800_final_status_y"
+    },
+    {
+      "application": "bitmap",
+      "count": 96,
+      "seconds": 60.416668676190476,
+      "frames": 3625,
+      "scans": 3625,
+      "FPS": 59.99999800433504,
+      "strict60": true,
+      "source": "native_sol_suite800_final_status_y"
+    },
+    {
+      "application": "alpha",
+      "count": 32,
+      "seconds": 60.416666523809525,
+      "frames": 3625,
+      "scans": 3625,
+      "FPS": 60.00000014187192,
+      "strict60": true,
+      "source": "native_sol_suite800_showcase_final_g"
+    }
+  ],
+  "egg_bros_curve": [
+    {
+      "epoch": 1,
+      "population": 64,
+      "seconds": 7.9833335142857145,
+      "frames": 479,
+      "scans": 479,
+      "presents": 479,
+      "FPS": 59.99999864002389,
+      "nonunit": 0,
+      "missed": 0,
+      "strict60": true
+    },
+    {
+      "epoch": 2,
+      "population": 64,
+      "seconds": 7.983332752380952,
+      "frames": 479,
+      "scans": 479,
+      "presents": 479,
+      "FPS": 60.00000436623951,
+      "nonunit": 0,
+      "missed": 0,
+      "strict60": true
+    },
+    {
+      "epoch": 3,
+      "population": 64,
+      "seconds": 7.983333133333334,
+      "frames": 479,
+      "scans": 479,
+      "presents": 479,
+      "FPS": 60.00000150313156,
+      "nonunit": 0,
+      "missed": 0,
+      "strict60": true
+    },
+    {
+      "epoch": 6,
+      "population": 85,
+      "seconds": 7.999999542857143,
+      "frames": 336,
+      "scans": 480,
+      "presents": 336,
+      "FPS": 42.000002400000135,
+      "nonunit": 77,
+      "missed": 144,
+      "strict60": false
+    },
+    {
+      "epoch": 7,
+      "population": 85,
+      "seconds": 8.000000247619047,
+      "frames": 335,
+      "scans": 480,
+      "presents": 335,
+      "FPS": 41.87499870386909,
+      "nonunit": 78,
+      "missed": 145,
+      "strict60": false
+    },
+    {
+      "epoch": 8,
+      "population": 85,
+      "seconds": 8.000000657142857,
+      "frames": 333,
+      "scans": 480,
+      "presents": 333,
+      "FPS": 41.62499658080385,
+      "nonunit": 80,
+      "missed": 147,
+      "strict60": false
+    },
+    {
+      "epoch": 11,
+      "population": 100,
+      "seconds": 7.999999942857142,
+      "frames": 238,
+      "scans": 480,
+      "presents": 238,
+      "FPS": 29.7500002125,
+      "nonunit": 103,
+      "missed": 242,
+      "strict60": false
+    },
+    {
+      "epoch": 12,
+      "population": 100,
+      "seconds": 7.999999990476191,
+      "frames": 238,
+      "scans": 480,
+      "presents": 238,
+      "FPS": 29.750000035416665,
+      "nonunit": 103,
+      "missed": 242,
+      "strict60": false
+    },
+    {
+      "epoch": 14,
+      "population": 100,
+      "seconds": 7.999999638095238,
+      "frames": 238,
+      "scans": 480,
+      "presents": 238,
+      "FPS": 29.750001345833397,
+      "nonunit": 103,
+      "missed": 242,
+      "strict60": false
+    }
+  ],
+  "egg_bros_arithmetic_mean_FPS": {
+    "64": 60.00000150313165,
+    "85": 41.83333256155769,
+    "100": 29.75000053125002
+  },
+  "egg_window_scope": "Manual stage selected for >=35s, repeating original10s scene; all captured closed ~8s meters per stage exclude first120 logic ticks; not continuous60s.",
+  "star_barrage": [
+    {
+      "density": 1,
+      "seconds": 61.93333331428571,
+      "completed_frames": 3716,
+      "scans": 3716,
+      "completed_FPS": 60.00000001845302,
+      "nonunit_scans": 0,
+      "missed_scans": 0,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": true
+    },
+    {
+      "density": 2,
+      "seconds": 63.06666654285714,
+      "completed_frames": 3278,
+      "scans": 3784,
+      "completed_FPS": 51.976744288084824,
+      "nonunit_scans": 506,
+      "missed_scans": 506,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": false
+    },
+    {
+      "density": 9,
+      "seconds": 65.4500000952381,
+      "completed_frames": 2084,
+      "scans": 3927,
+      "completed_FPS": 31.841100030061334,
+      "nonunit_scans": 1843,
+      "missed_scans": 1843,
+      "missed_logic_ticks": 0,
+      "strict_every_scan": false
+    }
+  ],
+  "current_UI_recheck_command": "python verification/recheck_ui.py --output <new-directory>",
+  "payload_bindings": [
+    {
+      "name": "coremark.bin",
+      "sha256": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "validation.bin",
+      "sha256": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "gfx.bin",
+      "sha256": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "bitmap.bin",
+      "sha256": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "top.bit",
+      "sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "top.hwh",
+      "sha256": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_final_status_y/package/manifest.json"
+    },
+    {
+      "name": "alpha.bin",
+      "sha256": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_showcase_final_g/package/manifest.json"
+    },
+    {
+      "name": "top.bit",
+      "sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_showcase_final_g/package/manifest.json"
+    },
+    {
+      "name": "top.hwh",
+      "sha256": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_support_sol_suite800_showcase_final_g/package/manifest.json"
+    },
+    {
+      "name": "coremark.bin",
+      "sha256": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/manifest.json"
+    },
+    {
+      "name": "validation.bin",
+      "sha256": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/manifest.json"
+    },
+    {
+      "name": "top.bit",
+      "sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/manifest.json"
+    },
+    {
+      "name": "top.hwh",
+      "sha256": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+      "manifest": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_current_review_a/received/manifest.json"
+    },
+    {
+      "name": "game.bin",
+      "sha256": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+      "manifest": "reports/rvgame_longrun_20261031/egg_camera_support_c/package/manifest.json"
+    },
+    {
+      "name": "top.bit",
+      "sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+      "manifest": "reports/rvgame_longrun_20261031/egg_camera_support_c/package/manifest.json"
+    },
+    {
+      "name": "top.hwh",
+      "sha256": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+      "manifest": "reports/rvgame_longrun_20261031/egg_camera_support_c/package/manifest.json"
+    },
+    {
+      "name": "menu.bin",
+      "sha256": "c4e1fa05ad5a0724143d419b98a82afa22b5549655cb01f42cacfb8f416aca06",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "input_backend.py",
+      "sha256": "695108315b083b8be466e892fd738b5e1ac51b2cbc6d2b56672d7570cbf7c8b8",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "pynq_gamepad.py",
+      "sha256": "2a2ae790eda6d049a8f43ac81abc3535e2e862139cc39ddcf3bb1e1a602c8ccf",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "replay_input.py",
+      "sha256": "f2f59eefee060610e2e8d4ec5a955ba09b1c6a7a221f758ea955129a8a61a569",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "pointer_controls.py",
+      "sha256": "fad9028466af383facef77f718e8d25b3ade37ef8c07b45e63ff368606f4013b",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "pointer_devices.py",
+      "sha256": "e68ae9a32c3dda184cff6c11450b53bf79fb05a405e61a602bd0424f4ba20f2a",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "pointer_source.py",
+      "sha256": "72c4613661918f38962fcb66e09448e92d7a7f4e77a42fbafd57b9b6be3c1027",
+      "manifest": "reports/rvgame_longrun_20261031/input_robustness_support_a/package/manifest.json"
+    },
+    {
+      "name": "touhou.bin",
+      "sha256": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+      "manifest": "reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/manifest.json"
+    },
+    {
+      "name": "top.bit",
+      "sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+      "manifest": "reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/manifest.json"
+    },
+    {
+      "name": "top.hwh",
+      "sha256": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+      "manifest": "reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/manifest.json"
+    },
+    {
+      "name": "pynq_brotato_session.py",
+      "sha256": "17de0bbecf2b7b845abe53e14ce668b95af24e0f39eb91173a74c3c1f2521899",
+      "manifest": "reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/manifest.json"
+    },
+    {
+      "name": "bt_mailbox.py",
+      "sha256": "c828a0bbe71602555e653f0878874384b9e49fb408457da1c0222f048a5ff64b",
+      "manifest": "reports/rvgame_longrun_20261031/space_ui_support_polish_c/package/manifest.json"
+    }
+  ],
+  "old_alpha_receipt_applies": false,
+  "qualified_bit_sha256": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+  "cold_rebuilt_bit_board_tested": false,
+  "manual_tested": false,
+  "power_measured": false,
+  "current_game_receipts": [
+    "verification/evidence/reports/rvgame_longrun_20261031/space_visual_received_e/result.json",
+    "verification/evidence/reports/rvgame_longrun_20261031/egg_manual_received_b/result.json"
+  ]
+}

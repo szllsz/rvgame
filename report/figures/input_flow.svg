@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="230" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 230" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="230"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-230)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="208" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,416) scale(1,-1)">统一输入：采集、合成与唯一写入者</text>
+			<rect x="12" y="142" width="176" height="35" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="19" y="156.5" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,313) scale(1,-1)">手柄USB采样</text>
+			<rect x="212" y="142" width="176" height="35" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="219" y="156.5" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,313) scale(1,-1)">P008报告解码</text>
+			<rect x="412" y="142" width="176" height="35" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="419" y="156.5" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,313) scale(1,-1)">鼠标evdev事件</text>
+			<path d="M 100,142 L 100,126 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 300,142 L 300,126 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 500,142 L 500,126 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 100,126 L 500,126 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 300,126 L 300,112 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="192" y="76" width="216" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="199" y="91.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,182) scale(1,-1)">选卡 / 确认 / 返回动作合成</text>
+			<path d="M 408,94 L 430,94 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="430 94, 425 96.5, 425 91.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="430" y="76" width="158" height="36" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="437" y="91.0" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,182) scale(1,-1)">原owner原子快照写入</text>
+			<text x="16" y="93" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,186) scale(1,-1)">触屏/鼠标：只读线程、有界队列</text>
+			<text x="16" y="54" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,108) scale(1,-1)">触屏双击 / 鼠标左键进入；右键或触屏底部SELECT提示区返回。</text>
+			<text x="16" y="30" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,60) scale(1,-1)">屏幕1024×600→内容800×600：左边距112；黑边忽略，跨页/失联清除动作。</text>
+			<text x="16" y="9" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,18) scale(1,-1)">自动回放与实体热插拔分别记录；物理冷启动和长期休眠仍待验收。</text>
+		</g>
+	</g>
+</svg>

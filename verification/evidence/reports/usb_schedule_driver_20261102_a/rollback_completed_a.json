@@ -1,0 +1,27 @@
+{
+  "module_loaded": false,
+  "interfaces": [
+    {
+      "name": "1-1.1:1.0",
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_81": "01"
+      }
+    },
+    {
+      "name": "1-1.1:1.1",
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      }
+    },
+    {
+      "name": "1-1.4:1.0",
+      "driver": "/sys/bus/usb/drivers/usbhid",
+      "intervals": {
+        "ep_82": "01"
+      }
+    }
+  ],
+  "configuration_restored": true
+}

@@ -1,0 +1,12 @@
+May 20 15:59:55 pynq systemd[1]: Started /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_menu_pointer_20261102_a/run.py --start.
+May 20 15:59:58 pynq python3[13811]: STANDALONE_BYTES_VERIFIED 48
+May 20 16:00:14 pynq python3[13837]: FIDELITY_TEMPORARY_READY
+May 20 16:00:14 pynq python3[13837]: POINTER_OPEN touch event0
+May 20 16:00:14 pynq python3[13837]: USB_INPUT {"word": 65536, "state": {"mask": 0, "raw_left": [0, 0], "raw_right": [0, 0], "left": [0, 0], "right": [0, 0], "dpad": [0, 0], "movement": [0, 0], "triggers": [0, 0], "trigger_buttons": 0, "stick_clicks": 0, "deadzone": 6553, "source": "mixed_pointer", "connected": true, "stale": false, "packets": 4}}
+May 20 16:00:20 pynq systemd[1]: Stopping /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_menu_pointer_20261102_a/run.py --start...
+May 20 16:00:21 pynq python3[13837]: FIDELITY_TEMPORARY_STOP
+May 20 16:00:21 pynq python3[13837]: FIDELITY_RESOURCES_RELEASED
+May 20 16:00:21 pynq python3[13811]: STANDALONE_OWNER_RETIRED
+May 20 16:00:21 pynq systemd[1]: rvgame-standalone-menu-pointer-20261102-a.service: Deactivated successfully.
+May 20 16:00:21 pynq systemd[1]: Stopped /usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/rvgame_standalone_menu_pointer_20261102_a/run.py --start.
+May 20 16:00:21 pynq systemd[1]: rvgame-standalone-menu-pointer-20261102-a.service: Consumed 15.400s CPU time.

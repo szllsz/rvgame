@@ -1,0 +1,14 @@
+{
+  "generated_by": "OpenAI imagegen built-in",
+  "boss_sha256": "65434f0fee289cf3a1237d03eb92a33caca0e77e7df37ec0127d9a58e5013314",
+  "concept_sha256": "928ee63b09a234cd593d9ab364c6bd054b1005103b9fa44e13166a11bdefa531",
+  "boss_prompt": "Single symmetric purple armored space monster, segmented wings and claws, amber diamond core; limited-color 16-bit pixel art, transparent background, intended 192x128 sprite.",
+  "encoding": "Nearest-neighbor native sprite grid, alpha threshold 128, RGB332 palette, zero color key.",
+  "retained_player": {
+    "file": "assets\\space_showcase_candidates_20261101\\space-shooter-remastered\\unpacked\\PNG\\playerShip1_blue.png",
+    "sha256": "648ec1635979fb867d08bfd0c56f011d6559dd953a13c73109c6186a3069f7ee",
+    "license": "CC0",
+    "url": "https://kenney.nl/assets/space-shooter-remastered"
+  },
+  "caveat": "AI-generated artwork is not attributed to Kenney and is not a hardware screenshot."
+}

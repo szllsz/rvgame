@@ -1,0 +1,38 @@
+{
+  "pass_": true,
+  "board_tested": false,
+  "applications": {
+    "menu": {
+      "pass_": true,
+      "sha256": "62555141defcc87478c12d2ae627efec35da14a2aeab7e88ef72a91799e103b7",
+      "bytes": 634340,
+      "dependencies": [
+        "menu/software/brotato_fidelity_20261027/bt_mailbox.h",
+        "menu/software/brotato_polish_fixed_20261101/input_tone.h",
+        "menu/software/brotato_polish_fixed_20261101/native_boot.h",
+        "menu/software/brotato_polish_fixed_20261101/platform_input.h",
+        "menu/software/brotato_polish_fixed_20261101/system_menu.c",
+        "menu/software/brotato_polish_fixed_20261101/touhou_menu_icon.h",
+        "menu/software/brotato_polish_fixed_20261101/work_ui.h",
+        "menu/software/game_gfx.c",
+        "menu/software/game_gfx.h",
+        "menu/software/load_capacity_20261029/potato_icon.h",
+        "menu/software/native800_frame.c",
+        "menu/software/native800_frame.h",
+        "menu/software/native800_menu_characters.h",
+        "menu/software/pointer_cursor_assets.h",
+        "menu/software/pointer_native.h",
+        "menu/software/start.s",
+        "menu/software/work_font800_v2.h"
+      ],
+      "compiler_version": "riscv32-xilinx-elf-gcc.exe (GCC) 13.3.0",
+      "compiler_sha256": "90927f7c3c61d85284403b6fc63a5dbc31feb73e295fa68ef376e7378f048bc4"
+    }
+  },
+  "selected_applications": [
+    "menu"
+  ],
+  "scope": "Detached source rebuild on the same compiler host; no original workspace include permitted",
+  "recipe_sha256": "4cab24bb95b31d5cb4647f45c40d1ea62eab7628fb43dfc91c780a5622c316e0",
+  "source_receipt_sha256": "6da25861e2aa6e6779df68eb6930a5c3786669b244b39fde02081512cc4e67a3"
+}

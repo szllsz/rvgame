@@ -1,0 +1,30 @@
+{
+  "trace_exit": -2,
+  "trace_stderr": "strace: Process 23879 attached with 3 threads\nstrace: Process 25645 attached\nstrace: Process 25647 attached\nstrace: Process 25649 attached\nstrace: Process 23879 detached\nstrace: Process 23880 detached\nstrace: Process 23903 detached\n",
+  "owner_alive": true,
+  "owner_unchanged": true,
+  "lines": 1972,
+  "filtered": [
+    "23879 17:54:43.359523 openat(AT_FDCWD</home/xilinx/rvgame>, \"/dev/bus/usb/001/006\", O_RDWR|O_CLOEXEC) = 18</dev/bus/usb/001/006<char 189:5>>",
+    "23879 17:54:43.359970 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GET_CAPABILITIES, 0xed8a58) = 0",
+    "23879 17:54:43.360323 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GETDRIVER, 0xbed73e60) = -1 ENODATA (No data available)",
+    "23879 17:54:43.360662 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_CLAIMINTERFACE, 0xbed73f40) = 0",
+    "23879 17:54:43.361976 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_SUBMITURB, 0xed59b0) = -1 ENOSPC (No space left on device)",
+    "23879 17:54:43.362762 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_RELEASEINTERFACE, 0xbed73d00) = 0",
+    "23879 17:54:43.363189 close(18</dev/bus/usb/001/006<char 189:5>>) = 0",
+    "23879 17:54:44.281950 openat(AT_FDCWD</home/xilinx/rvgame>, \"/dev/bus/usb/001/006\", O_RDWR|O_CLOEXEC) = 18</dev/bus/usb/001/006<char 189:5>>",
+    "23879 17:54:44.282457 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GET_CAPABILITIES, 0xe40470) = 0",
+    "23879 17:54:44.282810 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GETDRIVER, 0xbed73e60) = -1 ENODATA (No data available)",
+    "23879 17:54:44.283148 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_CLAIMINTERFACE, 0xbed73f40) = 0",
+    "23879 17:54:44.283992 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_SUBMITURB, 0xecbc70) = -1 ENOSPC (No space left on device)",
+    "23879 17:54:44.284635 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_RELEASEINTERFACE, 0xbed73d00) = 0",
+    "23879 17:54:44.285035 close(18</dev/bus/usb/001/006<char 189:5>>) = 0",
+    "23879 17:54:45.206591 openat(AT_FDCWD</home/xilinx/rvgame>, \"/dev/bus/usb/001/006\", O_RDWR|O_CLOEXEC) = 18</dev/bus/usb/001/006<char 189:5>>",
+    "23879 17:54:45.207044 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GET_CAPABILITIES, 0xd95548) = 0",
+    "23879 17:54:45.207398 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_GETDRIVER, 0xbed73e60) = -1 ENODATA (No data available)",
+    "23879 17:54:45.207738 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_CLAIMINTERFACE, 0xbed73f40) = 0",
+    "23879 17:54:45.208587 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_SUBMITURB, 0xdf3248) = -1 ENOSPC (No space left on device)",
+    "23879 17:54:45.209222 ioctl(18</dev/bus/usb/001/006<char 189:5>>, USBDEVFS_RELEASEINTERFACE, 0xbed73d00) = 0",
+    "23879 17:54:45.209625 close(18</dev/bus/usb/001/006<char 189:5>>) = 0"
+  ]
+}

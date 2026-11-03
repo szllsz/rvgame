@@ -1,0 +1,125 @@
+{
+  "phase": "mouse_restored",
+  "events": [
+    {
+      "at": 32967.824770622,
+      "phase": "starting"
+    },
+    {
+      "at": 32967.971639683,
+      "phase": "companion_disabled"
+    },
+    {
+      "at": 32968.04129959,
+      "phase": "mouse_paused"
+    },
+    {
+      "at": 32968.044321268,
+      "phase": "waiting_gamepad",
+      "key": [
+        "1-1.2",
+        "9"
+      ],
+      "urb_start": 129395
+    },
+    {
+      "at": 32969.439272926,
+      "phase": "gamepad_decoded_input_confirmed",
+      "key": [
+        "1-1.2",
+        "9"
+      ],
+      "urb_delta": 89
+    },
+    {
+      "at": 32969.456605288,
+      "phase": "mouse_restored",
+      "reason": "gamepad_reserved_first"
+    },
+    {
+      "at": 33046.742087813,
+      "phase": "mouse_paused"
+    },
+    {
+      "at": 33046.745473086,
+      "phase": "waiting_gamepad",
+      "key": null,
+      "urb_start": 0
+    },
+    {
+      "at": 33049.613806363,
+      "phase": "mouse_restored",
+      "reason": "no_gamepad_mouse_only_available"
+    },
+    {
+      "at": 33055.161155223,
+      "phase": "mouse_paused"
+    },
+    {
+      "at": 33055.176627371,
+      "phase": "waiting_gamepad",
+      "key": [
+        "1-1.2",
+        "11"
+      ],
+      "urb_start": 17
+    },
+    {
+      "at": 33057.124158506,
+      "phase": "gamepad_decoded_input_confirmed",
+      "key": [
+        "1-1.2",
+        "11"
+      ],
+      "urb_delta": 91
+    },
+    {
+      "at": 33057.136518141,
+      "phase": "mouse_restored",
+      "reason": "gamepad_reserved_first"
+    },
+    {
+      "at": 33082.831195245,
+      "phase": "mouse_paused"
+    },
+    {
+      "at": 33082.835413281,
+      "phase": "waiting_gamepad",
+      "key": null,
+      "urb_start": 0
+    },
+    {
+      "at": 33086.019656601,
+      "phase": "waiting_gamepad",
+      "key": [
+        "1-1.2",
+        "13"
+      ],
+      "urb_start": 17
+    },
+    {
+      "at": 33087.479335409,
+      "phase": "gamepad_decoded_input_confirmed",
+      "key": [
+        "1-1.2",
+        "13"
+      ],
+      "urb_delta": 88
+    },
+    {
+      "at": 33087.492028816,
+      "phase": "mouse_restored",
+      "reason": "gamepad_reserved_first"
+    }
+  ],
+  "mouse_identity": [
+    "046d",
+    "c092",
+    "CONFIGURE_MOUSE_SERIAL",
+    "7"
+  ],
+  "main_paused": false,
+  "companion_disabled": true,
+  "host_reset": false,
+  "MMIO_access": false
+}

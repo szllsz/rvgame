@@ -1,0 +1,18 @@
+[Unit]
+Description=Qualified G102 and VADER4 USB input priority
+After=systemd-udevd.service
+Before=rvgame-unified-boot.service
+StartLimitIntervalSec=60
+StartLimitBurst=2
+
+[Service]
+Type=simple
+ExecStart=/usr/local/share/pynq-venv/bin/python3 -B -u /usr/local/lib/rvgame-usb-priority-20261102/usb_priority_guard.py --seconds 0 --output /run/rvgame-usb-priority/state.json
+Restart=on-failure
+RestartSec=3
+KillSignal=SIGINT
+TimeoutStopSec=150
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target

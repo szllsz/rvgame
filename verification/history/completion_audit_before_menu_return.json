@@ -1,0 +1,473 @@
+{
+  "pass_": true,
+  "adopted": true,
+  "operational_startup_verified": true,
+  "manual_tested": false,
+  "manual_pending": true,
+  "native_geometry": [
+    800,
+    600
+  ],
+  "remote": "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a",
+  "installation_receipt_sha256": "4c82dfc59e2777622d430aa22081d5d281b957a68031f6573eb63d719fb93ade",
+  "registry_sha256": "168941b5227216473d7d43065396a40db725185d8456e33f2a3e71b23aac5322",
+  "basis": "Exact installer startup/identity probe plus local immutable gates; no redundant board probe",
+  "fresh_board_reprobe": false,
+  "independent_final_review": false,
+  "live": {
+    "state": {
+      "supervisor_pid": 2372,
+      "child_pid": 2373,
+      "target": "session",
+      "directory": "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/runs/33069930618483_session",
+      "run": "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/runs/33069930618483_session",
+      "persistent_native_owner": true,
+      "test_input": false,
+      "monotonic": 33071.40711562,
+      "boot_id": "a5e2c5da-e2f5-4a18-8d75-8a3dc4835ea8"
+    },
+    "ready": {
+      "ready": true,
+      "pid": 2373,
+      "geometry": [
+        800,
+        600
+      ],
+      "allocation": {
+        "physical_base": 941621248,
+        "allocated_bytes": 616896,
+        "image_bytes": 616864
+      },
+      "frame_base": 940572672,
+      "usb_gamepad": "None",
+      "underflows": 0,
+      "test_input": false,
+      "telemetry_transport": "state_ack_v2",
+      "session_start": "menu",
+      "persistent_session": true,
+      "compact_exit": true,
+      "input_preload_seconds": 0.006743379002728034,
+      "gc_startup_seconds": 0.11647271600668319,
+      "gc_startup_collected": 40,
+      "gc_counts_before": [
+        499,
+        1,
+        3
+      ],
+      "gc_counts_after": [
+        90,
+        0,
+        0
+      ]
+    },
+    "active": {
+      "segment": 0,
+      "active": "menu",
+      "menu": true,
+      "pid": 2373,
+      "frame_base": 940572672,
+      "ready": 33083.310546677
+    },
+    "copies": [
+      782,
+      842
+    ],
+    "underflows": 0,
+    "input_word": 0,
+    "connection": 1,
+    "page": 928,
+    "boot_audio": {
+      "volume": 4,
+      "muted": 0
+    },
+    "first_audio_telemetry": 1096089604,
+    "MMIO_read_only": true,
+    "running_payload_SHA_checked": true,
+    "native_geometry": [
+      800,
+      600
+    ],
+    "owners": {
+      "processes": [
+        {
+          "pid": 248,
+          "scripts": [
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame/menu_return/pynq_menu_return.py"
+          ],
+          "starttime": "1411"
+        },
+        {
+          "pid": 2372,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/supervisor.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/supervisor.py"
+          ],
+          "starttime": "3306763"
+        },
+        {
+          "pid": 2373,
+          "scripts": [
+            "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/runs/33069930618483_session/pynq_brotato_session.py"
+          ],
+          "arguments": [
+            "/usr/local/share/pynq-venv/bin/python3",
+            "-u",
+            "/home/xilinx/rvgame_latest_20261102_native800_space_polish_a/runs/33069930618483_session/pynq_brotato_session.py"
+          ],
+          "starttime": "3307097"
+        }
+      ],
+      "boot_id": "a5e2c5da-e2f5-4a18-8d75-8a3dc4835ea8",
+      "MMIO_read": false
+    }
+  },
+  "software_targets": 8,
+  "frozen_software_files": 512,
+  "hardware_inputs": 82,
+  "simulation_groups": 8,
+  "simulation_runs": 10,
+  "simulation_current_RTL_bindings": [
+    {
+      "case": "graphics_ideal",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "graphics_ideal",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "graphics_ideal",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "graphics_ideal",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "graphics_ideal",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "graphics_ideal",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "graphics_backpressure",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "legacy640_tail",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "nes_apu_core.v",
+      "sha256": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "nes_audio.v",
+      "sha256": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "scarlet_pcm_stream.v",
+      "sha256": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9"
+    },
+    {
+      "case": "audio_concurrent",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "nes_apu_core.v",
+      "sha256": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "nes_audio.v",
+      "sha256": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "scarlet_pcm_stream.v",
+      "sha256": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9"
+    },
+    {
+      "case": "audio_bad_sample",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "software_port",
+      "file": "cdc_request_reply.v",
+      "sha256": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293"
+    },
+    {
+      "case": "software_port",
+      "file": "cpu_mmio_write_fifo.v",
+      "sha256": "d82912011ed3407adca3c39d3dc7ccc958fa0a7e7f127a34411bc13a9ec14542"
+    },
+    {
+      "case": "software_port",
+      "file": "cpu_peripheral_cdc.v",
+      "sha256": "5fceda15cc727c0d973a3d65da3f52d3383840a41c42cb238af61c8e78c7c05c"
+    },
+    {
+      "case": "software_port",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "software_port",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "software_port",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "software_port",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "software_port",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "software_port",
+      "file": "nes_apu_core.v",
+      "sha256": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8"
+    },
+    {
+      "case": "software_port",
+      "file": "nes_audio.v",
+      "sha256": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19"
+    },
+    {
+      "case": "software_port",
+      "file": "scarlet_pcm_stream.v",
+      "sha256": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9"
+    },
+    {
+      "case": "software_port",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "cdc_request_reply.v",
+      "sha256": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "cpu_mmio_write_fifo.v",
+      "sha256": "d82912011ed3407adca3c39d3dc7ccc958fa0a7e7f127a34411bc13a9ec14542"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "cpu_peripheral_cdc.v",
+      "sha256": "5fceda15cc727c0d973a3d65da3f52d3383840a41c42cb238af61c8e78c7c05c"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "ddr_bitmap_blit.v",
+      "sha256": "478a40d339f0c9eb17bd0a0b47d65917a724e70274846686cbe46c35dd6cdad3"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "ddr_framebuffer.v",
+      "sha256": "f7982846b4e1b387cc1cb6bc1adf3838fa9bf2aad4995426e0bbfea2fd3ae1ce"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "ddr_read_mux.v",
+      "sha256": "1b5e640e8b2d1c99a1220218fd69b3395bc31ef82eb1f42dbdc6da3f5374fd81"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "framebuffer_engine.v",
+      "sha256": "8a24fcc896453afe0f372caf5e9398321ec3c1f73987e9ba2a0883b5d08a02c3"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "nes_apu_core.v",
+      "sha256": "bc52e89948ee12ebca0f63f292059022e10cb57046c32fa9a9baa4c440aef6b8"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "nes_audio.v",
+      "sha256": "5f261617f8d80c615afb21427a1902dea2293d298fb65862cb093e9162810e19"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "scarlet_pcm_stream.v",
+      "sha256": "eb1d95def2ad46c41de873589950ce9690bc2b95ece1fda2b8526308b06246f9"
+    },
+    {
+      "case": "software_missing_init",
+      "file": "sprite_rom.v",
+      "sha256": "4009c71fbbf836915e09da3cd0cdcf7d821a23b09851c454ade67a162732293f"
+    },
+    {
+      "case": "hold_retirement",
+      "file": "cdc_request_reply.v",
+      "sha256": "d743e0bc50579e91f491a7685110a81fd70b524190fd93eaab1efaef6e248293"
+    },
+    {
+      "case": "hold_retirement",
+      "file": "native_frame_commit_20261031.v",
+      "sha256": "3601d585f550eae256a4b98c6b33714490954f66031c3008f52a5c25c956172d"
+    },
+    {
+      "case": "hold_retirement",
+      "file": "ps_control.v",
+      "sha256": "2874256d07477961019a687c5985a873a25f5b6e92984ecf8a4474f38db54875"
+    },
+    {
+      "case": "hold_retirement",
+      "file": "ps_video_bridge.v",
+      "sha256": "f8b342b75649e8d12b7ae2375f0fc53925c73e37ccaac90e2f3081af553e144b"
+    }
+  ],
+  "new_hardware_bit_board_tested": false,
+  "original_H_preserved": true,
+  "previous_stable_preserved": true,
+  "runtime_launcher_host_verify": true,
+  "runtime_launcher_nonLinux_start_rejected": true,
+  "runtime_launcher_board_start_retire_restore_verified": true,
+  "standalone_receipt_sha256": "a8c5fb66bf161cf56a52aabfba550e365806b58c5e250564ba29d64f1a95f900",
+  "all_executable_runtime_payloads_equal_installed": true,
+  "desktop_templates_unchanged": true,
+  "pending_manual": "report/manual_lab_checklist.md",
+  "video_deferred_by_user": true,
+  "archive_created": false,
+  "publicly_published": false
+}

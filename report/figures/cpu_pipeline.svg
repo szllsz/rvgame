@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="200" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="200"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-200)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="179" style="font-family: Chinese; font-size: 16px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,358) scale(1,-1)">自研CPU五主级与受约束双指令路径</text>
+			<rect x="12" y="100" width="106" height="48" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="19" y="121.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,242) scale(1,-1)">IF</text>
+			<text x="17" y="87" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,174) scale(1,-1)">注册取指响应</text>
+			<path d="M 118,124 L 130,124 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="130 124, 125 126.5, 125 121.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="130" y="100" width="106" height="48" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="137" y="121.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,242) scale(1,-1)">ID queue</text>
+			<text x="135" y="87" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,174) scale(1,-1)">两项译码队列</text>
+			<path d="M 236,124 L 248,124 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="248 124, 243 126.5, 243 121.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="248" y="100" width="106" height="48" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="255" y="121.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,242) scale(1,-1)">EX</text>
+			<text x="253" y="87" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,174) scale(1,-1)">ALU / Zmmul</text>
+			<path d="M 354,124 L 366,124 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="366 124, 361 126.5, 361 121.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="366" y="100" width="106" height="48" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="373" y="121.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,242) scale(1,-1)">MEM</text>
+			<text x="371" y="87" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,174) scale(1,-1)">访存与分支</text>
+			<path d="M 472,124 L 484,124 Z" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="484 124, 479 126.5, 479 121.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,39%,54%); fill-rule: evenodd;"/>
+			<rect x="484" y="100" width="106" height="48" rx="3" ry="3" style="stroke: rgb(9%,39%,54%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="491" y="121.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,242) scale(1,-1)">WB</text>
+			<text x="489" y="87" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,174) scale(1,-1)">按序提交</text>
+			<text x="12" y="56" style="font-family: Chinese; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,112) scale(1,-1)">满足配对条件的相邻指令：第一槽普通ALU/LSU/Zmmul，第二槽独立ALU</text>
+			<text x="12" y="34" style="font-family: Chinese; font-size: 10px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,68) scale(1,-1)">结果服从较老槽提交；异常丢弃配对，取指重定向排空旧响应；各级允许停顿</text>
+			<text x="12" y="12" style="font-family: Chinese; font-size: 9px;fill: rgb(9%,20%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">结构示意，不承诺固定CPI、任意双发射或乱序执行。</text>
+		</g>
+	</g>
+</svg>

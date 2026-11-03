@@ -1,0 +1,54 @@
+{
+  "coremark_license.md": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/coremark_license.md",
+    "sha256": "0d92a0727423e27165852685d45d9f111a071dcba594454d7edbac48c28e4490"
+  },
+  "fpganes_gpl.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/fpganes_gpl.txt",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  "fpganes_upstream.json": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/fpganes_upstream.json",
+    "sha256": "d4fa252472370ec26741b4a8b48b34a1357488b9e2720797bfe46d98ba4306a8"
+  },
+  "fusion_pixel_license.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/fusion_pixel_license.txt",
+    "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+  },
+  "fusion_pixel_ofl.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/fusion_pixel_ofl.txt",
+    "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+  },
+  "source_han_sans_ofl.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/source_han_sans_ofl.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+  },
+  "taisei_copying.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/taisei_copying.txt",
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a"
+  },
+  "taisei_menu_icon_notice.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/taisei_menu_icon_notice.txt",
+    "sha256": "507ba6eaceaf6fd923246480f53932b25a1ebbb25b2dd19c4f37bfc5fc83795a"
+  },
+  "taisei_source_han_sans_license.txt": {
+    "origin": "reports/rvgame_longrun_20261031/whole_project2025_2_delivery_c/submission/licenses/taisei_source_han_sans_license.txt",
+    "sha256": "0060c05bcd33029087ea0b0be8db5c96b7041666471b19a240dc48cff258ba23"
+  },
+  "kenney_space_shooter_cc0.txt": {
+    "origin": "assets/space_showcase_candidates_20261101/space-shooter-remastered/unpacked/license.txt",
+    "sha256": "fffb016252fce3351324f14ff0dca457bbcd9e01f56dda97a1c8a84edf4a789c"
+  },
+  "source_han_sans_medium_license.txt": {
+    "origin": "software/vendor/native800-balanced-fonts/source-han-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+  },
+  "source_sans3_license.md": {
+    "origin": "software/vendor/native800-balanced-fonts/source-sans-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328"
+  },
+  "native_fonts_provenance.json": {
+    "origin": "software/vendor/native800-balanced-fonts/provenance.json",
+    "sha256": "442367b0c4de340b499ca003e2e6c1157330561f60f12028b7fcaa96b266a2a7"
+  }
+}

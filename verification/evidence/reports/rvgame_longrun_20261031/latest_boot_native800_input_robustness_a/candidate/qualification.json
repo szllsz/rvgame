@@ -1,0 +1,39 @@
+{
+  "pass_": true,
+  "automatic_board_tested": true,
+  "automatic_board_replay": true,
+  "manual_tested": false,
+  "manual_pending": true,
+  "automatic_gates": {
+    "reports/input_robustness_20261102_a/received_a/result.json": "c013fb8aeaa9af7acc3ddc4c047e579f6e2e847ab711dc0bb1170e0eba3e30e5",
+    "reports/input_robustness_20261102_a/host_after/result.json": "1ea3d081501989b89f89b95fb4b42daf38fdfa6e4128a5535df89c2cdb039dd2",
+    "reports/input_robustness_20261102_a/host_checks.json": "bad617e5978538546a36b46e02836591060ed11402e54d32f233c28ac9cdd38f",
+    "reports/input_robustness_20261102_a/footer_pixels_a/result.json": "f342b10447982afc04038ccaa478ecfad3cd0bec401af3bcf81c132c0eeaf1ab",
+    "reports/input_robustness_20261102_a/menu_build_a/result.json": "4f1e4c50bac5ef617e41a41cca2909eae1eb1607bc06aa8d48649f5d41c828ea"
+  },
+  "changed_files": [
+    "menu.bin",
+    "pointer_controls.py",
+    "pointer_devices.py",
+    "pointer_source.py"
+  ],
+  "hardware_unchanged": true,
+  "PCM_unchanged": true,
+  "parent_qualification_sha256": "59246d439233b91c9015750e1f1913ac07827d4aef764d2e7e6e480f7b866a91",
+  "native_capacity_defaults": {
+    "gfx": 512,
+    "bitmap": 96,
+    "alpha": 32
+  },
+  "unchanged_applications": {
+    "alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "game.bin": "249d30d22a46c7718ff6612571abc4a527e4ce15a547c8294d42d9dea102710a",
+    "gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "touhou.bin": "6f50501e4caa7fbca2ff1582edaf1dddf65b57c8c8d4cee4759911c59c6e5a48",
+    "validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1"
+  },
+  "USB_coexistence_passed": false,
+  "scope": "Menu footer and pointer cancellation/diagnostics fixes; kernel/USB wake failure not resolved"
+}

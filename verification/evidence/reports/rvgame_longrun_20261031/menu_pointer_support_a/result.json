@@ -1,0 +1,8 @@
+{
+  "pass_": true,
+  "prepared_only": true,
+  "board_ready": true,
+  "board_tested": false,
+  "manifest_sha256": "b63c4e1f0c68a2b31e7754b40e0242b82fae24086e2abd88d621d69ff42ce0d6",
+  "scope": "Main menu only; no application entry and no manual test"
+}

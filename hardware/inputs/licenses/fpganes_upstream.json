@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/strigeus/fpganes",
+  "revision": "bb36b11b7ade5aa32f90a1fa55039cc6a37cb50a",
+  "files": {
+    "apu.v": "b66d55e33cb16ba5680763c40dd9d48f8492b38d0843fdcedb527f7bb9ba491c",
+    "LICENSE": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  }
+}
