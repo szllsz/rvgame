@@ -6,8 +6,8 @@
       "bytes": 159
     },
     ".github/workflows/verify.yml": {
-      "sha256": "2fa2a30655df9a5e8ddcfec2bad781153423f9264d1c53469436667f6c58342b",
-      "bytes": 386
+      "sha256": "e813fd6b5b05bb75f1d904723903455a50d516d9d8d7e9809674a2d91e5b6a20",
+      "bytes": 535
     },
     ".gitignore": {
       "sha256": "8b84d07f4773520940e2b6a992b116c887d5b8489bece2db8ccdbab9b677d81c",
@@ -26,7 +26,7 @@
       "bytes": 628
     },
     "docs/source_mapping.json": {
-      "sha256": "24d0d262b3c41deb913a814329ca2de3772f8e972027cdc34ab9f6b647be467e",
+      "sha256": "3c533d35bccedc8c5c0902d13dad1a39aea9bc458f5a71321a92b28b00ac9598",
       "bytes": 508283
     },
     "docs/usb_wake_recovery.md": {
@@ -866,7 +866,7 @@
       "bytes": 3382
     },
     "runtime/release_manifest.json": {
-      "sha256": "c2f5a89e8888cf12d0403324acaf72a5f18483ac132eda8f6c97ff0f6365b1d9",
+      "sha256": "d98b6cd4ca9c6fe8a6ebb89996884f31990df23cdbd5618cbe8e6d6619c54cb9",
       "bytes": 5732
     },
     "runtime/rollback.md": {
@@ -886,12 +886,16 @@
       "bytes": 2901
     },
     "runtime/usb_priority/readme.md": {
-      "sha256": "0919d968ab64c3e94136754cc75df9bbf402ee37400ad1dc8bcbd906291bc285",
-      "bytes": 2837
+      "sha256": "af4130c2143c4e2f1263a9d3556c2b5cc7bef561325d4dba2667c4f0cd97dc8e",
+      "bytes": 3155
     },
     "runtime/usb_priority/rvgame-usb-priority.service": {
       "sha256": "908127c7bfb5a9766e79b2601cfbc2ef330b7f43cf768c40bf34139989f161f7",
       "bytes": 557
+    },
+    "runtime/usb_priority/test_guard.py": {
+      "sha256": "a9acb1d5f796f2302f579917dc5d2e8033fa60d4dd716ac7a77aa16a1cd152db",
+      "bytes": 5817
     },
     "runtime/usb_priority/usb_priority_guard.py": {
       "sha256": "66c0aa6e17732fce89a8e1d7f399be16717bb3a5dcf662eee5d4f020c39aeeb6",

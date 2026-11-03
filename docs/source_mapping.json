@@ -1207,7 +1207,7 @@
   "runtime/release_manifest.json": {
     "source": "runtime/release_manifest.json",
     "source_sha256": "9b56435746bf25bbedf23d647893d64b4c51ba296a6ca4c2a348c549fc01b550",
-    "published_sha256": "c2f5a89e8888cf12d0403324acaf72a5f18483ac132eda8f6c97ff0f6365b1d9"
+    "published_sha256": "d98b6cd4ca9c6fe8a6ebb89996884f31990df23cdbd5618cbe8e6d6619c54cb9"
   },
   "runtime/rollback.md": {
     "source": "runtime/rollback.md",
@@ -1232,7 +1232,7 @@
   "runtime/usb_priority/readme.md": {
     "source": "runtime/usb_priority/README.md",
     "source_sha256": "e19ed8f5903b07100014f9884ead22cfa330f1b5151ab77a483bf786937560df",
-    "published_sha256": "0919d968ab64c3e94136754cc75df9bbf402ee37400ad1dc8bcbd906291bc285"
+    "published_sha256": "af4130c2143c4e2f1263a9d3556c2b5cc7bef561325d4dba2667c4f0cd97dc8e"
   },
   "runtime/usb_priority/rvgame-usb-priority.service": {
     "source": "runtime/usb_priority/rvgame-usb-priority.service",

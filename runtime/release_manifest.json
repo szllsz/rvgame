@@ -51,7 +51,7 @@
     "package/transition_menu_2.rgb332": "f6fb1eb9ccc7bdced69efb1168ec3f0212aba651d21a1ed19305dc50708edc86",
     "package/usb_xinput.py": "9c475ca82ee1ef7a0f0253deece335604e6c861ed8e17eb27d298ca948107e33",
     "package/validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1",
-    "usb_priority/readme.md": "0919d968ab64c3e94136754cc75df9bbf402ee37400ad1dc8bcbd906291bc285",
+    "usb_priority/readme.md": "af4130c2143c4e2f1263a9d3556c2b5cc7bef561325d4dba2667c4f0cd97dc8e",
     "usb_priority/rvgame-usb-priority.service": "908127c7bfb5a9766e79b2601cfbc2ef330b7f43cf768c40bf34139989f161f7",
     "usb_priority/usb_priority_guard.py": "66c0aa6e17732fce89a8e1d7f399be16717bb3a5dcf662eee5d4f020c39aeeb6",
     "usb_touch/install.py": "5ac352281fb03ebb19a4704e6f39eeffd0153a2068d007d75f235438d67bb915",
