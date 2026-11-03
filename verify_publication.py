@@ -21,7 +21,7 @@ def main():
         assert path.is_relative_to(ROOT) and path.is_file(),name
         assert path.stat().st_size==entry['bytes'] and sha(path)==entry['sha256'],name
         assert path.stat().st_size<100*1024*1024,name
-        assert re.fullmatch(r'[a-z0-9_./-]+',name) or name in ('README.md','LICENSE'),name
+        assert re.fullmatch(r'[a-z0-9_./-]+',name) or path.name in ('README.md','SKILL.md','LICENSE'),name
         if path.suffix=='.py':ast.parse(path.read_text(encoding='utf-8-sig'),filename=name)
     for folder,filename,key in [('software','result.json','source_files'),('hardware','recipe.json','files')]:
         record=read(ROOT/folder/filename)

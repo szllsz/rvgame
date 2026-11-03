@@ -26,19 +26,6 @@
     "pixels_modified": false
   },
   {
-    "file": "03_power_context.jpg",
-    "source_name": "微信图片_20261103164946_286_13.jpg",
-    "sha256": "12bfbd0c2116c7ce58e22a897bf333b129a670966736cc9d18d072a7b5b152b8",
-    "document_crop": {
-      "l": 0,
-      "t": 0,
-      "r": 0,
-      "b": 0,
-      "width_inches": 3.4
-    },
-    "pixels_modified": false
-  },
-  {
     "file": "04_audio_chain.jpg",
     "source_name": "微信图片_20261103164948_287_13.jpg",
     "sha256": "caa13276695300f5e1bd1ab130f762b1d80022848a1ba77e313611319cc57170",
@@ -61,19 +48,6 @@
       "r": 0.04,
       "b": 0.07,
       "width_inches": 4.5
-    },
-    "pixels_modified": false
-  },
-  {
-    "file": "06_touch_operation.jpg",
-    "source_name": "微信图片_20261103165000_293_13.jpg",
-    "sha256": "0310422aacc6cb71ebbf1aa207342f467e2d38f274077f1dbb483b92bf78fe74",
-    "document_crop": {
-      "l": 0,
-      "t": 0,
-      "r": 0,
-      "b": 0,
-      "width_inches": 5.5
     },
     "pixels_modified": false
   },

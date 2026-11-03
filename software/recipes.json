@@ -1,6 +1,6 @@
 {
   "coremark": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i_zmmul",
@@ -96,7 +96,7 @@
     "source_group": "stable"
   },
   "validation": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i_zmmul",
@@ -153,7 +153,7 @@
     "source_group": "stable"
   },
   "gfx": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i",
@@ -199,7 +199,7 @@
     "source_group": "stable"
   },
   "bitmap": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i",
@@ -245,7 +245,7 @@
     "source_group": "stable"
   },
   "alpha": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i",
@@ -291,7 +291,7 @@
     "source_group": "stable"
   },
   "menu": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-I",
@@ -343,7 +343,7 @@
     "source_group": "menu"
   },
   "game": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-I",
@@ -445,7 +445,7 @@
     "source_group": "interactive"
   },
   "touhou": {
-    "compiler": "riscv64-unknown-elf-gcc (supply --compiler)",
+    "compiler": "RISC-V GCC 13.3 (supply --compiler)",
     "commands": [
       [
         "-march=rv32i_zmmul",

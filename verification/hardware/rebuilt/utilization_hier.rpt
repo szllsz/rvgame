@@ -1,0 +1,84 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Tue Nov  3 22:54:45 2026
+| Host         : LAPTOP-AR06DVRO running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file D:/Project/rvgame/reports/release_repro_audit_20261103/hardware_rebuild/acceptance/utilization_hier.rpt
+| Design       : top
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Physopt postRoute
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------------------------------+----------------------------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+|                      Instance                      |                                            Module                                            | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------------------------------+----------------------------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+| top                                                |                                                                                        (top) |      23447 |      17840 |    5543 |   64 | 11576 |    126 |      0 |          4 |
+|   (top)                                            |                                                                                        (top) |          0 |          0 |       0 |    0 |     2 |      0 |      0 |          0 |
+|   u_buttons                                        |                                                                                 button_input |         24 |         24 |       0 |    0 |    72 |      0 |      0 |          0 |
+|   u_hdmi                                           |                                                                                    rgb2dvi_0 |        155 |        155 |       0 |    0 |   134 |      0 |      0 |          0 |
+|     U0                                             |                                                                            rgb2dvi_0_rgb2dvi |        155 |        155 |       0 |    0 |   134 |      0 |      0 |          0 |
+|       DataEncoders[0].DataEncoder                  |                                                                       rgb2dvi_0_TMDS_Encoder |         54 |         54 |       0 |    0 |    48 |      0 |      0 |          0 |
+|       DataEncoders[1].DataEncoder                  |                                                                     rgb2dvi_0_TMDS_Encoder_1 |         50 |         50 |       0 |    0 |    42 |      0 |      0 |          0 |
+|       DataEncoders[2].DataEncoder                  |                                                                     rgb2dvi_0_TMDS_Encoder_3 |         50 |         50 |       0 |    0 |    42 |      0 |      0 |          0 |
+|   u_ps                                             |                                                                               ps_sys_wrapper |       1351 |       1289 |       0 |   62 |  1202 |      0 |      0 |          0 |
+|     (u_ps)                                         |                                                                               ps_sys_wrapper |        221 |        221 |       0 |    0 |     0 |      0 |      0 |          0 |
+|     ps_sys_i                                       |                                                                                       ps_sys |       1131 |       1069 |       0 |   62 |  1202 |      0 |      0 |          0 |
+|       control                                      |                                                                             ps_sys_control_0 |        724 |        724 |       0 |    0 |   699 |      0 |      0 |          0 |
+|         inst                                       |                                                                  ps_sys_control_0_ps_control |        724 |        724 |       0 |    0 |   699 |      0 |      0 |          0 |
+|       axi_ctrl                                     |                                                                            ps_sys_axi_ctrl_0 |        390 |        329 |       0 |   61 |   470 |      0 |      0 |          0 |
+|         s00_couplers                               |                                                                     s00_couplers_imp_1MRWU7S |        390 |        329 |       0 |   61 |   470 |      0 |      0 |          0 |
+|           auto_pc                                  |                                                                ps_sys_axi_ctrl_imp_auto_pc_0 |        390 |        329 |       0 |   61 |   470 |      0 |      0 |          0 |
+|             inst                                   |          ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter |        390 |        329 |       0 |   61 |   470 |      0 |      0 |          0 |
+|               gen_axilite.gen_b2s_conv.axilite_b2s |                             ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s |        390 |        329 |       0 |   61 |   470 |      0 |      0 |          0 |
+|                 WR.aw_channel_0                    |                  ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s_aw_channel |         77 |         77 |       0 |    0 |    86 |      0 |      0 |          0 |
+|                   cmd_translator_0                 |              ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s_cmd_translator |         33 |         33 |       0 |    0 |    68 |      0 |      0 |          0 |
+|                 RD.ar_channel_0                    |                  ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s_ar_channel |         68 |         68 |       0 |    0 |    82 |      0 |      0 |          0 |
+|                   cmd_translator_0                 |            ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s_cmd_translator_1 |         32 |         32 |       0 |    0 |    68 |      0 |      0 |          0 |
+|                 RD.r_channel_0                     |                   ps_sys_axi_ctrl_imp_auto_pc_0_axi_protocol_converter_v2_1_37_b2s_r_channel |         61 |         14 |       0 |   47 |    24 |      0 |      0 |          0 |
+|                 SI_REG                             |                  ps_sys_axi_ctrl_imp_auto_pc_0_axi_register_slice_v2_1_36_axi_register_slice |        153 |        153 |       0 |    0 |   260 |      0 |      0 |          0 |
+|                   ar.ar_pipe                       |                 ps_sys_axi_ctrl_imp_auto_pc_0_axi_register_slice_v2_1_36_axic_register_slice |         55 |         55 |       0 |    0 |    66 |      0 |      0 |          0 |
+|                   aw.aw_pipe                       |               ps_sys_axi_ctrl_imp_auto_pc_0_axi_register_slice_v2_1_36_axic_register_slice_0 |         61 |         61 |       0 |    0 |    68 |      0 |      0 |          0 |
+|                   r.r_pipe                         | ps_sys_axi_ctrl_imp_auto_pc_0_axi_register_slice_v2_1_36_axic_register_slice__parameterized2 |         27 |         27 |       0 |    0 |    96 |      0 |      0 |          0 |
+|   u_ps_video                                       |                                                                              ps_video_bridge |        386 |        386 |       0 |    0 |   274 |      0 |      0 |          0 |
+|     (u_ps_video)                                   |                                                                              ps_video_bridge |         79 |         79 |       0 |    0 |    99 |      0 |      0 |          0 |
+|     u_transport                                    |                                                                            cdc_request_reply |        307 |        307 |       0 |    0 |   175 |      0 |      0 |          0 |
+|   u_soc                                            |                                                                                 graphics_soc |      21553 |      16008 |    5543 |    2 |  9837 |    126 |      0 |          4 |
+|     (u_soc)                                        |                                                                                 graphics_soc |       1713 |        237 |    1476 |    0 |   742 |     32 |      0 |          0 |
+|     g_audio.u_audio                                |                                                                                    nes_audio |       2810 |       1382 |    1426 |    2 |  2193 |      0 |      0 |          0 |
+|       (g_audio.u_audio)                            |                                                                                    nes_audio |        331 |        313 |      18 |    0 |   470 |      0 |      0 |          0 |
+|       u_apu                                        |                                                                                          APU |        622 |        620 |       0 |    2 |   301 |      0 |      0 |          0 |
+|         Tri                                        |                                                                                 TriangleChan |        107 |        107 |       0 |    0 |    51 |      0 |      0 |          0 |
+|         Dmc                                        |                                                                                      DmcChan |        124 |        124 |       0 |    0 |    11 |      0 |      0 |          0 |
+|         Noi                                        |                                                                                    NoiseChan |         63 |         61 |       0 |    2 |    53 |      0 |      0 |          0 |
+|         Sq1                                        |                                                                                   SquareChan |        118 |        118 |       0 |    0 |    63 |      0 |      0 |          0 |
+|         Sq2                                        |                                                                                 SquareChan_3 |        131 |        131 |       0 |    0 |    63 |      0 |      0 |          0 |
+|       u_pcm                                        |                                                                           scarlet_pcm_stream |       1857 |        449 |    1408 |    0 |  1422 |      0 |      0 |          0 |
+|     g_ddr.u_cache                                  |                                                                               ddr_read_cache |       4844 |       4396 |     448 |    0 |  1804 |     16 |      0 |          0 |
+|     g_fps.u_fps                                    |                                                                                     game_fps |        363 |        363 |       0 |    0 |   359 |      0 |      0 |          0 |
+|     g_mmio_cdc.u_bridge                            |                                                                           cpu_peripheral_cdc |        866 |        866 |       0 |    0 |   580 |      0 |      0 |          0 |
+|       u_mailbox                                    |                                                            cdc_request_reply__parameterized0 |         16 |         16 |       0 |    0 |   213 |      0 |      0 |          0 |
+|       g_posted.u_writes                            |                                                                          cpu_mmio_write_fifo |        849 |        849 |       0 |    0 |   366 |      0 |      0 |          0 |
+|     u_cpu                                          |                                                                          rv32i_pipeline_core |       6387 |       5998 |     389 |    0 |  2081 |      0 |      0 |          4 |
+|       (u_cpu)                                      |                                                                          rv32i_pipeline_core |       1991 |       1800 |     191 |    0 |  1519 |      0 |      0 |          0 |
+|       g_dual_rf.u_regfile                          |                                                                         rv32i_banked_regfile |       1960 |       1762 |     198 |    0 |    69 |      0 |      0 |          0 |
+|       u_machine                                    |                                                                         rv32_machine_control |        920 |        920 |       0 |    0 |   292 |      0 |      0 |          0 |
+|       u_multiply                                   |                                                                                 rv32mul_pipe |       1452 |       1452 |       0 |    0 |   201 |      0 |      0 |          4 |
+|     u_framebuffer                                  |                                                                           framebuffer_engine |       4515 |       2711 |    1804 |    0 |  2062 |     64 |      0 |          0 |
+|       (u_framebuffer)                              |                                                                           framebuffer_engine |       2352 |        944 |    1408 |    0 |  1181 |     64 |      0 |          0 |
+|       g_bitmap.u_blit                              |                                                                              ddr_bitmap_blit |       1295 |       1273 |      22 |    0 |   615 |      0 |      0 |          0 |
+|       g_ddr_frame.u_ddr_frame                      |                                                                              ddr_framebuffer |        745 |        371 |     374 |    0 |   182 |      0 |      0 |          0 |
+|       u_sprite                                     |                                                                                   sprite_rom |         88 |         88 |       0 |    0 |     3 |      0 |      0 |          0 |
++----------------------------------------------------+----------------------------------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

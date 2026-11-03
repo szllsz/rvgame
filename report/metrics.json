@@ -220,7 +220,7 @@
       "strict_every_scan": false
     }
   ],
-  "current_UI_recheck_command": "python verification/recheck_ui.py --output <new-directory>",
+  "current_UI_recheck_command": "python verification/recheck_final_visual.py --output <new-directory>",
   "payload_bindings": [
     {
       "name": "coremark.bin",

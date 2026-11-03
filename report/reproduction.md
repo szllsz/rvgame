@@ -6,11 +6,19 @@
 | --- | --- |
 | 开发板 | ALINX AX7020，XC7Z020CLG400-2 |
 | FPGA工具 | Vivado 2025.2.1 |
-| RV32编译器 | RISC-V GCC 13.3，支持RV32I/Zmmul |
-| 主机脚本 | Python 3；PCM参考计算使用NumPy |
+| RV32编译器 | AMD RISC-V GCC 13.3.0，支持RV32I/Zmmul |
+| 主机脚本 | Python 3.12；依赖见requirements-host.txt |
 | 板端系统 | AX7020对应的Linux/PYNQ环境，依赖与接线见runtime/readme.md |
 
 下列命令从工程根目录执行。工具路径替换为实际安装位置，构建输出使用新目录。
+
+主机复核依赖安装：
+
+```sh
+python -m pip install -r requirements-host.txt
+```
+
+逐字节重建验证使用 AMD 工具链中的 `riscv32-xilinx-elf-gcc` 13.3.0（可通过 `riscv64-unknown-elf-gcc` 入口调用），以 `--version` 输出确认。其他发行版的同版本 GCC 不保证产生相同二进制。
 
 ## 程序与硬件构建
 
@@ -31,10 +39,20 @@ python sim/replay.py \
 ```sh
 python verify_publication.py
 python runtime/run.py
-python verification/recheck_final_visual.py --output out/metrics.json
+python verification/recheck_metrics.py --output out/metrics.json
+python verification/recheck_final_visual.py --output out/games.json
 ```
 
 文件校验与测量记录复算在主机执行。复算读取随包保存的数据；板端运行使用下面的独立步骤。
+
+## 可移植工具自检
+
+```sh
+python skill/test_verify_artifacts.py --output out/skill
+python runtime/usb_priority/test_guard.py --output out/usb
+```
+
+重建与复核结果见 `verification/reproduction.json`。软件从包内完整依赖重建；硬件从 RTL、IP 和约束重建；测量复算读取原始板端数据。重新生成的 bit 未在本轮加载到开发板。
 
 ## 板端运行
 

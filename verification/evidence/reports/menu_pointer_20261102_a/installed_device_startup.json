@@ -1,9 +1,0 @@
-{
-  "scope": "Read-only installed-service startup/device discovery; no requested manual input",
-  "manual_tested": false,
-  "release_sha256": "359b9cfb38501afcf61e41bdcebb74c243de13179e214db5e5ac5d775b70dad3",
-  "pointer_journal": [
-    "May 20 15:28:31 pynq python3[10589]: POINTER_OPEN touch event0"
-  ],
-  "input_devices": "I: Bus=0003 Vendor=1a86 Product=e5e3 Version=0100\nN: Name=\"wch.cn USB2IIC_CTP_CONTROL\"\nP: Phys=usb-ci_hdrc.0-1.4/input0\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:1A86:E5E3.0002/input/input0\nU: Uniq=\nH: Handlers=event0 \nB: PROP=0\nB: EV=1b\nB: KEY=400 0 0 0 0 0 0 0 0 0 0\nB: ABS=100 3\nB: MSC=10\n\nI: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse\"\nP: Phys=usb-ci_hdrc.0-1.1/input0\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:046D:C092.0003/input/input1\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=event1 \nB: PROP=0\nB: EV=17\nB: KEY=ffff0000 0 0 0 0 0 0 0 0\nB: REL=1943\nB: MSC=10\n\nI: Bus=0003 Vendor=046d Product=c092 Version=0111\nN: Name=\"Logitech G102 LIGHTSYNC Gaming Mouse Keyboard\"\nP: Phys=usb-ci_hdrc.0-1.1/input1\nS: Sysfs=/devices/soc0/axi/e0002000.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:046D:C092.0004/input/input2\nU: Uniq=CONFIGURE_MOUSE_SERIAL\nH: Handlers=kbd event2 \nB: PROP=0\nB: EV=10001f\nB: KEY=33eff 0 0 0 0 483ffff 17aff32d bfd44446 0 0 1 130ff3 8b17c007 ffff7bfa d941dfff febeffdf ffefffff ffffffff fffffffe\nB: REL=1040\nB: ABS=1 0\nB: MSC=10\n\n\n"
-}

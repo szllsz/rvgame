@@ -1,8 +1,0 @@
-{
-  "current_board_recheck_passed": true,
-  "current_release_sha256": "9b56435746bf25bbedf23d647893d64b4c51ba296a6ca4c2a348c549fc01b550",
-  "receipt": "standalone_board.json",
-  "physical_power_cycle_verified": false,
-  "new_SD_tested": false,
-  "scope": "Final detached normal-input wrapper start, cleanup and original formal restoration on the existing board"
-}

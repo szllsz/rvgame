@@ -1,6 +1,6 @@
 """Portable offline recheck of the final two-game evidence and exact payloads.
 
-Copy this file to the bundle's verification directory before use.
+Run from the packaged verification directory; no project workspace required.
 """
 import argparse
 import hashlib
@@ -9,19 +9,21 @@ from pathlib import Path
 from audit_helpers import checksum,crc_prefix
 from scarlet_ui_reference_20261101 import UiCrc
 
-HERE=Path(__file__).resolve().parent;B=HERE.parent;E=HERE/'evidence';BASE=E/'reports/rvgame_longrun_20261031'
+HERE=Path(__file__).resolve().parent;B=HERE.parent;DATA=HERE/'data'
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def payload(package,name):
     p=package/name
-    return p if p.is_file() else B/'runtime/package'/name
+    if p.is_file():return p
+    historical=DATA/'qualified_runtime'/name
+    return historical if historical.is_file() else B/'runtime/package'/name
 
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--output',type=Path,required=True);args=ap.parse_args();assert not args.output.exists()
     results=[]
-    for label,support_tag,board_tag,receipt_tag in [('star','space_visual_support_e','native_space_visual_e','space_visual_received_e'),('egg','egg_manual_support_b','native_egg_manual_b','egg_manual_received_b')]:
-        package=BASE/support_tag/'package';board=BASE/('native_session_smoke_board_'+board_tag);run=board/'received';receipt=read(BASE/receipt_tag/'result.json')
+    for label in ('star','egg'):
+        package=DATA/label/'inputs';board=DATA/label/'board';run=board/'received';receipt=read(DATA/label/'summary.json')
         parent=read(board/'result.json');observed=read(run/'result.json');ready=read(run/'ready.json');manifest=read(package/'manifest.json');native=read(package/'candidate_manifest.json')
         assert parent['pass_'] and parent['original_restored'] and observed==parent['board_result'] and observed['pass_'] and observed['finished']
         assert sha(package/'manifest.json')==parent['manifest_sha256']==sha(run/'manifest.json')

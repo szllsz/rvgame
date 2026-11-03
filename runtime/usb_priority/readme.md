@@ -4,15 +4,15 @@
 
 手柄重新枚举或同地址出现 stale／传输错误时，先释放鼠标主接口，等手柄有效解码后恢复。USB IRQ 至少 5 秒无进展且输入异常时，才检查 hub 与鼠标的标准设备描述符；两个请求均超时且完整拓扑仍匹配，才恢复 USB 主机。安静的设备只要控制请求正常，就不触发主机恢复。最多每 5 分钟恢复两次。
 
-启动时等待应用能够读取 USB，再计算独立的 12 秒预留窗口；初始等待上限 90 秒。原候选实际捕获两次总线停滞并自动恢复，用户随后关闭再启动手柄，确认三输入恢复。最终 b 版修正启动计时，安装与正常启动通过；这不证明所有设备组合、长休眠或 EHCI 根因已经修复。
+启动时等待应用能够读取 USB，再计算独立的 12 秒预留窗口；初始等待上限 90 秒。
 
 ## 安装与运行
 
-离线行为检查：`python test_guard.py --output <尚不存在的新目录>`。11 项覆盖同地址异常、静默但控制请求正常、单个控制超时不升级、双超时、显式启用条件、恢复频率限制、启动等待及未知设备拒绝；不操作硬件。GitHub CI 同时执行该检查。
+离线自检：`python test_guard.py --output <新目录>`。自检通过模拟系统接口验证恢复边界，不访问硬件。
 
-公开源码不保存个人序列号。必须显式配置 `RVGAME_G102_SERIAL` 为核准 G102 的序列号；未配置时不改变鼠标绑定。原板安装字节与公开版仅此配置差异，见 verification/usb_wake_delivery.json。
+公开服务通过 `RVGAME_G102_SERIAL` 显式匹配核准鼠标的序列号；未配置时不改变鼠标绑定。
 
-先按 runtime/rollback.md 让现有应用正常退休，检查程序／显示缓冲释放和 HP 恢复，再停止旧 USB helper。不能在手柄读取仍运行时直接恢复附加鼠标接口：本板曾因此产生约 71 秒超时。只有确认旧 helper 已退出、清理完成，才继续以下步骤；清理失败保留现场，不能叠加新恢复流程。
+先按 runtime/rollback.md 让现有应用正常退休，检查程序／显示缓冲释放和 HP 恢复，再停止旧 USB helper。不能在手柄读取仍运行时直接恢复附加鼠标接口。只有确认旧 helper 已退出、清理完成，才继续以下步骤；清理失败保留现场，不能叠加新恢复流程。
 
 ```sh
 sudo install -D -m 0644 usb_priority_guard.py /usr/local/lib/rvgame-usb-priority-20261103-b/usb_priority_guard.py
@@ -30,4 +30,4 @@ Environment=RVGAME_G102_SERIAL=YOUR_VERIFIED_SERIAL
 
 替换占位值并保存后，运行 `sudo systemctl daemon-reload` 和 `sudo systemctl enable --now rvgame-usb-priority.service`，再启动应用。保留既有单一显示 owner；不要叠加第二个运行入口。
 
-状态文件为 `/run/rvgame-usb-priority/state.json`，日志通过 `journalctl -u rvgame-usb-priority.service` 查看。程序持有 `/run/lock/p008-usb-host-recovery.lock`。手动停止／回退同样先退休应用，再停 helper 并确认 `stopped_restored`；系统关机时 `Before=rvgame-unified-boot.service` 提供逆序停止关系。旧版文件与失败记录保留，无需批量删除。
+状态文件为 `/run/rvgame-usb-priority/state.json`，日志通过 `journalctl -u rvgame-usb-priority.service` 查看。程序持有 `/run/lock/p008-usb-host-recovery.lock`。手动停止／回退同样先退休应用，再停 helper 并确认 `stopped_restored`；系统关机时 `Before=rvgame-unified-boot.service` 提供逆序停止关系。

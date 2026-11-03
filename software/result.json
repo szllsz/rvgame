@@ -225,6 +225,6 @@
     "stable/third_party/coremark/core_util.c": "166e9bf09afd290adffe2c6681d913c18373f77e457fae258499fbaad10b04fc",
     "stable/third_party/coremark/coremark.h": "0c6655620a7fb984a0f9a69b90e6fb0626694535971abfb3ca0eb88422cbeab0"
   },
-  "recipe_sha256": "e720637f6712c74559394abe73414c0545851cdc518fd7e579179619b9ffc4d3",
-  "scope": "Public eight-target source closure; unused art removed; compiler must reproduce accepted binaries"
+  "recipe_sha256": "8c83dd4dfc0b25ce2d3a721af3c8b4ba962f970468a16fdb55f8a2ff5bdc7243",
+  "scope": "Complete eight-program build inputs, including assembler binary data; independently rebuilt"
 }

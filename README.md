@@ -13,13 +13,17 @@
 | [runtime](runtime/readme.md) | 完整 PS 源码、八个程序、已板测 bit/HWH、配乐和独立运行入口 |
 | [sim](sim) | 功能仿真、测试输入与重放脚本 |
 | [verification](verification) | 综合／实现报告、板端日志、性能／CRC 数据和复核脚本 |
-| [report](report) | 技术报告、Word/PDF、双语海报和板端截图 |
-| [skill](skill/skill.md) | 可复用的 PYNQ 产物校验及 DMA 生命周期方法 |
+| [report](report) | 技术报告、Word/PDF、架构图和板端截图 |
+| [skill](skill/SKILL.md) | 可复用的 PYNQ 产物校验及 DMA 生命周期方法 |
 | [licenses](licenses/readme.md) | 第三方许可、字体与图形来源；配乐用途说明 |
 
 目录与 [AMD 自主选题赛道指南](https://gitee.com/Vickyiii/fpgachina26-amd/blob/master/TRACK_GUIDE_2026.md) 的对应关系见 [要求矩阵](report/amd_requirements_matrix.md)。
 
+官方推荐目录的映射：`src` 对应 `hardware/inputs`、`software/source` 和 `runtime/package`；`build` 对应硬件/软件重建脚本及 `verification/hardware`；`board` 对应 `runtime`；`data` 对应 `verification/data`；`sim`、`skill`、`report` 保持同名。
+
 ## 复现
+
+先安装主机复核依赖：`python -m pip install -r requirements-host.txt`。
 
 开发环境：**Vivado 2025.2.1、RISC-V GCC 13.3、Python 3**。从仓库根目录执行文件校验：
 
@@ -43,7 +47,8 @@ python hardware/rebuild.py \
   --destination out/hardware --vivado /path/to/vivado
 python sim/replay.py \
   --destination out/sim --vivado-bin /path/to/vivado/bin
-python verification/recheck_final_visual.py --output out/metrics.json
+python verification/recheck_metrics.py --output out/metrics.json
+python verification/recheck_final_visual.py --output out/games.json
 ```
 
 板端使用 AX7020 对应的 PYNQ/Linux 环境。完整步骤见 [复现说明](report/reproduction.md)，接线、启动和停止操作见 [运行说明](runtime/readme.md)。

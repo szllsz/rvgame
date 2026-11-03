@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/rvgame/reports/menu_pointer_delivery_20261102_a/timing_trace_a/native_frame_commit_20261031.v" into library work
-INFO: [VRFC 10-311] analyzing module native_frame_commit
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/rvgame/reports/menu_pointer_delivery_20261102_a/timing_trace_a/tb_report_commit.sv" into library work
-INFO: [VRFC 10-311] analyzing module tb_report_commit

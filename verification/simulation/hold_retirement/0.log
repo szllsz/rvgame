@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/hold_retirement/ps_control.v" into library work
-INFO: [VRFC 10-311] analyzing module ps_control
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/hold_retirement/ps_video_bridge.v" into library work
-INFO: [VRFC 10-311] analyzing module ps_video_bridge
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/hold_retirement/cdc_request_reply.v" into library work
-INFO: [VRFC 10-311] analyzing module cdc_request_reply
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/rvgame/reports/detached simulation completion b/hold_retirement/native_frame_commit_20261031.v" into library work
-INFO: [VRFC 10-311] analyzing module native_frame_commit

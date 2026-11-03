@@ -1,5 +1,0 @@
-{
-  "reported_bytes": 4096,
-  "capacity_requalified": false,
-  "trampoline_policy": "Only DdrProgram.load writes its two necessary boot words"
-}
