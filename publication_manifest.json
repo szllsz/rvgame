@@ -5286,7 +5286,7 @@
       "bytes": 239
     },
     "verification/usb_wake_delivery.json": {
-      "sha256": "407d3470f426fc0e45f3c6981eb9f64d744ccaab38c059e6f54af39c38c7ae20",
+      "sha256": "a3f6da8b80ad6f4edfef4d9dc817721aae9042f19e103da110c5f228af52525c",
       "bytes": 1187
     },
     "verify_publication.py": {
