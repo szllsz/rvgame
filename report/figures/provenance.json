@@ -9,7 +9,7 @@
   ],
   "measured_plot": "egg_workload",
   "measurement_source": "report/metrics.json",
-  "measurement_sha256": "4166eb7122214191d3b701a8fe1c79a0e2694a13827434df7095a6051340228d",
+  "measurement_sha256": "f619f086f0323cd121d3b3d92ba416af7799e915fbbc73d49fad69f29c2f13cd",
   "RTL_sources": [
     "reports/whole2025_2_hw_astra_native800_a/inputs/rtl/graphics_soc.v",
     "reports/whole2025_2_hw_astra_native800_a/inputs/rtl/rv32i_pipeline_core.v"
@@ -20,7 +20,7 @@
     "architecture.svg": "b9e4bcd87b078502e96de342e5a6f635c8631a0340b5330424a05ddf5a07ceed",
     "cpu_pipeline.pdf": "367655ecb5d73695df5212114fe25be810024e4f0302a85e4b7cb968179e58ca",
     "cpu_pipeline.png": "11eaa8da7654b099c29e2d9c3ed8dc19434da65602338d07338c901821b7c5ea",
-    "cpu_pipeline.svg": "d0122ccf7be7d1138e217aada75e80c9613c0a26f2012b7e1f7923f52221e272",
+    "cpu_pipeline.svg": "c6730d27180b02e056169ab88c0cf3fdf4f641fc0db12b8890f6f666df88d5b1",
     "egg_workload.pdf": "e3dbed8b99a45db5be04c1f327df15a6155bc35f7c09b642f28cccc1113f6aaa",
     "egg_workload.png": "70b7958e41bc9ae8ab53a9db8a85c5cfa423a60f30bafb0b385c8189dd9a1589",
     "egg_workload.svg": "6294a1f99606d93a222ccfd4fc3773f8f84bdb1805636d1274af46fc7e82c31c",
@@ -29,15 +29,15 @@
     "gpu_datapath.svg": "ff553a25c85456f0f0825d768a84d48d31997521347c9000645f68caba6a00f8",
     "input_flow.pdf": "aefc14a97c73ba25841fcc2b409a0c3ec20c51f3568b8eba9f11d43a2fffffd2",
     "input_flow.png": "4b62685475f0ea6e4b7fee954369935dbcb3c79e21ae5cda5ec04fcda245ac4c",
-    "input_flow.svg": "0b7f2df48b275b36de00a24270f5c7238bb895a7dbb299ff163dbe4dee5f8ad4",
+    "input_flow.svg": "783d2fecbc2b1e3ca48eb4402606ddbc925e9019a9641b0fef99b29dc4d1b70f",
     "main_menu.png": "f9fbbf9ccf3d297dd5f7ddfd6a00853b55c7b42b3d4a950eddb81ff288808276",
     "owner_retirement.pdf": "f9d3f242d26d00cce8894abf44551d2350e24fac7a3b251e1bfcb2761dc6a850",
     "owner_retirement.png": "1e4a016894eba64a35a6f773e2267e9aa47e6dad382efcd32d3cfa149f7de873",
-    "owner_retirement.svg": "27cd86429cc35d842dc878155e681e9512db43a6e033c9399d5fe525dd5323d7",
+    "owner_retirement.svg": "097fb7fd002451d91ca024698c01f9b9d9e41843ed1a97306d40fb36165bc7aa",
     "star_barrage.png": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
     "two_band_sequence.pdf": "1793651837111285f944f3c47510bfe994acd5cdcfe78c5d3f4e12512e1a385b",
     "two_band_sequence.png": "1bbb7ce23cf9c099fd51d890e8cba95041a2e98c029bcbbc16157edfaee7132f",
-    "two_band_sequence.svg": "3c155f9306f83c6c9636796c26c496c5bff0c00e7233299053ab9394af6d7ddf",
+    "two_band_sequence.svg": "96256f8584fad18299249120e4698ddce913eb06cdd1fbb1188a5c9dbd53dfb0",
     "contest_logo.png": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc"
   },
   "simulation_plot": "two_band_sequence",
@@ -61,5 +61,7 @@
     "source_docx_sha256": "e73cc9a09070642894e943b0d45d41aa1d17a7ab006f26330cead6c798b2e368",
     "asset_sha256": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc",
     "unchanged_source_image": true
-  }
+  },
+  "original_render_metrics_sha256": "4166eb7122214191d3b701a8fe1c79a0e2694a13827434df7095a6051340228d",
+  "measurement_binding_note": "Current packaged metrics hash; plotted curve and numerical measurements equal the original render input. Only evidence-path metadata changed."
 }

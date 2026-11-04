@@ -14,6 +14,24 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 
 
+def verify_report_references(root):
+    def check(base, name, digest):
+        path=(base/name).resolve()
+        if not path.is_relative_to(base.resolve()) or not path.is_file():
+            raise RuntimeError('Missing/invalid report reference: '+name)
+        if sha(path)!=digest:
+            raise RuntimeError('Report reference SHA256 mismatch: '+name)
+    figures=root/'report/figures'
+    provenance=read(figures/'provenance.json')
+    for name,digest in provenance['files'].items():check(figures,name,digest)
+    check(root,provenance['measurement_source'],provenance['measurement_sha256'])
+    collaboration=root/'report/collaboration'
+    for row in read(collaboration/'selection_receipt.json')['records']:
+        check(collaboration,row['file'],row['sha256'])
+        check(collaboration,row['markdown_file'],row['markdown_sha256'])
+    print('REPORT_REFERENCES_VERIFIED')
+
+
 def main():
     manifest=read(ROOT/'publication_manifest.json')
     for name,entry in manifest['files'].items():
@@ -34,6 +52,7 @@ def main():
     for app,recipe in recipes.items():assert sha(ROOT/'runtime/package'/(app+'.bin'))==recipe['expected_binary_sha256']
     for case in read(ROOT/'sim/fixtures.json')['cases']:
         for name,digest in case['files'].items():assert sha(ROOT/'sim/cases'/case['name']/name)==digest,(case['name'],name)
+    verify_report_references(ROOT)
     subprocess.run([sys.executable,'-B',str(ROOT/'runtime/run.py')],check=True)
     subprocess.run([sys.executable,'-B',str(ROOT/'runtime/usb_touch/install.py')],check=True)
     print('PUBLICATION_VERIFIED',len(manifest['files']),'files; eight targets; no board operations')

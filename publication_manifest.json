@@ -448,7 +448,7 @@
     },
     "report/collaboration/selection_receipt.json": {
       "bytes": 1920,
-      "sha256": "047ce66bae95d97bf6634ba8a7090cf8e3b0de43b3061e31067e8cd07fc02347"
+      "sha256": "688c83258323f8ba01771de5fed26006a68577a12c88d269c52082f21b6e0be8"
     },
     "report/contribution_and_sources.md": {
       "bytes": 5614,
@@ -547,8 +547,8 @@
       "sha256": "097fb7fd002451d91ca024698c01f9b9d9e41843ed1a97306d40fb36165bc7aa"
     },
     "report/figures/provenance.json": {
-      "bytes": 4127,
-      "sha256": "0aeb43a6a461234f93bf77ebab93f1a096459b40d5dd761b11104f9a64c3a7ff"
+      "bytes": 4406,
+      "sha256": "1c03ed06f61e169faec9953de8935dca4cba1b7a08431e002bd6aa22801f98f8"
     },
     "report/figures/star_barrage.png": {
       "bytes": 57442,
@@ -2563,8 +2563,8 @@
       "sha256": "84a38e1c8f189d8f3678cc6849c03eaf9dbc460bea567123dc6045429421491d"
     },
     "verify_publication.py": {
-      "bytes": 2235,
-      "sha256": "986804171e15651aa1923ddbe55b4d9c4a962ac7285aaf428d55bd6d1b2594b9"
+      "bytes": 3157,
+      "sha256": "709c0a1e04cf40386fb48921f15e855ac6860f86ba13cd868d72e1be24ee10f5"
     }
   }
 }
