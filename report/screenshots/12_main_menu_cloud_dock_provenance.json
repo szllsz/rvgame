@@ -1,0 +1,15 @@
+{
+  "image": "12_main_menu_cloud_dock.png",
+  "image_sha256": "2eeb8e3bc3de38d575cd61ffdd080e44ce80831bb406a6f1466b2a250dab1b26",
+  "raw_frame_sha256": "85d66de79e8d3fc080e0c62d91537be22a3ab945fbdaa3ec0b093074b5fc6513",
+  "source": "reports/rvgame_longrun_20261031/native_session_smoke_board_native_cloud_dock_c/received/dock_final.rgb332",
+  "capture": "Actual board framebuffer during controlled input test; not a physical photograph",
+  "geometry": [
+    800,
+    600
+  ],
+  "color": "RGB332",
+  "menu_sha256": "b8f89c70fcd01088a66eb8085ec93cfa3fcdb82c1d51719c34820867149aa3e0",
+  "board_audit": "reports/wallpaper_clouds_20261103_a/dock_c/board_received_a/result.json",
+  "board_audit_sha256": "91f55484e3a67f000b9834a3572de08bdfb9bb71b8890d44e24af50ab557a60f"
+}

@@ -7,7 +7,7 @@ StartLimitBurst=2
 
 [Service]
 Type=simple
-ExecStart=/usr/local/share/pynq-venv/bin/python3 -B -u /usr/local/lib/rvgame-usb-priority-20261103-b/usb_priority_guard.py --seconds 0 --recover-stalled-host --output /run/rvgame-usb-priority/state.json
+ExecStart=/usr/local/share/pynq-venv/bin/python3 -B -u /usr/local/lib/rvgame-usb-priority-20261103-e/usb_priority_guard.py --seconds 0 --recover-stalled-host --output /run/rvgame-usb-priority/state.json
 Restart=on-failure
 RestartSec=3
 KillSignal=SIGINT

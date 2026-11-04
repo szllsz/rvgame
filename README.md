@@ -13,7 +13,7 @@
 | [runtime](runtime/readme.md) | 完整 PS 源码、八个程序、已板测 bit/HWH、配乐和独立运行入口 |
 | [sim](sim) | 功能仿真、测试输入与重放脚本 |
 | [verification](verification) | 综合／实现报告、板端日志、性能／CRC 数据和复核脚本 |
-| [report](report) | 技术报告、Word/PDF、架构图和板端截图 |
+| [report](report) | 24 页 AMD 设计报告及源稿、双语海报、技术协作记录和图表 |
 | [skill](skill/SKILL.md) | 可复用的 PYNQ 产物校验及 DMA 生命周期方法 |
 | [licenses](licenses/readme.md) | 第三方许可、字体与图形来源；配乐用途说明 |
 
@@ -51,6 +51,8 @@ python verification/recheck_metrics.py --output out/metrics.json
 python verification/recheck_final_visual.py --output out/games.json
 ```
 
+公开包采用六卡片菜单，运行层同步按需加载、PCM 批量写入和 USB 查询退避。比赛演示中的云海背景使用独立素材配置，原壁纸与动画帧未加入仓库；本仓库菜单源码、点击区域和二进制彼此对应。
+
 板端使用 AX7020 对应的 PYNQ/Linux 环境。完整步骤见 [复现说明](report/reproduction.md)，接线、启动和停止操作见 [运行说明](runtime/readme.md)。
 
 ## 性能与实机验证
@@ -68,7 +70,9 @@ python verification/recheck_final_visual.py --output out/games.json
 
 手柄、触屏与鼠标经统一输入接口操作主菜单和应用，实物演示覆盖进入、返回及手柄启动后的输入接续。系统把程序加载、画面提交、音频和外设管理整合为完整运行流程，配套原始测量、自动核对与现场操作记录。
 
-技术报告包含系统架构、实现方法、实物连接与性能分析：[PDF](report/competition_report.pdf)、[可编辑 Word](report/competition_report.docx)。[AMD 设计报告](report/amd_design_report.pdf) 进一步说明软硬件划分、优化过程、大模型协作与工程复现。
+[AMD 设计报告](report/amd_design_report.pdf) 覆盖赛道指南第 3.3.5.3 节的七项内容。第 3 章详述分支预测、数据旁路与双指令、缓存、DDR 预取、定点混合和分带显示算法，并给出设计取舍与验证对应。报告共 24 页，使用嵌赛 Logo 页眉，同时提供 [Markdown](report/design_report.md) 和 [XeLaTeX](report/amd_design_report.tex) 源稿。
+
+[双语海报](report/poster/amd_poster_bilingual.pptx) 与最终提交版一致；[工程决策与协作](report/model_collaboration.md) 和 [技术节选索引](report/collaboration/README.md) 展示问题定位、纠错与验证过程，整理稿和原文节选分别标注。
 
 ## 许可与来源
 

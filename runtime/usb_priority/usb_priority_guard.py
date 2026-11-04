@@ -157,6 +157,12 @@ class Guard:
         self.bad_status_at = 0
         self.next_control_check = 0
         self.application_active = False
+        self.status_unavailable = False
+        self.service_query_unavailable = False
+        self.next_status_query = 0
+        self.status_epoch = None
+        self.cached_status = None
+        self.status_failures = 0
         self.record('starting')
 
     def record(self, phase, **fields):
@@ -172,9 +178,33 @@ class Guard:
         print('USB_PRIORITY', json.dumps(event), flush=True)
 
     def status(self):
-        log = subprocess.check_output(['journalctl', '-b', '-u', 'rvgame-unified-boot.service',
-                                       '-n', '120', '--no-pager', '-o', 'json'], text=True, timeout=5)
-        return latest_pad_state(log, self.since_us)
+        now = time.monotonic()
+        if now < self.next_status_query and self.status_epoch == self.since_us:
+            return self.cached_status
+        self.status_epoch = self.since_us
+        try:
+            log = subprocess.check_output(['journalctl', '-b', '_SYSTEMD_UNIT=rvgame-unified-boot.service',
+                                           '--output-fields=__MONOTONIC_TIMESTAMP,MESSAGE',
+                                           '-n', '120', '--no-pager', '-o', 'json'], text=True, timeout=5)
+            latest = latest_pad_state(log, self.since_us)
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError, json.JSONDecodeError) as error:
+            # Missing diagnostic evidence is neither valid input nor a USB
+            # fault. Keep ownership/bindings and retry on the next poll; never
+            # enter close() merely because the boot-time journal was busy.
+            if not self.status_unavailable:
+                self.record('status_query_unavailable', error=type(error).__name__)
+            self.status_unavailable = True
+            self.cached_status = None
+            self.status_failures += 1
+            self.next_status_query = time.monotonic() + min(10, 2 ** min(self.status_failures, 4))
+            return None
+        if self.status_unavailable:
+            self.record('status_query_restored')
+        self.status_unavailable = False
+        self.status_failures = 0
+        self.cached_status = latest
+        self.next_status_query = time.monotonic() + .5
+        return latest
 
     def validate_topology(self):
         if not self.same_mouse():raise RuntimeError('Mouse identity changed before recovery')
@@ -225,8 +255,17 @@ class Guard:
         now=time.monotonic()
         if now<self.next_health:return
         self.next_health=now+1
-        state=subprocess.run(['systemctl','is-active','rvgame-unified-boot.service'],
-                             capture_output=True,text=True,timeout=2)
+        try:
+            state=subprocess.run(['systemctl','is-active','rvgame-unified-boot.service'],
+                                 capture_output=True,text=True,timeout=2)
+        except subprocess.TimeoutExpired:
+            if not self.service_query_unavailable:
+                self.record('service_query_unavailable', error='TimeoutExpired')
+            self.service_query_unavailable=True
+            self.next_health=time.monotonic()+2
+            return
+        if self.service_query_unavailable:self.record('service_query_restored')
+        self.service_query_unavailable=False
         was_active=self.application_active
         self.application_active=state.stdout.strip()=='active'
         if self.application_active and not was_active and self.wait_started is not None:

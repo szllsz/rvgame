@@ -6,6 +6,7 @@ import hashlib
 import struct
 import sys
 import zlib
+from pcm_fifo_write import write_pcm
 
 
 class ScarletMusic:
@@ -60,9 +61,17 @@ class ScarletMusic:
         words = min(self.BURST_WORDS, max(0, self.TARGET_WORDS - queued))
         # No other host writer is allowed. Between this count and each write,
         # the hardware can only consume space or stop and discard safely.
-        for _ in range(words):
-            low, high = self._next(), self._next()
-            control.write(0xb0, low | high << 16)
+        remaining = words * 2
+        parts = []
+        while remaining:
+            take = min(remaining, self.loop_end - self.cursor)
+            parts.append(self.data[self.cursor * 2:(self.cursor + take) * 2])
+            self.cursor += take
+            remaining -= take
+            if self.cursor == self.loop_end:
+                self.cursor = self.loop_start
+                self.loops += 1
+        write_pcm(control, b''.join(parts))
         self.sent_samples += words * 2
         return words
 

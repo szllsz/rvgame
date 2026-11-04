@@ -66,14 +66,14 @@ sudo -E python3 runtime/run.py --start
 
 ## 报告与图表
 
-技术报告包含Word和PDF，AMD设计报告同时提供Markdown与XeLaTeX源文件。结构图位于 `report/figures`，实物照片位于 `report/photos`。编辑AMD正文后，在 `report` 目录执行两次：
+仓库保留 AMD 设计报告及其 Markdown、XeLaTeX 源文件。结构图位于 `report/figures`，实物照片位于 `report/photos`。编辑AMD正文后，在 `report` 目录执行两次：
 
 ```sh
 xelatex -interaction=nonstopmode -halt-on-error amd_design_report.tex
 ```
 
-文档工具为TeX Live 2025，使用宋体、黑体和Times New Roman。实验数据的程序、硬件及测量条件由验证目录中的清单关联。
+文档工具为TeX Live 2025，使用宋体、黑体和Times New Roman；页眉采用官网报告中的嵌赛原始标识，素材为 `figures/contest_logo.png`，页眉与页码样式在 XeLaTeX 源文件中定义。实验数据的程序、硬件及测量条件由验证目录中的清单关联。
 
 ## 运行配置
 
-仓库提供六入口菜单和八个RV32程序。报告中的云海菜单及启动优化属于演示配置；仓库默认运行包采用随附的菜单资源与加载流程。复现文件以 `runtime/release_manifest.json` 为准，源码与二进制对应关系见 `software/recipes.json`。
+公开运行包采用六卡片菜单，并同步按需加载、PCM 批量写入与 USB 查询退避。比赛报告中的云海界面属于本地演示配置；原壁纸工程及其动画帧未加入公开运行包。菜单源码、二进制和指针命中区域按公开配置成套保留。源码与二进制对应关系见 `software/recipes.json`，运行文件清单见 `runtime/release_manifest.json`，本次公开配置的主机检查见 `verification/publication_sync.json`。原板端测量仍绑定其采集时的输入；本次同步不构成新的板端测试。

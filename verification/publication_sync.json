@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-04",
+  "pass_": true,
+  "host_only": true,
+  "board_operated": false,
+  "public_menu": "Existing six-card source, binary and matching pointer hit regions retained.",
+  "runtime_changes": [
+    "Verified deferred asset reads",
+    "PCM batch stores with original C source",
+    "Boot audio publication immediately before CPU release",
+    "USB diagnostic timeout backoff"
+  ],
+  "configurable_mouse_serial_retained": true,
+  "local_delivery": {
+    "source_files": 646,
+    "source_rar_sha256": "704e7fbfad1088b76201195f3df105a0a7c7993ce4bf098bce32df2c9a104ccd",
+    "unchanged": true
+  },
+  "report": {
+    "amd_pages": 24,
+    "amd_sha256": "7bdc41c877761301f268236aafecc8a81b3904e4d57e69ae3b6c7bff287a134a",
+    "sole_design_report": true,
+    "official_submission_report_not_in_repository": true
+  },
+  "software_rebuild": {
+    "targets": [
+      "coremark",
+      "validation",
+      "gfx",
+      "bitmap",
+      "alpha",
+      "menu",
+      "game",
+      "touhou"
+    ],
+    "all_byte_identical": true
+  },
+  "checks": {
+    "manifest": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "metrics": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "visual": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "skill": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "usb": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "runtime_sync": {
+      "exit_code": 0,
+      "pass_": true
+    },
+    "software": {
+      "exit_code": 0,
+      "pass_": true
+    }
+  },
+  "runtime_contract_checks": [
+    "All six public menu hit regions and exclusive edges",
+    "Immutable cache, corrupted first use and directory escape",
+    "Current package verifies in deferred and full modes",
+    "Boot publication follows flush and immediately precedes CPU release",
+    "Failed boot publication keeps the CPU held and memory owned",
+    "PCM wrapper uses the FIFO register and rejects invalid bounds/mappings",
+    "PCM batching preserves intro, repeated loop, cursor and held-CPU behavior"
+  ],
+  "usb_contract_checks": [
+    "Same USB address with new stale status reserves gamepad first",
+    "Quiet IRQ plus responding control endpoints does not reset a sleeping device",
+    "One timed-out control endpoint is insufficient for host recovery",
+    "Stale input plus stalled IRQ and two descriptor timeouts permits recovery",
+    "Without explicit recovery option no control probe or host reset occurs",
+    "Fresh decoded status required after recovery epoch",
+    "Two host resets within five minutes block further mutation",
+    "Initial timeout waits for application startup before bounded failure",
+    "Startup wait remains bounded at ninety seconds",
+    "Application readiness starts one fresh reservation window; later polls do not extend it",
+    "Unknown USB identity refuses host recovery",
+    "Journal timeout is unknown evidence, cached briefly, not an exception or USB fault",
+    "Command failure and malformed journal back off without claiming healthy input",
+    "Valid query recovers; changing the USB epoch cannot reuse an old healthy cache",
+    "Service-query timeout preserves state, does not mutate bindings, and backs off",
+    "Service-query recovery resumes the normal health loop",
+    "No configured mouse serial prevents device lookup",
+    "Configured serial rejects another mouse of the same model",
+    "Matching serial still requires the approved hub topology"
+  ],
+  "hardware_note": "RTL, IP, constraints and bit/HWH are unchanged. Only the existing export version hint and reconstruction documentation were aligned; original implementation receipts remain historical.",
+  "measurement_note": "Recomputed from original captured records. Exact earlier PS files required by those records are retained in data/qualified_runtime; this sync is not a new board measurement.",
+  "executable_hashes": {
+    "runtime/package/alpha.bin": "babd4812c2bd86e2d2ed121fcefb49514e0f8c05302ec670e467f042c0ab9f4a",
+    "runtime/package/bitmap.bin": "a352c73cdf4509da772c57a9117b5e4f5eaa1076444948cb6f8e0cef6e8ef1b1",
+    "runtime/package/boot_assets.py": "1977948920cb3d82c3d756684713e26136e96fb510d95de344070f81cbeadb0d",
+    "runtime/package/bt_mailbox.py": "c828a0bbe71602555e653f0878874384b9e49fb408457da1c0222f048a5ff64b",
+    "runtime/package/coremark.bin": "02d5e5ded835e80efe7e5be7430f25ceff24c31225bf258a365cf7ea06e75fb7",
+    "runtime/package/game.bin": "dff38a561c953e441c6e5ede7024b098985cabd4dddd137aac036a82c1c7fc46",
+    "runtime/package/gfx.bin": "7ced79cce4bcc326ce98bf34134a79d7ad24c9caa872ab773991b90f3bc4a7c0",
+    "runtime/package/input_actions.py": "4cb19bb7e027eb097b97975dda199af78dd48af8c23fbf6c546ca7585d9ec794",
+    "runtime/package/input_backend.py": "695108315b083b8be466e892fd738b5e1ac51b2cbc6d2b56672d7570cbf7c8b8",
+    "runtime/package/legacy_gamepad.py": "94100d895a32008075ade36dd2a3f498f04bdae4f62122870f18b6dd191ac51b",
+    "runtime/package/libpcm_fifo_write.so": "897e456547c90fedee38d5e79133a7dad08f912a89a91354d30a5a0b17d986d0",
+    "runtime/package/menu.bin": "62555141defcc87478c12d2ae627efec35da14a2aeab7e88ef72a91799e103b7",
+    "runtime/package/native_session.py": "d66cf0295d66f3486f74b6cf95fb182325688600e80dc2257b28cb2ab7025703",
+    "runtime/package/pcm_fifo_write.c": "2fc43e63bfedac1428c47f635f12bd754ca264640665a70e5b5a96e21e95aabc",
+    "runtime/package/pcm_fifo_write.py": "7c72973096dd0598e95fe2742110cf720b43629e57add0206c41c44873c69f2e",
+    "runtime/package/pointer_controls.py": "4b92d935264594943056e234a9e916b20677e9f13691f18fb0ed74cb73c130c4",
+    "runtime/package/pointer_devices.py": "e68ae9a32c3dda184cff6c11450b53bf79fb05a405e61a602bd0424f4ba20f2a",
+    "runtime/package/pointer_source.py": "72c4613661918f38962fcb66e09448e92d7a7f4e77a42fbafd57b9b6be3c1027",
+    "runtime/package/pynq_brotato_fidelity.py": "83ad2331e1c7dd7169118695d780d8b910a02fc59f5c5dff327929c7f5fa2687",
+    "runtime/package/pynq_brotato_session.py": "0f90f6cdf36c8b2cd28788d5b49f158dc63b36d7313b46f02ed6965e8a48c51d",
+    "runtime/package/pynq_classic_session.py": "de907a507135def167196b747d4fea9b2b01d07cfd9f9388658fb07f87617319",
+    "runtime/package/pynq_ddr.py": "c606bc372c7ae579b42760597a498fa10c2c69d807b69326263a200fa0b37774",
+    "runtime/package/pynq_gamepad.py": "2a2ae790eda6d049a8f43ac81abc3535e2e862139cc39ddcf3bb1e1a602c8ccf",
+    "runtime/package/pynq_menu.py": "bfb3d5c078f40fc04aa85fb756485a1b3180acb0e96fd87f5c728372764439e8",
+    "runtime/package/replay_input.py": "f2f59eefee060610e2e8d4ec5a955ba09b1c6a7a221f758ea955129a8a61a569",
+    "runtime/package/scarlet_pcm.py": "c3272a946a2b7f12407596339ec4e1cc2a90d7a058779559cb910ac2659b3b4c",
+    "runtime/package/scarlet_ui_pcm.py": "cceba38771840162672d83e63fedcad6f3181a0a722dfd648d2844e8f620947d",
+    "runtime/package/top.bit": "cd467ddc352f4aaa93068ea0d1cfc78c75fe1b9de93ef915bfb10048a0f5fe9e",
+    "runtime/package/top.hwh": "94ece136b5983bd6d601d364551b0c43af1bc1809e5c71a0061d846fed5e84b9",
+    "runtime/package/touhou.bin": "68201d8d785a758a89f8ceab03015df4520fab69d8c41a4ceab51ef646b41d1b",
+    "runtime/package/trace_writer.py": "8cce40edefe25c5f4659fb324aacfef76adfb19aa60572f236b16f2dcf2a4495",
+    "runtime/package/usb_xinput.py": "9c475ca82ee1ef7a0f0253deece335604e6c861ed8e17eb27d298ca948107e33",
+    "runtime/package/validation.bin": "19ed67751f272f46610dd337cc070b834d9791002443c5da67f71bbca61713f1",
+    "runtime/run.py": "22cea6f5a3ace980752dc95fd3ce93c4c8ca2ae7a3d171d52fd0684f7dd80e01",
+    "runtime/supervisor.py": "5a316a43a46814d87411fdc2fb47c823b0864f8269eaf5a3b0fe6eaa2ed3dbf2",
+    "runtime/usb_priority/test_guard.py": "538b8f839a4a049a42a6ee8cbdaaf1ab0434037fea824cb31fc262ca966f9a7a",
+    "runtime/usb_priority/usb_priority_guard.py": "a3722f7fd5680b66c623084a4d389a093a70d8e5b632fd60c3acb38ed0987806",
+    "runtime/usb_touch/install.py": "5ac352281fb03ebb19a4704e6f39eeffd0153a2068d007d75f235438d67bb915",
+    "runtime/usb_touch/keeper.py": "c8544c6abc140567236e63e0f8a20398c36533c2135eaf2d15a420e31a888b79"
+  }
+}

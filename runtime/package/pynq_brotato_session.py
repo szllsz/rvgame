@@ -11,7 +11,16 @@ import time
 
 BASE=Path(__file__).resolve().parent
 sys.path.insert(0,str(BASE))
+boot_stages={}
+def boot_stage(name):
+    boot_stages[name]=time.monotonic()
+    print('RVGAME_BOOT_STAGE '+json.dumps(dict(stage=name,monotonic=boot_stages[name])),flush=True)
+boot_stage('python_start')
+from boot_assets import Assets
+boot_assets=Assets(BASE)
+
 from pynq import MMIO,Overlay,allocate
+boot_stage('pynq_imported')
 from pynq.pl_server.device import Device
 from pynq_ddr import DdrProgram,configure_hp0_32
 from pynq_gamepad import find_pad,run_input
@@ -25,6 +34,7 @@ from trace_writer import TraceWriter
 input_preload_started=time.monotonic()
 import replay_input
 input_preload_seconds=time.monotonic()-input_preload_started
+boot_stage('imports_ready')
 
 class TrialExit(Exception):pass
 
@@ -58,31 +68,29 @@ def main():
     music_specs=manifest.get('native_music') or {'touhou':manifest.get('scarlet_music')}
     assert set(music_specs)<=set(('game','touhou')) and 'touhou' in music_specs
     for spec in music_specs.values():assert spec and spec['sample_rate']==32000
+    assert manifest.get('session_start')=='menu'
+    initial={manifest['session_menu']['application'],manifest['bit'],Path(manifest['bit']).with_suffix('.hwh').name}
     for name,digest in manifest['files'].items():
-        content=(BASE/name).read_bytes()
-        assert hashlib.sha256(content).hexdigest()==digest,name
+        if name not in initial and not name.startswith('transition_') and Path(name).suffix in ('.bin','.pcm'):
+            continue
+        content=boot_assets.read(name)
         if name.endswith('.bin') or name.startswith('transition_'):images[name]=content
-        for app,spec in music_specs.items():
-            if name==spec['file']:music_data[app]=content
-    assert set(music_data)==set(music_specs)
-    ui_effects={}
-    if manifest.get('ui_effects'):
-        from scarlet_ui_pcm import ScarletUiMusic
-        for kind,spec in manifest['ui_effects'].items():
-            assert spec['sample_rate']==32000 and manifest['files'][spec['file']]==spec['sha256']
-            ui_effects[kind]=((BASE/spec['file']).read_bytes(),spec['sha256'])
-    musics={}
-    for app,spec in music_specs.items():
-        assert manifest['files'][spec['file']]==spec['sha256']
-        if app=='touhou' and ui_effects:musics[app]=ScarletUiMusic(music_data[app],spec['loop_start'],spec['loop_end'],spec['sha256'],ui_effects)
-        else:musics[app]=ScarletMusic(music_data[app],spec['loop_start'],spec['loop_end'],spec['sha256'])
-    touhou_mode=0
-    touhou_music={1:musics['touhou']}
-    if manifest.get('touhou_frontend'):
-        spec=manifest['touhou_title_music'];data=(BASE/spec['file']).read_bytes()
-        assert manifest['files'][spec['file']]==spec['sha256'] and spec['sample_rate']==32000
-        touhou_music[0]=ScarletUiMusic(data,spec['loop_start'],spec['loop_end'],spec['sha256'],ui_effects) if ui_effects else ScarletMusic(data,spec['loop_start'],spec['loop_end'],spec['sha256'])
-        musics['touhou']=touhou_music[0]
+    boot_stage('initial_assets_verified')
+    ui_effects={};musics={};touhou_music={};touhou_mode=0
+    def prepare_music(app):
+        if app not in music_specs or app in musics:return
+        spec=music_specs[app];data=boot_assets.read(spec['file'])
+        if app=='touhou':
+            from scarlet_ui_pcm import ScarletUiMusic
+            for kind,effect in manifest.get('ui_effects',{}).items():
+                ui_effects[kind]=(boot_assets.read(effect['file']),effect['sha256'])
+            touhou_music[1]=ScarletUiMusic(data,spec['loop_start'],spec['loop_end'],spec['sha256'],ui_effects) if ui_effects else ScarletMusic(data,spec['loop_start'],spec['loop_end'],spec['sha256'])
+            if manifest.get('touhou_frontend'):
+                title=manifest['touhou_title_music'];title_data=boot_assets.read(title['file'])
+                touhou_music[0]=ScarletUiMusic(title_data,title['loop_start'],title['loop_end'],title['sha256'],ui_effects) if ui_effects else ScarletMusic(title_data,title['loop_start'],title['loop_end'],title['sha256'])
+            musics['touhou']=touhou_music.get(0,touhou_music[1])
+        else:musics[app]=ScarletMusic(data,spec['loop_start'],spec['loop_end'],spec['sha256'])
+    boot_stage('audio_deferred')
     assert Device.active_device is not None
     test_input='--test-input' in sys.argv
     assert not ('--fast-switch' in sys.argv and '--full-switch-telemetry' in sys.argv)
@@ -142,7 +150,9 @@ def main():
                 return sample
         return None
     try:
+        boot_stage('overlay_begin')
         Overlay(str(BASE/manifest['bit']))
+        boot_stage('overlay_ready')
         control=MMIO(0x43c00000,0x1000);control.write(0x40,0);control.write(0x0c,0)
         if mailbox is not None:control.write(0x0c,0x100)
         assert control.read(0x18)==(600<<16|800)
@@ -162,16 +172,19 @@ def main():
         for register,value in ((0x6c,physical),(0x70,1)):
             control.write(register,value);assert control.read(register)==value
         image=images[session_menu['application'] if session_menu and menu_ui else manifest['applications']['touhou'] if active=='touhou' else manifest['application']]
-        audio.publish_boot(control)
         if active in musics:musics[active].begin(segment)
+        boot_stage('input_probe_begin')
         pad_description=str(find_pad())
+        boot_stage('input_probe_done')
         # Overlay/input imports leave a large cyclic-GC graph. Collect while
         # held, before PCM starts; keep normal automatic GC and fault checks.
         assert control.read(0x28)==1,'Startup collection requires held CPU'
         gc_counts_before=gc.get_count();gc_started=time.monotonic()
         gc_startup_collected=gc.collect(2)
         gc_startup_seconds=time.monotonic()-gc_started
-        initial_copies=control.read(0x7c);allocation=owner.load(image)
+        boot_stage('gc_done')
+        initial_copies=control.read(0x7c);allocation=owner.load(image,before_release=lambda:audio.publish_boot(control))
+        boot_stage('program_loaded')
         service_music()
         traces.write_json('allocation.json',{'pid':os.getpid(),'program':allocation,'display':{'physical_base':physical,'allocated_bytes':1048576},
                                   'test_input':test_input,'boot_id':Path('/proc/sys/kernel/random/boot_id').read_text().strip()})
@@ -211,6 +224,8 @@ def main():
                             'gc_counts_before':gc_counts_before,'gc_counts_after':gc.get_count()})
         traces.write_json('session_current.json',{'segment':segment,'active':active,'menu':menu_ui,'pid':os.getpid(),'frame_base':physical,'ready':time.monotonic()})
         service_music()
+        traces.write_json('boot_asset_profile.json',dict(variant='deferred',events=boot_assets.events,bytes=sum(len(v) for v in boot_assets.cache.values())))
+        boot_stage('menu_ready')
         ready=True;notify('READY=1\nSTATUS=Brotato temporary candidate ready');print('FIDELITY_TEMPORARY_READY',flush=True)
         ready_time=time.monotonic();latest=None;last_input=None
         menu_selection={'game':4,'touhou':5}.get(active,0);ui_previous=0
@@ -226,11 +241,11 @@ def main():
                 # any scan fetch, with no unfinished native frame to block it.
                 plain_retirement=prepare_plain_native_retirement(control,active)
                 assert plain_retirement['kind']=='plain_exit' and plain_retirement['exit_page']==PLAIN_EXIT_PAGES[active]
-            # Immutable bytes were SHA checked and cached before the first run.
-            image=images[image_name]
+            # Immutable bytes are SHA checked before their first use and then cached.
+            was_cached=image_name in images;image=None
             receipt={'segment':segment,'from':active,'to':target,'request_begin':final_requested if final_requested is not None else started,
                      'begin':started,'final':final_sample,'pid':os.getpid(),'frame_base':physical,
-                     'overlay_reloaded':False,'display_buffer_retained':True,'immutable_image_cached':True,
+                     'overlay_reloaded':False,'display_buffer_retained':True,'immutable_image_cached':was_cached,
                      'cached_program_bytes':sum(len(data) for name,data in images.items() if name.endswith('.bin'))}
             if active in PLAIN_EXIT_PAGES:receipt['plain_retirement']=plain_retirement
             audio.capture(control,active,final_sample)
@@ -262,6 +277,12 @@ def main():
                 receipt['loading_frozen_frame' if is_loading else 'menu_frozen_frame']=name
             owner.close();assert owner.buffer is None
             receipt['old_program_freed']=True;switch_uncertain=False
+            asset_started=time.monotonic()
+            images[image_name]=boot_assets.read(image_name);image=images[image_name]
+            prepare_music(target)
+            receipt['deferred_asset_seconds']=time.monotonic()-asset_started
+            receipt['cached_program_bytes']=sum(len(data) for name,data in images.items() if name.endswith('.bin'))
+
             # Frozen final producers submit no more GPU commands. HP1 idle
             # proves the old bitmap reads/copies have retired; subsequent scan
             # reads address only our retained display buffer. Keep scan enabled
@@ -285,8 +306,8 @@ def main():
                 touhou_mode=next_touhou_mode;musics['touhou']=touhou_music[touhou_mode]
             if target in musics:musics[target].begin(segment)
             music_last_snapshot=0.0
-            if target in ('menu','game','touhou'):audio.publish_boot(control,menu_selection if target=='menu' else touhou_mode if target=='touhou' and manifest.get('touhou_frontend') else 0)
-            initial_copies=control.read(0x7c);allocation=owner.load(image)
+            publish_audio=(lambda:audio.publish_boot(control,menu_selection if target=='menu' else touhou_mode if target=='touhou' and manifest.get('touhou_frontend') else 0)) if target in ('menu','game','touhou') else None
+            initial_copies=control.read(0x7c);allocation=owner.load(image,before_release=publish_audio)
             deadline=time.monotonic()+30;page={'menu':0x3a0,'game':0x350,'touhou':0x3d0,'coremark':0x360,'validation':0x360,'gfx':0x370,'bitmap':0x380,'alpha':0x390}[target]
             valid_pages=(0x360,0x361) if target in ('coremark','validation') else (0x3d0,0x3e0,0x3e1) if target=='touhou' else (page,)
             while control.read(0x48)>>16 not in valid_pages or ((control.read(0x7c)-initial_copies)&0xffffffff)<2:

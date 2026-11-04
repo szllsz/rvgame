@@ -14,3 +14,11 @@
 文件身份见本目录 `release_manifest.json`。软件重建和离线测量复核结果见 `../verification/reproduction.json`。当前包面向上述 PYNQ 环境，完整依赖随包提供；安装前仍须配置目标系统的 PYNQ、CMA、显示与 USB 接口。
 
 G102/VADER4/P008 组合可安装 `usb_priority/` 中的辅助服务。它不写 PL/MMIO，但会改变匹配鼠标的接口绑定；默认启动入口不会自动安装系统服务。安装或替换辅助服务时，先按 `rollback.md` 正常退出应用，再停止辅助服务。
+
+本公开包采用六卡片菜单，运行层包含按需加载、PCM 批量写入和 USB 查询退避。菜单源码、二进制与点击区域保持同一公开配置。PCM 写入库附有 C 源码，在目标 ARM Linux 上进入 `runtime/package` 后可用以下命令重建：
+
+```sh
+gcc -shared -fPIC -O3 -o libpcm_fifo_write.so pcm_fifo_write.c
+```
+
+随附 `.so` 用于原 ARM/PYNQ 环境；其他环境重新编译后需在目标板验证。

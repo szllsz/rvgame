@@ -55,7 +55,7 @@ class DdrProgram:
             self.buffer.freebuffer()
             self.buffer = None
 
-    def load(self, image):
+    def load(self, image, before_release=None):
         image = bytes(image)
         size = (len(image) + 63) & ~63
         if not image or size > self.control.read(0x68):
@@ -82,6 +82,10 @@ class DdrProgram:
                 raise RuntimeError('DDR trampoline readback failed; CPU remains held')
         if self.control.read(0x60):
             raise RuntimeError('DDR status is not clear before CPU release')
+        # Atomic boot input expires after one second. Publish only after
+        # allocation/copy/flush, immediately before the held CPU is released.
+        if before_release is not None:
+            before_release()
         self.control.write(0x28, 0)
         if self.control.read(0x28) != 0:
             raise RuntimeError('DDR CPU release failed')

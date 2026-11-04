@@ -29,10 +29,10 @@
 不需要文件哈希或二进制比较时可分别省略对应字段，但不接受没有任何检查的空清单。全部路径必须落在 `--root` 内。全文件比较要求等长；部分比较必须明确正长度，拒绝范围越界，以免空切片被误判通过。
 
 ```powershell
-python skill/verify_artifacts.py --root /path/to/artifacts --manifest /path/to/check.json
+python skill/verify_artifacts.py --root /path/to/artifacts --manifest /path/to/manifest.json
 ```
 
-上述命令使用用户提供的产物和清单，不重新运行板测。迁移到其他题目时只需更换产物根目录、文件哈希与比较清单；脚本本身不包含 640×480 或 RV32I 假设。
+上述命令中的目录和清单由使用者提供，不重新运行板测。迁移到其他题目时只需更换产物根目录、文件哈希与比较清单；脚本本身不包含 640×480 或 RV32I 假设。
 
 ## 自检与验证
 
@@ -51,5 +51,3 @@ python skill/test_verify_artifacts.py --output out/skill
 - 校验同一份陈旧清单与陈旧文件可以通过；清单必须来自当前实际运行且包含运行身份。脚本不证明远端进程仍在运行，也不证明缓存已 flush。
 - 输出大小超过主机内存时应改用流式工具；本脚本面向常见 bit、帧缓冲和日志大小。
 - 本工具没有跨板卡实际运行测试；已验证的是其不含板卡依赖的离线检查路径。不同板卡仍需自己的采集和硬件健康检查。
-
-历史回归命令与原工作区路径仅说明技能形成过程；公开使用方法以上面的清单示例为准。DMA 生命周期见本目录 owner_lifecycle.md，不直接套用其他工程寄存器地址。

@@ -7,6 +7,7 @@ import hashlib
 import zlib
 import numpy as np
 from scarlet_pcm import ScarletMusic
+from pcm_fifo_write import write_pcm
 
 
 class ScarletUiMusic(ScarletMusic):
@@ -55,7 +56,7 @@ class ScarletUiMusic(ScarletMusic):
             self.effect_cursor+=take
             if self.effect_cursor==len(self.effect):self.effect=None
         self.generated.extend(raw)
-        for value in memoryview(raw).cast('I'):control.write(0xb0,value)
+        write_pcm(control,raw)
         self.sent_samples+=words*2
         return words
 

@@ -15,7 +15,7 @@
 先按 runtime/rollback.md 让现有应用正常退休，检查程序／显示缓冲释放和 HP 恢复，再停止旧 USB helper。不能在手柄读取仍运行时直接恢复附加鼠标接口。只有确认旧 helper 已退出、清理完成，才继续以下步骤；清理失败保留现场，不能叠加新恢复流程。
 
 ```sh
-sudo install -D -m 0644 usb_priority_guard.py /usr/local/lib/rvgame-usb-priority-20261103-b/usb_priority_guard.py
+sudo install -D -m 0644 usb_priority_guard.py /usr/local/lib/rvgame-usb-priority-20261103-e/usb_priority_guard.py
 sudo install -m 0644 rvgame-usb-priority.service /etc/systemd/system/rvgame-usb-priority.service
 sudo systemd-analyze verify /etc/systemd/system/rvgame-usb-priority.service
 sudo systemctl edit rvgame-usb-priority.service
@@ -31,3 +31,5 @@ Environment=RVGAME_G102_SERIAL=YOUR_VERIFIED_SERIAL
 替换占位值并保存后，运行 `sudo systemctl daemon-reload` 和 `sudo systemctl enable --now rvgame-usb-priority.service`，再启动应用。保留既有单一显示 owner；不要叠加第二个运行入口。
 
 状态文件为 `/run/rvgame-usb-priority/state.json`，日志通过 `journalctl -u rvgame-usb-priority.service` 查看。程序持有 `/run/lock/p008-usb-host-recovery.lock`。手动停止／回退同样先退休应用，再停 helper 并确认 `stopped_restored`；系统关机时 `Before=rvgame-unified-boot.service` 提供逆序停止关系。
+
+状态查询采用限频和退避；journalctl 或 systemctl 暂时超时会记录诊断并重试，保持当前接口归属，不将缺少日志解释为输入故障。

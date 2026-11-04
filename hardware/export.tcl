@@ -1,7 +1,7 @@
 # Export only an already-qualified routed checkpoint; never download or change boot files.
 proc main {} {
     global argv
-    if {![regexp {^2025\.2(\.[0-9]+)?$} [version -short]] || [llength $argv]!=2} {error "Expected Vivado2024.2 trial fresh-output"}
+    if {![regexp {^2025\.2(\.[0-9]+)?$} [version -short]] || [llength $argv]!=2} {error "Expected Vivado2025.2 family, trial directory and fresh output directory"}
     set trial [file normalize [lindex $argv 0]]
     set out [file normalize [lindex $argv 1]]
     if {[file exists $out]} {error "Export output must be new"}

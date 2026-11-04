@@ -21,3 +21,5 @@ jobs:
         run: python3 -B skill/test_verify_artifacts.py --output out/skill
       - name: Exercise USB recovery boundaries without hardware
         run: python3 -B runtime/usb_priority/test_guard.py --output out/usb-priority
+      - name: Verify public menu and synchronized runtime contracts
+        run: python3 -B verification/test_runtime_sync.py --output out/runtime-sync

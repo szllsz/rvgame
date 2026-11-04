@@ -1,19 +1,60 @@
 {
   "pass_": true,
+  "date": "2026-11-04",
   "host_only": true,
   "exact_substrings_verified": true,
+  "verification_basis": "Each retained source segment was compared with its parent delivered transcript. Role, timestamp and source line were preserved; original export hashes remain as provenance.",
+  "markdown_is_editorial_summary": true,
   "records": [
     {
       "file": "earlier_cpu_and_verification.json",
-      "sha256": "7c28f475df233d4b71ff40b612cef62d1c6027243a6e9578822fd3ef830b0b21",
-      "selected": 9,
-      "source_export_sha256": "f53271059cb1600229191ef897af1fba26cf6d9c0196da057043c5cd5e13eb8d"
+      "sha256": "3786b5245d95b4ffb17f0f9871bf5e02600deea5caf1cbb4b17f863597eb4322",
+      "selected": 4,
+      "retained_source_lines": [
+        12,
+        22,
+        48,
+        12030
+      ],
+      "omitted_source_lines": [
+        15,
+        11960,
+        12005,
+        12010,
+        12041
+      ],
+      "source_export_sha256": "f53271059cb1600229191ef897af1fba26cf6d9c0196da057043c5cd5e13eb8d",
+      "parent_selection_sha256": "7c28f475df233d4b71ff40b612cef62d1c6027243a6e9578822fd3ef830b0b21",
+      "markdown_file": "earlier_cpu_and_verification.md",
+      "markdown_sha256": "1342f4987d1f01ef979162387d20c3d928db35b7cbfc8594b1af5e8fdf9f6d72"
     },
     {
       "file": "current_ui_and_delivery.json",
-      "sha256": "9446bf4498613cf2a1e74e1487a3101d1ed78ec74385df691a0464d1e968db29",
-      "selected": 15,
-      "source_export_sha256": "1181341390c8bd3c6f78cbf5821ed9ba0281aace0c7455a40834402905c694eb"
+      "sha256": "5c58733e953192503cf6c7326092203ef052ec75caaf31f6b31a3196027a977d",
+      "selected": 7,
+      "retained_source_lines": [
+        17,
+        77,
+        137,
+        181,
+        219,
+        232,
+        325
+      ],
+      "omitted_source_lines": [
+        20,
+        36,
+        44,
+        48,
+        80,
+        84,
+        252,
+        256
+      ],
+      "source_export_sha256": "1181341390c8bd3c6f78cbf5821ed9ba0281aace0c7455a40834402905c694eb",
+      "parent_selection_sha256": "9446bf4498613cf2a1e74e1487a3101d1ed78ec74385df691a0464d1e968db29",
+      "markdown_file": "current_ui_and_delivery.md",
+      "markdown_sha256": "a62adf85a4c9545e8709ad2f3c1ff2305ffe288c9ff22e7491bfa18c18f99e1b"
     }
   ]
 }

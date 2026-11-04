@@ -37,7 +37,8 @@
     "star_barrage.png": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
     "two_band_sequence.pdf": "1793651837111285f944f3c47510bfe994acd5cdcfe78c5d3f4e12512e1a385b",
     "two_band_sequence.png": "1bbb7ce23cf9c099fd51d890e8cba95041a2e98c029bcbbc16157edfaee7132f",
-    "two_band_sequence.svg": "3c155f9306f83c6c9636796c26c496c5bff0c00e7233299053ab9394af6d7ddf"
+    "two_band_sequence.svg": "3c155f9306f83c6c9636796c26c496c5bff0c00e7233299053ab9394af6d7ddf",
+    "contest_logo.png": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc"
   },
   "simulation_plot": "two_band_sequence",
   "simulation_source": "verification/timing_illustration/trace.csv",
@@ -54,5 +55,11 @@
     "sha256": "139d4503ae243000fdf1892004eef5062a627f6928acf51a25227fdedcf18756",
     "kind": "actual board framebuffer screenshot of generated-boss artwork"
   },
-  "contest_caption_refresh": "Mechanism drawing labels updated; underlying RTL sampling and source screenshots retained"
+  "contest_caption_refresh": "Mechanism drawing labels updated; underlying RTL sampling and source screenshots retained",
+  "contest_logo": {
+    "source": "Approved official report DOCX header, word/media/image1.png",
+    "source_docx_sha256": "e73cc9a09070642894e943b0d45d41aa1d17a7ab006f26330cead6c798b2e368",
+    "asset_sha256": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc",
+    "unchanged_source_image": true
+  }
 }
